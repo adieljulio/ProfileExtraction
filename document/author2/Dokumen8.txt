@@ -1,0 +1,23 @@
+Peter Norvig: Sosok di Balik Kecerdasan Buatan Google
+Penulis Yahya Kurniawan -Nov 18, 2017
+
+
+Peter Norvig lahir pada tanggal 14 Desember 1956 di Amerika Serikat. Sains, matematika, dan komputer adalah bidang yang sangat menarik minat Norvig. Hal itu terbukti dari pilihannya, yaitu Ilmu Matematika Terapan (Applied Mathematics). Setelah itu Norvig melanjutkan pendidikannya di Bachelor of Science di bidang Matematika Terapan Brown University, dan Ph.D. di bidang Ilmu Komputer dari University of California, Berkeley.
+
+Riwayat pekerjaannya juga banyak dihiasi nama-nama perusahaan serta jabatan di bidang komputer, misalnya sebagai Staf Teknis di Higher Order Software, Inc.; ilmuwan senior di Sun Microsystems Labs; Kepala Divisi Ilmu Komputasi di NASA Ames Research Center; dan yang terkini, sebagai Director of Research di Google.
+
+Ketertarikan Peter Norvig terhadap kecerdasan buatan dimulai ketika ia menjadi asisten profesor di University of Southern California, mulai tahun 1985. Saat itu, ia menulis sekitar lima puluh publikasi mengenai berbagai subjek di bidang ilmu komputer, dan sebagian besar adalah tentang artificial intelligence. Subjek lain yang ditulisnya adalah pemrosesan bahasa, pengambilan informasi, dan rekayasa perangkat lunak.
+
+Selain publikasi ilmiah, Peter Norvig juga menulis buku berjudul “Artificial Intelligence: A Modern Approach”, “Paradigms of AI Programming: Case Studies in Common Lisp”, “Verbmobil: A Translation System for Face-to-Face Dialog”, dan “Intelligent Help Systems for UNIX”. Dan yang menarik, Peter Norvig juga tercatat sebagai pencipta palindrome (kata yang sama ketika dibaca dari depan dan belakang) terpanjang di dunia saat ini.
+
+Mengembangkan Google Search dan Google Translate
+
+Ketertarikan serta kompetensi Norvig di bidang kecerdasan buatan itulah yang akhirnya tercium oleh Google sehingga mereka merekrutnya pada tahun 2001. Pada awalnya, Norvig diberi tugas untuk melakukan penyempurnaan terhadap algoritma mesin pencari Google. Jadi hasil pencarian akurat dari mesin pencari Google sekarang ini adalah berkat tangan dingin Peter Norvig juga. Kecerdasan mesin pencari tersebut terlihat dari relevansi hasil pencarian maupun kemampuan memberikan penawaran kata kunci pencarian lain yang berelasi.
+
+Buah tangan dingin Norvig lainnya di Google adalah Google Translate. Proses penerjemahan bahasa tentunya membutuhkan kecerdasan tersendiri karena ada begitu banyak pengecualian dalam aturan tata bahasa serta evolusi bahasa yang sedemikian cepat. Oleh sebab itu, tidak mungkin membuat sebuah program baku dalam melakukan proses penerjemahan karena dengan cepat akan menjadi usang dan harus direvisi terus menerus.
+
+Norvig mengambil pendekatan yang berbeda. Ia menerapkan teorema ciptaan Thomas Bayes (dan karena itu disebut Bayesian) yang telah digelutinya sejak tahun 1980. Inti dari konsep Bayesian tersebut adalah penalaran probabilitas dalam menghadapi ketidakpastian.
+
+Dalam penerapannya, teorema Bayesian ini membutuhkan amat sangat banyak data dan statistik, sesuatu yang relatif sulit dikumpulkan pada dekade 1980an bahkan 1990an. Namun memasuki abad ke-21, jumlah data yang bisa diolah semakin banyak, bahkan berlimpah. Ditambah lagi, ternyata cara kerja kimiawi otak bisa disimulasikan secara elektronik.
+
+Berbekal teorema Bayesian dan analogi elektronik otak tersebut, Peter Norvig dan anggota timnya di Google berhasil merancang Google Translate yang cerdas seperti sekarang. Bahkan pengguna bisa memasukkan kata yang asing tanpa perlu mendefinisikan kata itu berasal dari bahasa apa. Google Translate memiliki kemampuan untuk mengenal asal kata tersebut maupun artinya di bahasa yang kita pahami.

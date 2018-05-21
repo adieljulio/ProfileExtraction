@@ -1,0 +1,58 @@
+Kecerdasan buatan atau Artificial Intelligence (AI) serta teknologi machine learning mungkin belum familier di telinga para penggiat teknologi tiga atau empat tahun yang lalu. Tetapi kini, hampir semua perusahaan yang berbasis teknologi berlomba-lomba untuk dapat memanfaatkan potensi dari kedua hal tersebut. AI dan machine learning kini telah mengubah cara bisnis untuk berinteraksi dengan konsumen.
+
+Dengan automasi dan personalisasi yang kerap disebut sebagai “the next big thing” di dunia teknologi, namun kini sudah banyak perusahaan yang telah memulai untuk menerapkan machine learning ke dalam bisnis mereka — bahkan sejak teknologi ini belum populer.
+
+Pada artikel kali ini, saya akan membahas beberapa perusahaan yang telah berhasil memanfaatkan kekuatan AI dan machine learning di dalam bisnis mereka.
+
+Berbicara tentang IBM, mungkin kamu masih ingat momen ketika AI buatan IBM berhasil memenangkan kuis Jeopardy pada tahun 2011. Kini Watson telah jauh berkembang menjadi sebuah teknologi yang dapat mempelajari perilaku secara mandiri.
+
+Watson telah membantu manusia untuk mendiagnosis berbagai tipe kanker — bahkan menurut klaim IBM, jauh lebih akurat dibandingkan onkolog biasa. Watson juga kini telah mampu untuk menulis lagu serta memproduksi trailer film sendiri.
+
+
+
+Ketika Watson diminta untuk mengobati kanker, ia mampu untuk membaca setengah juta hasil riset medis hanya dalam waktu lima belas detik. Hasilnya? Watson diminta untuk menjadi penasihat di salah satu rumah sakit di New York, untuk membantu dokter mendiagnosis serta melakukan tindakan yang tepat untuk berbagai kasus.
+
+Watson didesain untuk mengonsumsi data dengan kecepatan yang jauh lebih cepat dari cara otak manusia untuk mengonsumsi informasi. Berdasarkan data yang ada, Watson akan mengolahnya, mempelajarinya, dan mempraktekkan kemampuan yang biasanya dilakukan oleh manusia.
+
+Dengan kecepatan pemrosesan yang demikian cepat, Watson diharapkan dapat membantu bisnis untuk menyelesaikan setiap permasalahan yang mereka hadapi dengan cepat serta mengubah cara bisnis untuk menggunakan data dalam setiap keputusan yang mereka gunakan.
+
+
+Salah satu contoh penggunaan kecerdasan buatan di Netflix adalah dengan merekomendasikan Black Mirror atau serial dan film lain kepada audiens, memanfaatkan data perilaku pengguna mereka. Berkat teknologi ini, Netflix mampu meraup hingga US$1 miliar (sekitar Rp14,2 triliun) selama satu tahun karena mereka berhasil memberikan konten yang tepat kepada penggunanya.
+
+Selain itu, Netflix juga menggunakan sebuah algoritme khusus yang bernama Dynamic Optimizer untuk menganalisis setiap frame dalam sebuah serial atau film yang ditonton penggunanya. Ini dilakukan agar Netflix dapat menyajikan konten dengan kecepatan terbaik tanpa mengurangi kualitas video yang ada.
+
+Dengan bantuan Dynamic Optimizer, Netflix mampu menghadirkan seluruh konten yang mereka miliki dengan kualitas maksimum, tanpa khawatir akan kecepatan internet dari pengguna mereka.
+
+Google
+Machine Learning | Google DeepDream
+Sumber: Flickr
+
+Mungkin sebagian besar dari kita tidak akan heran apabila anak perusahaan dari Alphabet ini masuk ke dalam daftar kali ini. Beberapa tahun belakangan, Google kini telah melebarkan sayap mereka ke berbagai industri, seperti teknologi anti-aging, peralatan medis, dan yang mungkin paling menarik bagi mereka para penggiat teknologi — neural network.
+
+Yang paling terlihat dari berbagai pengembangan dan riset Google terhadap neural network belakangan ini adalah DeepMind network, sebuah mesin yang dapat “bermimpi”. Teknologi ini adalah yang juga digunakan Google Deep Dream untuk mengolah gambar biasa menjadi sebuah gambar yang “psychedelic” memanfaatkan berbagai objek yang ada di internet.
+
+Menurut Google, perusahaan ini berusaha untuk “meneliti seluruh aspek dari machine learning”. Ini membuat mereka juga mengembangkan berbagai algoritme klasik — yang digunakan pada produk mereka yang lain, seperti Natural Language Processing, penerjemah suara dan tulisan, sistem prediksi, dan tentu saja mesin pencari mereka.
+
+Baidu
+Machine Learning | Speech
+Bagaimana jika Deep Voice telah mampu mereplikasi suara figur terkenal? Sumber: Pexels
+
+Seakan tidak mau ketinggalan dari Google, Baidu juga memiliki ambisi tersendiri ketika mereka menginvestasikan sumber daya yang ada ke dalam berbagai pengaplikasian kecerdasan buatan. Selain memanfaatkan AI untuk meningkatkan kualitas mesin pencari mereka, Baidu juga mengembangkan berbagai produk AI — yang salah satunya adalah Deep Voice.
+
+Deep Voice adalah sebuah teknologi yang dikembangkan oleh Baidu, yang memungkinkan sebuah deep neural network untuk dapat menghasilkan suara manusia secara sintesis dari data yang didapat oleh mesin. Suara manusia ini memiliki tingkat kemiripan yang cukup tinggi, menjadikannya sulit dibedakan dengan suara bicara dari manusia biasa. Teknologi ini juga mampu untuk mempelajari keunikan yang ada pada suara dan memproduksi kembali suara tersebut dengan akurasi yang hampir sempurna.
+
+Deep Voice 2 — iterasi terbaru dari teknologi Deep Voice — menjanjikan dampak yang lebih mendalam pada natural language processing, teknologi yang ada di belakang fitur pencarian suara dan sistem pengenalan suara. Penerapan Deep Voice 2 ini mengambil bagian besar untuk pengembangan teknologi pencarian suara, serta berbagai penggunaan lain yang potensial, seperti kemampuan untuk menerjemahkan suara secara real-time serta sistem keamanan biometrik.
+
+Kini, Baidu tengah mengembangkan Deep Voice 3, sebuah arsitektur neural network teranyar mereka yang memungkinkan Baidu untuk membuat suara sintesis memanfaatkan ribuan macam suara manusia yang ada di seluruh dunia — dengan kemampuan yang lebih cepat dibanding Deep Voice 2.
+
+Tidak peduli apakah kamu adalah seorang pengguna rutin atau belum pernah menggunakan situs web mereka sebelumnya, Pinterest adalah salah satu tempat yang menarik untuk dijelajahi di ranah maya. Karena fungsi utama dari media sosial ini adalah untuk mengurasi konten yang telah ada, adalah langkah yang tepat bagi Pinterest untuk berinvestasi di teknologi yang menjadikan proses kurasi menjadi lebih efektif.
+
+Inilah awal dari perjalanan Pinterest dalam memanfaatkan machine learning di bisnis mereka.
+
+Pada tahun 2015, Pinterest mengakuisisi Kosei, sebuah perusahaan machine learning yang memiliki spesialisasi untuk mengaplikasikan sistem tersebut untuk keperluan komersil. Secara khusus, Kosei membuat algoritme untuk memungkinkan pengguna menemukan konten yang lebih relevan lewat berbagai rekomendasi yang diberikan.
+
+Kini, machine learning telah menyentuh seluruh aspek yang ada pada bisnis Pinterest. Dari mulai pengelolaan spam, konten, dan iklan, hingga mengurangi angka churn pada pengguna mereka yang berlangganan newsletter.
+
+Beberapa perusahaan di atas adalah contoh dari sekian banyak bisnis yang berhasil memanfaatkan AI dan machine learning untuk meningkatkan kualitas bisnisnya — sekaligus kualitas hidup manusia secara luas.
+
+Bagi kamu yang sedang mengelola atau menjalankan sebuah bisnis, mungkin sekarang adalah saat yang tepat bagi kamu untuk memanfaatkan kekuatan dari kecerdasan buatan untuk meningkatkan kualitas serta menghadirkan pengalaman yang lebih menyenangkan bagi pengguna.
