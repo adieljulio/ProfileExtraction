@@ -122,10 +122,11 @@ public class Author {
         }
         
         Map<String,Integer> sortedMap = sortByValues(map); 
-
+        /*
         for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
             System.out.println(entry.getKey()+":"+entry.getValue());
         }
+        */
         return sortedMap;
     }
     
@@ -154,8 +155,8 @@ public class Author {
         double sum = 0;
         for (Map.Entry<String, Integer> entry : getMapOfWord().entrySet()) {
             Integer temp = entry.getValue();
-            System.out.println(max*1.00/temp*1.00);
-            System.out.println(Math.log10((double)max*1.00/temp*1.00) / Math.log10(2.)+"\n");
+            //System.out.println(max*1.00/temp*1.00);
+            //System.out.println(Math.log10((double)max*1.00/temp*1.00) / Math.log10(2.)+"\n");
             sum+=Math.log10((double)max*1.00/temp*1.00) / Math.log10(2.);
             counter++;
         }

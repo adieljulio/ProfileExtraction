@@ -40,7 +40,7 @@ public class Kalimat {
             }
             */
             if(!kata2[i].replaceAll("[^a-zA-Z0-9']+", "").equals("")){
-                getListKata().add(kata2[i].replaceAll("[^a-zA-Z0-9']+", ""));
+                getListKata().add(kata2[i].replaceAll("[^a-zA-Z0-9']+", "").toLowerCase());
             }
         }
     }

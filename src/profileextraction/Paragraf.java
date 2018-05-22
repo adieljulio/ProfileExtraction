@@ -51,7 +51,7 @@ public class Paragraf {
                 
                 while (s.length()<20) {     
                     if(kalimat2.length<i+c){
-                        s+=kalimat2[i+c];
+                        s+=" "+kalimat2[i+c];
                         c++;
                     }else{
                         break;

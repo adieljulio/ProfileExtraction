@@ -151,7 +151,7 @@ public class View extends javax.swing.JFrame {
                                 String num = input.nextLine();
                                 while(num.length()<35){
                                     if(input.hasNext()){
-                                        num+=input.nextLine();
+                                        num+=" "+input.nextLine();
                                     }else{
                                         break;
                                     }
@@ -179,6 +179,7 @@ public class View extends javax.swing.JFrame {
                             d1.addParagraph(p);
                         }
                         authortemp.addDocument(d1);
+                        d1.cetakParagraf();
                     }
                 }
                 authorList.add(authortemp);
