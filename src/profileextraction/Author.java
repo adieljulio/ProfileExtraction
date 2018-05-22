@@ -50,14 +50,14 @@ public class Author {
     public List<Document> getDocList() {
         return docList;
     }
-    public String generateFeature(Integer max){
+    public String generateFeature(Integer max,Integer maxAllCorpus){
         this.feature="";
         this.feature+=getName()+"\n";
         this.feature+=getAverageWordLength()+"\n";
         this.feature+=getAverageWordEachSentence()+"\n";
         this.feature+=getAverageSentenceEachParagraph()+"\n";
         this.feature+=getMostFrequentWord()+"\n";
-        this.feature+=getAverageWordFrequencyClass(max)+"\n";
+        this.feature+=getAverageWordFrequencyClass(max,maxAllCorpus)+"\n";
         return this.feature;
     }
     
@@ -72,7 +72,12 @@ public class Author {
                 }
             }
         }
-        return "Average Word each Sentence(Average Length of Sentence): "+jumlahKata*1.00/jumlahKalimat*1.00;
+        String output = "";
+        output+="Word Count : "+jumlahKata+"\n";
+        output+="Sentence Count : "+jumlahKalimat+"\n";
+        output+="Average Word each Sentence(Average Length of Sentence): "+jumlahKata*1.00/jumlahKalimat*1.00;
+   
+        return output;
     }
 
         
@@ -85,7 +90,12 @@ public class Author {
                 jumlahKalimat+=paragraf.getKalimat().size();
             }
         }
-        return "Average Sentence each Paragraph(Average Length of Paragraph): "+jumlahKalimat*1.00/jumlahParagraf*1.00;
+        String output = "";
+        output+="Sentence Count : "+jumlahKalimat+"\n";
+        output+="Paragraph Count : "+jumlahParagraf+"\n";
+        output+="Average Sentence each Paragraph(Average Length of Paragraph): "+jumlahKalimat*1.00/jumlahParagraf*1.00;
+   
+        return output;
     }
 
     private String getAverageWordLength() {
@@ -101,7 +111,11 @@ public class Author {
                 }
             }
         }
-        return "Average Length of Word : "+panjangKata*1.00/jumlahKata*1.00;
+        String output = "";
+        output+="Character count (without symbol) : "+panjangKata+"\n";
+        output+="Word Count : "+jumlahKata+"\n";
+        output+="Average Length of Word : "+panjangKata*1.00/jumlahKata*1.00;
+        return output;
     }
     
     public Map<String,Integer> getMapOfWord(){
@@ -132,7 +146,7 @@ public class Author {
     
     
     
-     private static HashMap sortByValues(HashMap map) { 
+    protected static HashMap sortByValues(HashMap map) { 
         List list = new LinkedList(map.entrySet());
         Collections.sort(list, new Comparator() {
              public int compare(Object o1, Object o2) {
@@ -150,17 +164,74 @@ public class Author {
         return sortedHashMap;
     }
      
-    public String getAverageWordFrequencyClass(Integer max){
-        int counter = 0;
-        double sum = 0;
+    public String getAverageWordFrequencyClass(Integer max,Integer maxAllCorpus){
+        
+        HashMap<String,Integer> newmap = new LinkedHashMap();
+        int temp=0;
+        String temps="";
         for (Map.Entry<String, Integer> entry : getMapOfWord().entrySet()) {
-            Integer temp = entry.getValue();
+            if(temp==0){
+                temp=entry.getValue();
+                temps+=entry.getKey();
+                continue;
+            }
+            Integer tempvalue = entry.getValue();
+            if(temp!=tempvalue){
+                newmap.put(temps, temp);
+                temp = tempvalue;
+                temps = entry.getKey();
+                 
+            }else{
+                temps+=","+entry.getKey();
+            }
+            
+            
             //System.out.println(max*1.00/temp*1.00);
             //System.out.println(Math.log10((double)max*1.00/temp*1.00) / Math.log10(2.)+"\n");
-            sum+=Math.log10((double)max*1.00/temp*1.00) / Math.log10(2.);
+        }
+        Integer maxThisAuthor=0;
+        for (Map.Entry<String, Integer> entry : newmap.entrySet()) {
+            Integer value = entry.getValue();
+            if(value>maxThisAuthor){
+                maxThisAuthor=value;
+            }
+            break;
+        }
+        String output="";
+        output+="Maximum Count Corpus this author : "+maxThisAuthor+"\n";
+        int counter = 0;
+        double sum = 0;
+        for (Map.Entry<String, Integer> entry : newmap.entrySet()) {
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            sum+=Math.log10((double)maxThisAuthor*1.00/value*1.00) / Math.log10(2.);
             counter++;
         }
-        return "Average Word Frequency Class : "+sum/counter*1.00;
+        output+= "Average Word Frequency Class(use only this Author corpus) : "+sum/counter*1.00+"\n";
+        
+        
+        output+="Maximum Count of Maximum Count Corpus each author : "+max+"\n";
+        counter=0;
+        sum=0;
+        for (Map.Entry<String, Integer> entry : newmap.entrySet()) {
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            sum+=Math.log10((double)max*1.00/value*1.00) / Math.log10(2.);
+            counter++;
+        }
+        output+= "Average Word Frequency Class(use Maximum of Maximum each author) : "+sum/counter*1.00+"\n";
+        output+="Maximum Count of All Corpus : "+maxAllCorpus+"\n";
+        counter=0;
+        sum=0;
+        for (Map.Entry<String, Integer> entry : newmap.entrySet()) {
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            sum+=Math.log10((double)maxAllCorpus*1.00/value*1.00) / Math.log10(2.);
+            counter++;
+        }
+        output+= "Average Word Frequency Class(use Maximum of All Corpus) : "+sum/counter*1.00+"\n";
+        return output;
+        
     }
     
     private String getMostFrequentWord(){

@@ -8,6 +8,8 @@ package profileextraction;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -179,13 +181,14 @@ public class View extends javax.swing.JFrame {
                             d1.addParagraph(p);
                         }
                         authortemp.addDocument(d1);
-                        d1.cetakParagraf();
+                        //d1.cetakParagraf();
                     }
                 }
                 authorList.add(authortemp);
             }
         }
         Integer max = 0;
+        
         for (Author author : authorList) {
             Map<String,Integer> map = author.getMapOfWord();
             for (Map.Entry<String, Integer> entry : map.entrySet()) {
@@ -196,10 +199,41 @@ public class View extends javax.swing.JFrame {
                 break;
             }
         }
+        //find maximum of all corpus
+        Map<String,Integer> newmap = new HashMap<String,Integer>();
+        
+        for (Author author : authorList) {
+            Map<String,Integer> map = author.getMapOfWord();
+            for (Map.Entry<String, Integer> entry : map.entrySet()) {
+                Integer value = entry.getValue();
+                String key = entry.getKey();
+                //System.out.println(value+"!"+key);
+                if(newmap.get(key)!=null){
+                    newmap.put(key, newmap.get(key)+value);
+                    
+                }else{
+                    newmap.put(key, value);
+                }
+                
+            }
+        }
+        
+        Map<String,Integer> sortedMap = Author.sortByValues((HashMap) newmap);
+        for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            //System.out.println(key+"~"+value);
+        }
+        Integer maxAllCorpus=0;
+        for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
+            System.out.println(entry.getValue());
+            maxAllCorpus = entry.getValue();
+            break;
+        }
         
         System.out.println(max);
         for (Author author : authorList) {
-            feature+=author.generateFeature(max)+"\n\n";
+            feature+=author.generateFeature(max,maxAllCorpus)+"\n\n";
         }
         txvResult.setText(feature);
     }//GEN-LAST:event_btnRunActionPerformed
