@@ -1,0 +1,546 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/320758497 
+Rekonfigurasi Jaringan Distribusi Radial Untuk Mengurangi Rugi Daya Pada 
+Penyulang Jatirejo Rayon Mojoagung Menggunakan Metode Binary Particle 
+Swarm Optimization (BPSO) 
+Conference Paper · September 2017 
+CITATIONS 
+0 
+READS 
+157 
+4 authors, including: 
+Some of the authors of this publication are also working on these related projects: 
+PID-ACO Controller View project 
+Wind-Turbine View project 
+Machrus Ali 
+Darul Ulum University Jombang 
+15 PUBLICATIONS 5 CITATIONS 
+SEE PROFILE 
+Hersis Khusnul Hidayat 
+1 PUBLICATION 0 CITATIONS 
+SEE PROFILE 
+Saiful Arfaah 
+1 PUBLICATION 0 CITATIONS 
+SEE PROFILE 
+All content following this page was uploaded by Machrus Ali on 01 November 2017. 
+The user has requested enhancement of the downloaded file.
+
+SAINTEK II Tahun 2017 ISSN 2407-4845 E20 
+
+Rekonfigurasi Jaringan Distribusi Radial Untuk Mengurangi Rugi Daya 
+Pada Penyulang Jatirejo Rayon Mojoagung Menggunakan Metode Binary 
+Particle Swarm Optimization (BPSO) 
+
+
+Andik Cahyono1, Hersis Khusnul Hidayat2, Saiful Arfaah3, Machrus Ali4 
+
+(1,2,4)Teknik Elektro, Universitas Darul ’Ulum, Jombang 
+
+(3)Teknik Sipil, Universitas Darul ’Ulum, Jombang 
+1acf_jbg2009@yahoo.com, 2h312size@gmail.com 
+3saiful@ft-undar.ac.id, 4machrus@ft-undar.ac.id 
+
+Abstract 
+
+BPSO is a modification of Particle-Swarm-Optimization (PSO). PSO is a stochastic optimization 
+technique based on populations that are inspired by the social behavior of bird or birding (bird 
+flocking or fish schooling). The PSO technique was put forward by Russell C. Eberhart and 
+James Kennedy in 1995. The Jatirejo Repeater consists of 32 Poll Tray Transformers (GTT) 
+used to lower the medium voltage of 20 kV to 220/380 V low voltage with total load at peak load 
+of 6,574 MVA. Network system is a radial network. The advantage of this system is that the 
+system is not complicated and cheaper than other systems. Network system is a radial network. 
+Radial distribution system is the simplest and most economical distribution system. But the 
+reliability of this system is lower than other systems. Lack of reliability is caused because there 
+is only one main line that supplies the distribution substation, so if the main line is interrupted, 
+then the entire substation will go out. Another disadvantage is the quality of the stress on the 
+substation of the distribution of the tip is less good, this is because the largest voltage drop is at 
+the end of the channel. Research carried out on radial type network distribution and network 
+reconfiguration is formulated as Multiobjective-Optimization-Function solution sought using 
+Binary-Particle-Swarm-Optimization (BPSO) technique. Reconfiguring power distribution 
+networks using BPSO in this study is expected to improve network efficiency in accordance with 
+reconfiguration purposes. The results show that the reconfiguration results can reduce the 
+considerable power losses. 
+
+Keywords: Radial distribution, PSO, BPSO, Reconfigure network 
+
+1. PENDAHULUAN 
+Penggunaan tenaga listrik merupakan 
+suatu kebutuhan atau tuntutan hidup yang 
+tidak dapat dipisahkan dalam menunjang 
+segala aktivitas sehari-hari. Tenaga listrik 
+merupakan salah satu bentuk energi yang 
+sangat penting untuk menunjang kehidupan 
+manusia sekarang ini. Energi listrik merupakan 
+sumber energi utama yang digunakan dalam 
+proses produksi di dunia industri dan 
+menunjang kemajuan taraf hidup manusia 
+Meminimisasi rugi-rugi daya dengan cara 
+merekonfigurasi jaringan distribusi sangat 
+dibutuhkan terutama untuk pemukiman yang 
+padat penduduk. Banyaknya alternative 
+rekonfigurasi dan metode untuk megurangi 
+rugi-rugi daya. Diperlukan konfigurasi yang 
+baik agar diperoleh kerugian daya yang paling 
+kecil. Konfigurasi jaringan distribusi radial 
+sangat beragam dan sulit di sederhanakan 
+sehingga penyelesaian permasalah harus 
+
+diselesaikan tahap demi tahap, maka perlu 
+dilakukan rekonfigurasi untuk mengurangi rugirugi 
+daya pada jaringan distribusi dan 
+meningkatkan keandalan sistem distribusi. 
+Efisiensi daya listrik yang disalurkan akan 
+meningkat dan konsumen dapat dilayani 
+dengan baik. Karena banyaknya feeder dan 
+bus pada jaringan, jika dihitung secara manual 
+akan sulit dan memerlukan waktu yang sangat 
+lama, sehingga penyelesaian permasalahan 
+harus menggunakan kecerdasan buatan 
+seperti pada penelitian sebelumnya [1,2,3]. 
+Hasil konfigurasi Artificial Intelegent (AI) dalam 
+hal ini Binary Particle Swarm Optimization 
+(BPSO) diperkirakan akan lebih baik 
+dibandingkan dengan konfigurasi secara 
+manual 
+
+Pada Jaringan Tegangan menengah 
+Penyulang Jatirejo Mojoagung terdiri dari 37 
+bus (GTT) dan 41 saluran. Single line 
+
+103 
+
+
+
+SAINTEK II Tahun 2017 ISSN 2407-4845 E20 
+
+penyulang Jatirejo dapat dilihat pada 
+gambar.1. 
+
+
+Gambar 1. Single line penyulang Jatirejo 
+
+2. KAJIAN PUSTAKA 
+A. Kerugian Daya 
+Perhitungan yang berlaku pada sistem 
+distribusi arus bolak-balik adalah mirip dengan 
+perhitungan yang berlaku pada sistem 
+distribusi arus searah. Tetapi, ada beberapa 
+perbedaan prinsip yang harus diperhatikan 
+dan dipahami pada sistem arus bolak-balik 
+antara lain: Perhitungan arus pada tiap seksi 
+saluran arus bolak balik merupakan jumlah 
+
+tanpa menimbulkan akibat yang beresiko pada 
+operasi dan bentuk sistem jaringan distribusi 
+secara keseluruhan. [7,8]. 
+
+C. Aliran Daya. 
+Untuk mementukan atau perhitungan 
+tegangan, arus dan daya yang terdapat pada 
+berbagai titik suatu jaringan pada keadaan 
+pengoperasian normal, baik yang sedang 
+berjalan maupun yang akan dating diperlukan 
+analisa aliran daya. Aliran daya pada 
+penelitian ini tidak dibahas secara khusus dan 
+mendetail, karena hanya digunakan sebagai 
+studi untuk menentukan tegangan dan daya 
+yang dijadikan sebagai dasar untuk melakukan 
+rekonfigurasi jaringan pada jaringan distribusii 
+daya listrik tipe radial[9]. 
+
+D. Formulasi Rekonfigurasi Jaringan 
+Formulasi rekonfigurasi jaringan disusun 
+sebagai permasalahan multiobjektif, yaitu 
+fungsi terdiri dari lima fungsi objektif, dan 
+memiliki faktor beban yang berfungsi untuk 
+menyatakan besarnya hubungan antara 
+masing-masing fungsi objektif tersebut. 
+
+Fungsi-fungsi objektif tersebut adalah: 
+Minimalisasi daya kompleks tidak seimbang
+
+....=....S=......
+
+vektor dari arus-arus beban yang penjumlahan 
+
+hitungan aljabar biasanya seperti pada sistem 
+
+arus searah. Jumlah arus dapat dinyatakan 
+
+..
+
+. 
+
+
+dimana : 
+
+m = jumlah feeder dari feeder utama
+
+......
+
+dalam bentuk persamaan aljabar biasa, bila 
+
+daya kompleks tiga fasa tak seimbang 
+
+..=..
+
+....
+
+dinyatakan dalam notasi bilangan komplek. 
+
+= 
+
+
+Tiap beban bisa saja memiliki besar 
+
+power 
+
+factor yang berbeda dengan beban lain. 
+
+. 
+
+
+|
+
+
+pada setiap fasa, dinyatakan dengan:
+
+..
+
+....-......|..v....
+
+........+................
+
+..=
+
+..
+
+..,
+
++
+
+..
+
+2
+
+
+,..
+
+..
+
+Masing-masing besar power factor berkaitan 
+
+dengan besar tegangan catu dayanya 
+
+=
+
+
+berdasarkan besaran vector [4,5,6]. Pada 
+
+/
+
+= daya complex pada pembebanan per 
+
+rangkaian arus bolak-balik, besarnya rugi 
+
+tegangan tidak hanya bergantung pada besar 
+
+fasa, fasa a,b, dan c.
+
+......
+
+= daya kompleks ideal per fasa yang 
+
+resistensi murni R dari bebannya, tetapi juga 
+
+bergantung pada pembebanan ideal per fasa. 
+
+bergantung pada besarnya reaktansi induktif 
+Jika bernilai 0, maka daya complex pada 
+
+dan reaktansi kapasitif, yang sering diabaikan. 
+saluran j seimbang. 
+
+Minimalisasi total rugi saluran
+
+B. Rekonfigurasi jaringan 
+....TL..=S..j=.. 
+..Ij..r..e 
+Dimana: 
+
+= arus fasap darisaluranfeeder j ................
+
+..=a....
+
+. 
+
+
+j
+
+.
+
+
+Dalam kondisi operasi normal, 
+
+,
+
+,
+
+rekonfigurasi jaringan dilakukan karena dua 
+
+..
+
+alasan: mengurangi rugi-rugi daya pada sistem 
+
+= resistansi fasa p dari saluran feeder j 
+
+(loss reduction), mendapatkan pembebanan 
+
+.. 
+= arus netral dari saluran feeder j .... 
+= resistansi netral dari saluran feeder j 
+
+yang seimbang untuk mencegah pembebanan 
+
+yang berlebih pada jaringan. Rekonfigurasi 
+
+jaringan (Network Reconfiguration) merupakan 
+
+Minimalisasi rata-rata jatuh tegangan 
+suatu usaha merubah bentuk konfigurasi ... 
+
+
+......%..|....-..............|S..S..=.... 
+............=..........
+
+jaringan distribusi dengan mengoperasikan 
+
+....
+
+,..,
+
+
+
+=
+
+pensakelaran terkontrol jarak jauh (switching 
+
+remotely controlled) pada jaringan distribusi 
+
+104 
+
+
+SAINTEK II Tahun 2017 ISSN 2407-4845 
+E20 
+
+dalam ruang dengan dimensi tertentu dengan 
+
+n = jumlah titik beban pada saluran feeder 
+Vnominal = tegangan nominal fasa
+
+posisi partikel akan semakin mengarah ke 
+= besar tegangan fasa p padatitik beban k ......
+
+sejumlah iterasi sehingga di setiap iterasi, 
+
+target yangdituju (minimasi atau maksimasi 
+jatuhtegangantigafasarata-ratapada =......
+
+titik beban pada k [8] 
+fungsi). Ini dilakukan hingga maksimum iterasi 
+
+3. 
+METODE PENELITIAN 
+1. 
+Binary Particle Swarm Optimization 
+(BPSO) 
+Binary Particle Swarm Optimization (BPSO) 
+adalah pengembangan dari Particle Swarm 
+Optimization (PSO) yang didasarkan pada 
+perilaku sebuah kawanan serangga, seperti 
+semut, rayap, lebah atau burung. Algoritma 
+PSO meniru perilaku sosial organisme ini. 
+Perilaku sosial terdiri dari tindakan individu dan 
+pengaruh dari individu-individu lain dalam 
+suatu kelompok. Kata partikel menunjukkan, 
+misalnya, seekor burung dalam kawanan 
+burung. Setiap individu atau partikel 
+berperilaku secara terdistribusi dengan cara 
+menggunakan kecerdasannya (intelligence) 
+sendiri dan juga dipengaruhi perilaku 
+kelompok kolektifnya. 
+
+Dalam konteks optimasi multivariabel, 
+kawanan diasumsikan mempunyai ukuran 
+tertentu atau tetap dengan setiap partikel 
+posisi awalnya terletak di suatu lokasi yang 
+acak dalam ruang multidimensi. Setiap partikel 
+diasumsikan memiliki dua karakteristik: posisi 
+dan kecepatan. Setiap partikel bergerak dalam 
+ruang/space tertentu dan mengingat posisi 
+terbaik yang pernah dilalui atau ditemukan 
+terhadap sumber makanan atau nilai fungsi 
+objektif. 
+
+Setiap partikel menyampaikan informasi 
+atau posisi bagusnya kepada partikel yang lain 
+dan menyesuaikan posisi dan kecepatan 
+masing-masing berdasarkan informasi yang 
+diterima mengenai posisi yang bagus tersebut. 
+Sebagai contoh, misalnya perilaku burungburung 
+dalam dalam kawanan burung. 
+Meskipun setiap burung mempunyai 
+keterbatasan dalam hal kecerdasan, biasanya 
+ia akan mengikuti kebiasaan (rule) seperti 
+berikut : seekor burung tidak berada terlalu 
+dekat dengan burung yang lain, burung 
+tersebut akan mengarahkan terbangnya ke 
+arah rata-rata keseluruhan burung, akan 
+memposisikan diri dengan rata-rata posisi 
+burung yang lain dengan menjaga sehingga 
+jarak antar burung dalam kawanan itu tidak 
+terlalu jauh. Model ini akan disimulasikan 
+
+dicapai atau bisa juga digunakan kriteria 
+penghentian yang lain[9]. 
+
+Algoritma BPSO didisain untuk 
+menyelesaikan masalah optimisasi secara 
+kombinasi yang diskrit, dimana partikel 
+mengambil nilai vektor biner dengan panjang n 
+dan kecepatan yang didefinisikan sebagai 
+probabilitas dari bit xn untuk mencapai nilai 1. 
+BPSO membalikkan rumus untuk kecepatan 
+bila kecepatan dibatasi pada interval [0,1] 
+dengan membatasi fungsi transformasi dan 
+dengan menggunakan fungsi sigmoid 
+
+4. 
+ANALISA DAN PEMBAHASAN 
+Data saluran dan impedansi saluran 
+Beban pada JTM 20 kV Penyulang Jatirejo 
+Rayon mojoagung dapat dilihat pada Tabel 1. 
+
+Tabel 1. Data beban 
+Data beban dan inpedansi beban diolah 
+menggunakan program matlab 2013a. 
+terdapat 5 looping dalam dalam simulasi. 
+
+1. Loop 1 Line [2 26 2733 3435 3641] 
+2. Loop 2 Line [3 4 5 23 24 252627] 
+3. Loop 3 Line [3 4 2829 3031 3239] 
+4. Loop 4 Line [5 6 7 22 38 28 0 0] 
+5. Loop 5 Line [1314 1516 1718 19 0] 
+Hasil rekonfigurasi jaringan Jatirejo dapat 
+dilihat pada tabel 2. 
+
+105 
+
+
+
+SAINTEK II Tahun 2017 ISSN 2407-4845 E20 
+
+Tabel 2. Hasil simulasi rekonfigurasi jaringan 
+
+
+Jumlah bus ada 37, dengan 36 bus beban 
+dan 41 saluran. Losses terbesar pada bus 17 
+sebesar 0,882 pu. 
+
+Gambar profile tegangan sebelum dan 
+sesudah rekonfigurasi tiap bus dapat dilihat 
+pada gambar 3. 
+
+
+Gambar 3. Profile tegangan sebelum dan 
+sesudah rekonfigurasi 
+Hasil rekonfigurasi dapat dilihat pada 
+tabel 4. 
+Tabel 4. Hasil Rekonfigurasi jaringan 
+
+
+Dari hasil running menunjukkan bahwa 
+sebelum rekonfigurasi memutus switch line 
+37, 38, 39, 40 dan 41 setelah rekonfigurasi line 
+7, 16, 24, 29 dan 41. Sebelum rekonfigurasi 
+jaringan mengalami losses sebesar 243,2987 
+kW setelah rekonfigurasi mengalami losses 
+sebesar 190,4604 kW. 
+
+5. KESIMPULAN 
+Dari hasil program menunjukkan bahwa 
+dengan rekonfigurasi jaringan menggunakan 
+BPSO Dari hasil running menunjukkan bahwa 
+rekonfigurasi dapat mereduksi losses 52,8383 
+
+kWatt atau 21,7175 %. Dan tegangan ujung 
+
+sebelum rekonfigurasi 0.88242 pu (17,6484 
+
+kV) menjadi 0,90705 pu (18.141 kV). 
+. 
+
+DAFTAR PUSTAKA 
+
+[1.] Wicaksono, Y.Andri,”Penentuan Lokasi 
+dan Nilai Kapasitor pada Sistem Distribusi 
+Radial Terdistorsi Menggunakan Metode 
+Particle Swarm Optimization“Jurnal Teknik 
+POMITS Vol 1 No 1. 2013. 
+
+[2.] Wu, Wu-Chang, and Men-Shen Tsai. 
+2008. Feeder Reconfiguration Using 
+Binary Coding Particle Swarm 
+Optimization.” International Journal of 
+Control, Automation, and Systems, vol. 6, 
+pp. 488-494. 
+
+[3.] Chen, Tsai-Hsiang dan Cherng, Jeng-
+Tyan, Optimal Phase Arrangement of 
+Distribution Transformers Connected to a 
+Primary Feeder for System Unbalance 
+Improvement and Loss Reduction Using a 
+Genetic Algorithm, IEEE Transactions on 
+Power Systems, Vol. 15, No. 3, Agustus 
+2000. 
+
+[4.] Qiwan L, Wei D, Jianquan Z, Anhui L. A 
+new reconfiguration approach for 
+distribution system with distributed 
+generation. ICEET, IEEE 2009:23–6. 
+
+[5.] Saadat, Hadi. 1999. Power Sistem 
+Analysis. Singapore : McGrow-Hill. 
+
+[6.] Wood, Allen J. Bruce F. Wollenberg, 1996. 
+Power Generation Operation and Control. 
+John Wiley & Sons : Canada. 
+
+[7.] Rao RS, Ravindra K, Satish K, 
+Narasimham SVL. Power loss 
+minimization in distribution system using 
+network reconfiguration in the presence of 
+distributed generation. IEEE Trans Power 
+Syst 2013:317–25. 
+
+[8.] Vahid Farahani, Student Member, IEEE, 
+Behrooz Vahidi, Senior Member, IEEE, 
+and Hossein Askarian Abyaneh, Senior 
+Member, IEEE, “Reconfiguration and 
+Capacitor Placement Simultaneously for 
+Energi Loss Reduction Based on an 
+Improved Reconfiguration Method ”. IEEE 
+Publication Vol. 27, No. 2, May 2012. 
+
+[9.] J. Kennedy and R. C. Eberhart. Particle 
+swarm optimization. In Proceedings of the 
+1995 IEEE International Conference on 
+Neural Networks. IEEE Service Center, 
+Piscataway, 1995. 
+
+106 
+
+
+View publication stats 
+View publication statsView publication stats 
+
+

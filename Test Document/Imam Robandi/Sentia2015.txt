@@ -1,0 +1,509 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/314151744 
+Desain Pitch Angle Controller Turbin Angin Dengan Permanent Magnetic 
+Synchronous Generator (PMSG) Menggunakan Imperialist Competitive 
+Algorithm (ICA) 
+Conference Paper · June 2015 
+CITATIONS 
+0 
+READS 
+124 
+3 authors, including: 
+Some of the authors of this publication are also working on these related projects: 
+Laboratory research View project 
+Rekonfigurasi Jaringan Distribusi Radial View project 
+Machrus Ali 
+Darul Ulum University Jombang 
+17 PUBLICATIONS 5 CITATIONS 
+SEE PROFILE 
+Imam Robandi 
+Institut Teknologi Sepuluh Nopember, ................ 
+120 PUBLICATIONS 219 CITATIONS 
+SEE PROFILE 
+All content following this page was uploaded by Machrus Ali on 01 March 2017. 
+The user has requested enhancement of the downloaded file.
+
+Prosiding SENTIA 2015 – 
+Politeknik Negeri Malang 
+Volume 7 – ISSN: 2085-2347 
+
+DESAIN PITCH ANGLE CONTROLLER TURBIN ANGIN DENGAN 
+PERMANENT MAGNETIC SYNCHRONOUS GENERATOR (PMSG) 
+MENGGUNAKAN IMPERIALIST COMPETITIVE ALGORITHM (ICA) 
+
+
+Machrus Ali1, Soedibyo2, Imam Robandi3 
+
+1,2,3Jurusan Teknik Elektro, Fakultas Teknologi Industri, Institut Teknologi Sepuluh Nopember Surabaya 
+machrus7@gmail.com, dibyo_55@yahoo.com, robandi@ee.its.ac.id 
+
+Abstrak 
+
+Tulisan ini membandingkan dua macam metode tuning parameter Proporsional Integrator Diferensial 
+(PID) kontroler untuk mengatur kecepatan turbin angin dengan pitch angel control. Yang pertama adalah desain 
+kontroler dengan metode Ziegler-Nichols, kedu aadalah desain kontroler dengan metode Imperialist Competitive 
+Algorithm (ICA). PID controller merupakan sebuah alat untuk mengontrol sebuah sistem, PID controller ini 
+digunakan untuk mengontrol Permanent Magnet Synchronous Generator (PMSG). Pitch variable-speed wind 
+turbine telah berkembang pesat dalam beberapa tahun terakhir. Ada dua strategi control untuk mengontrol 
+variable kecepatan pada wind turbine. Saat kecepatan angin rendah di bawah nilai rata-rata, pengatur kecepatan 
+harus dapat mengatur kecepatan rotor secara terus-menerus untuk mempertahankan kecepatan pada sebuah level, 
+yang memberikan koefisien daya maksimum, sehingga efisiensi turbin akan meningkat. Pengaturan pitch angle 
+diperlukan dalam kondisi kecepatan angin diatas yang diinginkan. Perubahan kecil pada pitch angle dapat 
+mempengaruhi output daya. Pitch angle control adalah salah satu cara untuk menyesuaikan torsi aerodinamik 
+pada tubin angin saat kecepatan angin berada diatas nilai kecepatan dan beberapa variable control lainnya, 
+seperti kecepatan angin, kecepatan generator, dan daya generator. Hasil penelitian menunjukkan bahwa 
+menggunakan PID controller yang ditunning dengan ICA lebih stabil dan daya output lebih optimal. Metode 
+yang diusulkan dapat diterapkan pada sistem yang lebih tinggi. 
+
+Keyword – 
+turbin angin, pitch angle control, PID, ICA 
+
+I. 
+PENDAHULUAN 
+Seiring dengan kemajuan teknologi dan 
+peningkatan jumlah penduduk maka kebutuhan 
+akan energy listrik juga akan meningkat. Akibatnya 
+beban listrik akan meningkat juga. Dengan adanya 
+penngkatan beban listrik maka pasokan listrik ke 
+konsumen juga dipengaruhi. Akibatnya apabila 
+pasokan listrik bertambah maka daya output yang 
+dikeluarkan oleh generator juga akan bertambah. 
+
+Permanent Magnet Synchronous Generator 
+
+(PMSG) merupakan generator sinkron yang 
+
+mempunyai magnet permanen. PMSG ini akan 
+
+dikopel dengan turbine angin agar menghasilkan 
+
+energi listrik, sehingga dengan adanya PMSG dapat 
+
+mengurangi biaya pengeluaran yang mahal. PMSG 
+
+mempunyai efisiensi yang kurang optimal untuk 
+
+menghasilkan daya listrik. Hal ini dipengaruhi oleh 
+
+kecepatan angin, pitch angle dan lain-lain. Oleh 
+
+karena itu, PMSG perlu dikontrol untuk 
+
+menghasilkan daya listrik yang optimal. Dalam 
+
+mengontrol PMSG terdapat beberapa kontroller 
+
+yaitu PI controller pada pitch angle, PI controller 
+
+pada Maximum Power Point Tracking (MPPT). 
+
+Tujuan dari kontrol dapat diringkas dalam tiga 
+tujuan sebagai berikut: 
+
+1. 
+Mengoptimalkan output daya ketika kecepatan 
+angin kurang dari kecepatan angin. 
+2. 
+Menjaga daya rotor di batas desain saat 
+kecepatan angin di atas kecepatan angin. 
+3. 
+Minimalkan beban mekanik turbin. 
+Pada paper ini akan dibahas tentang PID 
+controller untuk mengontrol pitch angle. PID 
+controller akan mengontrol pitch angle untuk dapat 
+menghasilkan daya output PMSG optimal. Paper ini 
+terdiri dari Pendahuluan, Permanent Magnet 
+Synchronous Generator (PMSG), Model Wind 
+Turbine, PID Controller, Pembahasan dan analisa 
+dan kesimpulan. 
+
+II. 
+MODEL WIND TURBINE 
+A. 
+Permanent Magnet Synchronous Generator 
+(PMSG) 
+Permanent Magnet Synchronous Generator 
+
+(PMSG) merupakan generator sinkron yang 
+mempunyai magnet permanen. PMSG dapat 
+dimodelkan dengan persamaan transformasi park. 
+Persamaan didasarkan pada arus stator dan 
+tegangan seperti persamaan 1,2. 
+
+
+(1) 
+(2) 
+B-128 
+
+
+
+Prosiding SENTIA 2015 – 
+Politeknik Negeri Malang 
+
+Dimana : 
+
+
+dan = tegangan stator 
+
+
+dan 
+
+= arus stator 
+
+
+= resistansi belitan stator 
+Fluks pada stator dapat dituliskan seperti persamaan 
+3,4. 
+
+
+(3) 
+(4) 
+Dimana 
+= fluks magnetik inti 
+dan = induktansi belitan stator 
+Torsi elektrik dari PMSG dapat dituliskan seperti 
+persamaan 5. 
+
+
+(5) 
+Dimana p adalah jumlah pasang kutub PMSG. 
+B. 
+Wind Turbine 
+1) 
+Aerodinamis Wind Turbine 
+
+Windturbine dapat merubah energi angin 
+menjadi energi kinetik yang kemudian digunakan 
+untuk mengoperasikan generator listrik. Angin yang 
+melewati turbin akan kehilangan energi yang sama 
+dengan energi yang diekstraksikan oleh tubin. 
+Persamaan 6 merupakan persamaan dari energi 
+kinetik. 
+
+
+(6) 
+Dimana : 
+U = energi kinetik (joule) 
+
+
+= intensitas udara (kg/m3) 
+A = luas penampang (m2) 
+x = ketebalan penampang (m) 
+
+
+= kecepatan angin (m/s) 
+Kekuatan angin ( ) adalah turunan dari energi 
+kinetik 
+
+
+(7) 
+Daya mekanik dan torsi yang di ekstraksi adalah 
+seperti persamaan 8,9. 
+(8) 
+(9) 
+Nilai 
+sangat nonlinear dan bervariasi pada 
+kecepatan angin, kecepatan rotasi turbin, parameter 
+blade turbin serta pitchangle. Hal ini dibatasi oleh 
+batas Betz (59%). 
+
+
+(10) 
+Dimana : 
+= ratio kecepatan 
+
+
+B-129 
+
+
+Volume 7 – ISSN: 2085-2347 
+
+
+= ratio antara kecepatan bujur 
+
+sangkar dari ujung turbin 
+= kecepatan angin 
+
+
+(11) 
+Koefisien 
+
+
+merupakan fungsi yang sangat 
+nonlinear dari rasio kecepatan tip, dan blade pitch 
+angle 
+
+
+. 
+
+Wilayah operasi dari variabel kecepatan 
+variable-pitch wind turbine bisa digambarkan dari 
+kurva daya, yang memberi perkiraan dari output 
+daya sebagai fungsi dari kecepatan angin. Wilayah 
+operasi wind turbine dapat digambarkan seperti 
+gambar 1. 
+
+
+Gambar 1. Karakteristik wind turbine 
+
+Wilayah operasi wind turbine terdapat tiga 
+titik yang berbeda : 
+
+1. 
+Cut-in wind speed: kecepatan angin terendah 
+dimana wind turbine mulai menghasilkan daya 
+listrik. 
+2. 
+Rated wind speed: kecepatan angin pada saat 
+wind turbine menghasilkan daya listrik , yang 
+biasanya merupakan daya maksimum dari wind 
+turbine. 
+3. 
+Cut-out wind speed: kecepatan angin yang 
+dapat menghentikan dan mematikan wind 
+turbine agar terlindung dari kerusakan 
+mekanik. 
+2) 
+Mode Operasi Turbin Angin 
+
+Ada tiga mode untuk mengontrol variable-
+speed pitch pada wind turbine. Pemilihan mode 
+operasi tergantung pada kecepatan angin yang 
+tersedia dan jumlah daya yang dibutuhkan untuk 
+mensuplai beban. Tiga mode tersebut adalah : 
+
+1. 
+Maximum Power Point Tracking :Mode yang 
+digunakan untuk mengkonversikan daya 
+maksimum dari angin, pada saat kecepatan 
+angin rendah akan mengikuti nilai koefisien 
+daya. Daya mekanik yang dikonversikan 
+adalah: 
+(12) 
+
+Prosiding SENTIA 2015 – Politeknik Negeri Malang 
+
+2. 
+Blade Pitch control : mode ini dioperasikan 
+ketika kecepatan angin diluar dari nilai ratarata, 
+dalam situasi ini torsi elektromagnetik 
+tidak cukup untuk mengontrol kecepatan rotor 
+dengan demikian generator akan overload. 
+Untuk menghindari hal ini, konversi daya wind 
+turbine harus dibatasidan ini dapat dilakukan 
+dengan mengurangi koefisien daya (Cp) dari 
+wind turbine. Koefisien daya dapat 
+dimanipulasi dengan memvariasikan blade 
+pitch angel (..). 
+3. 
+Power Regulation :dengan semakin banyaknya 
+daya angin yang masuk pada sistem. Pada 
+pengoperasian wind turbine tidak mungkin 
+untuk menjaga agar daya yang dihasilkan 
+konstan. Oleh karena itu, pengaturan tegangan 
+dan frekuensi diperlukan, agar daya listrik yang 
+dihasilkan sesuai dengan permintaan beban. 
+III. TUNING PID CONTROLLER 
+A. 
+Ziegler-Nichols 
+Dalam PID controller terdapat parameter-
+parameter yang harus ditentukan. Parameter-
+parameter tersebut adalah Kp, ti, td. Dimana Kp 
+merupakan komponen dari kontroler Proportional, 
+ti rupakan komponen dari kontroler integrator dan 
+td merupakan komponen dar ikontroler diferensial. 
+
+Penalaan parameter kontroler PID 
+(Proporsional Integral Diferensial) selalu didasari 
+atas tinjauan terhadap karakteristik yang diatur 
+(plant). Metode didasarkan pada reaksi plant yang 
+dikenai suatu perubahan. Dalam hal ini digunakan 
+metode pendekatan eksperimen adalah Ziegler-
+Nichols. 
+
+Kp = 
+
+
+(13) 
+ti = t (14) 
+Gain = 
+
+
+(15) 
+Pada sistem terdapat beberapa orde yaitu 
+sistem orde1, orde2 dan orde lebih dari2. Pada 
+sistem tersebut terdapat parameter-parameter di 
+setiap ordenya. Untuk orde 1 terdapat parameter 
+seperti persamaan 7. Untuk parameter orde 2 atau 
+lebih terdapat parameter seperti persamaan 8. 
+Parameter: K,t ; 
+
+
+(16) 
+Parameter: K, .., .n; 
+
+(17) 
+Setiap kekurangan dan kelebihan dari masingmasing 
+kontroler P, I dan D dapat saling menutupi 
+dengan menggabungkan ketiganya secara parallel 
+menjadi kontroler proposional integral diferensial 
+(PIDcontroller). Elemen-elemenkontroler P, I dan 
+D masing-masing secara keseluruhan bertujuan 
+untuk mempercepat reaksi sebuah sistem, 
+menghilangkan offset dan menghasilkan perubahan 
+awal yang besar. Gambar. 2 merupakan Blok 
+diagram PID controller. Berikut ini merupakan 
+langkah-langkah untuk mendesain PIDcontroller : 
+
+1. 
+Menentukan fungsi alih dari plant 
+Volume 7 – ISSN: 2085-2347 
+
+2. 
+Menentukan spesifikasi performasi respon orde 
+yang diinginkan 
+3. 
+MenentukanKp, ti, td 
+(18) 
+(19) 
+(20) 
+Gambar 2. Blok diagram PID controller 
+
+B. 
+ICA 
+Imperialist Competitive Algorithm (ICA) 
+merupakan algoritma evolusioner yang terinspirasi 
+dengan kompetisi kekuasaan (imperialist 
+competitive). Algoritma optimasi ICA dikenalkan 
+oleh Esmaeil Atashpaz pada tahun 2007. ICA 
+mensimulasikan proses social politik dari imperialis 
+medan kompetisi kekuasaan. Pada Metode ICA ini, 
+seperti algoritma evolusioner lainnya yaitu dengan 
+dimulai dengan inisialisasi populasi awal. Setiap 
+individu dari populasi disebut dengan negara 
+(country). Beberapa Negara terbaik dipilh sebagai 
+Negara penjajah dan sisanya membentuk koloni 
+yang digunakan oleh penjajah. Negara imperialis 
+bersama-sama dengan koloni yang dimilikinya 
+membentuk beberapa empire (kerajaan). Setelah 
+membentuk empire awal, koloni pada setiap empire 
+bergerak menuju Negara imperialis yang relevan. 
+Total kekuatan dari sebuah empire tergantung pada 
+kekuatan dari Negara imperialis dan kekuatan dari 
+koloninya. Fakta ini dimodelkan dengan 
+mendefinisikan total kekuatan dari sebuah empire 
+merupakan kekuatan dari Negara imperialis 
+ditambah dengan presentase dari rata-rata kekuatan 
+koloninya. 
+
+Algoritma ini diperkenalkan oleh Esmaeil 
+Atashpaz pada tahun 2007. Populasi country yang 
+digunakan pada ICA adalah 80, dengan memilih 8 
+country terbaik sebagai imperialis sehingga jumlah 
+koloni-nya adalah 72. Data parameter ICA yang 
+digunakan ditunjukkan padaTabel 1. 
+
+Tabel 1. Parameter ICA 
+
+Jumlahnegara 80 
+Jumlahimperialisawal 8 
+Jumlahkoloni 72 
+Dekade 30 
+KecepatanRevolusi 0.3 
+Asimilasi (..) 2 
+
+B-130 
+
+
+
+Prosiding SENTIA 2015 – Politeknik Negeri Malang Volume 7 – ISSN: 2085-2347 
+
+SudutAsimilasi (..) 0.5 
+Zetta (.) 0.02 
+
+ditunjukkan pada gambar 5 dan 6. Pada gambar 
+terlihat bahwa daya output generator pada kontrol 
+PID-ICA jika dibandingkan dengan kontrol PID 
+Ziegler-Nichols adalah lebih besar dan lebih stabil. 
+
+IV. PEMBAHASAN DAN ANALISA 
+Sistem pada wind turbine, mempunyai input 
+generator speed, pitch angle, wind speed. Generato 
+rspeed diberi input 1.2 pu, wind speed diberi 
+input12m/s dan pitch angel ini yang akan dikontrol 
+oleh PID controller. Terlihat pada gambar.3. 
+
+Gambar 8. Generator Output Data PID-ICA 
+
+Gambar 3. Sistem PMSG 
+
+Hasil simulasi dari wind turbine oleh PID-ICA 
+Gambar 9. Generator Output Data PID
+
+(atas) dan PID controller metode Ziegler-Nichols 
+(bawah) dapat dilihat pada gambar 4. Nilai perioda 
+
+V. KESIMPULAN
+dasar pada PID, Tu = 3, dan penguatan dasar Ku = 
+PID controller dengan tuning ICA dapat
+
+14.4, digunakan untuk menentukan konstantadiusulkan 
+untuk mengontrol pitch angle. Dari hasil
+
+konstanta Kp = 3Ku/5 = 8.64, Ki = Tu /2 = 1.5 dan 
+simulasi didapatkan bahwa sistem yang ditunjukkan
+
+Kd = 3Tu /25 = 0.36. Sedangkan hasil simulasi dari 
+oleh control PID konvensional Ziegler-Nichols
+
+wind turbine dengan dikontrol oleh PID controller 
+kurang optimal, sedangkan dengan penambahan
+
+di tuning menggunakan ICA didapatkan kp = 
+PID controller yang dituning dengan ICA pada
+
+32,5889, ki = 9,0579, kd = 0,1270. Pada gambar 
+sistem didapatkan daya output yang optimal dan
+
+terlihat bahwa daya setelah diberi kontrol PID 
+lebih stabil.
+
+controller yang detuning dengan ICA akan naik 
+lagi. Sehingga apabila pitch angle ini kurang 
+
+DAFTAR PUSTAKA
+
+optimal maka PID controller ini akan 
+Abdul hamed Hwas, Reza Katebi, 2012, Wind
+
+memperbaikinya agar pitch angle menjadi optimal. 
+Turbine Control Using PI Pitch Angle 
+Controller. IFAC Conference on Advances in 
+PID Control, Brescia (Italy). 
+Esmaeil Atashpaz -Gargari and Caro Lucas, 
+2007, Imperialist Competitive Algorithm An 
+Algorithm for Optimization Inspired by 
+Imperialistic Competition, IEEE Congress on 
+Evolutionary Computation (CES) 
+Shuhui Li, Timothy A. Haskew, Richard P. 
+Swatloski, William Gathings, 2012, Optimal 
+and Direct-Current Vector Control of Direct-
+Driven PMSG Wind Turbines, IEEE 
+Transactions On Power Electronics 
+Yousif El-Tous, 2008, Pitch Angle Control of 
+Variable Speed Wind Turbine, American J. of 
+Engineering and Applied Sciences 
+
+
+Gambar 4. Hasil simulasi Daya P pada PID-ICA danPID
+
+Hasil Output Generator dari wind turbine yang 
+dikontrol oleh PID-ICA dan PID Ziegler-Nichols, 
+
+
+B-131 
+
+
+View publication stats 
+View publication statsView publication stats 
+
+

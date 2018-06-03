@@ -1,0 +1,1963 @@
+Jurnal Manajemen Teknologi, 16(3), 2017,271-293 
+
+Jurnal 
+
+Available online at http://journal.sbm.itb.ac.id 
+
+Manajemen 
+Teknologi
+
+Indonesian Journal for the Science of Management 
+
+Evaluasi Pemanfaatan Media Sosial sebagai Sarana 
+Knowledge Sharing 
+
+
+Setiawan Assegaff* 
+
+STIKOM Dinamika Bangsa 
+
+Abstrak. Penelitian ini bertujuan untuk megevaluasi pemanfaatan aplikasi media sosial yang digunakan sebagai sarana 
+berbagi pengetahuan oleh dosen di Indonesia dalam sebuah grup virtual di facebook. Model Kesuksesaan Sistem Informasi oleh 
+Delone dan McLean digunakan sebagai teori dasar dengan mempertimbangkan faktor karaterisktik individu. Sebuah model 
+penelitian dan dua belas buah hipoteses dikembangkan dalam penelitian ini. Model dan hipoteses kemudian diuji dan divalidasi 
+menggunakan data yang diperoleh dari sebuah survey yang dilaksanakan secara online. Survey secara online dilakukan pada 
+sebuah grup dosen di Indonesia. Sebanyak 160 kuesioner diisi oleh anggota komunitas online tersebut dan dinyatakan valid dan 
+digunakan untuk analisis lebih lanjut. Data yang diperoleh kemudian dianalisis menggunakan Partial Least Square (PLS) 
+memanfaatkan perangkat lunak Smart PLS V2. Pengujian meliputi “measurement model” dan “structural model”. Hasil 
+dari pengolahan data mengindikasikan bahwa pemanfaatan media sosial (facebook) telah berhasil menjadi sarana bagi para 
+akademisi di Indonesia dalam berbagi informasi dan pengetahuan. Penelitian ini menemukan bahwa faktor “system use” dan 
+“user satisfaction” adalah faktor utama yang mempengaruhi “individual impact”, sementara itu faktor lain seperti karateristik 
+individu mempengaruhi system quality dan information quality. Sedangkan Information quality mempengaruhi system use, dan 
+system use mempengaruhi user satisfaction.. 
+
+Kata kunci: Media Sosial, akademisi, model sukses sistem informasi, karaterisktik individu, berbagi pengetahuan 
+
+Abstract. The aim of this research is to evaluate the succsess of social media for knowledge sharing among academician in 
+Indonesia in virtual group at Facebook. IS Success Model by Delone and McLean was apply as a basis theory along with 
+individual characteristic factor. This study develops a research model with twelve hypotheses. Model and hypotheses then validated 
+using data from online survey. Online Survey was conducted in a group of Indonesian academician. 160 questionnaires were 
+collected from the survey and use for next analysis. Data was analysis by Partial Least Square (PLS) using Smart PLS V2. 
+There are two type of examination conducted in this research evaluation of measurement model and structural model. This 
+research indicates that social media have been success uses by Indonesian academia for knowledge sharing. This study found that 
+“system use” and “user satisfaction” as main variable influences “individual Impact”. While, “Individual characteristic” 
+influences “system and information quality” furthermore “information quality” influences “system use” and “system use” 
+influences “user satisfaction”. 
+
+Keyword: Social Media, academician, information system success model, individual characteristic, knowledge sharing 
+
+*Corresponding author. Email: setiawanassegaff@stikom-db.ac.id 
+
+thth th
+
+Received: March 6 , 2017; Revision: December 15 , 2017; Accepted: December 15 , 2017 
+Print ISSN: 1412-1700; Online ISSN: 2089-7928. DOI: http://dx.doi.org/10.12695/jmt.2017.16.3.4Copyright@2017. Published by Unit Research and Knowledge, School of Business and Management -Institut Teknologi Bandung (SBM-ITB) 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Pendahuluan 
+
+Komunitas dosen menjadi salah satu wadah 
+yang cukup penting dalam memberikan ruang 
+dan tempat bagi dosen untuk berbagi 
+pengetahuan dan informasi. Saat in dosen 
+dituntut untuk dapat secara produktif 
+meningkatkan kinerja mereka melalui kegiatan 
+Tridarma Perguruan Tinggi. Akses informasi 
+dan kesempatan untuk mendapatkan 
+pengetahuan dianggap sebagai salah satu 
+kendala bagi dosen-dosen di berbagai 
+Perguruan Tinggi di Indonesia untuk dapat 
+tumbuh dan berkembang secara efektif 
+menjalankan tugas pokok Tridarma Perguruan 
+Tingginya (Nugroho , 2005). Minimnya jumlah 
+forum, komunitas dan kegiatan lainnya yang 
+mendukung perkembangan pengetahuan dan 
+informasi bagi dosen diikuti oleh tidak 
+meratanya sebaran informasi dan pengetahuan 
+masih menjadi momok bagi keberadaan dosen 
+di Perguruan Tinggi di Indonesia. 
+
+Dalam teori-teori Knowledge Management (KM) 
+diyakini bahwa berbagi pengetahuan adalah 
+salah satu kunci dalam menciptakan insaninsan 
+yang memiliki skill dan kompetensi yang 
+handal. Nonaka sebagai salah seorang pakar 
+KM dalam artikelnya menyatakan bahwa 
+pertukaran pengetahuan hanya dapat terjadi 
+melalui aktivitas interaksi dan kolaborasi. 
+Melalui interaksi dan kolabrasi maka terjadi 
+pertukaran pengetahuan diantara expert dan 
+talent (Nonaka, 2008). Lebih lanjut Nonaka 
+berargumen bahwa pengetahuan baru hanya 
+tercipta melalu interaksi dan kolaborasi. 
+Knowledge Sharing merupakan salah satu 
+aktivitas dalam kegiatan Knowledge Management. 
+
+Knowledge Sharing memungkinkan para individu 
+di sebuah organisasi untuk bersama-sama 
+saling bertukar informasi, ide, saran, gagasan 
+dan pengalaman yang pada akhirnya 
+menciptakan terbentuknya sebuah 
+pengetahuan baru (Nonaka & Toyama, 2015). 
+Nonaka (2008) mendefinisikan knowledge 
+sharing sebagai berbagi expertise, informasi, 
+saran, dan idea antar satu individu dengan 
+individu lainya dalam sebuah organisasi. 
+
+Knowledge sharing merupakan sebuah 
+mekanisme tersebarnya pengetahuan yang 
+dimiliki oleh organisasi ke seluruh anggota dari 
+sebuah organisasi, dan dari anggota organisasi 
+ke anggota organisasi yang lain (Wang, Noe, & 
+Wang, 2014). Aktivitas ini penting karena 
+melaluinya pengetahuan dapat disebar luaskan 
+dan dalam aktivitas tersebut dapat terciptanya 
+(knowledge creation) pengetahuan baru yang 
+bermanfaat bagi organisasi. Seperti yang 
+dijelaskan oleh Salah satu teori Nonaka (1999) 
+dalam teorinya bahwa pengetahuan tercipta 
+hanya melalaui interaksi antar orang atau antar 
+organisasi (Nonaka, 2008). 
+
+Perusahaan kelas dunia telah banyak 
+membuktikan bahwa tranfer of knowledge 
+adalah salah satu kegiatan paling efektif dalam 
+menciptakan insan-insan yang berkompetensi 
+dan memiliki skill yang tinggi (Hislop, 2013; 
+Manev & Jakimovski, 2015; Meihami & 
+Meihami, 2014; Uden, Oshee, Ting, & 
+Liberona, 2015). Kita dapat menyaksikan 
+bagaimana Honda melalui kegiatan brain 
+stromming mereka melahirkan konsep city car 
+yang sekarang banyak diadopsi oleh 
+perusahaan otomotif lainnya (Nonaka, 2008). 
+Contoh lain adalah perusahaan Matsuhita 
+Electric, dengan program internshipnya 
+mampu menciptakan alat pembuat kue yang 
+mampu menghasilkan masakan selezat 
+masakan koki sebuah hotel ternama (Nonaka, 
+2008). Belajar dari pengalaman perusahaanperusahaan 
+kelas dunia dalam mengaplikasikan 
+konsep knowledge management, maka dapat kita 
+simpulkan bahwa interaksi dan kolaborasi 
+antar manusia merupakan salah satu kunci bagi 
+terciptanya insan-insan handal yang 
+berkompetensi. 
+
+Institusi pendidikan di Indonesia dihadapkan 
+pada kendala minimnya kesempatan diantara 
+dosen untuk berinteraksi dan berkolaborasi 
+dengan pakar-pakar peneliti di perguruan 
+tinggi lainnya. Minimnya interaksi ini 
+dikarenakan tidak terdapatnya pakar di 
+perguruan tinggi mereka, keberadaan pakar 
+yang minim dan tidak tersedianya informasi 
+mengenai keberadaan pakar yang dibutuhkan 
+(Wicaksono & Friawan, 2011). 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+272 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Perguruan tinggi di Indonesia tersebar dari 
+sabang sampai marauke dan berada di berbagai 
+pulau dan kepulauan. Sebaran geografis yang 
+besar dan jarak yang jauh membutuhkan 
+alokasi waktu dan dana yang cukup besar bagi 
+sebagian dosen untuk dapat secara intensif 
+berkomunikasi, berkolaborasi dan 
+berinterraksi secara langsung dan tidak 
+langsung dengan sesame dosen yang lain. 
+Karena itulah dibutuhkan sebuah sarana yang 
+memungkinankan terciptanya interaksi, 
+komunikasi dan kolobarasi yang efektif bagi 
+dosen diseluruh tanah air sehingga dapat 
+berinteraksi dengan cepat, tepat, akurat dan 
+relatif murah. 
+
+Saat ini perkembangan teknologi informasi 
+telah memberikan banyak peluang-peluang 
+baru sehingga pertukaran pengetahuan dapat 
+terlaksana walaupun terkendala oleh jarak, 
+waktu dan tempat (Mao, Liu, Zhang, & Deng, 
+2016). Melalui berbagai aplikasi dan teknologi 
+baru teknologi informasi dapat dijadikan solusi 
+bagi berbagai permasalahan diatas. Salah satu 
+teknologi yang menjanjikan adalah internet 
+dengan fasilitas media sosialnya. Media Sosial 
+memungkinkan terselenggaranya interaksi, 
+komunikasi, dan kolabaroasi diantara 
+pengguana secara efektif, cepat, tepat dan 
+relatif murah(Hemsley & Mason, 2013). 
+
+Kapplan dan Heainlein mendifisikan media 
+sosial sebagai kumpulan aplikasi internet yang 
+berbasis web 2.0 yang menyediakan layanan 
+interaktif diantara individu dan komunitas 
+untuk saling berinteraksi, berdiskusi, 
+menciptakan dan memodifikasi konten 
+(Kaplan & Haenlein, 2010). Media sosial saat 
+ini dipercaya sebagai sebuah tool yang 
+memberikan potensi luar biasa bagi organisasi 
+dalam meningkatkan performan perusahaan 
+(Hanna, Rohm, & Crittenden, 2011). Untuk 
+mendapatkan manfaat yang maksimal dari 
+potensi Media Sosial tersebut maka perusahaan 
+mengembangkan berbagai strategi 
+pemanfaatan Media Sosial dalam aktivitas 
+bisnisnya. 
+
+Hanna et al (2011) mengusulkan sebuah 
+konsep untuk mengembangkan strategi 
+pemanfaatan Media Sosial dalam sebuah 
+organisasi yang mereka kenal dengan istilah 
+”social media ecosystem”. Dalam konsep ini 
+
+orgainasi perlu memahami bahwa 
+pemanfaatan Media Sosial dalam menunjang 
+aktivitas di organisasi perlu diselaraskan, yaitu 
+dengan secara tepat memadukan cara 
+tradisional dan media sosial secara virtual 
+dalam mencapai tujuan organisasi. Penelitian 
+dalam bidang media sosial dan KM yang telah 
+dilakukan saat ini mencakup konseptual 
+model, studi kasus, studi empirik (e.g., (Baehr 
+& Alex-Brown, 2010; Hanna et al., 2011; 
+Kaplan & Haenlein, 2010; Majchrzak, Rice, 
+Malhotra, King, & Ba, 2000; Razmerita, 
+Kirchner, & Sudzina, 2009; Von Krogh, 2012; 
+Yates & Paquette, 2011). 
+Salah satu penelitian berkaitan dengan media 
+sosial dan KM oleh Razmerita et al. (2009). 
+Mereka berpendapat bahwa terdapat prinsipprinsip 
+yang sama diantara media sosial dan 
+KM (Razmerita et al., 2009). Media sosial telah 
+menunjukan peran yang positif dalam KM. 
+Beberapa peneliti telah berhasil 
+mengidentifikasikan benefit yang diperoleh 
+lewat pemanfaatan media sosial dalam KM 
+(Paroutis & Al Saleh, 2009). Namun, walaupun 
+pada prinsipnya media sosial diyakini 
+bersinergi dengan KM namun para peneliti 
+juga menemukan kendala-kendala yang 
+dihadapi dalam implementasi media sosial di 
+KM (Culnan, McHugh, & Zubillaga, 2010). 
+KM dalam media sosial dapat tercapai melalui 
+berbagai tool yang memungkinkan untuk 
+menciptakan, mengkodifikasi, 
+mengorganisasi, dan membagi pengetahuan, 
+tetapi juga mensosialisasi dan meningkatkan 
+jaringan personal dan berkolaborasi dalam 
+rangka mengorganisasi dan menciptakan 
+pengetahuan yang baru (Razmerita et al., 
+2009). 
+
+Saat ini telah dimulai inisaiasi pemanfaatan 
+media sosial bagi sarana interaksi dosen di 
+Indonesia. Salah satu media sosial yang 
+menjadi pilihan oleh dosen adalah facebook. 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Beberapa grup dosen Indonesia telah dibuat 
+dan dijalankan melalui media facebook. 
+Namun sampai saat ini pemanfaatan media 
+facebook sebagai sarana berbagi pengetahuan 
+dan informasi belum dievaluasi 
+pemanfaatnnya. Evaluasi pemanfaatan media 
+sosial untuk sarana berbagi pengetahuan 
+menjadi penting untuke mandapatkan 
+gambaran bagaimana pemanfaatan aplikasi 
+(social media) oleh para pengguna (dosen) saat 
+ini , sehingga dapat menjadi inputan bagi 
+pengembangan kebijakan dalam 
+meningkatkan produktifitas dan kinerja dosen 
+dalam melaksanakan tridarma perguruan 
+tinggi. 
+
+Didasari oleh fenomena diatas, melalui 
+penelitian ini kami ingin melakukan investigasi 
+untuk mengevaluasi pemanfataan media sosial 
+dalam pertukaran pengetahuan diantara 
+peneliti-peneliti di Indonesia. Penelitian ini 
+menggunakan IS Success Model dari Delone and 
+McLean (2001) sebagai konsep dasar. Model 
+ini dikembangkan karena telah terbukti 
+berhasil mengevaluasi kesuksesaan sebuah 
+aplikasi oleh pengguna (DeLone & McLean, 
+2016; Gable, Sedera, & Chan, 2008; Wu & 
+Wang, 2006). Model ini dijadikan sebagai 
+rujukan utama bagi para penelitia yang ingin 
+mengevaluasi kesuksesaan sebuah aplikasi. IS 
+Success Model ini kami kembangkan dengan 
+memperhatikan penelitian-penelitian 
+sebelumnya yang berkaitan dengan media 
+sosial dan pertukaran pengetahuan. 
+
+System 
+
+Use
+
+Quality 
+
+Information 
+
+User 
+Quality Satisfaction 
+
+Source: DeLone and McLean (1992) 
+
+Gambar 1. 
+
+Model Sukses SI (Delone and McLean, 1992) 
+
+
+Model Sukses Sistem Informasi 
+
+Pemanfaatan sistem informasi pada sebuah 
+organisasi diharapkan memberikan dampak 
+positif. Untuk dapat memastikan bahwa setiap 
+implementasi dari sistem informasi berjalan 
+sukses, maka mengetahui elemen-elemen yang 
+berpengaruh terhadap kesuksesan sistem 
+informasi menjadi hal yang sangat menarik 
+para peneliti. 
+
+Pengukuran dari kesuksesan sebuah sistem 
+informasi telah mendapatkan perhatian yang 
+luas dari peneliti sejak lama. Delone and 
+McLean (1999) telah mengembangkan sebuah 
+model yang dapat dijadikan panduan agar 
+sebuah organisasi sukses dalam 
+mengimplementasikan Sistem Informasi/ 
+Information System (IS). Mereka mengajukan 
+enam elemen yang berkaitan dengan IS sukses 
+yaitu: ”sistem quality”,”information quality”, 
+”services quality”, ”use”, ”user satisfaction” dan ”net 
+benefit”. Pada tahun 2002 Delone dan McLean 
+merevisit model sukses untuk implementasi IS. 
+Model ini diuji cobakan pada aplikasi E-
+commerce. Dan didapati bahwa model IS 
+sukses berhasil diuji coba pada konteks apilkasi 
+sistem e-commerce (DeLone & McLean, 
+2002) . 
+
+Organizational 
+Impact 
+
+
+Individual 
+Impact 
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+274 
+
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Model IS sukses juga telah digunakan dan diuji 
+secara empirik pada berbagai konteks sistem 
+informasi seperti e-commerce, e-government , dan e-
+banking. Namun sampai saat ini pengembangan 
+IS sukses model dalam konteks media sosial 
+dalam knowledge management masih relatif belum 
+banyak di ekplorasi.(Ali, Che Cob, & Sulaiman, 
+2016; Jan & Contreras, 2016; M. Jennex, 2017; 
+
+M. E. Jennex, Smolnik, & Croasdell, 2014) 
+Media Sosial Sukses Model untuk Knowledge Sharing 
+
+Penelitian yang berkaitan dengan model sukses 
+media sosial untuk berbagi pengetahuan 
+diantara para peneliti masih jarang dilakukan. 
+Model sukses pemanfaatan sistem informasi 
+yang dikembangkan oleh DeLone and McLean 
+(1999) dan (2002) menjadi dasar dalam 
+penelitian ini untuk dikembangkan menjadi 
+model yang secara khusus dapat dijadikan 
+acuan dalam pemanfaatan media sosial untuk 
+knowledge sharing. Dengan mempertimbangkan 
+karateristik social media dan knowledge 
+sharing maka model sukses sistem informasi 
+(DeLone & McLean, 2002) akan 
+dikembangkan. 
+
+Sebuah model penelitian dikembangkan 
+dengan mengaplikasikan teori IS Success Model 
+(Delone & McLean, 2003) sebagai basis dan 
+menambahkan sebuah variabel yang 
+direkomendasikan oleh Petter, DeLone and 
+McLean (2014) untuk diekplorasi. Selain itu 
+kami juga memperkaya indikator-indikator 
+pada setiap variabel sehingga mengakomodasi 
+isu-isu dan kebutuhan-kebutuhan user dan 
+sistem dalam kontek pemanfaatan Media 
+Sosial. Model penelitian ini dikembangkan 
+dengan rujukan utama dari teori yang didapat 
+melalui hasil studi pustaka (Agourram, 2009; 
+Assegaff & Mulyono, 2015; Bock, Zmud, Kim, 
+& Lee, 2005; DeLone & McLean, 2016; Petter, 
+DeLone, & McLean, 2013). 
+
+Selain teori dan hasil penelitian yang relevan 
+tersebut, model penelitian ini juga 
+mengakomodasi hasil dari kegiatan studi 
+berupa Focus Group Discussion (FGD) yang 
+dilakukan oleh tim peneliti. FGD dilakukan 
+melalui kegitan diskusi dengan kelompok 
+dosen pada tiga universitas. 
+
+Dimana topik diskusi dan pertanyaan focus 
+pada pemanfaatan media social dalam kegiatan 
+belajar mengajar. Protokol telah disusun 
+sebelumnya untuk memandu FGD berjalan 
+sesuai tujuannya. FGD bertujuan 
+mendapatkan data dan informasi lewat diskusi 
+informal berkaitan dengan realita pemanfaatan 
+media social. 
+
+Hasil dari fokus grup mengidentifikasikan 
+bahwa: 
+
+1. Akademis yang terlibat dalam focus grup ini 
+sebagian besar telah memanfaatkan fasilitas 
+social media (system use) 
+2. Social 
+media digunakan sebagai sarana 
+untuk saling berbagi informasi dan 
+pengetahuan (berkaitan dengan Individual 
+Impact) 
+3. Informasi dan pengetahuan dalam social 
+media tidak seluruhnya dapat divalidasi 
+kebenarannya (berkaitan dengan 
+knowledge/information quality) 
+4. Fitur yang paling banyak digunakan adalah 
+status dan chating (berkaitan dengan User 
+Preference) 
+5. Berharap 
+ada fitur lain yang dapat 
+dikembangkan pada social media 
+(berkiatan dengan User Preference) 
+6. Kendala 
+pemanfaatan adalah berkaitan 
+dengan layanan internet dan biaya koneksi 
+yang relative mahal. (berkaitan dengan 
+Barriers) 
+
+Elemen-elemen yang teridentifikasi pada 
+kegiatan FGD diyakini relevan dengan hasil 
+kajian pustaka yang ada (Agourram, 2009; 
+DeLone & McLean, 2016; Petter et al., 2013; 
+Wu & Wang, 2006). Bahwa elemen-elemen 
+
+System Use, Individual Impact, 
+Knowledge/Information Quality tersebut memiliki 
+kontribusi dalam sukses atau tidaknya 
+pemanfaatan sebuah sistem informasi. 
+Kemudian dalam kajian ini elemen-elemen 
+tersebut akan diuji dalam konteks pemanfaatan 
+media sosial untuk kegiatan berbagi 
+pengetahuan dan informasi antar akademisi di 
+Indonesia. 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Selain itu dari hasil FGD, kajian ini juga 
+mempertimbangkan hasil dari penelitianpenelitian 
+sebelumnya yang mengkaji perilaku 
+manusia didalam berbagi pengetahuan pada 
+lingkungan virtual. (Ardichvili, Page, & 
+Wentling, 2003; Assegaff, Kurniabudi, & 
+Fernando, 2016; Bock et al., 2005; Lin, 2007) 
+Dari penelitian terdahulu didapatkan 
+informasi yang berkaitan dengan motivasi 
+seseorang dalam aktivitas berbagi pengetahuan 
+pada lingkungan virtual. Faktor yang 
+teridentifikasi mempengaruhi perilaku orang 
+adalah alturisme, balas jasa dan reputasi. 
+
+Penelitian oleh Assegaff (2015) yang mengkaji 
+motivasi sesorang dalam berbagi pengetahuan 
+menemukan bahwa alturisme terindikasi lebih 
+dominan mempunyai pengaruh yang positif 
+terhadap aktivitas orang dalam berbagi 
+pengetahuan di komunitas virtual, jika 
+dibandingkan dengan balas jasa dan reputasi. 
+Hasil studi ini di akomodasi ke dalam elemen 
+“user characteristic” untuk diuji kembali pada 
+kajian saat ini. Berikut ini adalah gambar model 
+penelitian yang dikembangkan dalam 
+penelitian ini. 
+
+
+Gambar 2. 
+
+Model Penelitian 
+
+Dalam penelitian ini juga dikembangkan 12 
+(duabelas buah hipoteses) yang 
+menggambarkan hubungan antar variabel 
+dalam penelitian. Hipoteses yang 
+dikembangkan dalam penelitian ini adalah: 
+
+a. Karateristik User 
+User menjadi pelaku utama dalam 
+pemanfaatan aplikasi Media Sosial. Berbeda 
+dengan pemanfaatan sistem informasi pada 
+sebuah organisasi yang mengikat usernya 
+untuk patuh pada mekanisme pemanfaatan 
+sistem informasi yang mereka bangun, maka 
+pada aplikasi Media Sosial user tidak diikat 
+pada aturan tertentu, sehingga 
+pemanfaatannya akan sangat dipengaruhi oleh 
+karaktekter user. 
+
+Pada penelitian berkaitan dengan model sukes 
+sistem informasi yang dilakukan Petter, 
+DeLone and McLean (2013) menemukan 
+bahwa peran karateristik user ternyata 
+mempengaruhi pola keberhasilan sistem 
+informasi (Petter et al., 2013). Pada penelitian 
+ini kami juga akan mengekplorasi apakah 
+karaterisktik user juga punya peran dalam 
+pemanfaatan media social oleh akademisi di 
+Indonesia. 
+
+Dalam kajian ini kami mebangun tiga hipoteses 
+dalam rangka menindaklanjuti kajian dan 
+melihat apakah elemen “user Charaterisctic” 
+berpengaruh terhadap System Quality, 
+Information/Knowledge Quality dan Services 
+Quality. 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+276 
+
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+H1: User Charateristic berpengaruh secara positif 
+terhadap System Quality 
+H2: User Charateristic berpengaruh secara positif 
+terhadp Information/ Knowledge Quality 
+H3: User Charateristic berpengaruh secara positif 
+terhadap Service Quality 
+
+b. System Quality 
+System quality berkaitan dengan apakah sebuah 
+sistem informasi dan atau aplikasi yang 
+dimanfaatkan oleh pengguna terbebas dari bug 
+atau eror, juga berkaitan dengan apakah 
+terdapat konsistensi dalam interface layanan 
+yang diakses secara langsung oleh pengguna. 
+Hal lain yang cukup penting berkaitan dengan 
+system quality adalah kemudahan penggunaan 
+aplikasi, kemudian kualitas dokumentasi dan 
+juga berkaitan dengan pemeliharaan sistem. 
+Delone and McLean berargumen bahwa 
+kualitas layanan akan mempenagruhi tingkat 
+penggunaan user dan juga berpengaruh 
+terhadap kepuasan user. 
+Penelitian terdahulu telah membuktikan bahwa 
+system quality berpengaruh terhadap pengunaan 
+aplikasi dan kepuasan pengguna (Gable et al., 
+2008). Dalam penelitian ini kami mengajukan 
+hipoteses sebagai berikut: 
+
+H4: System Quality berpengaruh secara positif 
+terhadap System Use 
+H5: System Quality berpengaruh secara positif 
+terhadap User Satisfaction 
+
+c. Kualitas Informasi/Pengetahuan 
+Informasi dan pengetahuan menjadi 
+komoditas terpenting bagi akademisi dan 
+peneliti di Indonesia untuk mengembangkan 
+diri. Ketika media sosial dijadikan media untuk 
+berbagi pengetahuan dan informasi maka 
+beberapa isu muncul, misalnya apakah 
+informasi, pengetahuannya dapat dipercaya? 
+Apakah relevan? Apakah disampaikan secara 
+utuh? Apakah mudah untuk dipahami? Apakah 
+mudah untuk diakses? (Agourram, 2009). Isu 
+ini tidak sama jika aplikasi yang digunakan 
+adalah aplikasi internal yang dibangun didalam 
+sebuah organisasi, dimana telah ada validasi, 
+filter, mekanisme yang menjamin bahwa 
+informasi dan pengetahuan yang dikonsumsi 
+user dijamin oleh institusi. 
+
+Teori IS Success Model telah mengakomodasi 
+variabel kualitas informasi/pengetahuan tetapi 
+indikator yang digunakan belum secara 
+signifikan menggambarkan kebutuhan user 
+akan informasi dan pengetahuan dalam kontek 
+aplikasi Media Sosial. Dalam penelitian ini 
+kami berargumen bahwa Information/knowledge 
+quality berpengaruh terhadap user satisfaction 
+dan system use : 
+H6: Information/Kowledge Quality berpengaruh 
+secara positif terhadap System Use 
+H7: Information/ Knowledge Qualityy berpengaruh 
+secara positif terhadap User Satisfaction 
+
+d. Service Quality 
+Service quality berkaitan dengan kualitas dari 
+dukungan oleh tim pengembang atau 
+departemen teknologi informasi yang 
+bertanggung jawab terhadap operasional suatu 
+aplikasi. Hal ini berkaitan dengan respon, 
+akurasi dan juga empati dari staf/ personel 
+yang melayani operasional aplikasi yang 
+digunakan. Para peneliti sepakat bahwa service 
+quality mempengaruhi penggunaan dan 
+kepuasaan user dalam memanfaatkan system 
+informasi (Agourram, 2009; DeLone & 
+McLean, 2016; Petter et al., 2013; Wu & Wang, 
+2006). Dalam penelitian ini kami berpendapat 
+bahwa: 
+H8: Service Quality berpengaruh secara positif 
+terhadap System Use 
+H9: Service Qualityy berpengaruh secara positif 
+terhadap User Satisfaction 
+
+e. Intention of Use/System Use 
+Niat pengguna/ pemanfaatan aplikasi 
+berkaitan dengan presepsi user untuk berniat 
+memanfaatkan atau tindakan untuk 
+memanfaatkan aplikasi (Wu & Wang, 2006). 
+Delone and Mc Leane dalam IS Success Model 
+berargumen bahwa System Use akan memberi 
+pengaruh terhadap dampak yang diberikan/ 
+didaptkan user ketika menggunakan system. 
+Mereka juga sepakat bahwa penggunaan 
+system informasi juga akan berpengaruh 
+tehadap kepuasaan user terhadap system. 
+Penelitian lain yang mengekplorasi hubungan 
+antrara system use dan user satisfaction adalah 
+(Maillet, Mathieu, & Sicotte, 2015). 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Dalam penelitian ini kami beragumen bahwa: 
+
+H10: System use berpengaruh secara positif terhadap 
+User Satisfaction 
+H11: System use berpengaruh secara positif terhadap 
+Individual Impact 
+
+f. User Satisfaction 
+User satisfaction berkaitan dengan presepsi user 
+dimana user merasa bahwa system informasi 
+atau aplikasi telah memenuhi kebutuhan dan 
+atau harapannya. Delone and Mc Leane dalam 
+IS Success Model berargumen bahwa User 
+Satisfaction akan memberi pengaruh terhadap 
+dampak yang diberikan/ didaptkan user ketika 
+menggunakan system. Dalam penelitian ini 
+kami berpendapat bahwa: 
+H12: User Satisfavtion berpengaruh secara positif 
+terhadap Individual Impact 
+
+Metodologi Penelitian 
+
+Data untuk penelitian ini dikumpulkan melalui 
+sebuah survey secara online pada sebuah 
+komunitas virtual yang dibentuk pada sebuah 
+aplikasi Media Sosial. Komunitas virtual ini 
+diberi nama grup dosen Indonesia dimana 
+anggota dari komuitas ini adalah akademisi 
+yang berasal dari berbagai perguruan tinggi 
+baik negeri dan swasta yang tersebar diseluruh 
+Indonesia. Grup dosen ini berdiri sejak 18 
+Desember 2014, saat ini grup dosen memiliki 
+anggota sejumlah 14.762 orang. Penyebaran 
+kuesioner secara online di grup dosen 
+Indonesia dilakukan selama dua bulan. Untuk 
+kegiatan survey ini sebanyak 38 tiga puluh 
+delapan butir pertanyaan di ajukan dalam 
+kuesioner ini. 
+
+Kuesioner kemudian disebarkan kepada dosen 
+yang menjadi anggota pada grup facebook 
+Dosen Indonesia. Sebanyak 160 responden 
+memberikan respon kedalam kuesioner dan 
+dinyatakan valid. Penelitian ini menggunakan 
+Smart PLS sebagai alat analisis data, 
+dikarenakan Smart PLS berbasis Covariance 
+maka jumlah responden diatas 75 sudah cukup 
+untuk menghasilkan analisis yang baik (Hair, 
+Ringle, & Sarstedt, 2011). 
+
+Adapun responden yang berpartisipasi dalam 
+survey ini terdiri atas laki-laki 53,3% dan 
+perempuan 48,8%, dimana 64% berumur 
+diantara 30-45 tahun dan 5%. berada pada 
+umur diatas 45-50 tahun 1% berumur diatas 
+50 tahun. 
+
+Instrumen yang digunakan dalam penelitian ini 
+merupakan hasil dari adopsi beberapa 
+konstruk yang telah digunakan pada penelitian 
+terdahulu. Dengan menggunakan 
+menggunakan IS Suuccess Model yang 
+dikembangkan oleh DeLone dan McLeane 
+(1999), kami melakukan penambahan terhadap 
+konstruk dan indikator terhadap model yang 
+ada (IS Success Model, 1999). 
+
+Sesuai saran dari DeLone dan McLean (2013) 
+pada hasil penelitian mereka tahun 2013 yang 
+menyatakan perlu diekplorasinya kembali 
+faktor -faktor indepen untuk lebih 
+memantapkan IS Success Model dengan 
+berbagai jenis aplikasi yang muncul saat ini. 
+
+Salah satu saran mereka adalah untuk menguji 
+beberapa kontruk independen, diantaranya 
+adalah “individual characteristic”. Penelitian ini 
+akan menguji hubungan tujuh konstruk yaitu 
+
+“individual characteristic”, “system quality”, 
+“information/ knowledge quality”, “service quality”, 
+“system use”, “user satisfaction”, dan “individual 
+impact”. Penjelasan mengenai definisi dan 
+sumber rujukan setiap konstruk dipaparkan 
+pada tabel 1. 
+
+Setiap konstruk melalui indikatornya diukur 
+menggunakan skala likert dengan lima level 
+penilaian, dengan penjelasan sebagai berikut, 
+dimulai dari 1= sangat tidak setuju sampai ke 
+poin 5= sangat setuju. Indikator yang 
+digunakan pada penelitian ini digambarkan 
+pada tabel 2. 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+278 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Tabel 1. 
+
+Variabel dalam Model Penelitian 
+
+Variabel Definisi Sumber 
+System Quality Desirable characteristics of an IS. Gable, Sedera, and Chan 
+(2008 ) 
+Knowledge/Information Desirable characteristics of Hafid Aqourramm (2009) 
+Quality the system outputs (knowledge or 
+information) 
+Services Quality Quality of the service or support DeLone and McLean (2003) 
+that system users receive from 
+The IS organization and IT 
+support personn el in general or for 
+a specific IS. 
+System Use Degree and manner in which Wu and Wang (2006) 
+staff and customers utilize the 
+Capabilities of an IS. 
+User Satisfaction Users’ level of satisfaction with the DeLone and McLean (20 03) 
+IS. 
+Individual Impact Extent to which IS are Gable, Sedera, and Chan 
+contributing to the success (2008 ) 
+of individuals 
+User Charateristic Determinant related to individuals Petter, DeLone and McLean 
+that use IS such as, attitudes. (2013) 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Tabel 2 
+
+Indikator setiap Variabel dalam Penelitian 
+
+Variabel Indikator Sumber 
+System Quality SQM1:Fitur Facebook Grup mudah digunakan Gable, Sedera, and 
+Chan (2008) 
+SQM2:Fitur Facebook Grup mudah dipelajari Gable, Sedera, and 
+Chan (2008) 
+SQM3:Fitur Facebook Grup mudah diakses Gable, Sedera, and 
+Chan (2008) 
+SQM4:Fitur Facebook Grup sesuai dengan Gable, Sedera, and 
+kebutuhan saya Chan (2008) 
+SQM5:Grup Facebook memiliki fitur-fitur yang Gable, Sedera, and 
+mendukung aktivitas berbagi informasi Chan (2008) 
+SQM6:Facebook memiliki system yang akurat Gable, Sedera, and 
+Chan (2008) 
+SQM7:Facebook dapat diakses diberbagi Gable, Sedera, and 
+perangkat Chan (2008) 
+SQM8:Aplikasi Facebook Aplikasi handal Gable, Sedera, and 
+Chan (2008) 
+SQM9:Fitur Facebook Grup memuaskan saya Gable, Sedera, and 
+Chan (2008) 
+SQM10:Aplikasi Facebook Grup dapat Gable, Sedera, and 
+terintegrasi dengan aplikasi lain yang mendukung Chan (2008) 
+SQM11:Aplikasi Facebook Grup dapat Gable, Sedera, and 
+dikustomisasi Chan (2008) 
+Knowledge/Information KI1:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+Quality pada Grup Facebook Dosen Indonesia dapat (2009) 
+dipercaya 
+KI2:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+pada Grup Facebook Dosen Indonesia objektif (2009) 
+KI3:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+pada Grup Facebook Dosen Indonesia akurat (2009) 
+KI4:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+pada Grup Facebook Dosen Indonesia (2009) 
+bereputasi 
+KI5:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+pada Grup Facebook Dosen Indonesia memiliki (2009) 
+nilai manfaat 
+KI6:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+pada Grup Facebook Dosen Indonesia relevan (2009) 
+dengan kebutuhan saya 
+Saat saya membutuhkan Hafid Aqourramm 
+KI7:Informasi/pengetahuan Grup Facebook (2009) 
+Dosen Indonesia dapat menyediakannya tepat 
+waktu 
+KI8:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+pada Grup Facebook Dosen Indonesia utuh (2009) 
+KI9:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+pada Grup Facebook Dosen Indonesia dapat (2009) 
+diintepretasikan dengan baik 
+KI10:Informasi/pengetahuan yang disampaikan Hafid Aqourramm 
+pada Grup Facebook Dosen Indonesia dapat (2009) 
+dengan mudah dipahami 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+280 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Tabel 2. (Sambungan) 
+
+Indikator setiap Variabel dalam Penelitian 
+
+Variabel Indikator Sumber 
+Individual Impact II1:Grup Facebook Dosen Indonesia adalah 
+salah satu wadah saya dalam menambah 
+pengetahuan 
+Gable, Sedera, and 
+Chan (2008) 
+II2:Grup Facebook Indonesia meningkatkan 
+kepedulian saya terhadap isu tertentu 
+dibidang pendidikan 
+Gable, Sedera, and 
+Chan (2008) 
+II3:Mendapatkan informasi yang berguna di 
+Grup Facebook Dosen Indonesia membantu 
+saya membuat keputusan menjadi lebih 
+efektif dalam bekerja sebagai dosen 
+Gable, Sedera, and 
+Chan (2008) 
+II4:Mendapatkan informasi yang berguna di 
+Grup Facebook Dosen Indonesia membantu 
+saya lebih produktif dalam bekerja sebagai 
+dosen 
+Gable, Sedera, and 
+Chan (2008) 
+Services Quality SQ1:Aplikasi Facebook memiliki respon 
+yang cepat ketika digunakan 
+DeLone and 
+McLean (2003) 
+SQ2:Aplikasi Facebook selalu berjalan dan 
+beroperasi dengan baik saat digunakan 
+DeLone and 
+McLean (2003) 
+SQ3:Pengembang aplikasi Facebook 
+didukung oleh tim yang kompeten 
+DeLone and 
+McLean (2003) 
+System of Use SU1:Saya menggunakan grup facebook 
+dosen Indonesia untuk mengkomunikasikan 
+pengetahuan dan informasi 
+Wu and Wang 
+(2006) 
+SU2:Saya menggunakan grup facebook 
+Indonesia untuk berbagi pengetahuan dan 
+informasi umum 
+Wu and Wang 
+(2006) 
+SU3:Saya menggunakan grup facebook 
+dosen Indonesia untuk mengkomunikasikan 
+pengetahuan dan informasi 
+Wu and Wang 
+(2006) 
+User Characteristic UC1:Saya merasa pemanfaatan aplikasi 
+facebook untuk berinteraksi seasama dosen 
+di Indonesia adalah pilihan yang tepat 
+Petter, DeLone and 
+McLean (2013) 
+UC2:Saya merasa enjoy bergabung dan 
+bertukar inforamasi di grup facebook dosen 
+Indonesia 
+Petter, DeLone and 
+McLean (2013) 
+UC3:Saya percaya terhadap komunitas grup 
+facebook dosen Indonesia 
+Petter, DeLone and 
+McLean (2013) 
+UC4:Grup Facebook Dosen Indonesia akan 
+memenuhi harapan saya untuk bertukar 
+informasi dan pengetahuan 
+Petter, DeLone and 
+McLean (2013) 
+User Satisfaction US1:Saya puas terhadap aplikasi grup 
+Facebook yang saya gunakan 
+Petter, DeLone and 
+McLean (2013) 
+US2:Saya puas terhadap pengetahuan dan 
+informasi yang saya dapatkan dari grup 
+facaebook dosen indonesia 
+Petter, DeLone and 
+McLean (2013) 
+US3:Saya puas dengan fitur yang tersedia 
+pada aplikasi facebook 
+Petter, DeLone and 
+McLean (2013) 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Penelitian ini menggunakan metode SEM 
+(Structural Equation Model) dalam menganalisis 
+data yang telah didapatkan dari hasil survey. 
+SEM di aplikasikan dengam menggunakan 
+aplikasi Smart PLS V2. Terdapat dua langkah 
+utama dalam menganalisis data menggunakan 
+konsep SEM, yang pertama adalah dengan 
+analisis “measurement model” dan kemudian 
+diikuti dengan menganalisis “structural model”. 
+
+Analisis “Measurement Model” 
+Analisis “measurement model” merupakan 
+langkah utama yang harus dilakukan sebelum 
+uji hipotheses di lakukan. Tahapan ini 
+bertujuan untuk memastikan bahwa 
+instrument penelitian yang dikembangkan 
+dalam penelitian ini memenuhi kriteria yang 
+telah ditentukan pada sebuah penelitian 
+kuantitatif. Pada penelitian kuantitatif maka uji 
+validitas dan relaibilitas terhadap sebuah 
+instrument penelitian adalah kegiatan yang 
+wajib dilakukan. 
+
+Instrumen penelitian yang dikembangkan 
+dalam penelitian ini dibuat merujuk kepada 
+model yang dikembangkan dengan 
+menggunakan theory “Information Success 
+Model” oleh Delone and Mcleane, dimana pada 
+model penelitian ini ditambahkan variable “user 
+charateritic” yang menggambarkan karateristik 
+pengguna social media. Terdapat tujuh buah 
+variabel dalam model penelitian yaitu: Individual 
+Impact (II), Knowledge/ Information Quality (KI), 
+Sevice Quality (SQ), System Quality (SQM), System 
+Use (SU), User Charateristic (UC), User Satisfaction 
+(US). 
+
+Dari tujuh variabel kemudian dikembangkan 
+sebanyak 38 indikator yang dituangkan dalam 
+bentuk pernyataan dalam sebuah kuesioner. 
+Setelah dilakukan proses validitas terhadap 
+instrument penelitian, ditemukan bahwa tidak 
+semua indikator memenuhi nilai yang 
+disyaratkan untuk dapat digunakan sebagai 
+indikator pada variabel yang telah ditentukan. 
+Indikator yang memiliki nilai dibawah 0.6 
+dikeluarkan dari instrument penelitian. 
+Gambaran indikator awal dari setiap variabel 
+dan indikator akhir setelah proses validasi 
+dapat dilihat pada tabel 3. 
+
+Tabel 3. 
+
+Variabel dan Indikator Penelitian 
+
+No Variabel Jumlah Indikator Awal Jumlah Indikator Final 
+1 Individual Impact 4 buah (II1-4) 4 buah (II1-4) 
+2 Knowledge/Information Quality 10 buah (KI 1 -10) 10buah (KI 1-10) 
+3 Services Quality 3buah (SQ1-3) 3 buah (SQ1-3) 
+4 System Quality 11 buah (SQM1-11) 6 buah 
+(SQM11,10,9,8,6,7) 
+5 System Use 3 buah (SU1-3) 3 buah (SU1-3) 
+6 User Carateristich 4 buah (UC1 -4) 3 buah (UC2,3,4) 
+7 User Satisfaction 3 buah (US1-3) 3 buah (US1-3) 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+282 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Setelah semua variabel telah memiliki indiaktor 
+yang valid, maka dilakukan kembali uji ketahaptahap 
+berikutnya. 
+
+Uji Reliabilitas 
+
+Reabilitas diartikan sebagai derajat reliable dari 
+sebuah instrument, apakah instrumen akan 
+memberikan hasil yang konsisten jika diberikan 
+kepada berbagi responden. Untuk menguji 
+tingkat reabilitas maka evaluasi terhadap nilai 
+composite reability dan cronbachs alpha dari 
+setiap variable yang terdapat dalam instrument 
+penelitian dilakukan. 
+
+Nilai crobanch alfa yang berada diatas 0.7 
+menunjukan tingkat relibilitas yang baik bagi 
+sebuah variabel (Hair et al., 2011). Pada tabel 
+dibawah dapat dilihat bahwa semua variabel 
+berada pada nilai diatas 0.7. Hal ini 
+menunjukan bahwa tingkat reliabilitas variabel 
+ditinjau dari nilai crobanh alfa adalah telah 
+memenuhi kriteria. Nilai composite reliability 
+yang baik adalah jika berada diatas 0.7. Pada 
+tabel dibawah dapat ditemukan bahwa semua 
+nilai CR setiap variabel berada diatas 0.8 hal ini 
+menggambarkan bahwa semua variabel telah 
+memenuhi kriteria dan memenuhi unsur 
+reabilitas. 
+
+Komponen lain yang dapat dijadikan acuan 
+tambahan dalam menilai reliabiliatas Average 
+Variance Extracted (AVE). Nilai AVE digunakan 
+untuk menguji akar kuadrat dari setiap AVE 
+apakah korelasi lebih besar dari setiap konstruk 
+laten. Nilai AVE diatas 0.5 dianggap telah 
+memenuhi kriteria baik .Dari tabel diatas dapat 
+disimpulkan bahwa nilai AVE terendah untuk 
+setiap variabel adalah 0.62 yang dimiliki oleh 
+variabel “Knowledge/ Information Qualityt” (lihat 
+tabel 4), dapat kita simpulkan bahwa semua 
+variabel telah memenuhi standar reliabilitas 
+yang telah disepakati. 
+
+Uji Validitas 
+
+Suatu instrumen penelitian dapat dikatakan 
+baik jika mempunyai validitas yang memenuhi 
+kriteria yang telah disepakati. Sehingga apabila 
+instrument penelitian tersebut menjalankan 
+fungsi ukurnya, akan memberikan hasil yang 
+sesuai dengan tujuan dilakukannya pengukuran 
+tersebut. 
+
+Sedangkan tes yang memiliki validitas rendah 
+kemungkinan akan menghasilkan data yang 
+kurang atau mungkin tidak sesuai dengan 
+tujuan pengukuran. 
+
+Dalam melaksanakan uji validitas dapat 
+dilakukan evaluasi terhadap “construct validity”. 
+Pengukuran “construct validity” adalah untuk 
+mengevaluasi sejauh mana test yang dimaksud 
+mengukur sebuah konstrak teoritis . Evaluasi 
+ini dilaksanakan dengan melalui dua tahapan 
+umum, yaitu: pertama, konstruktor tes 
+dilakukan lewat pendekatan analisis faktor. 
+Kedua, mempertimbangkan bagaimana 
+hubungan sifat-ciri itu dengan variabel lain 
+dalam hal ini akan dilakukan tes yang akan 
+dilakukan berkaitan dengan “construct validity” 
+yaitu tes “discriminant validity” dan “convergent 
+validity” (Urbach & Ahlemann, 2010). 
+
+a. Analisis Faktor 
+Analisis faktor sangat relevan untuk validasi 
+konstak karena dapat dipakai untuk 
+mengidentifikasi dan mengakses kekuatan 
+relatif berbagai ciri-sifat psikologis yang 
+berbeda . Analisis faktor juga dapat dipakai 
+dalam merancang tes untuk mengidentifikasi 
+faktor atau faktor-faktor primer melalui 
+serangkaian test yang berbeda. Dengan 
+demikian, analisis faktor dapat digunakan 
+untuk menyederhanakan sebuah tes atau lebih 
+dengan mengurangi jumlah kategori menjadi 
+beberapa faktor atau beberapa ciri-sifat saja 
+
+b. Convergent Validity 
+Salah satu metode yang digunakan untuk 
+mencapai “construct validity” adalah dengan 
+melakukan sebuah tes kolerasi atau 
+konvergensi terhadap variabel yang ada dengan 
+indikatornya. Variabel yang indikatornya 
+berkonvergensi atau berkorelasi tinggi dengan 
+indikator-indikator lainnya dalam sebuah 
+variabel yang secara teoritis serupa dengannya.. 
+
+c. Discriminant Validity 
+Tes seharusnya tidak hanya menunjukkan 
+validitas konvergen ini, tetapi juga mempunyai 
+validitas diskriminatif, yang akan menunjukkan 
+korelasi rendah atau negarif dengan variabelvariabel 
+yang secara teoritis berbeda 
+dengannya. . 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Tabel 4 
+Hasil Uji Reliabilitas 
+Variabel Indikator 
+Final 
+Crobanch 
+Alpha Composite Reliability AVE 
+Individual Impact 4 0.873 0.9145 0.7293 
+10 
+Knowledge/Information Quality 0.9335 0.9438 0.6278 
+Services Quality 3 0.7022 0.833 0.6257 
+System Quality 6 0.8858 0.9143 0.6429 
+System Use 3 0.8038 0.8847 0.7196 
+User Carateristich 3 0.903 0.9394 0.8378 
+User Satisfaction 3 0.795 0.8798 0.7093 
+
+Tabel 5 
+
+Loading Factors 
+
+II KI SQ SQM SU UC US 
+II1 0.8113 
+II2 0.9239 
+II3 0.9196 
+II4 0.7482 
+KI1 0.6665 
+KI10 0.8494 
+KI2 0.8062 
+KI3 0.7261 
+KI4 0.8303 
+KI5 0.7788 
+KI6 0.7699 
+KI7 0.8117 
+KI8 0.8517 
+KI9 0.8137 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+284 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Tabel 5 (Sambungan) 
+
+Loading Factors 
+
+II KI SQ SQM SU UC US 
+SMQ10 0.8173 
+SMQ11 0.614 
+SMQ6 0.8603 
+SMQ7 0.7558 
+SMQ8 0.8857 
+SMQ9 0.8467 
+SQ1 0.7195 
+SQ2 0.8565 
+SQ3 0.7911 
+SU1 0.9029 
+SU2 0.8439 
+SU3 0.7945 
+UC2 0.8937 
+UC3 0.9309 
+UC4 0.9209 
+US1 0.8568 
+US2 0.8391 
+US3 0.8304 
+
+Tabel 6
+
+ Cross Loading Factors 
+
+II KI SQ SQM SU UC US 
+II1 0.8113 0.6885 0.3208 0.7339 0.7214 0.4942 0.6276 
+II2 0.9239 0.7036 0.2586 0.6348 0.7005 0.6873 0.6865 
+II3 0.9196 0.7062 0.2626 0.6523 0.7053 0.6474 0.7165 
+II4 0.7482 0.7414 0.0881 0.6417 0.6556 0.7414 0.5853 
+KI1 0.5338 0.6665 -0.048 0.6405 0.6161 0.4578 0.4575 
+KI10 0.694 0.8494 0.355 0.8446 0.766 0.6636 0.6828 
+KI2 0.522 0.8062 0.298 0.7462 0.6297 0.6044 0.5484 
+KI3 0.4813 0.7261 0.0943 0.6035 0.5997 0.5013 0.3534 
+KI4 0.6778 0.8303 0.3564 0.6431 0.6907 0.7348 0.6981 
+KI5 0.6575 0.7788 0.324 0.6379 0.6304 0.6186 0.5405 
+KI6 0.6981 0.7699 0.4094 0.5847 0.6366 0.6188 0.7074 
+KI7 0.7382 0.8117 0.216 0.7019 0.674 0.6713 0.6458 
+KI8 0.7408 0.8517 0.4512 0.8242 0.7873 0.6241 0.6418 
+KI9 0.7632 0.8137 0.3801 0.7096 0.7354 0.7604 0.7397 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Tabel 6 (Sambungan) 
+Cross Loading Factors 
+II KI SQ SQM SU UC US 
+SMQ10 0.4246 0.6651 0.1602 0.8173 0.5244 0.474 0.5003 
+SMQ11 0.5072 0.5487 -0.027 0.614 0.3869 0.4443 0.5297 
+SMQ6 0.6723 0.7919 0.3789 0.8603 0.6787 0.6361 0.6417 
+SMQ7 0.7697 0.7476 0.1844 0.7558 0.7085 0.5372 0.6523 
+SMQ8 0.6493 0.7178 0.2635 0.8857 0.6594 0.555 0.6354 
+SMQ9 0.6666 0.7147 0.3737 0.8467 0.7403 0.5689 0.573 
+SQ1 0.2449 0.1814 0.7195 0.1678 0.2901 0.0015 0.2531 
+SQ2 0.1778 0.3314 0.8565 0.3518 0.2937 0.1528 0.3604 
+SQ3 0.243 0.3458 0.7911 0.17 0.2872 0.2901 0.312 
+SU1 0.6796 0.7255 0.4485 0.6615 0.9029 0.6506 0.7273 
+SU2 0.7572 0.7477 0.1855 0.6464 0.8439 0.6415 0.6915 
+SU3 0.6336 0.7399 0.2967 0.6945 0.7945 0.6232 0.5218 
+UC2 0.7216 0.7681 0.1038 0.6135 0.6427 0.8937 0.6939 
+UC3 0.6534 0.732 0.2506 0.6291 0.7125 0.9309 0.6475 
+UC4 0.6856 0.6892 0.21 0.6099 0.7118 0.9209 0.7181 
+US1 0.7067 0.6393 0.2269 0.6246 0.6175 0.6795 0.8568 
+US2 0.5948 0.6157 0.4206 0.6119 0.6476 0.5109 0.8391 
+US3 0.637 0.6964 0.3542 0.631 0.6748 0.6966 0.8304 
+
+Tabel 7. 
+
+Descriminant Validity 
+
+AVE CR II KI SQ SQM SU UC US 
+
+
+II 0.7293 0.9145 1 
+KI 0.6278 0.9438 0.8307 1 
+SQ 0.6257 0.833 0.2763 0.373 1 
+SQM 0.6429 0.9143 0.78 0.8781 0.2957 1 
+SU 0.7196 0.8847 0.8159 0.8689 0.3649 0.7848 1 
+UC 0.8378 0.9394 0.7505 0.798 0.2055 0.6749 0.7526 1 
+US 0.7093 0.8798 0.7684 0.773 0.3944 0.7393 0.7677 0.7495 1 
+
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+286 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Analisis “Structural Model” 
+Setelah analisis terhadap “measurement model” 
+dilakukan, maka langkah selanjutnya adalah 
+melakukan analisis terhadap “structural model”. 
+Proses analisis structural model dilakukan untuk 
+memastikan hubungan antar variabel yang 
+telah didefinisikan pada saat konseptual model 
+dalam penelitian ini dikembangkan. Dalam 
+menganalisis “structural model” maka kegiatan 
+untuk memvalidasi model menjadi bagian yang 
+cukup penting. Terdapat beberapa hal yang 
+dapat dilakukan untuk memastikan bahwa 
+model dalam kategori fit antara lain dengan 
+mengevaluasi nilai “coefecient determinantiont” 
+(R2) , kemudian mengevaluasi nilai “Path 
+Coefecient” dan kemudian mengevaluasi nilai 
+“effect size”() 
+
+a. Evaluasi Coefecient Determinantiont (R2) 
+R2 dapat diartikan sebagai Pengaruh bersama 
+seharusnya merupakan total dari masingmasing 
+pengaruh variable independent 
+(eksogen) terhadap variable dependent 
+(endogen) . Berdasarkan hasil analysis data 
+maka nilai R2 (pengaruh bersama) dari variabel 
+“UC”, “SQ”, “KI”, “SQM” terhadap variabel 
+dependent “SU” adalah 0.75924, Sedangkan 
+nilai R2 variabel “UC”, “SQ”, “KI”, “SQM” 
+terhadap variabel dependent “US” adalah 
+0.6585. 
+
+Sedangkan nilai R2 keenam variabel tersebut 
+secara bersama-sama terhadap variabel 
+“Individual Impact” adalah 0.7149. Nilai ini 
+terkategori tinggi, Sehingga dapat disimpulkan 
+bahwa satu variabel independent dan lima 
+variabel dependen tersebut secara bersamasama 
+memberikan pengaruh dengan tingkat 
+tinggi terhadap variabel dependent “Individual 
+Impact”. 
+
+b. Evaluasi Path Coefecient (Path Analisis) 
+Path coefficient/ path weight pada umumnya 
+adalah koefisien regresi yang distandarkan. 
+Beberapa peneliti mengklaim bahwa nilai path 
+coefficient yang baik adalah diatas 0.1, jika nilai 
+path coefficient maka variabel tersebut 
+memberi effect pada model . 
+
+Uji Hipoteses 
+
+Pada awal kegiatan penelitian ini dilakukan 
+pengembangan hipoteses. Hipoteses yang 
+dikembangkan didasarkan atas hasil kajian 
+peneliti-peneliti sebelumnya yang membahas 
+mengenai evaluasi kesuksesaan sebuah layanan 
+dari system informasi Duabelas buah 
+hipoteses dikembangkan untuk 
+menggambarkan hubungan diantara ke tujuh 
+buah variabel tersebut. Adapun hasil pengujian 
+hipoteses menggunakan software Smart PLS 
+V2 terlihat pada gambar 2 dibawah ini. 
+Sedangkan hasil pengohalan data uji hipoteses 
+terlihat pada tabel 10 dan tabel 11. 
+
+Tabel 8. 
+
+Variabel Penelitian 
+
+Independent Variabel 
+
+Dependent Variabel 
+User Charateristic Individual Impact 
+
+Knowledge/ Information Quality 
+
+System Quality 
+
+Service Quality 
+
+System Use 
+
+User Satisfaction 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Tabel 9. 
+Model Fit Indikator 
+R Square Cronbachs Alpha Communality Redundancy 
+II 0.7149 0.873 0.7293 0.4317 
+KI 0.6369 0.9335 0.6278 0.3956 
+SQ 0.0422 0.7022 0.6257 0.0231 
+SQM 0.4555 0.8858 0.6429 0.2891 
+SU 0.7592 0.8038 0.7196 0.5338 
+UC 0 0.903 0.8378 0 
+US 0.6585 0.795 0.7093 0.1972 
+
+
+Gambar 4. 
+
+Struktural Model 
+Setelah dilakukan analisis terhadap data yang dikumpulkan maka didapatkan hasil sebagai berikut: 
+Tabel 10. 
+
+
+T Statistic Value 
+
+Original 
+Sample 
+(O) 
+Sample 
+Mean 
+(M) 
+Standard 
+Deviation 
+(STDEV) 
+Standard Error 
+(STERR) 
+T Statistics 
+(|O/STERR|) 
+KI -> SU 0.7596 0.7622 0.07 0.07 10.8515 
+KI -> US 0.2082 0.2146 0.137 0.137 1.519 
+SQ -> SU 0.0512 0.0501 0.0478 0.0478 1.0718 
+SQ -> US 0.1157 0.1166 0.0766 0.0766 1.5111 
+SQM -> SU 0.1026 0.0996 0.0663 0.0663 1.5491 
+SQM -> US 0.2471 0.2441 0.1099 0.1099 2.2489 
+SU -> II 0.5504 0.5507 0.0616 0.0616 8.9301 
+SU -> US 0.3507 0.3409 0.1005 0.1005 3.4908 
+UC -> KI 0.798 0.7993 0.0275 0.0275 29.0091 
+UC -> SQ 0.2055 0.203 0.1074 0.1074 1.9144 
+UC -> SQM 0.6749 0.6766 0.0457 0.0457 14.7837 
+US -> II 0.3459 0.3454 0.0633 0.0633 5.4605 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+288 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Setelah dilakukan serangkaian tahapan untuk 
+menguji hipoteses maka, didapatlah hasil 
+seperti yang dapat dilihat pada tabel, berikut: 
+
+Tabel 11 
+
+Hasil Uji Hipoteses 
+
+Variable Path T-
+
+Hipotheses P-Value Hasil 
+
+Relationship Coeffecient statistic 
+
+H1 UC -> SQM 12.53 14.7837 0.0001 Signifikan 
+H2 UC -> KI 24.50 29.0091 0.0001 Signifikan 
+H3 UC -> SQ 2.103 1.9144 0.0570 Tidak Signifikan 
+H4 SQM -> SU 1.663 1.5491 0.1230 Tidak Signifikan 
+H5 SQM -> US 2.44 2.2489 0.0256 Tidak Signifikan 
+H6 KI -> SU 11.597 10.8515 0.0001 Signifikan 
+
+0.1304 
+
+H7 KI -> US 1.37 1.519 Tidak Signifikan 
+
+H8 SQ -> SU 1.08 1.0718 0.2851 Tidak Signifikan 
+H9 SQ -> US 1.454 1.5111 0.1324 Tidak Signifikan 
+H10 SU -> US 3.515 3.4908 0.0006 Signifikan 
+H11 SU -> II 8.434 8.9301 0.0001 Signifikan 
+H12 US -> II 5.281 5.4605 0.0001 Signifikan 
+
+DF= jumlah responden-jumlah variable Merujuk kepada hasil penelitian diatas maka 
+
+DF=160-5 
+
+dapat disimpulkan bahwa variabel 
+
+DF=155 
+
+“SystemUse” dan variabel “user satisfaction” 
+
+Dari dua belas hipoteses yang dibangun pada dalam pemanfaatan media sosial untuk berbagi 
+penelitian ini, maka enam hipoteses hasilnya pengetahuan tetap menjadi variabel utama 
+didukung dan enam hipoteses dinyatakan tidak yang mempengaruhi pemanfaatan facebook. 
+mendukung. Dari hasil penelitian didapatkan Sementara itu variabel “System Use” 
+bahwa variabel “system use” dan “user satisfaction” dipengaruhi oleh presepsi pengguna berkaitan 
+terbukti mempengaruhi variabel “individual dengan “Information/ Knowledge Quality” 
+impact”. Variabel “user characteristic” juga terbukti dan variabel “Information/ Knowledge Quality” 
+mempengaruhi variable “system quality” dan dipengaruhi oleh variabel “User Charateristic”. 
+“information quality”, namun penelitian ini tidak Sehingga dapat digambarkan sebuah model 
+menemukan hubungan antara “system quality” yang menggambarkan hubungan antar variabel 
+dan “service quality” terhadap “user satisfaction” tersebut yang terlihat pada gambar 5. 
+dan “sytem use”. 
+
+
+Gambar 5. 
+
+
+Model Sukses Pemanfaatan Facebook untuk Knowledge Sharing 
+
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Hasil dan Pembahasan 
+
+Merujuk kepada teori kesuksesan informasi 
+(Delone dan McLean, 1992) maka dalam 
+mengevaluasi kesuksesaan pemanfaatan 
+sebuah sistem informasi terdapat dua variabel 
+utama yaitu “system use” dan “user satisfaction” 
+yang akan berdampak kepada variabel “ 
+individual impact”. Dalam penelitian saat ini 
+yang dilakukan didaptkan hasil bahwa kedua 
+variabel ini (system use dan user satisfaction) 
+terbukti juga menjadi variabel utama yang 
+mempengaruhi pemanfaatan facebook sebagai 
+sarana berbagi pengetahuan oleh anggota grup 
+dosen. Kedua variabel secara signifikan 
+mempengaruhi variabel “individual impact”. 
+Dapat diartikan bahwa para anggota grup 
+facebook dosen Indonesia telah menggunakan 
+grup facebook untuk mengkomunikasikan 
+pengetuahuan dan informasi dengan sesama 
+anggota grup. Anggota grup facebook juga 
+telah merasa puas terhadap fitur dan 
+komunikasi yang mereka jalin menggunakan 
+facebook. 
+
+Hasil penelitian ini juga membuktikan bahwa 
+para anggota grup facebook dosen Indonesia 
+memiliki presepsi aplikasi facebook telah 
+sukses menjadi sarana bagi mereka dalam 
+berbagi pengetahuan. Anggota grub dosen 
+berkeyakinan bahwa grub facebook adalah 
+salah satu wadah bagi mereka dalam 
+menambah pengetahuan, mereka juga percaya 
+bahwa grup facebook dosen membuat 
+produktifitas kerja menjadi lebih baik. Selain 
+itu juga informasi yang disampaikan di grup 
+facebook diyakini dapat membantu dosen 
+untuk dapat mebuat keputusan yang lebih baik 
+dalam menjalankan pekerjaannya. 
+
+Hasil hipoteses menunjukan variabel “system 
+use” hanya dipengaruhi oleh 
+“Information/Knowledge Quality”. Hasil penelitian 
+ini menunjukkan pemanfaatan media social 
+oleh para dosen di Indonesia di pengaruhi 
+terutama oleh kualitas informasi yang tersedia. 
+Pengguna social media berpresepsi bahwa 
+informasi menjadi hal yang penting dalam 
+memanfaatkan social media. Hasil kajian ini 
+tidak relevan dengan penelitian lain (Silius, 
+Kailanto & Tervakari, 2011). 
+
+Dalam penelitiannya Silius dkk, mengekplorasi 
+alasan presepsi civitas akademik dalam 
+menggunakan media social. Mereka 
+menemuka bahwa fitur merupakan hal 
+terpenting yang ada di media social, dan 
+informasi menjadi hal penting lainnya. Temuan 
+lain dalam penelitian ini adalah penelitian ini 
+tidak memenukan hubungan antara variabel 
+“knowledge/information quality”, “system quality” 
+dan “service quality” terhadap kepuasan 
+pengguna. Temuan ini menarik dikarenakan 
+kepuasan pengguna ternyata pada kasus 
+penelitian ini tidak berasal dari ketiga variabel 
+yang ada, sehingga kemungkinan ada variabel 
+lain yang mempengaruhi kepuasan pengguna. 
+
+Untuk variabel karateristik individual yang juga 
+diuji dalam penelitian ini ditemukan bahwa 
+variabel ini mempengaruhi variabel “system 
+quality” dan “information quality”, namun 
+varaibel karateristik individu tidak 
+mempengaruhi “service quality”. Sehingga dapat 
+diartikan bahwa rasa nyaman dan kepercayaan 
+dosen dalam menggunakan facebook 
+mempengaruhi kepuasan dosen bahwa 
+facebook mudah digunakan, mudah dipelajari 
+dan mudah dikases, serta memiliki fitur yang 
+bermanfaat. Kepuasan dosen terhadap 
+facebook juga mempengaruhi presepsi mereka 
+bahwa informasi dan pengetahuan yang 
+tersedia atau didapatkan di grup dosen adalah 
+informasi dan pengetahuan yang valid, 
+objektif, akurat, bereputasi dan bermanfaat 
+bagi pekerjaan dan karir sebagai dosen. 
+
+Namun kepuasan mereka terhadap facebook 
+tidak mempengaruhi kualitas layanan dari 
+sistem facebook. Kami berpendapat bahwa 
+anggota grup dosen merasa kualitas layanan 
+facebook belum maksimal, dapat saja 
+dipengaruhi oleh masih belum baiknya kualitas 
+infrastruktur jaringan internet di Indonesia 
+pada umumnya. 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+290 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Simpulan 
+
+Berdasarkan hasil penelitian dapat disimpulkan 
+bahwa saat ini para anggota grup FB dosen 
+Indonesia merasa puas dengan media social 
+(facebook) yang telah menjadi tool/sarana bagi 
+mereka dalam berbagi informasi dan 
+pengetahuan. Anggota grup puas setelah 
+terlebih dahulu menggunakan media sosial 
+tersebut dan merasa bahwa media sosial 
+sebagai sarana berbagi pengetahuan 
+berdampak pada pemenuhan kebutuhan 
+informasi mereka. 
+
+Hasil temuan pada penelitian ini secara 
+keilmuan menguatkan kembali bahwa variabel 
+“system use” dan “user satisfaction” adalah dua 
+variabel utama yang mempengaruhi pengguna 
+dalam pengukuran/evaluasi kesuksesan 
+sebuah sistem informasi. Sedangkan secara 
+manajerial temuan ini dapat djadikan acuan 
+bagi para pengembang/pengelola media sosial 
+untuk dapat fokus kepada kedua variabel ini 
+untuk dapat secara efektif menemukan pola 
+hubungan atau mekanisme yang tepat yang 
+dapat membangun sistem informasi yang tepat 
+sehingga sukses untuk digunakan 
+dimasyarakat. Hasil pengujian dengan 
+mengikutsertakan variabel “User Charateristic” 
+menunjukan bahwa variabel ini memiliki 
+pengaruh terhadap kesuksesan pemanfaatan 
+facebook sebagai media untuk berbagi 
+pengetahuan. 
+
+Terdapat dua agenda penting yang akan 
+dilakukan pada penelitian selanjutnya, pertama 
+berkaitan dengan variabel lain yang mungkin 
+mempengaruhi kepuasaan pengguna dalam 
+menggunakan media social. Yang kedua 
+bagiamana mengidentifikasikan bahwa 
+infrastruktur internet sebagai penopang 
+penggunaan media social dapat ikut di jadikan 
+tolak ukur bagi kesuksesan sebuah system 
+informasi. Sehingga tidak terjadi pemahaman 
+yang abu-abu tentang kualitas sebuah sistem 
+jika evaluasi memanfaatkan teori IS Success 
+Model (Delone and McLean, 2013). 
+
+Daftar Pustaka 
+
+Agourram, H. (2009). Defining information 
+system success in Germany. International 
+Journal of Information Management, 29(2), 
+129-137. 
+
+Ali, N., Che Cob, Z., & Sulaiman, H. (2016). 
+Knowledge management systems success model 
+for higher education institutions: a partial least 
+square approach. 
+
+Ardichvili, A., Page, V., & Wentling, T. (2003). 
+Motivation and barriers to participation 
+in virtual knowledge -sharing 
+communities of practice. Journal of 
+knowledge management, 7(1), 64-77. 
+
+Assegaff, S. (2015). Pengaruh Alturisme, Reputasi 
+dan Balas Jasa terhadap Aktivitas Berbagi 
+Pengetahuan Akademisi pada Komunitas 
+Virtual: Studi Kasus Group Facebook 
+Dosen Indonesia. 
+
+Assegaff, S., Kurniabudi, K., & Fernando, E. 
+(2016). Impact of Extrinsic and Intrinsic 
+Motivation Element to People 
+Knowledge Sharing Behavior at Virtual 
+Communities of Practices in Indonesia. 
+Indonesian Journal of Electrical Engineering 
+and Computer Science, 1(3), 619-626. 
+
+Assegaff, S., & Mulyono, H. (2015). The Role 
+of Benefit and Cost in Acceptance 
+Knowledge Management System: 
+Knowledge Contributor Perspectives. 
+The Role of Service in the Tourism & 
+Hospitality Industry, 113. 
+
+Baehr, C., & Alex-Brown, K. (2010). Assessing 
+the value of corporate blogs: A social 
+capital perspective. Professional 
+Communication, IEEE Transactions on, 
+53(4), 358-369. 
+
+Bock, G-W, Zmud, R.W., Kim, Y-G., & Lee, J
+
+
+N. (2005). Behavioral intention 
+formation in knowledge sharing: 
+Examining the roles of extrinsic 
+motivators, social-psychological forces, 
+and organizational climate. MIS quarterly, 
+87-111. 
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+
+Jurnal Manajemen Teknologi, 16(3), 2017, 271-293 
+
+Chin, W.W. (2010). How to Write Up and 
+Report PLS Analyses. In V. Esposito 
+Vinzi, W. W. Chin, J. Henseler & H. Wang 
+(Eds.), Handbook of Partial Least Squares 
+(pp. 655 -690): Springer Berlin 
+Heidelberg. 
+
+Culnan, M. J, McHugh, Patrick J, & Zubillaga, 
+Jesus I. (2010). How Large US 
+Companies Can Use Twitter and Other 
+Social Media to Gain Business Value. 
+MIS Quarterly Executive, 9(4). 
+
+DeLone, W. H, & McLean, E.R. (2002). 
+Information systems success revisited. Paper 
+presented at the System Sciences, 2002. 
+HICSS. Proceedings of the 35th Annual 
+Hawaii International Conference on. 
+
+DeLone, W. H, & McLean, E.R. (2016). 
+Information Systems Success 
+Measurement. Foundations and Trends® in 
+Information Systems, 2(1), 1-116. 
+
+Gable, G.G., Sedera, D., & Chan, T. (2008). Re-
+conceptualizing information system 
+success: The IS-impact measurement 
+model. Journal of the association for 
+information systems, 9(7), 377. 
+
+Hair, J.F, Ringle, C.M, & Sarstedt, M. (2011). 
+PLS-SEM: Indeed a silver bullet. Journal 
+of Marketing theory and Practice, 19(2), 139
+
+
+152. 
+Hanna, R., Rohm, A., & Crittenden, V.L. 
+(2011). We're all connected: The power 
+of the social media ecosystem. Business 
+horizons, 54(3), 265-273. 
+
+Hemsley, J., & Mason, R.M. (2013). Knowledge 
+and knowledge management in the 
+social media age. Journal of Organizational 
+Computing and Electronic Commerce, 23(12), 
+138-167. 
+
+Hislop, D. (2013). Knowledge management in 
+organizations: A critical introduction: Oxford 
+University Press. 
+
+Jan, A., & Contreras, V. (2016). Success model 
+for knowledge management systems 
+used by doctoral researchers. Computers in 
+Human Behavior, 59, 258-264. 
+
+Jennex, M. (2017). Re-Examining the Jennex 
+Olfman Knowledge Management Success 
+Model. Paper presented at the 
+Proceedings of the 50th Hawaii 
+International Conference on System 
+Sciences. 
+
+Jennex, M.E., Smolnik, S., & Croasdell, D. 
+(2014). Knowledge management success in 
+practice. Paper presented at the System 
+Sciences (HICSS), 2014 47th Hawaii 
+International Conference on. 
+
+Kaplan, A. M, & Haenlein, M. (2010). Users of 
+the world, unite! The challenges and 
+opportunities of Social Media. Business 
+horizons, 53(1), 59-68. 
+
+Lin, Hsiu-Fen. (2007). Effects of extrinsic and 
+intrinsic motivation on employee 
+knowledge sharing intentions. Journal of 
+information science. 
+
+Maillet, É., Mathieu, L., & Sicotte, C. (2015). 
+Modeling factors explaining the 
+acceptance, actual use and satisfaction 
+of nurses using an Electronic Patient 
+Record in acute care settings: An 
+extension of the UTAUT. International 
+journal of medical informatics, 84(1), 
+36-47. 
+
+Majchrzak, A., Rice, R.E, Malhotra, A., King, 
+N., & Ba, S. (2000). Technology 
+Adaptation: The Case of a Computer-
+Supported Inter-Organizational Virtual 
+Team. MIS quarterly, 24(4). 
+
+Manev, G., & Jakimovski, J. (2015). Knowledge 
+management based organizations. Škola 
+biznisa(1), 34-46. 
+
+Mao, H., Liu, S., Zhang, J., & Deng, Z.(2016). 
+Information technology resource, 
+knowledge management capability, and 
+competitive advantage: the moderating 
+role of resource commitment. 
+International Journal of Information 
+Management, 36(6), 1062-1074. 
+
+Meihami, B., & Meihami, H. (2014). 
+Knowledge Management a way to gain a 
+competitive advantage in firms 
+(evidence of manufacturing companies). 
+International Letters of Social and 
+Humanistic Sciences(03), 80-91. 
+
+Jurnal 
+
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+292 
+
+
+Assegaff/Evaluasi Pemanfaatan Media Sosial sebagai Sarana Knowledge Sharing 
+
+Nonaka, I. (2008). The knowledge-creating 
+company: Harvard Business Review Press. 
+
+Nonaka, I, & Toyama, R. (2015). The Knowledge-
+creating Theory Revisited: Knowledge Creation 
+as a Synthesizing Process The Essentials of 
+Knowledge Management (pp. 95-110): 
+Springer. 
+
+Nugroho, H. (2005). The political economy of 
+higher education: the university as an 
+arena for the struggle for power. Social 
+science and power in Indonesia, 143-166 
+
+Panigrahi, S.K., Zainuddin, Y., & Azizan, N. A. 
+(2014). Investigating Key Determinants for the 
+Success of Knowledge Management System 
+(KMS) in Higher Learning Institutions of 
+Malaysia Using Structural Equation 
+Modeling. 
+
+Paroutis, S., & Al Saleh, A. (2009). 
+Determinants of knowledge sharing 
+using Web 2.0 technologies. Journal of 
+Knowledge Management, 13(4), 52-63. 
+
+Petter, S., DeLone, W., & McLean, E.R. (2013). 
+Information systems success: The quest 
+for the independent variables. Journal of 
+Management Information Systems, 29(4), 7
+
+
+62. 
+Razmerita, L., Kirchner, K., & Sudzina, F. 
+(2009). Personal knowledge 
+management: The role of Web 2.0 tools 
+for managing knowledge at individual 
+and organisational levels. Online 
+Information Review, 33(6), 1021-1039. 
+
+Sabri, A. (2014). Applying DeLone and 
+McLean IS success model on 
+sociotechno Knowledge Management 
+System. International Journal of Computer 
+Science Issues (IJCSI), 11(6), 160. 
+
+Silius, K., Kailanto, M., & Tervakari, A-M. 
+(2011). Evaluating the quality of social media 
+in an educational context. Paper presented at 
+the Global Engineering Education 
+Conference (EDUCON), 2011 IEEE. 
+
+Uden, L, Oshee, D.F., Ting, I-H., & Liberona, 
+
+D. (2015). Knowledge Management in 
+Organizations: Springer. 
+Urbach, Nils, & Ahlemann, Frederik. (2010). 
+Structural equation modeling in 
+information systems research using 
+partial least squares. Journal of Information 
+Technology Theory and Application, 11(2), 5
+
+
+40. 
+Von 
+Krogh, G. (2012). How does social 
+software change knowledge 
+management? Toward a strategic 
+research agenda. The Journal of Strategic 
+Information Systems, 21(2), 154-164. 
+
+Wang, S., Noe, R.A, & Wang, Z.-M.. (2014). 
+Motivating knowledge sharing in 
+knowledge management systems: A 
+quasi–field experiment. Journal of 
+Management, 40(4), 978-1009. 
+
+Wicaksono, T.Y., & Friawan, D. (2011). Recent 
+developments in higher education in 
+Indonesia: Issues and challenges. 
+Financing higher education and economic 
+development in East Asia, 159-187. 
+
+Wu, J-H., & Wang, Y-M. (2006). Measuring 
+KMS success: A respecification of the 
+DeLone and McLean 's model. 
+Information & Management, 43(6), 728
+
+
+739. 
+Yates, D., & Paquette, S. (2011). Emergency 
+knowledge management and social 
+media technologies: A case study of the 
+2010 Haitian earthquake. International 
+Journal of Information Management, 31(1), 
+6-13. 
+
+Jurnal 
+Manajemen Teknologi 
+Vol. 16 | No. 3 | 2017 
+
+

@@ -1,0 +1,838 @@
+Rancangan Model Frame Multicopter: Literature Review 
+
+ 
+
+Erick Fernando1, Derist Touriono2 
+
+12Program Studi Teknik Informatika, STIKOM Dinamika Bangsa, Jambi 
+
+Jl. Jendral Sudirman Thehok - Jambi 
+
+ E-mail: 1Erick.fernando_88@yahoo.com, 2ratz3x@yahoo.co.uk 
+
+ 
+
+ 
+
+ABSTRAK 
+
+Penelitian ini memaparkan Model-model multicopter yang dapat digunakan untuk perancangan 
+multicopter. Penelitian ini menggunakan metode literature review. Literature didapat dengan melakukan 
+penelusuran di berbagai artikel ilmiah yang terbit pada jurnal ilmiah bereputasi internasional, penelitian 
+ini mereview dan menganalisis model-model multicopter. Artikel yang berkaitan dengan “model frame 
+multicopter” dikumpulkan melalui database jurnal online seperti: Google Scholar, ProQuest, EBSCOhost, 
+dan IEEEexplore. “model multicopter” dan “design multicopter” digunakan sebagai kata kunci dalam 
+pencarian artikel. Artikel tersebut kemudian direview dan dianalisis untuk kemudian di paparkan 
+berkaitan dengan model – model frame multicopter. Penelitian ini menemukan bahwa model multicopter 
+untuk merancang pesawat multicopter ada 4 model multicopter yaitu: tricopter, quadcopter, octacopter, 
+hexacopter. Multicopter tipe tricopter merupakan multicopter yang sangat menghemat daya arus dalam 
+pengguna sedangkan Multicopter dengan tipe hexacopter dan octacopter merupakan multicopter yang 
+memiliki stabilitas tinggi dalam penerbangan. 
+
+ 
+Kata kunci: Model Multicopter, Literature revie,Frame 
+
+ 
+
+ABSTRACT 
+
+This study describes multicopter models that can be used for the design multicopter. This study uses 
+literature review. Literature obtained by performing a search in various scientific articles published in 
+scientific journals of international repute, this research review and analyze models multicopter. Articles 
+related to "model frame multicopter" collected through online journal databases such as Google Scholar, 
+ProQuest, EBSCOhost, and IEEEexplore "model multicopter" and "design multicopter" is used as a 
+keyword in the search articles. The article was then reviewed and analyzed for later in the mentioned 
+relating to the models multicopter frame. This study found that the model multicopter to aircraft design 
+multicopter there are four models multicopter are: tricopter, quadcopter, octacopter, hexacopter. 
+Multicopter types multicopter tricopter is very saving power flows in use while Multicopter with type 
+hexacopter and octacopter is multicopter which has high stability in flight. 
+
+ 
+
+Keywords: Model Multicopter, Literature review,frame 
+
+ 
+
+1. PENDAHULUAN 
+
+
+Didalam dunia robot sangat mengalami perkembangan yang sangat pesat. Salah Satu 
+perkembangannya adalah perkembangan sebuah robot terbang atau dapat dikatakan Aeromodelling. 
+Aeromodelling sendiri merupakan miniatur (model) pesawat terbang. Salah satu modelnya dengan 
+menggunakan multirotor. Multirotor merupakan sebuah benda yang terbang dengan menggunakan lebih 
+dari dua rotor/motor sebagai penggerak baling-baling [1]. Multicopter sering disebut juga multi rotor/mulir 
+motor dikarenakan banyak menggunakan rotor/motor sebagai pengerak terbang. Multi rotor merupakan 
+unmanned aerial vehicle (UAV) merupakan pesawat yang tanpa pilot manusia di dalamnya. Multi rotor, 
+sebagai subsistem dari UAV, merupakan kendaraan udara dengan menggunakan rotor dengan melakukan 
+lepas landas secara vertikal dan kemampuan mendarat mendarat juga secara vertikal [2]. Multi rotor dapat 
+digunakan di segala keadaan, misalnya di daerah yang terlalu berbahaya atau tidak terjangkau bagi manusia 
+dalam kasus bencana lingkungan. 
+
+Dengan berbagai manfaat yang dapat dihasilkan maka banyak peneliti mengembangkan multirotor 
+ini sebagai penelitian dengan berbagai bentuk/model multirotor dengan jumlah motornya. Didalam 
+penelitian ini akan merepresentasikan bentuk atau model multicopter yang dapat digunakan untuk 
+merancang pesawat dengan banyak rotor. Dengan penelitian ini juga dapat memberikan sebuah gambaran 
+kelebihan dan kekurangan yang ada pada setiap multicopter yang akan dirancang. 
+
+ 
+
+ 
+
+
+2. METODOLOGI PENELITIAN 
+
+
+ Penelitian ini merupakan penelitian dengan menggunakan pendekatan utama studi literature atau 
+Literatur review (LR). Dengan menerapkan LR, literatur sistematis digunakan untuk meningkatkan sintesis 
+penelitian dengan memperkenalkan proses literatur-review sistematis, transparan, dan direproduksi [3]. 
+Moher et al (2005) memiliki beberapa tahap proses untuk melakukan tinjauan literatur menjadi tiga fase: 
+perencanaan review, melakukan review, dan pelaporan dan penyebaran temuan [4]. 
+
+ 
+
+1. Perancanaan Review 
+
+
+ Dalam rangka untuk mendapatkan artikel yang sesuai dan berkualitas tinggi, strategi yang tepat 
+adalah perlu mengembangkan. Strategi pencarian artikel dalam penelitian ini adalah: menemukan ejaan 
+alternatif dan sinonim, memverifikasi kata kunci dalam setiap kertas yang sesuai dan Penggunaan Boolean 
+Operator. Dalam melakukan artikel mencari, kami menggunakan beberapa terkemuka jurnal database 
+seperti; Google Schoolar, EBSCOhost, ProQuest dan IEEE. 
+
+Langkah pertama kami dalam proses ini adalah untuk menentukan lingkup artikel menjadi suatu proses 
+pencarian. Dengan menentukan istilah yang tepat kesempatan untuk mendapatkan artikel yang mempunyai 
+kesesuaian yang baik atau tinggi. Istilah utama dalam string pencarian berasal dari pertanyaan penelitian 
+yang sedang dikerjakan. Kami menggunakan beberapa istilah dan melakukan pencarian artikel 
+menggunakan string pencarian berikut pada basis data jurnal yang termuka: ( "multicopter" OR 
+"multirotor") AND ( "frame copter") AND ( "model copter") OR ( "model frame multicopter"). Hasil akhir 
+dari artikel yang dicari, istilah pencarian, dan jumlah publikasi ditemukan untuk setiap sumber daya yang 
+tercantum dalam Tabel 1. 
+
+Tabel 1. 
+
+Sumber Data 
+
+ 
+
+Database 
+jurnal 
+
+Total 
+hasil 
+
+Fase pertama 
+(Judul dan 
+review 
+abstrak) 
+
+Tahap kedua 
+(Ulasan Full Text) 
+
+Emerald 
+
+40 
+
+18 
+
+3 
+
+ProQuest 
+
+40 
+
+17 
+
+4 
+
+IEEExplore 
+
+30 
+
+15 
+
+5 
+
+Total 
+
+120 
+
+50 
+
+11 
+
+
+
+ 
+
+Tabel 2. 
+
+Sumber Data 
+
+ 
+
+Search Key Word and Term 
+
+Boolean 
+
+Multicopter 
+
+frame copter 
+
+model frame 
+multicopter 
+
+Multirotor 
+
+Model copter 
+
+OR 
+
+AND 
+
+OR 
+
+
+
+ 
+
+2. Hasil Pencarian 
+
+
+ Tahap ini adalah proses pemilihan artikel yang dianggap sesuai dengan penelitian. Proses yang 
+dilakukan adalah melakukan penghapusan dari duplikat artikel, semua artikel 120 judul dan abstrak 
+ditemukan melalui pencarian pertama disaring oleh satu review untuk mengecualikan artikel yang tidak 
+memenuhi kriteria. Proses pemilihan pertama dari artikel yang dianggap sesuai dan baik berjumlah 50 
+artikel. Artikel yang berpotensi memenuhi syarat penelitian kemudian diidentifikasi dengan mereview judul 
+
+
+dan abstrak penelitian dari 50 artikel yang tersisa dan selanjutnya melakukan proses review dilihat dari isi 
+secara penuh tersisa 12 artikel yang dianggap layak, sesuai dan baik untuk proses literature review ini. Dan 
+11 artikel ini menjadi review akhir dari proses pencarian. 
+
+3. Proses Analisis Data 
+
+
+ Proses analisis data adalah melakukan proses review. Pada akhir proses analisis data yang telah 
+mengidentifikasi model frame multicopter dari 11 artikel. 
+
+ 
+
+Tabel 3. 
+
+Hasil Review Artikel 
+
+ 
+
+No 
+
+Penulis 
+
+Judul artikel 
+
+Topik 
+
+1 
+
+Sai Khun Sai and Hla 
+Myo Tun 
+
+Modeling and 
+Analysis of Tri-
+Copter (VTOL) 
+Aircraft 
+
+Tricopter 
+
+2 
+
+Annette Mossel, 
+Michael Leichtfried, 
+Christoph Kaltenriner, 
+and Hannes 
+Kaufmann, 
+
+SmartCopter 
+Enabling 
+autonomous flight in 
+indoor environments 
+with a smartphone 
+as on-board 
+processing unit 
+
+quadcopter 
+
+3 
+
+Seiga Kiribayashi, Jun 
+Ashizawa, and Keiji 
+Nagatani 
+
+Modeling and 
+Design of Tether 
+Powered 
+Multicopter 
+
+Quadcopter, 
+hexacopter 
+
+4 
+
+Safagianjar, Jupri 
+Yanda Zaira, and 
+Made Rahmawaty 
+
+Perancangan dan 
+Implementasi 
+Gerakan Hover 
+pada Tricopter 
+
+Tricopter 
+
+5 
+
+m Anoop 
+
+Ground Target 
+following Tri Copter 
+and its Combined 
+Communication and 
+Radio Navigation 
+
+Tricopter 
+
+6 
+
+Brigitte d’Andréa-
+Novel ,Hugues 
+Mounier Etienne 
+Servais950. 
+
+Ground Control of a 
+Hybrid Tricopter 
+
+Tricopter 
+
+7 
+
+Teppo Luukkonen,. 
+Espoo 
+
+Modelling and 
+control of 
+quadcopter 
+
+quadcopter 
+
+8 
+
+GopichandAllaka.B.D.
+P.P.S.L.Anasuya, 
+Ch.Yamini, 
+N.N.Vaidehi, and Y. 
+Venkata Ramana 
+
+Modelling And 
+Analysis Of 
+Multicopter Frame 
+And Propeller 
+
+Hexacopter, octocopter 
+
+
+
+
+9 
+
+Radek Baranek and 
+Frantisek Solc 
+
+Modelling and 
+Control of a Hexa-
+copter 
+
+hexacopter 
+
+10 
+
+A. Imam and R. Bicker 
+
+Design and 
+Construction of a 
+Small-scale 
+Rotorcraft UAV 
+System 
+
+quadcopter 
+
+11 
+
+Kartik Shah 
+
+Autonomous 
+Octocopter on Mars 
+
+octocopter 
+
+
+
+ 
+
+3. PEMBAHASAN DAN ANALISA 
+a. Pembahasan 
+
+
+
+
+ Dalam perkembangan sebuah robot seperti halnya pada jenis robot yang lain terdapat bagian yang 
+sangat penting. Bagian penting dari sebuah multirotor yang menjadikan sebuah bangunan multirotor disebut 
+dengan multirotor adalah bagian mekaniknya, yaitu frame pada multirotor. Didalam pembahasan ini akan 
+dibahas Ada beberapa jenis (type) frame yang digunakan oleh para pembuat desain multirotor. Jenis frame 
+tersebut adalah tricopter, quadcopter, hexacopter, dan octocopter. 
+
+ 
+
+1. Multicopter 
+
+
+Multi rotor yang dalam dunia akademisi dinamakan unmanned aerial vehicle (UAV) merupakan 
+pesawat yang tanpa pilot manusia. Multi rotor, sebagai subsistem dari UAV, merupakan kendaraan 
+udara dengan menggunakan rotor dengan melakukan lepas landas secara vertikal dan kemampuan 
+mendarat mendarat juga secara vertikal [2]. Multicopter dengan segala kelebihannya diantaranya 
+sangat kecil, mudah untuk kontrol, dan memiliki banyak fleksibilitas untuk pemasangan perangkat 
+penginderaan. Oleh karena itu, multicopters baru-baru ini digunakan untuk misi pencarian di 
+daerah yang terlalu berbahaya atau tidak terjangkau bagi manusia dalam kasus penyelamatan dan 
+investigasi infrastruktur seperti jembatan [2] [5]. 
+
+ 
+
+2. Tricopter 
+
+
+Tricopter adalah sebuah pesawat terbang dengan menggunakan tiga buah motor dan baling-
+baling/propeller yang tersusun segitiga horizontal untuk mengudara. Tricopter dapat dirancang 
+dengan bentuk desain seperti tanda (T) atau (Y) yang nantinya tiap ujung dari sisi tersebut 
+akan di pasang sebuah motor [6] [7]. Tricopter memiliki penghematan daya yang cukup untuk 
+sebuah UAV dikarena tricopter menggunakan jumlah motor yang kecil dan multicopter yang 
+sangat mudah untuk dikendalikan pada saat dalam penerbangan [8]. Tricopter mempunyai 
+rancangan dengan bentuk Huruf T dan Y. Tricopter sering dirancangan dengan dengan model 
+huruf Y, dengan jarak antar lengan 1200. Dengan demikian dapat terbang dengan seimbang di saat 
+terbang dan pada saat melakukan navigasi terbang[9]. Berikut ini adalah gambaran sederhana 
+untuk jenis kerangka mekanik multirotor. 
+
+ 
+
+ 
+
+https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F3.bp.blogspot.com%2F-UoHT0mRkBBY%2FVAzfA39uVpI%2FAAAAAAAAAZo%2FoZ7XG3f2F5w%2Fs1600%2Ftricopter.png&container=blogger&gadget=a&rewriteMime=image%2F*
+
+ 
+
+Gambar 1. Kerangka multirotor jenis tricopter bentuk Y dan T 
+
+ 
+
+3. Quadcopter 
+
+
+Quadcopter, juga dikenal sebagai quadrotor adalah helikopter dengan empat rotor. Rotor 
+diarahkan ke atas dan mereka ditempatkan dalam formasi persegi dengan jarak yang sama dari 
+pusat massa dari quadcopter tersebut [10]. GopichandAllaka et all, mendefinisikan dengan singkat 
+bahwa Sebuah rotor quad juga disebut helikopter quad rotor atau quad helikopter, adalah 
+multicopter yang diangkat dan didorong oleh empat rotor [11]. 
+
+Quadcopter dikendalikan dengan menyesuaikan kecepatan sudut dari rotor yang berputar dengan 
+motor listrik. Quadcopter adalah desain khas untuk kendaraan kecil tanpa awak udara (UAV) 
+karena struktur sederhana. Quadcopters digunakan dalam pengawasan, pencarian dan 
+penyelamatan, inspeksi konstruksi dan beberapa aplikasi lainnya [10]. Berikut ini adalah 
+gambaran sederhana untuk jenis kerangka mekanik multirotor quadcopter dengan model + dan X. 
+
+ 
+
+https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F3.bp.blogspot.com%2F-QzJooAXfFWU%2FVAze-S1MUVI%2FAAAAAAAAAZU%2Fuhd_CH5W4o0%2Fs1600%2Fquadrotor%252B%252B.png&container=blogger&gadget=a&rewriteMime=image%2F* 
+
+
+ 
+
+https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F1.bp.blogspot.com%2F-e3Di8J6cP2M%2FVAzfADVSyQI%2FAAAAAAAAAZg%2FhmjtMutylVo%2Fs1600%2Fquadrotor%252Bx.png&container=blogger&gadget=a&rewriteMime=image%2F* 
+
+
+Gambar 2. Kerangka multirotor jenis quadcopter plus (+) dan (x) 
+
+
+ 
+
+ 
+
+4. Hexacopter 
+
+
+Hexacopter adalah kendaraan udara dengan konsep VTOL (Vertical Take-Off dan Landing) 
+dengan milik kelas helikopter dengan menggunakan multirotor. Multirotor yang digunakan adalah 
+6 maka dinamakan hexacopter, yang diambil dari kata depannya yaitu kata hexa yang diartikan 6 
+maka hexacopter dapat diartika helicopter dengan 6 rotor [12]. Hexacopter adalah perangkat 
+terbang multi-rotor yang terdiri dari beberapa rotor tetap melekat pada konstruksi mekanik 
+sederhana. Hexa-copter sendiri terdiri dari 6 enam rotor dengan pisau melenggang tetap. Berikut 
+ini adalah gambaran sederhana untukjenis kerangka mekanik multirotor. 
+
+ 
+
+ 
+
+ 
+
+https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F1.bp.blogspot.com%2F-5qF6GB2ItPA%2FVAze9RP3JVI%2FAAAAAAAAAZI%2FuAA-uEmai08%2Fs1600%2Fhexacopter.png&container=blogger&gadget=a&rewriteMime=image%2F* 
+
+
+ 
+
+Gambar 3. Kerangka multirotor jenis hexacopter 
+
+ 
+
+ 
+
+5. Octacopter 
+
+
+Octacopter merupakan kendaraan udara yang memiliki kesamaan dengan helicopter tetapi 
+didesain dengan delapan lengan yang diatasnya memiliki 8 motor untuk sebagai penggerak torsi 
+terbang dari pesawat yang dapat memiliki keseimbang beban yang besar diatasnya [13] [14]. 
+Berikut ini adalah gambaran sederhana untukjenis kerangka mekanik multirotor. 
+
+ 
+
+
+ 
+
+https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-ueMyWj5S91Q%2FVAze94zAQSI%2FAAAAAAAAAZM%2F6lElYIGXEIM%2Fs1600%2Foctocopter.png&container=blogger&gadget=a&rewriteMime=image%2F*
+Gambar 4. Kerangka multirotor jenis octocopter 
+
+ 
+
+b. Analisa Hasil 
+
+
+
+
+ Dari hasil analisa artikel yang telah terpilih maka dilihat kata awal sebelum kata “copter”, dapat 
+diketahui tentang perbedaan untuk masing-masing jenis kerangka multicopter. Tricopter untuk jenis 
+multicopter dengan 3 baling-baling (propeller), quadcopter/xcopter untuk jenis multicopter dengan 4 
+baling-baling, hexacopter untuk jenis multicopter dengan 6 baling-baling, dan octocopter untuk jenis 
+multicopter dengan 8 baling-baling. Multicopter tersebut dari review artikel yang didapat, maka 
+disimpulkan beberapa hal yang mengenai perkembangan multicopter atau multirotor yang dinarasikan 
+kedalam tabel berikut ini 
+
+ 
+
+Tabel 4. 
+
+Hubungan Topik Penelitian dan Penulis 
+
+ 
+
+Topic 
+
+Penulis 
+
+Jumlah 
+
+Tricopter 
+
+[1], [4], [5], [6] 
+
+4 
+
+Quadcopter 
+
+[2],[3], [7], [10] 
+
+4 
+
+Hexacopter 
+
+[3] ,[8] ,[9] 
+
+3 
+
+Octocopter 
+
+[8],[11] 
+
+2 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+Tabel 5. 
+
+Deskripsi dan Analisa Multicopter 
+
+
+Jenis Multi 
+Copter 
+
+Deskripsi 
+
+Kekurangan 
+
+Kelebihan 
+
+Tri Copter 
+
+Multicopter ini 
+memiliki lengan 
+3 dan juga 
+memiliki motor 
+tiga di setiap 
+lengan, bentuk 
+yang dapat 
+digunakan 
+dalam 
+melakukan 
+perancangan 
+ada dalam 
+bentuk huruf T 
+dan Y 
+
+Pesawat sangat 
+kurang dalam 
+Stabilitas 
+pernerbangan , 
+apabila ada 
+kesalahan pada 
+salah satu motor 
+
+1. Memiliki effisiensi 
+dalam 
+penggunaan 
+sumber daya 
+2. Kemudahan 
+dalam melakukan 
+navigasi terbang 
+
+
+Quad 
+Copter 
+
+Multicopter yang 
+mempunyai 
+4motor dan 4 
+lengan 
+
+Stabilitas dalam 
+penerbang 
+sangat kurang 
+apabila ada 
+kesalahan pada 
+salah satu motor, 
+banyak 
+menggunakan 
+daya sehingga 
+memerlukan 
+sumber daya 
+yang banyak 
+yang diakibatkan 
+dengan jumlah 
+motor yang 
+banyak 
+
+1. Memiliki stabilitas 
+dalam 
+penerbangan 
+dalam kondisi 
+baik 
+2. Memiliki 
+seimbangan 
+dalam 
+penerbangan 
+3. Navigasi dalam 
+segara motor 
+dapat berfungsi 
+
+
+Hexa 
+Copter 
+
+Multicopter yang 
+mempunyai 6 
+lengan dan 6 
+motor 
+
+Pesawat banyak 
+menggunakan 
+daya sehingga 
+memerlukan 
+sumber daya 
+yang banyak, 
+dikarenakan 
+menggunakan 
+jumlah motor 
+yang banyak 
+
+Memiliki kestabilitas 
+penerbangan yang 
+sangat baik 
+
+Octo 
+Copter 
+
+Multicopter yang 
+mempunyai 8 
+lengan dan 8 
+motor 
+
+Pesawat banyak 
+menggunakan 
+daya sehingga 
+memerlukan 
+sumber daya 
+yang banyak, 
+dikarenakan 
+
+Memiliki kestabilitas 
+penerbangan yang 
+sangat baik 
+
+
+
+
+menggunakan 
+jumlah motor 
+yang banyak 
+
+
+
+ 
+
+4. KESIMPULAN 
+
+
+Dalam penelitian dari review di berbagai jurnal yang ada dapat disimpukan bahwa bentuk frame 
+atau kerangka mekanik untuk membuat sebuah multicopter dapat dilihat dari jumlah rotor/motor yang akan 
+digunakan. Penggunaan rotor/motor tiga maka multicopter tersebut dinamaka Tricopter, apabila 
+menggunakan 4 rotor/motor dapat disebut quadcopter dan selanjutnya 6 dinamakan hexacopter, dan dengan 
+motor 8 disebut octacopter. Dari hasil review berbagai jurnal pengembangan multicopter hanya sampai 
+penggunaan 8 motor atau dikenal dengan octacopter. Pesawat dengan Multi rotor merupakan unmanned 
+aerial vehicle (UAV) yang memiliki beberapa yang menjadi sebuah pertimbangan dalam melakukan 
+penelitian yang dalam penggunaan sumber daya arus yang digunakan serta kestabilitasan dalam 
+penerbangan dan kemudahan dalam fleksibelitas pengontrolan penerbangan. 
+
+ 
+
+DAFTAR PUSTAKA
+
+
+ 
+
+[1] 
+
+Sai Khun Sai and Hla Myo Tun, "Modeling and Analysis of Tri-Copter (VTOL) Aircraft," 
+International Journal of Emerging Engineering Research and Technology, vol. 3, no. 6, pp. 
+54-62, june 2015. 
+
+[2] 
+
+Annette Mossel, Michael Leichtfried, Christoph Kaltenriner, and Hannes Kaufmann, "SmartCopter 
+Enabling autonomous flight in indoor environments with a smartphone as on-board processing 
+unit," International Journal of Pervasive Computing and Communications, vol. 10, no. 1, 2014. 
+
+[3] 
+
+Y. Levy and T. J. Ellis, "A systems approach to conduct an effective literature review in support of 
+information systems research," Informing Science: International Journal of an Emerging 
+Transdiscipline, vol. 9, pp. 181-212, 2006. 
+
+[4] 
+
+D. Moher, A. Liberat, J. Tetzlaff, D. G. Altman, and P. Group, "Preferred reporting items for 
+systematic reviews and meta-analyses: the PRISMA statement," International journal of 
+surgery, vol. 8, pp. 336-341, 2010. 
+
+[5] 
+
+Seiga Kiribayashi, Jun Ashizawa, and Keiji Nagatani, "Modeling and Design of Tether Powered 
+Multicopter," in IEEE International Symposium on Safety, Security, and Rescue Robotics 
+(SSRR), West Lafayette, 2015, pp. 1 - 7. 
+
+[6] 
+
+Safagianjar, Jupri Yanda Zaira, and Made Rahmawaty, "Perancangan dan Implementasi Gerakan 
+Hover pada Tricopter," Jurnal ELEMENTER, vol. 01, no. 1, pp. 31-43, 2015. 
+
+[7] 
+
+m Anoop, "Ground Target following Tri Copter and its Combined Communication and Radio 
+Navigation," International Journal of Engineering Trends and Technology (IJETT), vol. 8, pp. 
+272-276, 2014. 
+
+[8] 
+
+Brigitte d’Andréa-Novel ,Hugues Mounier Etienne Servais, "Ground Control of a Hybrid Tricopter," 
+in International Conference on Unmanned Aircraft Systems (ICUAS), USA, 2015, pp. 945-
+950. 
+
+[9] 
+
+m Anoop, "Ground Target following Tri Copter and its Combined Communication and Radio 
+Navigation," International Journal of Engineering Trends and Technology (IJETT), vol. 8, no. 
+6, 2014. 
+
+[10] 
+
+Teppo Luukkonen, Modelling and control of quadcopter. Espoo: Aalto University, 2011. 
+
+[11] 
+
+GopichandAllaka.B.D.P.P.S.L.Anasuya, Ch.Yamini, N.N.Vaidehi, and Y. Venkata Ramana, 
+"MODELLING AND ANALYSIS OF MULTICOPTER FRAME AND PROPELLER," 
+International Journal of Research in Engineering and Technology, vol. 2, no. 04, pp. 481-483, 
+2013. 
+
+[12] 
+
+Radek Baranek and Frantisek Solc, "Modelling and Control of a Hexa-copter," in International 
+Carpathian Control Conference (ICCC), 2012, p. 12. 
+
+
+
+
+[13] 
+
+A. Imam and R. Bicker, "Design and Construction of a Small-scale Rotorcraft UAV System," 
+International Journal of Engineering Science and Innovative Technology (IJESIT), vol. 3, no. 
+1, 2014. 
+
+[14] 
+
+Kartik Shah, "Autonomous Octocopter on Mars," in 2nd International Space Conference 2015, p. 
+2015. 
+
+
+
+ 
+
+ 
+
+

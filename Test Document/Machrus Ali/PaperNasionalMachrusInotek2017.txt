@@ -1,0 +1,651 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/316521622 
+OPTIMISASI STEERING CONTROL MOBIL LISTRIK AUTO-PILOT MENGGUNAKAN 
+METODE FIREFLY ALGORITHM (FA) 
+Conference Paper · February 2017 
+CITATIONS 
+2 
+READS 
+37 
+2 authors, including: 
+Some of the authors of this publication are also working on these related projects: 
+Artificial Intelligence View project 
+vehicle View project 
+Machrus Ali 
+Darul Ulum University Jombang 
+17 PUBLICATIONS 5 CITATIONS 
+SEE PROFILE 
+All content following this page was uploaded by Machrus Ali on 27 April 2017. 
+The user has requested enhancement of the downloaded file.
+
+OPTIMISASI STEERING CONTROL MOBIL LISTRIK 
+AUTO-PILOT MENGGUNAKAN METODE FIREFLY 
+ALGORITHM (FA) 
+
+Machrus Ali1, Akemad Suhadak2 
+
+1,2 Teknik Elektro, Fakultas Teknik, Universitas Darul Ulum Jombang 
+E-mail: machrus@ft-undar.ac.id, hadakteknikelektro@gmail.com 
+
+Abstrak -Steering Control adalah sistem kemudi yang 
+dirancang untuk akurasi pergerakan steer terhadap 
+lintasan kendaraan dan memperingan sistem kemudi. 
+Akurasi pergerakan steer mobil sangat diperlukan 
+dalam keselamatan berkendaraan, baik keselamatan 
+yang ada didalamnya ataupun orang yang ada di 
+dekatnya. Kesalahan pergerakan steer mobil akan 
+mengakibatkan kesalahan posisi mobil pada jalur 
+kendaraan. Untuk mencegah terjadinya yang demikian 
+diperlukan kontrol pengemudian yang dirancang untuk 
+akurasi pergerakan steer terhadap kendaraan dan 
+memperingan sistem kemudi. Beberapa riset telah 
+dikembangkan pada fully automatic steer by wire 
+system antara lain riset yang dikhususkan pada input 
+trajectory (lintasan) yang menggunakan teknologi 
+Global Positioning System (GPS) dan trajectory yang 
+menggunakan line guidance. Pada penelitian ini sistem 
+kemudi menggunakan PID kontroler. Penggunan 
+Artificial Intelligence (AI) sangat membantu dalam 
+mempercepat proses pengontrolan PID. Metode pada 
+penelitian ini menggunakan PID kontroler yang 
+dituning dengan metode Firefly Algorithm. Pada 
+penelitian ini akan dikembangkan model Fully 
+Automatic Steer By Wire System menggunakan 10 
+Degree Of Freedom (DOF) terdiri dari 7-DOF Vehicle 
+Ride Model dan 3-DOF Vehicle Handling Model. Hasil 
+PID-FA akan dibandingkan dengan metode PID 
+konvensional. Kontrol PID-FA didapatkan hasil yang 
+lebih baik, dengan dibuktikan dengan kemampuan 
+mengontrol mobil dengan kecepatan mencapai 69,0 
+km/h dengan overshot terkecil, yaitu 0,005071 pada CRMS 
+Error. 
+
+Kata Kunci: Firefly, Lateral Motion, Vehicle 
+
+Abstract -Steering Control is a steering system that is 
+designed to steer the accuracy of the movement 
+trajectory of the vehicle and lighten the steering system. 
+Accuracy steer the movement of a car is indispensable 
+in driving safety, safety good in it or the person who is 
+nearby. Error steer the movement of the car will result 
+in an error position of the car on the vehicle lane. To 
+prevent the occurrence of such control is required 
+steering accuracy of the movement is designed to steer 
+the vehicle and lighten the steering system. Some 
+research has developed the fully automatic steer-bywire 
+system, among others, research devoted to the 
+input trajectory (trajectory) which using the technology 
+of Global Positioning System (GPS) and the trajectory 
+using a line guidance. In this study, the steering system 
+
+using the PID controller. Use of Artificial Intelligence 
+(AI) is very helpful in accelerating the process PID 
+control. Methods in this study using PID controller 
+tuned by the method of Firefly Algorithm. This research 
+will develop a model Fully Automatic Steer By Wire 
+System uses 10 Degree Of Freedom (DOF) consists of a 
+7-DOF Vehicle Ride and 3-DOF Model Vehicle 
+Handling Model. PID-FA results will be compared with 
+conventional PID methods. PID control-FA obtained 
+better results, with a proven ability to control the car at 
+speeds up to 69.0 km / h with the smallest overshot, ie 
+0.005071 on C-RMS Error 
+
+Keywords: Firefly, Lateral Motion, Vehicle 
+
+I. PENDAHULUAN 
+Sistem Steer by Wire adalah salah satu bagian dari 
+sistem besar dari perkembangan teknologi pada electric 
+cars dan diharapkan menjadi kendaraan masa depan 
+dengan kontrol kinerja yang tinggi [1]. Terdapat dua 
+jenis karakteristik steer by wire system yang digunakan 
+yaitu semi-automatic dan fully automatic steer by wire 
+system. Semi-automatic adalah steer by wire system 
+yang menggunakan steer wheel untuk menentukan arah 
+roda depan kendaraan sedangkan fully automatic steer 
+by wire system tanpa menggunakan steer wheel, untuk 
+menentukan arah roda depan kendaraan digunakan 
+trajectory yang telah diprogram. 
+
+Banyak riset telah dikembangkan pada fully 
+automatic steer by wire system antara lain riset yang 
+dikhususkan pada input trajectory yang menggunakan 
+look-ahead and look-down systems [1], menggunakan 
+technology GPS[2] dan trajectory yang menggunakan 
+lane guidance [3]. Demikian juga telah banyak 
+dikembangkan riset tentang control active steering 
+antara lain, an adaptive nonlinear control scheme aimed 
+at the improvement of the handling properties of 
+vehicles [4], Fuzzy Controller for Vehicle Automatic 
+Steering Control [5]. 
+
+Permasalahan yang muncul saat ini adalah 
+diperlukan suatu usaha untuk meningkatkan 
+Performance fully automatic steer by wire system, salah 
+satu usaha yang masih sangat mungkin untuk 
+dikembangkan adalah metode kontrol yang digunakan, 
+karena hal ini akan berlaku pada apapun bentuk input 
+trajectory yang digunakan. Penggunan AI sangat 
+membantu dalam mempercepat proses pengontrolan 
+dalam hal ini PID dalah kontrol yang cukup handal 
+untuk digunakan namun perlu didukung suatu metode 
+untuk tuning parameter-parameter agar dapat dicapai 
+
+1 
+
+
+
+hasil kontrol yang tepat, Firefly Algorithm (FA) adalah 
+suatu metode optimisasi yang menawarkan proses 
+optimisasi dengan cepat dan akurat untuk tuning 
+parameter-parameter PID [1]. 
+
+Pada paper ini akan dikembangkan model fully 
+automatic steer by wire system yang direpresentasikan 
+pada a simulation of active steering control using 
+vehicle model with 10 degree of freedom (DOF) 
+consisting of 7-DOF vehicle ride model and 3-DOF 
+vehicle handling model [6]. Structure sistem kontrol 
+yang dikembangkan terdiri dari dua tahap pengontrolan 
+secara cascade yaitu kontrol lateral motion untuk 
+menghilangkan pergerakan lateral yang tidak 
+diinginkan, Output kontrol ini digunakan sebagai setting 
+point pada kontrol berikutnya yaitu kontrol yaw motion 
+sebagai penyempurna sistem kontrol steering input. 
+Sistem Kontrol menggunakan AI yaitu FA untuk tuning 
+parameter-parameter FLC pada pengontrolan lateral 
+motion. Hasil yang diharapkan dari simulasi active 
+steering control ini yaitu dengan penggunaan FLC 
+kontrol yang dituning dengan ICA dapat meningkatkan 
+vehicle dynamic performance. 
+
+II. VEHICLE MODEL UNTUK CONTROL DESIGN 
+Berdasarkan konsep vehicle dynamics, vehicle model 
+yang dibangun sebagai plant pada active steering 
+control system menggunakan 10 degree of freedom 
+(DOF) yang teridri dari 7-DOF dari vehicle ride model 
+and 3-DOF dari vehicle handling model. 
+
+A. Vehicle Ride Model 
+Vehicle Ride Model dipresentasikan sebagai 7-DOF 
+system yang dinyatakan dalam 7 persamaan matematis 
+terdiri dari persamaan matematis pada kebebasan dan 
+pergerakan untuk mrndapatkan rombakan, anggukan 
+dan pergerakan vertikal [1,6,7,8]. 
+
+
+Gambar. 1. Vehicle Ride Model 
+Bouncing of the car body (Zs) 
+
+%%
+2	,%	,2,%,+	,%%
+,2,%,	,%%
+
+,,%	,+,,	,%,,%%
+	,%%%(1) 
+
+Pitching of the car body (. 
+) 
+
+%%
+
+2	,%	,2,%,%
+2	,%	,2,%,%
+
+	,%,,%	,%,,%%
+	,%,,%	,%,,%%
+%%%(2) 
+
+Rolling of the car body (. 
+) 
+
+%%
+0.5!	,%	,0.5!,%,%%
+0.5!	,,%0.5!,,%0.5!	,,%%
+
+0.5!,,%0.5!	,,%0.5!,,%%
+0.5!	,,%0.5!,,%%"%
+
+%"%(3) 
+
+Vertical Direction for each wheel 
+
+,%%
+	,,	,,0.5!	,%
+0.5!,%	,%	#.,,,%%
+
+	#,%%(4) 
+
+,%%
+	,,	,,0.5!	,%
+0.5!,%	,%	#,,,%%
+
+	#,%%(5) 
+,%%
+	,,	,,0.5!	,%
+
+0.5!,%	,%	#,,,%	#,%%
+%(6) 
+
+,%%
+	,,	,,0.5!	,%
+0.5!,%	,%	#,,,%%
+
+	#,%%(7) 
+
+B. Vehicle Handling Model 
+Gambar. 2. Vehicle Handling Model 
+Vehicle Handling Model direpresentasikan sebagai 3 
+DOF system yang berarti memiliki 3 persamaan 
+matematis yang terdiri dari persamaan matematis 
+pergerakan car body secara lateral dan longitudinal 
+serta yaw motion [1,7,8]. Lateral motion dan 
+longitudinal motion merupakan pergerakan kendaraan 
+sepanjang sumbu x dan sumbu y yang dinyatakan 
+dalam percepatan lateral (ay) dan percepatan 
+longitudinal (ax) sehingga lateral motion dan 
+
+
+2 
+
+
+
+longitudinal motion dapat diperoleh dengan integrasi 
+dua kali dari percepatan lateral dan longitudinal. 
+Dimana percepatan lateral dan longitudinal 
+dinyatakan sebagai berikut: 
+
+% %(8) 
+
+% %(9) 
+
+Pergerakan kendaraan secara angular yang bersumbu 
+vertikal z disebut sebagai yaw motion (r) [1,7,8] yang 
+dapat diperoleh dengan integrasi r& 
+dan &r& 
+
+
+%%%%"%
+
+%%%%
+%%%%%
+
+%%%%%%%
+
+(10) 
+Berdasarkan persamaan matematis di atas kemudian 
+dibangun full vehicle model sebagai plant dari active 
+steering control system dengan menggunakan 
+MATLAB-SIMULINK software. 
+
+III. METODE PENELITIAN 
+A. 
+PID Controller 
+Kontrol PID adalah sistem kontrol gabungan 
+antara kontrol proporsional, integral, dan turunan 
+(derivative). Pada metode ini, penalaan dilakukan dalam 
+kalang tertutup dimana masukan referensi yang 
+digunakan adalah fungsi tangga (step). Pengendali pada 
+metode ini hanya pengendali proporsional. Kp, 
+dinaikkan dari 0 hingga nilai kritis Kp, sehingga 
+diperoleh keluaran yang terus-menerus berosilasi 
+dengan amplitudo yang sama. Nilai kritis Kp ini disebut 
+sebagai ultimated gain. Nilai ultimated period, Tu, 
+diperoleh setelah keluaran sistem mencapai kondisi 
+yang terus menerus berosilasi. 
+
+B. 
+Firefly Algorithm (FA) 
+Metode yang digunakan untuk mengoptimisasi 
+parameter PID adalah metode Firefly Algorithm (FA). 
+Algoritma ini pertama ditemukan oleh Dr.Xin-She Yang 
+di Universitas Cambridge pada tahun 2007. Pada 
+algoritma ini terdapat tiga perumusan dasar : 
+
+1. 
+Semua kunang-kunang adalah unisex, jadi suatu 
+kunang-kunang akan tertarik dengan kunangkunang 
+lain terlepas dari jenis kelamin mereka. 
+2. 
+Daya tarik sebanding dengan kecerahan, maka 
+kunang-kunang dengan kecerahan lebih redup akan 
+bergerak kearah kunang-kunang dengan kecerahan 
+lebih terang dan kecerahan berkurang seiring 
+dengan bertambah jarak. Apabila tidak ada kunangkunang 
+yang memiliki kecerahan paling cerah 
+maka kunang-kunang akan bergerak random. 
+3. 
+Tingkat kecerahan kunang -kunang 
+dideterminasikan oleh tempat dari fungsi objektif 
+kunang-kunang. 
+Dalam proses permasalahan optimisasi, 
+kecerahan cahaya kunang-kunang adalah sebanding 
+untuk nilai dari fungsi tujuan. Bentuk lain dari 
+kecerahan dapat didefinisikan pada cara yang sama 
+untuk fungsi fitness pada algoritma genetika. Dalam 
+proses permasalahan optimisasi, kecerahan cahaya 
+kunang-kunang adalah sebanding untuk nilai dari fungsi 
+tujuan. Bentuk lain dari kecerahan dapat didefinisikan 
+pada cara yang sama untuk fungsi fitness pada algoritma 
+genetika. Berdasarkan pada ketiga peraturan ini, 
+langkah dasar dari algoritma kunang-kunang (FA) dapat 
+diringkas sebagai pseudo code berikut: 
+
+%Batas Kontroler PID 
+Ub=[600 10 1]; 
+Lb=[0 0 0]; 
+etol=10e-5; 
+
+
+% start iterasi 
+
+% Menghitung nilai alpha yang baru 
+delta=1-(0.005/0.9)^(1/MaxGeneration); 
+alpha=(1-delta)*alpha; 
+
+% Evaluasi fungsi fitness (untuk semua kunang-kunang) 
+
+for ikj=1:xxx 
+kp_ff = xn(ikj,1); 
+ki_ff = xn(ikj,2); 
+kd_ff = xn(ikj,3); 
+sim('Vehicleyaw_all') 
+t=ScopeDataica.time; 
+y=ScopeDataica.signals.values; 
+
+for i=1:101 
+
+error(i)=abs(y(i)^2)*t(i); 
+end 
+ITAE=sum(error); 
+fitness_particle(ikj)=ITAE; 
+
+
+zn(ikj) = fitness_particle(ikj); 
+
+Lightn(ikj) = zn(ikj); 
+end 
+% Merangking kunang-kunang berdasarkan intensitas cahaya 
+% masing-masing 
+
+[Lightn,Index]=sort(zn); 
+ns_tmp=xn; 
+for ikj=1:xxx, 
+xn(ikj,:)=ns_tmp(Index(ikj),:); 
+end 
+
+C. 
+Penggunaan FA dalam penalaan PID 
+Gambar.3 menunjukkan diagram alur algoritma 
+metode Firefly Algorithm (FA) yang digunakan pada 
+penelitian penelitian ini. Fungsi objektif yang digunakan 
+untuk menguji kestabilan sistem adalah dengan Integral 
+Time Absolut Error (ITAE). 
+
+. 
+t 
+
+ITAE = 
+t Dw() t dt 
+
+0 
+
+Parameter PID yang ditala oleh FA adalah Kd, 
+Kp, Ki. Adapun untuk diagram alur proses penalaan 
+parameter PID dengan menggunakan metode firefly 
+algorithm ditunjukkan oleh flowchart pada Gambar3. 
+Dengan melihat diagram alur, akan lebih memudahkan 
+kita untuk mengetahui runtutan-runtutan proses yang 
+perlu dilakukan untuk menyusun suatu sistem. [6]. 
+
+3 
+
+
+
+Gambar. 3. Diagram alur penalaan FA pada PID 
+Data parameter-parameter standar FA yang 
+digunakan ditunjukkan pada Tabel 1. Berikut: 
+Tabel 1 Parameter FA[8] 
+
+Parameter Nilai 
+Alpha 0.25 
+Beta 0.2 
+Gamma 1 
+Dimensi 3 
+Jumlah Kunang-Kunang 50 
+Iterasi maksimum 50 
+
+IV. SIMULASI KONTROL SISTEM 
+Dari transfer function vehicle steering control 
+dapat dimodelkan ke dalam bentuk diagram seperti pada 
+gambar 4. 
+
+Pada Sub System dapat dilihat bentuk gambar seperti 
+pada gambar 5. Sub System terdiri dari 3 buah blok 
+besar, yaitu; tire model, handling model dan slip angle. 
+Pada sub system ada sebuah input, yaitu: steering input 
+dan ada 3 output, yaitu; x (trajectory),y(lateral 
+motiondan yaw (yaw motion). 
+
+Gambar 5. Sub System[1,8]
+Table 1. Vehicle model simulation parameters
+
+No 
+
+Parameter 
+
+Value 
+
+
+1 
+
+Vehicle mass 
+
+2 
+
+Vehicle sprung mass 
+
+3 
+
+Coefficient of friction 
+
+4 
+
+Front track width 
+
+5 
+
+Rear track width 
+
+6 
+
+Tire rolling radius 
+
+7 
+
+Wheelbase 
+
+8 
+
+Distance between front axle to COG 
+
+9 
+
+Distance between rear axle to COG 
+
+10 
+
+Pitch stiffness constant 
+
+11 
+
+Roll stiffness constant 
+
+12 
+
+Centre of gravity height 
+
+13 
+
+Pitch moment of inertia 
+
+14 
+
+Roll moment of inertia 
+
+15 
+
+Yaw moment of inertia 
+
+16 
+
+Wheel moment of inertia 
+
+1700 kg 
+1520 kg 
+
+1.5 m 
+1.5 m 
+0.285 m 
+2.7 m 
+1.11 m 
+1.59 m 
+4000 Nm-1 
+2400 Nm-1 
+0.55 m 
+425 kg m2 
+425 kg m2 
+3125 kg m2 
+
+1.1 kg m2 
+17 
+
+Pitch damping constant 
+
+170000 Nm-1 s-1 
+
+18 
+
+Roll damping constant 
+
+90000 Nm-1 s-1 
+
+Hasil simulasi dapat dilihat pada gambar 6. 
+
+Gambar 4. The Proposed Control Structure for active 
+steering control [1,8] 
+
+
+Gambar 6. Hasil perbandingan PID (biru) dan PID-FA 
+(merah) 
+
+
+4 
+
+
+
+Hasil output diatas menunjukkan nilai C-RMS Error (m) 
+pada PID dan PID-FA hampir sama yaitu PID sebesar 
+0,00621 dan PID-FA sebesar 0,00507. Pitch Angel dan 
+Yaw Angel dapat dilihat pada gambar 6 dan gambar 7. 
+
+Tabel 2. Kemampuan masing-masing kontroler 
+
+
+No Velocity 
+m/s Km/h PID PID-FA 
+1 25 6,9 0,0357 0,0265 
+2 50 13,8 0,0804 0,0577 
+3 75 20,7 0,1019 0,0861 
+4 100 27,6 0,1445 0,1058 
+5 125 34,5 0,2017 0,1384 
+6 150 41,4 0,2558 0,1794 
+7 175 48,3 Under Steer 0,2190 
+8 200 55,2 
+Under 
+SteerError! 
+Bookmark not 
+defined. 0,2547 
+9 225 62,1 Under Steer Under Steer 
+10 250 69,0 Under Steer Under Steer 
+11 275 75,9 Under Steer Under Steer 
+12 300 82,8 Under Steer Under Steer 
+
+Gambar 7. Pitch Angel PID dan PID-FA 
+
+Pitch Angel pada kontrol PID = 2,016x10-3 rad dan PIDFA 
+= 5,142x10-5 rad . Yaw Angle dapat dilihat pada 
+gambar 8. 
+
+
+Gambar 8. Yaw Angel PID dan PID-FA 
+
+Sudut Yaw pada kontrol PID = 0,024 rad dan 
+PID-FA = 0,005 rad. Untuk mengetahui kemempuan 
+kontroler PID-FA maka diperlukan perubahan 
+kecepatan secara bertahap sampai batas kemampuan 
+kotroler. Kemampuan kontroler PID-FA dapat dilihat 
+pada tabel 2. 
+
+Dari tabel diatas menjukkan bahwa PID-FA 
+memiliki overshoot lebih kecil dibandingkan dengan 
+kontrol PID yang dituning tanpa AI, PID-FA mampu 
+mengendalikan kendaraan dibawah kecepatan 62,1 
+km/h. PID tanpa tuning hanya mampu mengendalikan 
+kendaraan dibawah kecepatan 48,3 km/h 
+
+V. KESIMPULAN: 
+Hasil PID-FA akan dibandingkan dengan metode 
+PID konvensional dan sistem tanpa kontrol. Kontrol 
+PID-FA didapatkan hasil yang lebih baik, dengan 
+dibuktikan dengan kemampuan mengontrol mobil 
+dengan kecepatan mencapai 69,0 km/h dengan overshot 
+terkecil, yaitu 0,005071 pada C-RMS Error. 
+
+DAFTAR PUSTAKA 
+
+[1] 
+Machrus Ali, Fachrudin, Robandi, I. Nyoman 
+Sutantra, Optimization of Active Steering Control 
+On Vehicle With Steer by Wire System Using 
+Imperialist Competitive Algorithm (ICA), 
+International Conference on Information and 
+Communication Technology-ICoICT3rd , IEEE 
+International Conference, Bali, Mei, 2015, pp.500503. 
+[2] Hernandez J.I., Kuo 
+C.Y., 2003, “Steering Control 
+of Automated Vehicles Using Absolute 
+Positioning GPS and Magnetic Markers” IEEE 
+Transactions On Vehicular Technology, Vol. 52, 
+No.1, January 2003,pp.150-161. 
+5 
+
+
+
+[3] Hingwe P., Tan H.S., Packard AK., Tomizuka M., [6] Yang, X. S. Firefly algorithms for multimodal 
+2002,“Linear Parameter Varying Controller for optimization. Stochastic Algorithms: Foundation 
+Automated Lane Guidance: Experimental Study on and Applications” SAGA 2009. Lecture Notes in 
+Tractor-Trailers”, IEEE Transactions On Control Computer Sciences 5792 
+Systems Technology, Vol. 10, No. 6, November 
+2002, pp.793-806. [7] Fachrudin, Robandi, I. Sutantra, N, Vehicle 
+Stability Control On Steer By Wire System Using 
+[4] Ahmadi J., Sedigh A.K., Kabganian M., 2009, Fuzzy Logic, The International Student 
+Adaptive Vehicle Lateral-Plane Motion Control Conference on Advanced Science and Technology 
+Using Optimal Tire Friction Forces With (ICAST), Shandong University, Jinan, China, 
+Saturation Limits Consideration, IEEE September, 2011, pp: 23 – 27. 
+Transactions On Vehicular Technology, Vol. 58, 
+No. 8, October 2009, pp. 4098 – 4107 [8] Machrus Ali, Hendra Kusuma, I Nyoman Sutantra, 
+The Comparison of Optimization for Active 
+[5] Cai L., Rad A. B., Chan W.L., 2007, Genetic Fuzzy Steering Control on Vehicle Using PID Controller 
+Controller for Vehicle Automatic Steering Control, Based on Artificial Intelligence Techniques, 
+IEEE Transactions On Vehicular Technology, Vol. International Seminar on Application for 
+56, No. 2, March 2007, pp. 529 – 543 Technology of Information and Communication – 
+Isemantic, IEEE International Conference, 
+Semarang, August, 2016, pp. 18-23 
+
+6 
+
+
+View publication stats 
+View publication statsView publication stats 
+
+

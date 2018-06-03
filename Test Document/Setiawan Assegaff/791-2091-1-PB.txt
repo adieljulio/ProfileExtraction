@@ -1,0 +1,1106 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/283158153 
+Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman 
+Berbelanja Online) terhadap Perilaku Konsumen dalam Berbelanja Online: Prespektif 
+Konsumen di Indonesia 
+Article · September 2015 
+CITATIONS 
+0 
+READS 
+3,722 
+1 author: 
+Some of the authors of this publication are also working on these related projects: 
+Digital Trust and people behavior in Sharing Economy Platform View project 
+Social Media and Knowledge Sharing View project 
+Setiawan Assegaff 
+STIKOM Dinamika Bangsa, Jambi City, Indonesia 
+43 PUBLICATIONS 24 CITATIONS 
+SEE PROFILE 
+All content following this page was uploaded by Setiawan Assegaff on 26 October 2015. 
+The user has requested enhancement of the downloaded file.
+
+JAM 
+13, 3 
+
+Diterima, Juni 2015 
+Direvisi, Agustus 2015 
+Disetujui, September 2015 
+
+
+Jurnal Aplikasi 
+Manajemen (JAM) 
+Vol 13 No 3, 2015 
+Terindeks dalam 
+Google Scholar 
+
+Alamat Korespondensi: 
+
+Setiawan Assegaff, Program 
+Magister Sistem Informasi 
+STIKOM Dinamika Bangsa 
+
+Pengaruh Trust (Kepercayaan) dan Online Shopping 
+Experiences (Pengalaman Berbelanja Online) terhadap 
+Perilaku Konsumen dalam Berbelanja Online: 
+Prespektif Konsumen di Indonesia 
+
+
+Setiawan Assegaff 
+
+Program Magister Sistem Informasi STIKOM Dinamika Bangsa 
+
+Abstract: The aim of this research is to investigate the relationship between trust and online 
+shopping experience with people behavior in online shopping. The impact of these two 
+dimensions (trust dan online shopping experience) would be explored in this study. This 
+study applied Theory Planned of Behavior (TPB) and incorporates with two other dimensions. 
+A research model was developed for this study. The research model consists of six 
+hypotheses that describe the relation between variables. Research and hypotheses was validated 
+by online survey that conducted in online shopping group in Indonesia and participated 
+by 215 respondents. Data collected from the survey was analyzed using Structural 
+Equation Model (SEM) with Smart PLS software. This research reveals that people in Indonesia 
+while perform online shopping is affect by trust dimension, however online shopping 
+experience dimension was found has no affect to people behavior in perform their next online 
+shopping activity 
+
+Keywords: trust, online shopping experience, online shopping behavior, theory plane of 
+behavior 
+
+Abstrak: Penelitian ini bertujuan untuk menyelidiki bagaimana pengaruh dimensi kepercayaan 
+(trust) dan pengalaman berbelanja online (online shopping experience) terhadap perilaku 
+konsumen dalam berbelanja secara online. Dua dimensi ini (trust dan online shopping experience) 
+akan dikaji pengaruhnya terhadap perilaku konsumen dalam melakukan belanja secara 
+online. Studi ini mengaplikasikan Theory Planed of Behavior (TPB) dan memperkayanya 
+dengan dua dimensi diatas Sebuah model penelitian dikembangkan dalam penelitian ini. Model 
+yang dikembangkan memiliki enam buah hipotesis yang akan menggambarkan hubungan antar 
+setiap variabel dalam penelitian. Model dan hipotesis kemudian divalidasi melalui sebuah 
+online survei yang melibatkan 215 orang responden dari berbagai grup belanja online di Indonesia. 
+Data hasil survei dianalisis dengan metode Structural Equation Model (SEM) melalui 
+software Smart-PLS versi 2. Penelitian ini menemukan bahwa perilaku konsumen di Indonesia 
+secara signifikan dipengaruhi oleh dimensi trust (kepercayaan), penelitian ini juga menemukan 
+bahwa online shopping experience (pengalaman berbelanja online) tidak berpengaruh terhadap 
+perilaku konsumen dalam melakukan aktivitas belanja selanjutnya. 
+
+Kata Kunci: trust (kepercayaan), online shopping experience (pengalaman berbelanja online), 
+perilaku berbelanja online, theory plane of behavior 
+
+Saat ini terjadi trend yang luar berkaitan dengan tersedianya layanan E-Commerce. 
+biasa dalam masyarakat Layanan E-commerce memungkinkan konsumen 
+
+463 
+
+
+
+Setiawan Assegaff Setiawan Assegaff 
+untuk dapat memperoleh data, informasi, layanan dan 
+produk secara online melalui teknologi internet dari 
+berbagai vendor diseluruh belahan dunia. Perkembangan 
+luar biasa dari pemanfaatan web 2.0 technology 
+dimasyarakat telah memberikan sebuah peluang 
+besar untuk mentranformasi kegiatan E-commerce 
+yang pada dasarnya berorientasi pada produk ke kegiatan 
+E-Commerce yang lebih focus kepada konsumen 
+(Huang, et al., 2013). Pada prinsipnya E-
+Commerce memanfaatkan teknologi internet yang 
+dibangun pada aplikasi berbasis web 2.0, aplikasi berbasis 
+web 2.0 ini memungkinkan terjadinya kolaborasi, 
+interaksi aktif dan lain-lain. Fitur-fitur pada aplikasi 
+yang dibangun berbasis web 2.0 memungkinkan konsumen 
+untuk mengakses informasi dan pengalaman 
+konsumen lain yang telah terlebih dahulu melakukan 
+proses pembelian sehingga mereka akan memiliki 
+informasi yang lebih kaya yang pada akhirnya akan 
+mempengaruhi perilaku mereka dalam memutuskan 
+pembelian sesuatu secara online (Liang, et al., 2011). 
+
+Aplikasi berbasis web 2.0 diyakini dapat meningkatkan 
+partisipasi konsumen dalam berbelanja, juga 
+meningkatkan hubungan antar konsumen dalam berbagi 
+informasi dan pengalaman dalam berbelanja 
+(Liang, et al., 2011). Layanan E-commerce ini dipercaya 
+oleh para akademisi telah merubah cara dan 
+sudut pandang konsumen dalam berbelanja. Walaupun 
+pada kenyaataanya secara umum layanan E-commerce 
+yang ada saat ini telah mendunia, tetapi faktanya untuk 
+beberapa negara berkembang termasuk Indonesia, 
+layanan E-commerce ini volume tranksaksi oleh konsumennya 
+masih relative rendah. Kajian yang berkaitan 
+untuk memahami fenomena ini dibutuhkan agar 
+dapat dirancang sebuah strategi yang tepat dalam 
+menyukseskan belanja online lewat E-Commerce. 
+Termotivasi dengan fenomena diatas maka peneliti 
+tertarik untuk berpartisipasi dalam melakukan kajian 
+adopsi belanja online. 
+
+Teori Dasar dan Pengembangan Hipotesis 
+
+Kajian yang berkaitan dengan perilaku orang dalam 
+memanfaatkan teknologi informasi adalah sebuah 
+kajian yang cukup popular. Banyak teori yang sudah 
+dihasilkan para akademisi yang bertujuan untuk dapat 
+memahami perilaku orang dalam mengadopsi teknologi 
+informasi dengan lebih baik. Salah satu teori yang 
+cukup banyak diaplikasikan oleh para peneliti adalah 
+
+teori TPB (Theory Planed of Behavior). Pada penelitian 
+ini peneliti akan mengaplikasikan TPB sebagai 
+basis teori dalam memahami perilaku konsumen. TPB 
+dipilih dengan alasan telah tebukti dapat digunakan 
+untuk memahami dan memprediksi perilaku manusia 
+dalam mengadopsi teknologi (George, 2004). 
+
+TPB dibangun dengan alasan untuk mengatasi 
+kekurangan pada teori sebelumnya yaitu TRA (Theory 
+Reason of Action). Teori ini menjelaskan tentang 
+alasan mengapa seseorang memutuskan untuk 
+melakukan atau tidak melakukan sebuah kegiatan. 
+TRA secara umum terdiri atas tiga konstruk, sikap 
+seseorang, niat seseorang dan norma subjektif. Dalam 
+TRA niat berperilaku seseorang akan tergantung 
+kepada sikap dan norma subjektif yang diyakini oleh 
+orang tersebut. Sejalan berkembangnya waktu, maka 
+TRA telah mengalami perbaikan dan penyempurnaan. 
+Penjelasan dari presepsi kontrol adalah sebagai 
+berikut, seseorang mungkin saja sudah berniat untuk 
+mengambil sebuah tindakan tertentu tetapi dikarenakan 
+terdapat sebuah kondisi diluar kontrolnya sehingga 
+ia tidak dapat mengaktualisasikan niatnya tersebut. 
+Gambar di bawah ini menunjukkan bagimana perubahan 
+yang terjadi pada TRA dan TPB. 
+
+
+Gambar 1. TRAdanTPB 
+
+Teori di atas telah banyak diaplikasikan oleh para 
+peneliti dalam memahami perilaku manusia dalam 
+mengadopsi teknologi informasi. Saat ini salah satu 
+teknologi informasi yang berkembang cukup luas adalah 
+teknologi informasi berbasis web. Pemanfaatan 
+teknologi berbasis web dilakukan pada berbagai 
+sector baik dibidang pemerintahan melalui implementasi 
+E-government, pada bidang pendidikan 
+melalui implementasi E-Learning, begitu juga dalam 
+dunia bisnis dengan implementasi E-business, E-
+Banking dan E-Commerce. Beberapa contoh kajian 
+
+JURNALAPLIKASIMANAJEMEN | VOLUME 13 | NOMOR 3 | SEPTEMBER 2015 464 
+
+Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) 
+yang menggunakan teori ini dalam memahami perilaku 
+manusia dalam memanfaatkan teknologi informasi 
+berbasis web adalah, Jiang (2009) melakukan 
+kajian terhadap adopsi teknologi mobile internet 
+sebagai sarana melakukan pembayaran online. Jiang 
+(2009) mengkolaborasi TRA dengan tiga teori adopsi 
+lainnya yaitu Innovation and Diffusion Theory 
+(IDT), Technology Acceptance Model (TAM), dan 
+Theory of Innovation Adoption (TIA). 
+
+Review terhadap pemanfataan teori TPB untuk 
+memahami perilaku manusia membuktikan bahwa 
+teori ini mampu untuk menjelaskan dan memprediksi 
+dengan baik niat berperilaku maupun perilaku aktual 
+dari seseorang. Dalam mengaplikasikan teori tersebut 
+umumnya para peneliti mengkolaborasikan teori ini 
+dengan teori lain dan atau menambahkan faktor/variabel/
+dimensi lain yang relevan. Hal ini memberikan 
+kesempatan untuk mngekplorasi keterkaitan faktorfaktor 
+lain dengan teori ini dalam memberikan penjelaskan 
+yang lebih baik mengenai perilaku manusia. 
+Merujuk kepada hasil-hasil kajian terdahulu, maka 
+dalam penelitian ini peneliti mencoba mengekplorasi 
+faktor/variabel/dimensi lain yang mungkin secara potensial 
+dapat mempengaruhi manusia dalam mengadopsi 
+kegiatan belanja online. Hasil dari review yang 
+dilakukan terhadap publikasi penelitian yang relevan 
+adalah sebagai berikut, setelah melakukan review 
+terhadap penelitian berkaitan dengan online shopping 
+(Chiu, et al., 2014; Gefen, 2000; Gefen, et al., 2004; 
+Huang, et al., 2013; Kim, et al., 2013; Liang, et al., 
+2011; Mo, et al., 2008; O. Pappas, et al., 2014; Pavlou, 
+et al., 2006; Pentina, et al., 2011) peneliti menemukan 
+bahwa terdapat dua dimensi lain yaitu dimensi trust 
+dan online shopping experience yang ternyata ditemukan 
+cukup penting dan vital dalam mempengaruhi 
+perilaku orang berbelanja online. Karena itulah peneliti 
+tertarik untuk mengkaji apakah dua dimensi ini juga 
+akan punya pengaruh terhadap perilaku konsumen di 
+Indonesia dalam mengadopsi kegiatan belanja online. 
+Dengan mempertimbangkan dua dimensi tersebut peneliti 
+kemudian merumuskan hubungan antar elemen 
+tersebut berdasarkan TPB dan mengembangkan enam 
+buah hipothesis dan menggambarkannya kedalam 
+sebuah model penelitian sebagaimana gambar 2. 
+
+Hubungan antar faktor dalam model penelitian 
+di atas didasarkan atas teori dasar yang digunakana 
+dalam penelitian ini yaitu TPB. Setelah model peneli-
+
+Gambar 2. Model Penelitian 
+tian dibuat maka dikembangkanlah hipoteses penelitian. 
+Uraian mengenai hipoteses yang dikembangkan 
+adalah, dalam penelitian dibidang e-commerce faktor 
+trust telah terbukti memberi pengaruh yang cukup 
+besar terhadap perilaku konsumen dalam memutuskan 
+membeli atau tidak melakukan pembelian secara 
+online (Gefen, 2000; Gefen, et al., 2004; Kim, et 
+al., 2013; Qualman, 2012; Shin, 2013). Faktor ini juga 
+teridentifikasi berpengaruh kepada para konsumen 
+yang menggunakan aplikasi e-commerce dalam melakukan 
+aktivitas belanja online diberbagai negara. 
+Faktor ini telah menjadi focus banyak pengembang 
+aplikasi e-commerce untuk dapat mengembangkan 
+aplikasi yang memenuhi tingkat kepercyaaan konsumen 
+terhadap aplikasi yang mereka implementasikan. 
+Berdasarkan uraian tersebut, maka dapat dirumuskan 
+hipoteses sebagai berikut: 
+H1 : Trust berpengaruh positif terhadap attitude 
+
+konsumen dalam berbelanja online 
+
+Penelitian terkini telah menemukan bahwa 
+pengalaman berbelanja dapat meberikan value positif 
+bagi konsumen untuk melakukan transaksi selanjutnya 
+(Pentina, et al., 2011) online shopping experiences 
+didefinisikan sebagai bentuk pengalaman seseorang 
+dimana ia memperoleh kenyamaan dan kemudahan 
+dalam melakukan transaksi secara online. Berdasarkan 
+uraian tersebut, maka dapat dirumuskan hipoteses 
+sebagai berikut: 
+H2 : Online Shopping Experience berpengaruh 
+
+positif terhadap attitude konsumen dalam 
+
+berbelanja online. 
+
+Attitude didefinisikan sebagai keyakinan dari 
+konsumen bahwa kegiatan belanja online akan dilakukan 
+dengan menyenangkan dan memakan waktu yang 
+relative singkat. Temuan dalam penelitian sejenis yang 
+dilakukan sebelumnya (Chiu, et al., 2014; Pavlou, et 
+al., 2006). George (20040) menyatakan bahwa 
+attitude (sikap) mempunayi hubungan terhadap niat 
+(intention) konsumen dalam berbelanja online. 
+
+465 TERAKREDITASI SK DIRJEN DIKTI NO. 66b/DIKTI/KEP/2011 ISSN: 1693 5241 
+
+Setiawan Assegaff Setiawan Assegaff 
+Berdasarkan uraian tersebut, maka dikembangkan 
+hipotesis sebagai berikut. 
+H3 : Attitude berpengaruh secara positif terhadap 
+
+intention (niat) konsumen dalam berbelanja 
+
+online 
+
+Dalam penelitian ini, dirumuskan sebuah 
+hipoteses sebagai berikut. 
+H4 : Subjective Norm berpengaruh secara positif 
+
+terhadap intention (niat) konsumen dalam 
+
+berbelanja online 
+
+Perceived behaviour control (presepsi kontrol 
+berperilaku) oleh George (2004) diartikan sebagai 
+persepsi konsumen yang berkaitan dengan kepercayaan 
+dari seseorang berkaitan dengan besaran control 
+yang dimiliki berkaitan dengan fasilitas, kapasitas dan 
+juga berkautan dengan presepsi tingkat kesulitan dalam 
+mengeksekusi aktivitas yang terkait. Dalam penelitian 
+terdahulu behavior control ditemukan berpengaruh 
+terhadap niat konsumen dalam melakukan belanja 
+online. Dalam penelitian ini dirumuskan hipoteses 
+sebagai berikut. 
+H5 : Perceived Behavior Control berpengaruh 
+
+secara positif terhadap intention (niat) konsu
+
+
+men dalam berbelanja online 
+
+Dalam berbagai penelitian terdahulu mengenai 
+pengaruh niat dan perilaku konsumen dalam 
+menggunakan transaksi online, terbukti bahwa niat 
+secara signifikan mempengauhi perilaku konsumen 
+dalam berbelanja (Chiu, et al., 2014; Pavlou, et al., 
+2006) 
+H6 : Perceived Behavior Control berpengaruh 
+
+secara positif terhadap intention (niat) konsu
+
+
+men dalam berbelanja online 
+
+METODE 
+Sampel 
+
+Penelitian ini fokus untuk menjelaskan perilaku 
+konsumen untuk tetap melakukan belanja secara 
+online dimasa datang Penelitian ini menggunakan 
+teknik purposive sampling untuk memilih respondennya. 
+Teknik ini dipilih dengan tujuan agar responden 
+yang dipilih sesuai dengan karateristik konsumen yang 
+dibutuhkan. Untuk itu ditentukan dua parameter utama 
+yang akan menjadi panduan dalam menentukan 
+calon responden. Parameter yang pertama berkaitan 
+dengan karateristik konsumen yang akan dipilih yang 
+
+kedua berkaitan dengan mekanisme penyebaran kuesioner. 
+Berkaitan dengan karaterisrtik konsumen pada 
+bagian awal kuesioner di rancang sebuah pertanyaan 
+yang akan memastikan apakah calon reponden 
+memang benar sesuai dengan kebutuhan penelitian. 
+Terdapat pertanyaan yang akan memastikan apakah 
+calon responden benar telah pernah memiliki pengalaman 
+dalam melakukan aktivitas belanja online. 
+Kemudian untuk mekanisme penyebaran kuesioner 
+dilakukan melalui beberapa grup belanja online yang 
+ada di internet. Pengumpulan data dilakukan secara 
+online dengan menggunakan aplikasi dari Survey 
+Monkey. Sebanyak 21 butir pertanyaan di ajukan 
+dalam kuesioner ini. 
+
+Instrumen Penelitian 
+
+Penelitian ini mengembangkan sebuah instrumen 
+berdasarkan model penelitian yang telah dibuat. Untuk 
+mengukur setiap konstruk pada model penelitian ini 
+maka dikembangkanlah alat ukur yang tergambar 
+pada setiap indikator pada setiap konstruk yang ada. 
+Konstruk yang digunakan dalam penelitian didefenisikan 
+sebagai berikut, pada tabel 1. 
+
+Pada penelitian ini indikator yang digunakan adalah 
+indikator yang di adopsi dari penelitian sebelumnya. 
+Agar setiap konstruk yang telah didefinisikan dalam 
+penelitian dapat diukur, maka perlu ditetapkan indikator 
+yang mewakili setiap konstruk yang ada. Penelitian 
+ini mengadopsi indikator untuk setiap konstruk 
+yang digunakan dari penelitian-penelitian terdahaulu 
+yangrelevan.Adapundetailindikator yangdigunakan 
+dapat dilihat pada tabel 2. Semua konstruk yang 
+terdapat pada model penelitian diukur dengan sejumlah 
+indikator. Semua indikator diukur dengan 
+menggunakan tipe pengukuran tujuh poin skala Likert, 
+dimulai dari 1= sangat tidak setuju sampai ke poin 5= 
+sangat setuju. 
+
+Data Analisis 
+
+Penelitian ini menggunakan Structural Equation 
+Model (SEM) dengan menggunakan software Smart 
+PLS V2 (Ringle, et al., 2005) untuk menganalisis data 
+penelitian. SEM digunakan dalam penelitian ini karena 
+kemampuannya untuk mengetes hubungan kasual 
+antar konstruk yang memiliki sejumlah indikator. 
+Dalam metode SEM terdapat dua langkah utama 
+
+JURNALAPLIKASIMANAJEMEN | VOLUME 13 | NOMOR 3 | SEPTEMBER 2015 466 
+
+Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) 
+Tabel1.Konstruk dalamModelPenelitian 
+
+Sumber 
+
+Konstruk Definisi Rujukan 
+Trust Dalam kegiatan 
+berbelanja secara 
+Paul A. 
+Pavlou 
+online, trust and 
+didefinisikan sebagai 
+presepsi kepercayaan 
+Mendel 
+Fyngenson 
+dari pembeli bahwa 
+vendor menyediakan 
+(2006) 
+layanan online 
+shopping secara 
+beretika 
+Online 
+Shopping 
+Online shopping 
+experiences 
+Ciu et al 
+(2009); 
+Experien 
+ces 
+(Pengalaman dalam 
+berbelanja online) 
+Ilias et al 
+(2014) 
+adalah pertimbangan 
+penting dari presepsi 
+konsumen saat 
+berbelanja berdasarkan 
+harapan mereka 
+terhadap layanan 
+vendor. 
+Attitude Keyakinan dari George 
+konsumen bahwa 
+kegiatan belanja online 
+(2004), 
+Ajzen 
+akan dilakukan dengan 
+menyenangkan dan 
+(1991) 
+memakan waktu yang 
+relative singkat 
+Subjectiv 
+e Norm 
+Presepsi individu 
+tentang kegiatan 
+Ajzen 
+(1991) 
+belanja online 
+berdasarkan 
+George 
+,(2004) 
+pandangan kolega 
+terdekat mereka 
+Perceive 
+Behavior 
+Berkaitan dengan 
+kepercayaan dari 
+Ajzen 
+(1991) , 
+Control seseorang berkaitan George 
+dengan besaran control 
+yang dimiliki berkaitan 
+(2004) 
+dengan fasilitas, 
+kapasitas dan juga 
+berkautan dengan 
+presepsi tingkat 
+kesulitan dalam 
+mengeksekusi aktivitas 
+yang terkait. 
+Intention Berkaitan dengan faktor Ajzen 
+to Online 
+Shopping 
+motivasi yang 
+menggambarkan 
+(1991) , 
+George 
+seberapa besar 
+keinginan seseorang 
+(2004) 
+untuk mencoba 
+melakukan sebuah 
+
+Tabel 2. Konstruk dan Indikator 
+Variabel Indikator Sumber 
+
+Trust T1: Vendor penjual barang 
+akan berkompeten dalam 
+mengirimkan produk mereka 
+Paul A. 
+Pavlou 
+and 
+kesaya dengan waktu yang Mendel 
+telah dijanjikan Fyngenson 
+(2006) 
+T2: Vendor penjual barang 
+akan jujur ketika saya membeli 
+produk dari mereka 
+T3: Vendor tidak akan 
+merugikan saya ketika saya 
+membeli produk dari mereka 
+Shopping 
+Online 
+SOE1: Berdasarkan 
+pengalaman saya dalam 
+Ciu et al 
+(2009); 
+Experineces berbelanja online, saya 
+mengetahui bahwa vendor 
+Ilias et al 
+(2014) 
+adalah jujur 
+SOE2: Berdasarkan 
+pengalaman saya berbelanja 
+online, saya mengetahu bahwa 
+vendor tidak akan curang 
+SOE3: Berdasarkan 
+pengalaman belanja online, 
+saya mengetahui bahwa vendor 
+akan menetapi janjinya kepada 
+konsumen 
+Attitude A1: Membeli barang secara 
+online adalah ide yang baik 
+Joy F 
+George 
+(2004), 
+Ajzen 
+(1991) 
+A2: Menggunakan fasilitas 
+belanja online sangat 
+menyenangkan 
+A3: Saya menikmati belanja 
+online 
+Subjective 
+Norm 
+SN1: Orang-orang yang saya 
+percaya berpikir bahwa saya 
+Ajzen 
+(1991) , 
+seharusnya berbelanja barang Joy F 
+secara online George 
+(2004) 
+SN2: Sebagian besar orang 
+yang saya percaya 
+menyarankan saya untuk 
+membeli produk pada vendor 
+ini 
+SN3: Orang-orang yang dapat 
+mempengaruhi saya berpikir 
+bahwa belanja barang secara 
+online adalah pilihan saya yang 
+terbaik 
+Perceived 
+Behavior 
+PBC1: Saya memiliki skill 
+dalam menggunakan internet 
+Ajzen 
+(1991) , 
+Control untuk berbelanja secara online Joy F 
+George 
+
+467 TERAKREDITASI SK DIRJEN DIKTI NO. 66b/DIKTI/KEP/2011 ISSN: 1693 5241 
+
+Setiawan Assegaff Setiawan Assegaff 
+untuk menganilsis data, yang pertama dilakukan 
+evaluasi yang disebut dengan istilah measurement 
+model analisis, Udilakukan untuk memastikan validitas 
+dan reliabilitas pada insrumen penelitian dan 
+kemudian melakukan structural model analisi, yang 
+bertujuan validasi terhadap model penelitian dan 
+selanjutnya melakukan tes hipotesis. 
+
+HASIL 
+
+Responden dalam penelitian ini adalah konsumen 
+yang telah memiliki pengalaman melakukan transaksi 
+belanja secara online pada vendor-vendor yang menyediakan 
+layanan penjualan barang online di 
+Indonesia. Pengambilan data dilakukan selama dua 
+bulan sejak bulan Januari–Februari 2015. Sebuah 
+kuesioner dirancang dan dikembangkan untuk penelitian 
+ini. Hasil dari pengisian kuesioner secara online 
+tersebut dapat dilihat pada tabel berikut. Tabel 3 berikut 
+menggambarkan profile dari responden yang ikut 
+serta dalam penelitian ini. 
+
+Tabel 3. Profil Responden 
+
+Pertanyaan Kategori Persentase 
+Jenis Kelamin Laki-laki 69% 
+Perempuan 31% 
+Umur < 17 tahun 5% 
+18-20 tahun 20% 
+Diatas 21 tahun 75% 
+Frekwensi Belanja 1 kali 31% 
+dalam 1 tahun terakhir 
+1-5 kali 36% 
+Diatas 5 kali 33% 
+
+Sebanyak 215 responden memberikan respon ke 
+dalam kuesioner online tersebut dan sebanyak 89% 
+respon dinyatakan valid. Adapun responden yang 
+berpartisipasi dalam survey ini terdiri atas laki-laki 
+69% dan perempuan 31%, di mana 5% berumur kurang 
+dari 17 tahun dan 20% berada pada umur 18– 
+20 tahun 75% berumur di atas 21 tahun. Jika dilihat 
+dari frekwensi belanja online yang dilkukan konsumen 
+maka, sebanyak 31% responden melakukan belanja 
+online minimal 1 kali dalam setahun terakhir, dan 
+sebanyak 36% melakukan belanja online sebanyak 
+2 sampai 5 kali dalam setahun dan 33% dari responden 
+melakukan belanja online lebih dari 5 kali dalam 
+setahun. 
+
+Evaluasi Measurement Model 
+
+Evaluasi ini ditujukan untuk memastikan bahwa 
+instrument penelitian telah memenuhi standard an lulus 
+uji validitas dan reliabilitas. Sehingga kuesioner sebagai 
+instrument penelitian memiliki konstruk beserta indikator 
+yang terbuktireliabeldanvalid. Untukmemastikan 
+tercapainya kedua standar tersebut maka penelitian 
+ini melakukan dua buah pengujian, yaitu uji reliabilitas 
+dan uji validitas. Uji reliabilitas dilakukan dengan 
+mengadakan pengecekan terhadap internal reliability 
+dari indikator, hal ini dilakukan dengan melihat 
+nilai crobanch alpha. 
+
+Uji Reliabilitas 
+
+Reabilitas diartikan sebagai derajat reliabel dari 
+sebuah instrument, apakah instrument akan memberikan 
+hasil yang konsisten jika diberikan kepada berbagi 
+responden. Untuk menguji tingkat reabilitas maka evaluasi 
+terhadap nilai composite reability dan cronbachs 
+alpha dari setiap variabel yang terdapat dalam 
+instrument penelitian dilakukan. Nilai crobanch alpha 
+yang berada di atas 0.7 menunjukan tingkat relibilitas 
+yang baik bagi sebuah variabel. Pada tabel dibawah 
+dapat dilihat bahwa semua variabel berada pada nilai 
+di atas 0.7. Hal ini menunjukan bahwa tingkat reliabilitas 
+variabel ditinjau dari nilai crobanh alpha adalah 
+telah memenuhi kriteria. Hasil analisis data menunjukan 
+bahwa nilai cronbach alpha setiap konstruk 
+berada di atas nilai 0.7 (Chin, 1998, 2010) yang mengindikasikan 
+adanya tingkat reliabilitas yang cukup baik. 
+Evaluasi berikutnya adalah niali CR (composite 
+reliability), nilai composite reliability yang baik adalah 
+jika berada diatas 0.7. Pada tabel di bawah dapat 
+ditemukan bahwa semua nilai CR setiap variabel berada 
+di atas 0.8 hal ini menggambarkan bahwa semua 
+variabel telah memenuhi kriteria dan memenuhi unsur 
+reabilitas. Selain itu terdapat komponen lain yang dapat 
+dijadikan acuan tambahan dalam menilai reliabilitas, 
+yaitu adalah h nilai AVE setiap variabel. Nilai 
+AVE di atas 0.5 dianggap telah memenuhi kriteria 
+baik. Dari tabel 4 di bawah dapat disimpulkan bahwa 
+nilai AVE terendah untuk setiap variabel adalah 0.59 
+yang dimiliki oleh variabel ”Perceived Behavior 
+Control”, maka dapat kita simpulkan bahwa semua 
+variabel telah memenuhi standar reliabilitas yang telah 
+disepakati yaitu di atas 0.5 
+
+JURNALAPLIKASIMANAJEMEN | VOLUME 13 | NOMOR 3 | SEPTEMBER 2015 468 
+
+Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) 
+Tabel 4. Tes Reabilitas danValiditas 
+
+AVE CR R 
+Square 
+Cronbachs 
+Alpha 
+ATT 0.8186 0.9312 0.2809 0.8896 
+BH 0.6394 0.8414 0.2069 0.7249 
+OSE 0.7237 0.8868 0 0.8088 
+INT 0.6437 0.8438 0.3065 0.7207 
+TR 0.7552 0.9023 0 0.8366 
+PBC 0.5946 0.8148 0 0.7023 
+SN 0.7914 0.9192 0 0.8688 
+ATT : Attitude 
+BH : Behavior 
+TR : Trust 
+INT : Intention 
+OSE : Online Shopping Experience 
+PBC : Perceived Behavior Control 
+SN : Subjective Norm 
+
+Uji Validitas 
+
+Suatu instrumen penelitian dapat dikatakan baik 
+jika mempunyai validitas yang memenuhi kriteria yang 
+telah disepakati. Sehingga apabila instrument penelitian 
+tersebut menjalankan fungsi ukurnya, akan memberikan 
+hasil yang sesuai dengan tujuan dilakukannya 
+pengukuran tersebut. Sedangkan tes yang memiliki 
+validitas rendah kemungkinan akan menghasilkan data 
+yang kurang atau mungkin tidak sesuai dengan tujuan 
+pengukuran. Dalam melaksanakan uji validitas dapat 
+dilakukan evaluasi berkaitan dengan tes ”discriminant 
+validity” dan ”convergent validity”. Pengujian yang 
+pertama adalah Convergent Validity, pada kegiatan 
+ini dilakukan ”construct validity”.Salah satu metode 
+yang digunakan untuk mencapai ”construct validity” 
+adalah dengan melakukan sebuah tes kolerasi atau 
+konvergensi terhadap variabel yang ada dengan indikatornya. 
+Variabel yang indikatornya berkonvergensi 
+atau berkorelasi tinggi dengan indikator-indikator lainnya 
+dalam sebuah variabel yang secara teoritis serupa 
+denganny sajayaitu apabila jika nilai loading factor 
+pada setiap indikator pada konstruk adalah di atas 
+
+0.6 (Chin, 1998, 2010). Tabel 6 dan 7 menunjukan 
+bahwa nilai indikator terendah dari setiap indikator 
+konstruk adalah 0.7 sehingga semua indikator pada 
+penelitian ini telah memenuhi kriteria yang ditentukan. 
+Kemudian berikutnya dilakukan pengecekan terhadap 
+kelayakan discriminant validity, untuk memastikan 
+setiap konstruk memenuhi kriteria, maka nilai AVE 
+setiap konstruk harus lebih besar dari nilai varian 
+konstruk yang ada (Chin, 1998, 2010). Tabel 5 di 
+bawah meggambarkan nilaiAVE, dari tabel 5 di bawah 
+terlihat bahwa nilai AVE setiap konstruk pada model 
+penelitian memiliki nilai yang lebih tinggi dari nilai 
+variankonstrukyangdiada. Sehingga nilaiAVE telah 
+memenuhi kriteria. 
+
+Tabel 5. NilaiAVE 
+
+ATT BH TR INT OSE P BC SN 
+ATT 
+BH 0.3462 
+TR 0.5063 0.3458 
+IN 0.5159 0.4549 0.8098 
+ON 0.3128 0.7909 0.3253 0.2871 
+P BC 0.2193 0.3199 0.2184 0.1613 0.3319 
+SN 0.1647 0.2375 0.3248 0.2821 0.2778 0.1884 
+ATT: Attitude 
+BH: Behavior 
+TR: Trust 
+INT: Intention 
+OSE: Online Shopping Experience 
+PBC: Perceived Behavior Control 
+SN: Subjective Norm 
+SN: Subjective Norm 
+
+Evaluasi Struktural Model 
+
+Sebelum dilakukan tes terhadap hipoteses, maka 
+perlu dipastikan bahwa model yang dikembangkan 
+dalam penelitian ini adalah fit. Beberapa evaluasi 
+dapat dilakukan untuk memastikan sebuah model 
+adalah fit. Evaluasi yang dapat dilakukan antara lain 
+dengan melihat nilai ”coofecient determinant atau 
+nilai R2 (Chin, 1998, 2010). R2 dapat diartikan sebagai 
+Pengaruh bersama seharusnya merupakan total dari 
+masing-masing pengaruh variable independent 
+(eksogen) terhadap variable dependent (endogen). 
+Berdasarkan hasil analysis data maka nilai R2 
+(pengaruh bersama) dari variabel idependent ”trust” 
+dan variabel independent ”online shopping experience” 
+terhadap variabel attitude adalah 0.28. Nilai 
+ini terkategori moderat, Sehingga dapat disimpulkan 
+bahwa kedua variabel independent ”trust” dan 
+”online shopping experience” memberikan pengaruh 
+dengan tingkat moderat terhadap variabel dependent 
+”attitude”. Sedangkan pengaruh bersama antara 
+variabel dependent ”attitude”, variabel independent 
+”subjective norm” dan variabel independen ”perceived 
+
+469 TERAKREDITASI SK DIRJEN DIKTI NO. 66b/DIKTI/KEP/2011 ISSN: 1693 5241 
+
+Setiawan Assegaff 
+ATT: Attitude 
+BH: Behavior 
+TR: Trust 
+INT: Intention 
+OSE: Online Shopping Experience 
+PBC: Perceived Behavior Control 
+
+
+Gambar3. Evaluasi StrukuturalModel 
+Tabel 8. Hasil Tes Hipotesis 
+
+
+Tabel 6. Loading Factor 
+
+
+ATT: Attitude 
+BH: Behavior 
+TR: Trust 
+INT: Intention 
+OSE: Online Shopping Experience 
+PBC: Perceived Behavior Control 
+SN: Subjective Norm 
+
+behavior control” memberi nilai R2 0.3 untuk variabel 
+dependent ”intention”. Hal ini berarti ketiga variabel 
+memberi pengaruh yang besar terhadap variabel 
+”intention”. Variabel dependen ”Behavior” memiliki 
+nilai R2 0.2, hal ini menunujukan pengaruh variabel 
+lain terhadap variabel ini teraktegori moderat. 
+
+Setelah sebuah model penelitian diyakini sudah 
+fit maka tes hipoteses dapat dilakukan. Langkah 
+berikutnya adalah melakukan tes terhadap hipotesis 
+yang telah dibangun pada penelitian ini (hasil dapat 
+dilihat pada tabel 8). Untuk melakukan tes tehadap 
+hipotesis digunakan 2 kriteria yaitu nilai path coefficient 
+dan nilai T statistic (Straub, et al., 2004). 
+Terdapat enam buah hipoteses yang dikembangkan 
+pada penelitian ini. Semua hipoteses dibangun berdasarkan 
+teori dan hasil penelitian yang relevan sebelumnya. 
+Hasil dari tes hipoteses dapat dilihat pada tabel 
+8 di bawah ini. Dari enam hipoteses yang dibangun, 
+empat hipoteses diterima dan dua hipoteses ditolak. 
+
+Tabel 7. Cross Loading Factor 
+
+Path T-P-
+
+Hipoteses Hasil 
+
+Coeffecient statistic Value 
+
+H1 0.166 4.5562 
+H2 0.452 1.7895 
+H3 0.479 5.2754 
+H4 0.200 1.9934 
+H5 0.019 0.1743 
+H6 0.455 4.2963 
+
+**Signifikan pada level 5%. 
+*Signifikan pada level 1% 
+
+0.0001 Di dukung 
+0.0750 Tidak Didukung 
+0.0001 Di dukung 
+0.0475 Di dukung 
+0.8618 Tidak Didukung 
+0.0001 Di dukung 
+
+JURNALAPLIKASIMANAJEMEN | VOLUME 13 | NOMOR 3 | SEPTEMBER 2015 470 
+
+Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) 
+PEMBAHASAN 
+
+Hipoteses pertama memperlihatkan bahwa dimensi 
+trust (kepercayaan) memiliki pengaruh signifikan 
+dan berhubungan positif terhadap attitude (sikap) 
+konsumen dalam belanja online. Hal ini mengindikasikan 
+bahwa semakin meningkatnya tingkat kepercayaan 
+konsumen (trust) akan meningkatkan sikap 
+konsumen untuk memutuskan aktivitas pembelian 
+secara online, dalam hal ini hipoteses pertama terbukti. 
+Merujuk kepada penelitian terdahulu dimensi 
+trust diyakini memiliki peran yang sangat penting 
+dalam meningkatkan level keyakinan konsumen dalam 
+pembelian online (McKnight, et al., 2002). Dalam 
+kegiatan berbelanja secara online, trust didefinisikan 
+sebagai presepsi kepercayaan dari pembeli bahwa 
+vendor menyediakan layanan online shopping secara 
+beretika (Pavlou, et al., 2006). Trust memberikan rasa 
+aman dan nyaman bagi konsumen dalam bertansaksi 
+secara online. 
+
+Hipoteses kedua menunjukkan bahwa tidak ada 
+pengaruh yang signifikan antara Online Shopping 
+Experience (pengalaman orang dalam berbelanja 
+secara online) dengan attitude (sikap) konsumen 
+dalam berbelanja secara online. Dalam hal ini hipotesis 
+kedua ditolak. Apa yang ditemukan dalam 
+penelitian kali ini memiliki hasil yang berbeda dengan 
+penelitian-penelitian yang lain sebelumnya (O. Pappas 
+et al., 2014; Pentina, et al., 2011; Shin, 2013). Pentina 
+et al. (2011) dalam kajiannya berkenaan dengan 
+pengalman konsumen berbelanja menyatakan bahwa 
+pengalaman yang secara positif didapat ketika konsumen 
+berbelanja akan mempengaruhi performan dari 
+penjualan sebuah organisasi. Kajian lain yang relevan 
+dilakukan oleh O.Pappas, et al. (2014) dalam kajiannya 
+pengalaman konsumen dalam berbelanja online 
+ternyata memilik pengaruh yang erat dalam membentuk 
+kepuasan konsumen dalam berbelanja, sementara 
+konsumen yang puas akan memililiki kemungkinan 
+lebih besar dalam mengulang kembali kegiatan belanja 
+online mereka. Konsumen di Indonesia ternyata 
+memiliki prespektif yang berbeda dalam memandang 
+pentingnya pengalaman berbelanja ini, hal ini diperkirakan 
+karena adanya perbedaan kultur dengan konsumen 
+yang ada pada penelitian sebelumnya. Peneliti 
+memprediksi adanya faktor lain yang mungkin lebih 
+memiliki pengaruh terhadap presepsi dan perilaku 
+
+nasabah di Indonesia. Kajian lain yang lebih mendalam 
+dibutuhkan untuk dapat menjelaskan fenomena ini. 
+
+Hipoteses ketiga mengindikasikan bahwa 
+attitude (sikap) konsumen berpengaruh signifikan 
+terhadap niat (intention) konsumen dalam berbelanja 
+secara online, sehingga dapat disimpulkan bahwa 
+semakin meningkatnya sikap positif konsumen akan 
+meningkatkan niat konsumen dalam melakukan aktivitas 
+belanja secara online. Temuan dalam penelitian 
+ini relevan dengan hasil yang diperoleh oleh penelitian 
+sejenis yang dilakukan sebelumnya (Chiu, et al., 2014; 
+Pavlou, et al., 2006). George (20040) menyatakan 
+bahwa attitude (sikap) konsumen dalam berbelanja 
+online adalah merupakan presepsi konsumen yang 
+berkeyakinan dari konsumen bahwa kegiatan belanja 
+online akan dilakukan dengan menyenangkan dan 
+memakan waktu yang relatif singkat. 
+
+Hipotesis keempat menyatakan bahwa Subjektif 
+Norm (Pandangan orang terdekat terhadap perilaku 
+konsumen) berpengaruh signifikan secara positif 
+terhadap intention (niat) konsumen dalam berbelanja 
+secara online. Dalam teori TPB, Ajzen (1991) menyatakan 
+bahwa pendapat/pandangan orang-orang 
+yang dianggap dekat dengan seseorang akan mempengaruhi 
+seseorang dalam mengambil keputusan/ 
+bertindak. Kajian terdahulu dibidang E-Commerce 
+juga membuktikan bahwa subjektif norm menjadi 
+salah satu pertimbangkan penting bagi seseorang 
+konsumen dalam berperilaku. Dalam penelitian yang 
+menggunakan TPB dalam memahami perilaku konsumen 
+di E-commerce Pavlou, et al. (2006) mendapatkan 
+konsumen mempertimbangkan pandangan/ 
+pendapat dari rekan-rekan terdekatnya ketika mereka 
+akan melakukan sebuah transaksi di E-commerce. 
+
+Hipoteses keempat menyatakan bahwa perceived 
+behaviour control (presepsi kontrol berperilaku) 
+berpengaruh signifikan terhadap niat konsumen 
+berbelanja online. Kajian ini menolak hipoteses 
+tersebut. Perceived behaviour control oleh George 
+(2004) diartikan sebagai prespsi konsumen yang 
+berkaitan dengan kepercayaan dari seseorang berkaitan 
+dengan besaran control yang dimiliki berkaitan 
+dengan fasilitas, kapasitas dan juga berkautan dengan 
+presepsi tingkat kesulitan dalam mengeksekusi aktivitas 
+yang terkait. Hal ini dapat diartikan bahwa konsumen 
+menyakini bahwa ia memiliki kemanpuan dan 
+fasilitas yang memadai dalam melakukan transaksi 
+
+471 TERAKREDITASI SK DIRJEN DIKTI NO. 66b/DIKTI/KEP/2011 ISSN: 1693 5241 
+
+Setiawan Assegaff Setiawan Assegaff 
+online. Peneliti memprediksi hipoteses ini ditolak 
+dikarenakan responden yang ikut serta didalam survey 
+ini yakin bahwa mereka memiliki kemampuan dan 
+fasilitas untuk bertransaksi online, hal ini dikarenakan 
+survey dilakukan secara online di mana responden 
+yang ikut serta dipastikan telah terbiasa menggunakan 
+internet dan memiliki fasilitas pendukung untuk kegiatan 
+internet. Sehingga respoenden tidak merasa kemampuan 
+dan fasilitas berinternet akan menjadi 
+kendala bagi mereka dalam berbelanja online. 
+
+Hipoteses keenam mengindikasikan bahwa 
+intention (niat) konsumen berpengaruh secara signifikan 
+terhadap behavior (perilaku) konsumen dalam 
+berbelanja secara online. Hal ini dapat diartikan bahwa 
+semakin meningkat niat seorang konsumen dalam 
+berbelanja online maka prediski bahwa konsumen 
+tersebut akan berbelanja online akan semakin besar. 
+Dalam berbagai penelitian terdahulu mengenai pengaruh 
+niat dan perilaku konsumen, terbukti bahwa niat 
+secara signifikan mempengauhi perilaku konsumen 
+dalam berbelanja (Chiu, et al., 2014; Pavlou, et al., 
+2006). 
+
+KESIMPULAN DAN SARAN 
+Kesimpulan 
+
+Berdasarkan hasil penelitian dapat disimpulkan 
+bahwa dimensi trust (kepercayaan) memiliki pengaruh 
+yang signifikan secara positif terhadap sikap, niat dan 
+perilaku konsumen dalam berbelanja secara online. 
+Namun penelitian ini tidak menemukan adanya pengaruh 
+dari dimensi perceived behavior control (persepsi 
+control berperilaku) konsumen terhadap sikap, niat 
+dan perilaku mereka dalam melakukan transaksi belanja 
+secara online. Pelaku usaha dibidang penjualan 
+barang secara online sebaiknya dapat fokus membangun 
+kepercayaan (trust) kepada nasabah. Komunikasi 
+yang aktif dan intensif dari vendor, brand imej 
+yang baik dari perusahaan, dan sistem yang aman 
+dapat menjadi modal utama bagi pelaku usaha untuk 
+membangun trust (kepercayaan) dari konsumen di 
+Indonesia. 
+
+Saran 
+
+Peneliti selanjutnya dapat mengekplorasi dimensi 
+lain yang penting untuk dapat memahami lebih baik 
+tentang perilaku konsumen di Indonesia dalam 
+
+melakukan transaksi secara online seperti dimensi 
+perceveived risk dan cost. 
+
+DAFTAR RUJUKAN 
+
+Chin, W.W. 1998. The Partial Least Squares Approach For 
+Structural Equation Modeling. In Modern Methods 
+for Business Research (pp. 295–336). Mahwah, NJ, 
+US: Lawrence Erlbaum Associates Publishers. 
+
+Chin, W.W. 2010. HowtoWrite Up and Report PLSAnalyses.
+In V.EspositoVinzi,W. W. Chin,J. Henseler and 
+
+H. Wang (Eds.), Handbook of Partial Least Squares 
+(pp. 655–690): Springer Berlin Heidelberg. 
+Chiu,C.M.,Wang, E.T.,Fang,Y.H.,and Huang,H.Y.2014. 
+Understanding Customers’ Repeat Purchase Intentions 
+In B2c E Commerce: The Roles of Utilitarian 
+Value, Hedonic Value And Perceived Risk. Information 
+Systems Journal, 24(1), 85–114. 
+
+Gefen, D. 2000. E-commerce: the Role of Familiarity and 
+Trust. Omega, 28(6), 725–737. 
+
+Gefen, D., and Straub, D.W. 2004. Consumer Trust in B2C 
+e-commerce and the Importance of Social Presence: 
+Experiments in e-products and e-services. Omega, 
+32(6), 407–424. 
+
+George, J.F. 2004. The Theory of Planned Behavior and 
+Internet Purchasing. Internet research, 14(3), 198– 
+
+212. 
+Huang, Z., and Benyoucef, M. 2013. From e-commerce to 
+SocialCommerce:ACloseLook at Design Features. 
+Electronic Commerce Research and Applications, 
+12(4), 246–259. 
+
+Kim, S., and Park, H. 2013. Effects of Various Characteristics 
+of Social Commerce(S-commerce) on Consumers’ 
+Trust and Trust Performance. International Journal 
+of Information Management, 33(2), 318–332. 
+
+Liang, T.P., and Turban, E. 2011. Introduction to the Special 
+Issue Social Commerce: a Research Framework 
+for Social Commerce. International Journal of Electronic 
+Commerce, 16(2), 5–14. 
+
+McKnight, D.H., Choudhury, V., and Kacmar, C. 2002. 
+Developing and Validating Trust Measures for e-
+Commerce: An Integrative Typology. Information 
+Systems Research, 13(3), 334–359. 
+
+Mo, P.K., and Coulson, N.S. 2008. Exploring the Communication 
+of Social Support Within Virtual Communities: 
+a Content Analysis of Messages Posted to an Online 
+HIV/AIDS support group. Cyberpsychology & Behavior, 
+11(3), 371–374. 
+
+O. 
+Pappas, I., G. Pateli, A., N. Giannakos, M., and 
+Chrissikopoulos, V. 2014. Moderating Effects of 
+Online Shopping Experience on Customer Satisfaction 
+And Repurchase Intentions. International Journal 
+JURNALAPLIKASIMANAJEMEN | VOLUME 13 | NOMOR 3 | SEPTEMBER 2015 472 
+
+Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) Pengaruh Trust (Kepercayaan) dan Online Shopping Experiences (Pengalaman Berbelanja Online) 
+of Retail & Distribution Management, 42(3), 187– 
+
+204. 
+Pavlou, P.A., and Fygenson, M. 2006. Understanding and 
+Predicting ElectronicCommerceAdoption:an Extension 
+of The Theory of Planned Behavior. MIS quarterly, 
+115–143. 
+
+Pentina, I.,Amialchuk, A., andTaylor, D.G. 2011. Exploring 
+Effects of Online Shopping Experiences on Browser 
+Satisfaction and E-tail Performance. International 
+Journal of Retail & Distribution Management, 39(10), 
+742–758. 
+
+Qualman, E. 2012. Socialnomics: HowSocial Media Transforms 
+The Way We Live and Do Business. John Wiley 
+& Sons. 
+
+Ringle, C., Wende, S., and Will,A. 2005. Smart PLS 2.0 M3, 
+Universityof Hamburg. 
+
+Shin, D.H. 2013. User Experience in Social Commerce: In 
+Friends We Trust. Behaviour & information technology, 
+32(1), 52–67. 
+
+Straub, D., Gefen, D., and Boudreau, M.C. 2004. Validation 
+guidelines for IS positivist research. Communications 
+of the Association for Information Systems, 13(24), 
+380–427. 
+
+473TERAKREDITASI SK DIRJEN DIKTI NO. 66b/DIKTI/KEP/2011 ISSN: 1693 5241 
+View publication stats 
+View publication statsView publication stats 
+
+
