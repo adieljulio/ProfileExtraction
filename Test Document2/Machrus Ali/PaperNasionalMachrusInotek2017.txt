@@ -1,0 +1,38 @@
+I. PENDAHULUAN 
+Sistem Steer by Wire adalah salah satu bagian dari sistem besar dari perkembangan teknologi pada electric cars dan diharapkan menjadi kendaraan masa depan dengan kontrol kinerja yang tinggi [1]. Terdapat dua jenis karakteristik steer by wire system yang digunakan yaitu semi-automatic dan fully automatic steer by wire system. Semi-automatic adalah steer by wire system yang menggunakan steer wheel untuk menentukan arah roda depan kendaraan sedangkan fully automatic steer by wire system tanpa menggunakan steer wheel, untuk menentukan arah roda depan kendaraan digunakan trajectory yang telah diprogram. Banyak riset telah dikembangkan pada fully automatic steer by wire system antara lain riset yang dikhususkan pada input trajectory yang menggunakan 
+look-ahead and look-down systems [1], menggunakan technology GPS[2] dan trajectory yang menggunakan lane guidance [3]. Demikian juga telah banyak dikembangkan riset tentang control active steering antara lain, an adaptive nonlinear control scheme aimed at the improvement of the handling properties of vehicles [4], Fuzzy Controller for Vehicle Automatic Steering Control [5]. 
+Permasalahan yang muncul saat ini adalah diperlukan suatu usaha untuk meningkatkan Performance fully automatic steer by wire system, salah satu usaha yang masih sangat mungkin untuk 
+dikembangkan adalah metode kontrol yang digunakan, karena hal ini akan berlaku pada apapun bentuk input trajectory yang digunakan. Penggunan AI sangat membantu dalam mempercepat proses pengontrolan dalam hal ini PID dalah kontrol yang cukup handal untuk digunakan namun perlu didukung suatu metode untuk tuning parameter-parameter agar dapat dicapai hasil kontrol yang tepat, Firefly Algorithm (FA) adalah suatu metode optimisasi yang menawarkan proses optimisasi dengan cepat dan akurat untuk tuning parameter-parameter PID [1]. Pada paper ini akan dikembangkan model fully automatic steer by wire system yang direpresentasikan pada a simulation of active steering control using vehicle model with 10 degree of freedom (DOF) consisting of 7-DOF vehicle ride model and 3-DOF vehicle handling model [6]. Structure sistem kontrol yang dikembangkan terdiri dari dua tahap pengontrolan secara cascade yaitu kontrol lateral motion untuk menghilangkan pergerakan lateral yang tidak diinginkan, Output kontrol ini digunakan sebagai setting point pada kontrol berikutnya yaitu kontrol yaw motion sebagai penyempurna sistem kontrol steering input. Sistem Kontrol menggunakan AI yaitu FA untuk tuning parameter-parameter FLC pada pengontrolan lateral motion. Hasil yang diharapkan dari simulasi active steering control ini yaitu dengan penggunaan FLC kontrol yang dituning dengan ICA dapat meningkatkan vehicle dynamic performance. 
+
+II. VEHICLE MODEL UNTUK CONTROL DESIGN 
+Berdasarkan konsep vehicle dynamics, vehicle model yang dibangun sebagai plant pada active steering control system menggunakan 10 degree of freedom (DOF) yang teridri dari 7-DOF dari vehicle ride model and 3-DOF dari vehicle handling model. 
+
+A. Vehicle Ride Model 
+Vehicle Ride Model dipresentasikan sebagai 7-DOF system yang dinyatakan dalam 7 persamaan matematis terdiri dari persamaan matematis pada kebebasan dan pergerakan untuk mrndapatkan rombakan, anggukan dan pergerakan vertikal [1,6,7,8]. 
+
+B. Vehicle Handling Model 
+Vehicle Handling Model direpresentasikan sebagai 3 DOF system yang berarti memiliki 3 persamaan matematis yang terdiri dari persamaan matematis pergerakan car body secara lateral dan longitudinal serta yaw motion [1,7,8]. Lateral motion dan longitudinal motion merupakan pergerakan kendaraan sepanjang sumbu x dan sumbu y yang dinyatakan dalam percepatan lateral (ay) dan percepatan longitudinal (ax) sehingga lateral motion dan longitudinal motion dapat diperoleh dengan integrasi dua kali dari percepatan lateral dan longitudinal. 
+
+III. METODE PENELITIAN 
+A.PID Controller 
+Kontrol PID adalah sistem kontrol gabungan antara kontrol proporsional, integral, dan turunan (derivative). Pada metode ini, penalaan dilakukan dalam kalang tertutup dimana masukan referensi yang digunakan adalah fungsi tangga (step). Pengendali pada metode ini hanya pengendali proporsional. Kp, dinaikkan dari 0 hingga nilai kritis Kp, sehingga diperoleh keluaran yang terus-menerus berosilasi dengan amplitudo yang sama. Nilai kritis Kp ini disebut sebagai ultimated gain. Nilai ultimated period, Tu, diperoleh setelah keluaran sistem mencapai kondisi yang terus menerus berosilasi. 
+
+B. Firefly Algorithm (FA) 
+Metode yang digunakan untuk mengoptimisasi parameter PID adalah metode Firefly Algorithm (FA). Algoritma ini pertama ditemukan oleh Dr.Xin-She Yang di Universitas Cambridge pada tahun 2007. Pada algoritma ini terdapat tiga perumusan dasar : 
+1. Semua kunang-kunang adalah unisex, jadi suatu kunang-kunang akan tertarik dengan kunangkunang lain terlepas dari jenis kelamin mereka. 
+2. Daya tarik sebanding dengan kecerahan, maka kunang-kunang dengan kecerahan lebih redup akan bergerak kearah kunang-kunang dengan kecerahan lebih terang dan kecerahan berkurang seiring 
+dengan bertambah jarak. Apabila tidak ada kunangkunang yang memiliki kecerahan paling cerah maka kunang-kunang akan bergerak random. 
+3. Tingkat kecerahan kunang -kunang dideterminasikan oleh tempat dari fungsi objektif kunang-kunang. 
+Dalam proses permasalahan optimisasi, kecerahan cahaya kunang-kunang adalah sebanding untuk nilai dari fungsi tujuan. Bentuk lain dari kecerahan dapat didefinisikan pada cara yang sama 
+untuk fungsi fitness pada algoritma genetika. Dalam proses permasalahan optimisasi, kecerahan cahaya kunang-kunang adalah sebanding untuk nilai dari fungsi tujuan. Bentuk lain dari kecerahan dapat didefinisikan pada cara yang sama untuk fungsi fitness pada algoritma genetika. 
+
+C. Penggunaan FA dalam penalaan PID 
+Gambar.3 menunjukkan diagram alur algoritma metode Firefly Algorithm (FA) yang digunakan pada penelitian penelitian ini. Fungsi objektif yang digunakan untuk menguji kestabilan sistem adalah dengan Integral Time Absolut Error (ITAE). 
+
+IV. SIMULASI KONTROL SISTEM 
+Dari transfer function vehicle steering control dapat dimodelkan ke dalam bentuk diagram seperti pada gambar 4. Pada Sub System dapat dilihat bentuk gambar seperti pada gambar 5. Sub System terdiri dari 3 buah blok besar, yaitu; tire model, handling model dan slip angle. Pada sub system ada sebuah input, yaitu: steering input dan ada 3 output, yaitu; x (trajectory),y(lateral 
+motiondan yaw (yaw motion). 
+
+V. KESIMPULAN: 
+Hasil PID-FA akan dibandingkan dengan metode PID konvensional dan sistem tanpa kontrol. Kontrol PID-FA didapatkan hasil yang lebih baik, dengan dibuktikan dengan kemampuan mengontrol mobil 
+dengan kecepatan mencapai 69,0 km/h dengan overshot terkecil, yaitu 0,005071 pada C-RMS Error. 
