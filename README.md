@@ -2,6 +2,7 @@ ProfileExtraction
 
 Program yang ditujukan untuk mata kuliah Text Reuse Plagiarism Detection. Program ini digunakan untuk mengekstraksi profil dari seorang penulis berdasarkan dari statistik dokumen setiap penulis.
 
+run dapat dilakukan dalam netBeans atau dengan menjalankan jar di folder dist. Sebaiknya menggunakan netbeans
 Environtment: NetBeans 8.2, JDK 1.8, menggunakan JavaSwing
 
 Sumber dokumen diambil dari artikel yang ditulis di profile penulis pada web researchgate
