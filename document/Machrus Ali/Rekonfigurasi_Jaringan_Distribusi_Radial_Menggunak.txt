@@ -1,0 +1,112 @@
+SINGLE LINE SUTM 20KV PENYULANG TANJUNGRAYONJOMBANGP.DENANYARP.CEWENGP.CEWENGP.CEWENG
+Pada Penyulang Tanjung Rayon Jombang 
+
+ 
+
+Hidayatul Nurohmah Teknik Elektro Universitas Darul „Ulum Jombang 
+
+nurohmah@ft-undar.ac.id 
+
+Agus Raikhani Teknik Elektro Universitas Darul „Ulum Jombang 
+
+agus.raikhani@ft-undar.ac.id 
+
+Machrus Ali Teknik Elektro Universitas Darul „Ulum Jombang 
+
+machrus@ft-undar.ac.id 
+
+ 
+
+Abstrak - Rekonfigurasi jaringan distribusi sangat diperlukan agar dapat mengurangi rugi-rugi daya dan meningkatkan keandalan sistem. Bentuk distribusi yang berbeda akan berpengaruh kepada besar losses daya sehingga diperlukan untuk mengatur ulang bentuk konfigurasi jaringan. Rekonfigurasi dilakukan dengan jalan membuka dan menutup switch pada jaringan distribusi yang paling baik. Banyaknya feeder dan bus pada jaringan akan sulit dan memerlukan waktu yang sangat lama jika dihitung dengan manual. Penyulang Tanjung Rayon Jombang terdiri dari 41 Bus dan 44 feeder. Karena itu maka diperlukan penyelesaian permasalahan dengan menggunakan kecerdasan buatan atau Artificial Intelegent (AI). Firefly Algorithms (FA) banyak dipakai penelitian dalam menyelesaikan permasalahan optimasi. Modified Firefly Algorithms (MFA) adalah modifikasi FA yang didisain untuk menyelesaikan masalah optimisasi secara kombinasi yang diskrit. MFA dapat mencari rekonfigurasi jaringan yang terbaik sehingga dapat mereduksi 12,0866 kWatt atau 12,6881 % pada penyulang Tanjung. Dengan tegangan ujung sebelum rekonfigurasi 0,92959 pu menjadi 0,94072 pu. Metode ini nanti bisa menggunakan kecerdasan buatan lainnya atau bisa diterapkan pada penyulang lainnya, sehingga dapat mengurangi losses energi listrik. 
+
+
+ 
+
+1. PENDAHULUAN 
+
+
+Bentuk konfigurasi jaringan, sangat memepengaruhi aliaran daya listrik dan besar kerugian dayanya. Diperlukan konfigurasi yang baik agar diperoleh kerugian daya yang paling kecil. Konfigurasi jaringan distribusi radial sangat beragam dan sulit di sederhanakan sehingga penyelesaian permasalah harus diselesaikan tahap demi tahap, maka perlu dilakukan rekonfigurasi untuk mengurangi rugi-rugi daya pada jaringan distribusi dan meningkatkan keandalan sistem distribusi. Efisiensi daya listrik yang disalurkan akan meningkat dan konsumen dapat dilayani dengan baik. Karena banyaknya feeder dan bus pada jaringan, jika dihitung secara manual akan sulit dan memerlukan waktu yang sangat lama, sehingga penyelesaian permasalahan harus menggunakan kecerdasan buatan seperti pada penelitian sebelumnya [1,2]. Hasil konfigurasi Artificial Intelegent (AI) dalam hal ini Modification Firefly Algorithm (MFA) diperkirakan akan lebih baik dibandingkan dengan konfigurasi secara manual 
+
+Pada Jaringan Tegangan menengah Penyulang Tanjung Rayon Jombang terdiri dari 41 bus (GTT) dan 44 saluran. Single line penyulang Tanjung dapat dilihat pada gambar.1. 
+
+ 
+
+ 
+
+Gambar 1. Single line penyulang Tanjung Jombang 
+
+ 
+
+2. KAJIAN PUSTAKA 
+A. Losses Energi Jaringan 
+
+
+Beberapa perbedaan prinsip yang harus diperhatikan dan dipahami pada sistem arus bolak-balik antara lain: perhitungan arus pada tiap seksi saluran arus bolak balik merupakan jumlah vektor dari arus-arus beban. Jumlah arus dapat dinyatakan dalam bentuk persamaan aljabar biasa, bila dinyatakan dalam notasi bilangan komplek. Tiap beban bisa memiliki besar power factor yang berbeda. Masing-masing besar power factor berkaitan dengan besar tegangan catu dayanya berdasarkan besaran vector [4,5]. Dalam kondisi operasi normal, rekonfigurasi jaringan dilakukan karena dua alasan: mengurangi rugi-rugi daya pada sistem (loss reduction), mendapatkan pembebanan yang seimbang untuk mencegah pembebanan yang berlebih pada jaringan. Rekonfigurasi jaringan (Network Reconfiguration) merupakan suatu usaha merubah bentuk konfigurasi jaringan distribusi dengan mengoperasikan pensakelaran terkontrol jarak jauh (switching remotely controlled) pada jaringan distribusi tanpa menimbulkan akibat yang beresiko pada operasi dan bentuk sistem jaringan distribusi secara keseluruhan. [6,7]. 
+
+ 
+
+B. Formulasi Rekonfigurasi Jaringan 
+
+
+Formulasi rekonfigurasi jaringan disusun sebagai permasalahan multiobjektif, yaitu fungsi terdiri dari lima fungsi objektif, dan memiliki faktor beban yang berfungsi untuk menyatakan besarnya hubungan antara masing-masing fungsi objektif tersebut. Fungsi-fungsi objektif tersebut adalah: . Minimalisasi daya kompleks tidak seimbang 
+
+
+
+3. METODE PENELITIAN 
+
+
+Modified Firefly Algorithm (MFA) 
+Algorithm Firefly (FA) pertama ditemukan oleh Dr.Xin-She Yang di Universitas Cambridge pada tahun 2007. MFA adalah modifikasi FA dengan melihat karakter obyek yang diteliti. Dalah hal ini menghilangkan variable alpha. Dalam proses permasalahan optimisasi, kecerahan cahaya kunang-kunang adalah sebanding untuk nilai dari fungsi tujuan. Berdasarkan pada ketiga peraturan ini, langkah dasar dari algoritma kunang-kunang dapat diringkas sebagai pseudo code. 
+
+Semua kunang-kunang adalah unisex, jadi suatu kunang-kunang akan tertarik dengan kunang-kunang lain terlepas dari jenis kelamin mereka. Daya tarik sebanding dengan kecerahan, maka kunang-kunang dengan kecerahan lebih redup akan bergerak kearah kunang-kunang dengan kecerahan lebih terang dan kecerahan berkurang seiring dengan bertambah jarak. Apabila tidak ada kunang-kunang yang memiliki kecerahan paling cerah maka kunang-kunang akan bergerak random. Tingkat kecerahan kunang - kunang dideterminasikan oleh tempat dari fungsi objektif kunang-kunang[8,9]. 
+
+ 
+
+
+Data parameter-parameter standar MFA yang digunakan ditunjukkan pada Tabel 2 berikut: 
+
+Tabel 2 Parameter MFA 
+
+4. ANALISA DAN PEMBAHASAN 
+
+
+Data saluran dan impedansi saluran Beban pada JTM 20 kV Penyulang Tanjung Rayon Jombang dapat dilihat pada Tabel 1. 
+
+Tabel 2. Data beban 
+
+ 
+
+Data beban dan inpedansi beban diolah menggunakan program matlab 2013a. Profile jaringan distribusi Tanjung dapat dilihat pada tabel 2. 
+
+Tabel 2. Profile jaringan distribusi 
+
+Jumlah bus ada 41, dengan 40 bus beban dan 44 saluran. Losses terbesar pada bus 17 seperti terlihat pada pada tabel 3. 
+
+Tabel 3. System Sumary 
+
+ 
+
+Gambar profile tegangan sebelum dan sesudah rekonfigurasi tiap bus dapat dilihat pada gambar 3. 
+
+ 
+
+ 
+
+Gambar 3. Profile tegangan sebelum dan sesudah rekonfigurasi 
+
+Hasil rekonfigurasi dapat dilihat pada tabel 4. 
+
+Tabel 4. Hasil Rekonfigurasi jaringan 
+
+  
+
+Dari hasil running menunjukkan bahwa sebelum rekonfigurasi memutus switch line 37, 38, 39, 40 dan 41 setelah rekonfigurasi line 5, 7, 16, 39 dan 41. Sebelum rekonfigurasi jaringan mengalami losses sebesar 95,2596 kW setelah rekonfigurasi mengalami losses sebesar 83,1730 kW. Hasil rekonfigurasi dapat mereduksi losses 12,0866 kWatt atau 12,6881 %. Dan tegangan ujung sebelum rekonfigurasi 0,92959 pu menjadi 0,94072 pu. 
+
+ 
+
+5. KESIMPULAN 
+
+
+Dari hasil program menunjukkan bahwa dengan rekonfigurasi jaringan menggunakan MFA pada penyulang Tanjung dapat mereduksi losses 12,0866 kWatt atau 12,6881 %. Dan tegangan ujung sebelum rekonfigurasi 0,92959 pu menjadi 0,94072 pu. Metode ini nanti bisa menggunakan kecerdasan buatan lainnya atau bisa diterapkan pada penyulang lainnya, sehingga dapat mengurangi losses energi listrik. 
+
+ 

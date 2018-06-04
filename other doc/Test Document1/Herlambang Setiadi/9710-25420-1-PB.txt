@@ -1,0 +1,512 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/319643651 
+Desain Sistem Kontrol Pitch Angle Wind Turbine Horizontal Axis 
+Menggunakan Firefly Algorithm 
+Article · September 2017 
+CITATIONS 
+0 
+READS 
+179 
+3 authors, including: 
+Some of the authors of this publication are also working on these related projects: 
+Power System Analysis View project 
+Wind Turbine View project 
+Muhammad Ruswandi Djalal 
+Politeknik Negeri Ujung Pandang 
+44 PUBLICATIONS 64 CITATIONS 
+SEE PROFILE 
+Herlambang Setiadi 
+The University of Queensland 
+37 PUBLICATIONS 76 CITATIONS 
+SEE PROFILE 
+All content following this page was uploaded by Muhammad Ruswandi Djalal on 12 September 2017. 
+The user has requested enhancement of the downloaded file.
+
+P-ISSN 1411 - 0059 
+E-ISSN 2549 - 1571 
+Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+Desain Sistem Kontrol Pitch Angle Wind Turbine 
+Horizontal Axis Menggunakan Firefly Algorithm 
+
+
+Muhammad Ruswandi Djalal1, Andi Imran2, dan Herlambang Setiadi3 
+
+1Teknik Energi, State Polytechnic of Ujung Pandang 
+Jalan Perintis Kemerdekaan km.10, Makassar, 90245, Indonesia 
+2Teknik Elektro, Sepuluh Nopember Institute of Technology 
+Jalan Raya ITS, Kampus ITS Sukolilo, Surabaya, 60111, Indonesia 
+3School of Information Technology & Electrical Engineering, The University of Queensland 
+Brisbane, Australia 
+wandi@poliupg.ac.id1, andi.imran13@mhe.ee.its.ac.id2, h.setiadi@uq.edu.au3 
+
+
+Abstrak— 
+Pitch variable-speed wind turbine telah berkembang pesat dalam beberapa tahun terakhir. Ada 
+dua strategi kontrol untuk mengontrol variable kecepatan pada wind turbine. Saat kecepatan angin rendah 
+di bawah nilai rata-rata, pengatur kecepatan harus dapat mengatur kecepatan rotor secara terus-menerus 
+untuk mempertahankan kecepatan pada sebuah level, yang memberikan koefisien daya maksimum, sehingga 
+efisiensi turbin akan meningkat. Pengaturan pitch angle diperlukan dalam kondisi kecepatan angin diatas 
+yang diinginkan. Perubahan kecil pada pitch angle dapat mempengaruhi output daya. Pitch angle control 
+adalah salah satu cara untuk menyesuaikan torsi aerodinamik pada tubin angin saat kecepatan angin berada 
+di atas nilai kecepatan dan beberapa variable control lainnya, seperti kecepatan angin, kecepatan generator, 
+dan daya generator. Dalam makalah ini akan akan dirancang variable control untuk memaksimalkan energi 
+dari turbin angin. Perancangan variable control ini menggunakan PID controller. PID controller 
+(Proporsional Integrator Diferensial) merupakan sebuah alat untuk mengontrol sebuah sistem, PID 
+
+controller ini digunakan untuk mengontrol Permanent Magnet Synchronous Generator (PMSG). Hasil 
+penelitian menunjukkan bahwa menggunakan PID controller lebih stabil dan daya output lebih optimal. 
+
+Kata kunci— 
+turbin angin, pitch angle control, PID controller 
+
+Pada artikel ini akan dibahas tentang PID controller untuk 
+
+I. PENDAHULUAN 
+mengontrol pitch angle. PID controller akan mengontrol pitch 
+
+Seiring dengan kemajuan teknologi dan peningkatan angle untuk dapat menghasilkan daya output PMSG optimal. 
+jumlah penduduk maka kebutuhan akan energi listrik juga Aplikasi PID dalam mengontrol pitch angle wind turbine 
+akan meningkat. Akibatnya beban listrik akan meningkat sudah banyak dilakukan sebelumnya, diantaranya [3-7], 
+juga. Dengan adanya penngkatan beban listrik maka pasokan namun diantaranya masih menggunakan metode yang 
+listrik ke konsumen juga dipengaruhi. Akibatnya apabila konvensional. Oleh karena itu pada penelitian ini akan 
+pasokan listrik bertambah maka daya output yang dikeluarkan diusulkan salah satu metode optimasi parameter PID untuk 
+oleh generator juga akan bertambah. Apabila daya keluaran control pitch angle wind turbine menggunakan metode 
+generator bertambah, kebutuhan akan bahan bakar akan algoritma kunang-kunang (firefly). 
+meningkat dan akan berakibat biaya pengeluaran akan mahal. Arikel ini terdiri dari pendahuluan, Permanent Magnet 
+
+Permanent Magnet Synchronous Generator (PMSG) Synchronous Generator (PMSG), model wind turbine, PID 
+merupakan generator sinkron yang mempunyai magnet controller, pembahasan dan analisa, serta kesimpulan. 
+permanen. PMSG ini akan dikopel dengan turbine angin agar 
+menghasilkan energi listrik, sehingga dengan adanya PMSG 
+
+II. PERMANENT MAGNET SYNCHRONOUS GENERATOR 
+dapat mengurangi biaya pengeluaran yang mahal. PMSG 
+(PMSG) 
+
+mempunyai efisiensi yang kurang optimal untuk 
+menghasilkan daya listrik. Hal ini dipengaruhi oleh kecepatan Permanent Magnet Synchronous Generator (PMSG) 
+angin, pitch angle, dan lain-lain. Oleh karena itu, PMSG perlu merupakan generator sinkron yang mempunyai magnet 
+dikontrol untuk menghasilkan daya listrik yang optimal. permanen. PMSG dapat dimodelkan dengan persamaan 
+Dalam mengontrol PMSG terdapat beberapa controller yaitu transformasi park. Persamaan didasarkan pada arus stator dan 
+PI controller pada pitch angle, PI controller pada Maximum tegangan seperti persamaan 1 dan 2. 
+Power Point Tracking (MPPT). Beberapa penelitian tentang 
+optimasi kontrol pembangkit sudah banyak yang melakukan 
+dan diantaranya banyak menggunakan metode cerdas untuk 
+metode optimasi, diantaranya [1, 2]. 
+
+dsdsdeddVRidt
+.
+.....
+(1) 
+1
+
+231(,)
+2rwppPPCCRV......
+(8) kecepatan angin yang 
+dibutuhkan untuk mensuplai 
+(8) kecepatan angin yang 
+dibutuhkan untuk mensuplai 
+2Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+3[()]
+2emqsqsdqdTpiLLii....
+(5) 
+qsqsqeqdVRidt
+.
+.....
+(2) 
+Keterangan : 
+Vsd dan Vsq = Tegangan Stator 
+id dan iq = Arus Stator 
+Rs = Resistansi Belitan Stator 
+
+Fluks pada stator dapat dituliskan seperti persamaan 3 dan 4. 
+
+(3) 
+(4) 
+Keterangan : 
+.m = fluks magnetik inti 
+Lsd dan Lsq = induktansi belitan stator 
+
+Torsi elektrik dari PMSG dapat dituliskan seperti persamaan 
+
+5. 
+Nilai .... 
+sangat nonlinear dan bervariasi pada kecepatan 
+angin, kecepatan rotasi turbin, parameter blade turbin serta 
+pitch angle. Hal ini dibatasi oleh batas Betz (59%). 
+
+RV
+.
+..
+(10) 
+Keterangan : 
+. 
+= ratio kecepatan 
+.R= ratio antara kecepatan bujursangkar dari ujung turbin 
+V = kecepatan angin 
+
+Cp (.,.)= .Ct (.,.) (11) 
+
+Koefisien Ct merupakan fungsi yang sangat nonlinear dari 
+rasio kecepatan tip, dan blade pitch angle ... 
+
+Wilayah operasi dari variabel kecepatan variable-pitch 
+wind turbine bisa digambarkan dari kurva daya, yang 
+memberi perkiraan dari output daya sebagai fungsi dari 
+kecepatan angin. Wilayah operasi wind turbine dapat 
+digambarkan seperti Gambar 1. 
+
+Dimana p adalah jumlah pasang kutub PMSG. 
+
+III. MODEL WIND TURBINE 
+A. 
+Aerodinamis Wind Turbine 
+Wind turbine dapat merubah energi angin menjadi energi 
+kinetik yang kemudian digunakan untuk mengoperasikan 
+generator listrik [3]. Angin yang melewati turbin akan 
+kehilangan energi yang sama dengan energi yang 
+diekstraksikan oleh tubin. Persamaan 6 merupakan persamaan 
+dari energi kinetik. 
+
+21()
+2UAxV..
+(6) 
+Keterangan : 
+U = energi kinetik (joule) 
+.. 
+= intensitas udara (kg/m3) 
+A = luas penampang (m2) 
+x = ketebalan penampang (m) 
+V2 = kecepatan angin (m/s) 
+
+
+Kekuatan angin (.... 
+) adalah turunan dari energi kinetik 
+
+312wPAV..
+(7) 
+Daya mekanik dan torsi yang di ekstraksi adalah seperti 
+persamaan 8 dan 9. 
+
+221(,)
+2rTTCRV.....
+(9) 
+Gambar 1. Karakteristik wind turbine 
+
+Wilayah operasi wind turbine terdapat tiga titik yang 
+berbeda : 
+
+1. 
+Cut-in wind speed: kecepatan angin terendah dimana wind 
+turbine mulai menghasilkan daya listrik. 
+2. 
+Rated wind speed: kecepatan angin pada saat wind turbine 
+menghasilkan daya listrik , yang biasanya merupakan daya 
+maksimum dari wind turbine. 
+3. 
+Cut-out wind speed: kecepatan angin yang dapat 
+menghentikan dan mematikan wind turbine agar 
+terlindung dari kerusakan mekanik. 
+B. Mode Operasi Turbin Angin 
+Ada tiga mode untuk mengontrol variable-speed pitch 
+pada wind turbine. Pemilihan mode operasi tergantung pada 
+tersedia dan jumlah daya yang 
+beban. Tiga mode tersebut 
+adalah : 
+
+1. 
+Maximum Power Point Tracking : mode yang digunakan 
+untuk mengkonversikan daya maksimum dari angin, pada 
+saat kecepatan angin rendah akan mengikuti nilai 
+
+3Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+koefisien daya. Daya mekanik yang dikonversikan adalah 
+seperti persamaan 12. 
+
+3_max12mpPACV..
+(12) 
+2. 
+Blade Pitch Control : mode ini dioperasikan ketika 
+kecepatan angin diluar dari nilai rata-rata, dalam situasi ini 
+torsi elektromagnetik tidak cukup untuk mengontrol 
+kecepatan rotor dengan demikian generator akan overload. 
+Untuk menghindari hal ini, konversi daya wind turbine 
+harus dibatasi dan ini dapat dilakukan dengan mengurangi 
+koefisien daya (Cp) dari wind turbine. Koefisien daya 
+dapat dimanipulasi dengan memvariasikan blade pitch 
+angel (ß). 
+3. 
+Power Regulation : dengan semakin banyaknya daya 
+angin yang masuk pada sistem. Pada pengoperasian wind 
+turbine tidak mungkin untuk menjaga agar daya yang 
+dihasilkan konstan. Oleh karena itu, pengaturan tegangan 
+dan frekuensi diperlukan, agar daya listrik yang dihasilkan 
+sesuai dengan permintaan beban. 
+IV. PID CONTROLLER 
+Suatu sistem tidak dapat diubah, sehingga kontroler 
+dibutuhkan untuk melakukan perubahan melalui sub sistem. 
+Salah satu fungsi dari kontroler adalah mereduksi sinyal 
+kesalahan, yaitu perbedaan antara sinyal setting dan sinyal 
+aktual dari sistem. Tujuan dari sistem kontrol adalah untuk 
+mendapatkan sinyal aktual yang diinginkan sesuai dengan 
+sinyal setting. Semakin cepat reaksi sistem mengikuti sinyal 
+aktual dan semakin kecil kesalahan yang terjadi, semakin baik 
+kinerja sistem kontrol yang diterapkan. Salah satu kontroler 
+yang dapat digunakan adalah PID controller. 
+Dalam PID controller terdapat parameter-parameter yang 
+harus ditentukan. Parameter-parameter tersebut adalah Kp, ti, 
+dan td. Dimana Kp merupakan komponen dari kontroler 
+Proporsional, ti merupakan komponen dari kontroler 
+integrator, dan td merupakan komponen dari kontroler 
+diferensial [4]. 
+Penalaan parameter kontroler PID (Proporsional Integral 
+Diferensial) selalu didasari atas tinjauan terhadap 
+karakteristik yang diatur (plant). Dengan demikian betapapun 
+rumitnya suatu plant, perilaku plant tersebut harus diketahui 
+terlebih dahulu sebelum penalaan parameter PID itu 
+dilakukan. Karena penyusunan model matematik plant tidak 
+mudah, maka dikembangkan suatu metode eksperimental. 
+Metode ini didasarkan pada reaksi plant yang dikenai suatu 
+perubahan. Dua metode pendekatan eksperimen adalah 
+Ziegler-Nichols dan metode Quarter decay. 
+
+1pKK.
+.
+(13) 
+i...
+qGaini.
+.
+(14) 
+(15) 
+Pada sistem terdapat beberapa orde yaitu sistem orde 1, 
+orde 2, dan orde lebih dari 2. Pada sistem tersebut terdapat 
+parameter-parameter di setiap ordenya. Untuk orde 1 terdapat 
+parameter seperti persamaan 7. Untuk parameter orde 2 atau 
+lebih terdapat parameter seperti persamaan 8. 
+Parameter: K,t 
+
+1Ks..
+(16) 
+Parameter: K, ., .n 
+
+(17) 
+22121nnKss
+.
+..
+..
+Setiap kekurangan dan kelebihan dari masing-masing 
+kontroler P, I, dan D dapat saling menutupi dengan 
+menggabungkan ketiganya secara paralel menjadi kontroler 
+proposional integral diferensial (PID controller). Elemenelemen 
+kontroler P, I, dan D masing-masing secara 
+keseluruhan bertujuan untuk mempercepat reaksi sebuah 
+sistem, menghilangkan offset dan menghasilkan perubahan 
+awal yang besar [4]. Gambar 2 merupakan blok diagram PID 
+controller. 
+
+Berikut ini merupakan langkah-langkah untuk mendesain 
+PID controller : 
+
+1. 
+Menentukan fungsi alih dari plant 
+2. 
+Menentukan spesifikasi performasi respon orde yang 
+diinginkan 
+3. 
+Menentukan Kp, ti, td 
+2in
+.
+.
+.
+.
+12dn
+.
+..
+.
+(18) 
+(19) 
+2..
+KpnK
+.
+..
+.
+Gambar 2. Blok diagram PID controller [4] 
+
+
+(20) 
+
+4Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+V. HASIL DAN ANALISA 
+Desain control pitch angle wind turbine menggunakan 
+beberapa set point, yaitu 10, 20, dan 40. Controller yang 
+digunakan menggunakan Proportional Integral Derivative 
+(PID) yang ditunning menggunakan algoritma cerdas firefly 
+algotihm. 
+
+1) Untuk set point 10 
+
+Tabel I menunjukkan hasil optimasi parameter PID untuk 
+set point 10. Gambar 3 menunjukkan grafik konvergensi 
+algoritma firefly dalam mencari nilai optimal PID. Dari grafik 
+konvergensi, algoritma menemukan nilai optimal pada iterasi 
+ke 35, dengan nilai fitness function sebesar 1,0481e+04. 
+Parameter PID masing-masing Kp = 0,5009, Ki = 3,4890, dan 
+Kd = 0,0999. Gambar 4 menunjukkan respon control pitch 
+angle setelah dioptimasi menggunakan algoritma firefly, 
+terlihat respon osilasi yang didapat yaitu sebesar 12,93. 
+
+TABEL I. HASIL OPTIMASI PARAMETER PID UNTUK SET POINT 10 
+
+nbest = 
+0.5009 3.4890 0.0999 
+Lightbest = 
+1.0481e+04 
+kp = 
+0.5009 
+ki = 
+3.4890 
+kd = 
+
+0.0999 
+>> ITAE 
+ITAE = 
+
+1.0772e+04 
+
+Gambar 3. Grafik konvergensi firefly untuk set point 10 
+
+
+Gambar 4. Respon kecepatan wind turbine untuk set point 10 
+
+2) Untuk set point 20 
+
+Tabel II menunjukkan hasil optimasi parameter PID untuk 
+set point 20. Gambar 5 menunjukkan grafik konvergensi 
+algoritma firefly dalam mencari nilai optimal PID. Dari grafik 
+konvergensi, algoritma menemukan nilai optimal pada iterasi 
+ke 40, dengan nilai fitness function sebesar 4,1621e+04. 
+Parameter PID masing-masing Kp = 1,4129, Ki = 4,7265, 
+dan Kd = 0,1000. Gambar 6 menunjukkan respon control 
+pitch angle setelah dioptimasi menggunakan algoritma firefly, 
+terlihat respon osilasi yang didapat yaitu sebesar 22,75. 
+
+TABEL II. HASIL OPTIMASI PARAMETER PID UNTUK SET POINT 20 
+
+nbest = 
+1.4129 4.7265 0.1000 
+Lightbest = 
+4.1621e+04 
+kp = 
+1.4129 
+ki = 
+4.7265 
+kd = 
+0.1000 
+
+Gambar 5. Grafik konvergensi firefly untuk set point 20 
+
+
+
+5Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+5Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+Gambar 6. Respon kecepatan wind turbine untuk set point 10 
+
+3) Untuk set point 40 
+
+Tabel III menunjukkan hasil optimasi parameter PID 
+untuk set point 40. Gambar 7 menunjukkan grafik 
+konvergensi algoritma firefly dalam mencari nilai optimal 
+PID. Dari grafik konvergensi, algoritma menemukan nilai 
+optimal pada iterasi ke 40, dengan nilai fitness function 
+sebesar 1,6478e+05. Parameter PID masing-masing Kp = 
+1,4836, Ki = 4,9901, Kd = 0,0999. Gambar 8 menunjukkan 
+respon control pitch angle setelah dioptimasi menggunakan 
+algoritma firefly, terlihat respon osilasi yang didapat yaitu 
+sebesar 45,39. 
+
+TABEL III. HASIL OPTIMASI PARAMETER PID UNTUK SET POINT 40 
+
+nbest = 
+1.4836 4.9901 0.0999 
+Lightbest = 
+1.6478e+05 
+kp = 
+1.4836 
+ki = 
+4.9901 
+kd = 
+
+0.0999 
+>> ITAE 
+ITAE = 
+
+1.6821e+05 
+
+Gambar 7. Grafik konvergensi firefly untuk set point 40 
+
+
+Gambar 8. Respon kecepatan wind turbine untuk set point 10 
+
+Gambar 9 dan Tabel IV merangkum respon dan overshoot 
+wind turbine speed untuk masing-masing set point. 
+
+
+Gambar 9. Respon kecepatan wind turbine untuk set point 10, 20, dan 40 
+TABEL IV. OVERSHOOT WIND TURBINE SPEED 
+
+
+Parameter Set Point 10 Set Point 20 Set Point 40 
+Overshoot 0 & 12,93 0 & 22,75 0 & 45,39 
+
+VI. KESIMPULAN 
+PID controller yang diusulkan untuk mengontrol pitch 
+angle wind turbine. Dari hasil simulasi didapatkan bahwa 
+dengan penambahan PID controller yang parameternya 
+dioptimasi menggunakan algoritma cerdas firefly, didapatkan 
+respon kecepatan turbine angin yang baik dengan respon yang 
+sangat cepat sesuai dengan set point yang diinginkan. 
+Overshoot untuk masing-masing respon 12,93 untuk set point 
+10, 22,75 untuk set point 20, dan 45,39 untuk set point 40. 
+Parameter Kp = 0,5009, Ki = 3,4890, dan Kd = 0,0999 untuk 
+set point 10, Kp = 1,4129, Ki = 4,7265, dan Kd = 0,1000 
+untuk set point 20, dan Kp = 1,4836, Ki = 4,9901, dan Kd = 
+0,0999 untuk set point 40. 
+
+
+6Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+Jurnal Teknik Elektro Vol. 9 No. 1Januari - Juni 2017
+REFERENSI 
+
+[1] 
+M. R. Djalal, D. Ajiatmo, and I. Robandi, "Frequency Control Pltmh 
+Dengan Capacitive Energy Storage Menggunakan Cuckoo Search 
+Algorithm." 
+[2] 
+M. Fadaee and M. Radzi, "Multi-objective optimization of a standalone 
+hybrid renewable energy system by using evolutionary 
+algorithms: A review," Renewable and Sustainable Energy Reviews, 
+vol. 16, pp. 3364-3369, 2012. 
+[3] 
+B. Boukhezzar, L. Lupu, H. Siguerdidjane, and M. Hand, 
+"Multivariable control strategy for variable speed, variable pitch wind 
+turbines," Renewable Energy, vol. 32, pp. 1273-1287, 2007. 
+[4] 
+C. Jauch, S. M. Islam, P. Sørensen, and B. B. Jensen, "Design of a 
+wind turbine pitch angle controller for power system stabilisation," 
+Renewable energy, vol. 32, pp. 2334-2349, 2007. 
+[5] 
+A. Hwas and R. Katebi, "Wind turbine control using PI pitch angle 
+controller," IFAC Proceedings Volumes, vol. 45, pp. 241-246, 2012. 
+[6] 
+E. Bossanyi, "The design of closed loop controllers for wind turbines," 
+Wind energy, vol. 3, pp. 149-163, 2000. 
+[7] 
+E. Van der Hooft and T. Van Engelen, "Estimated wind speed feed 
+forward control for wind turbine operation optimisation," in European 
+wind energy conference, 2004. 
+View publication stats 
+View publication statsView publication stats 
+
+

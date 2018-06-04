@@ -1,0 +1,320 @@
+ARSITEKTUR TEKNOLOGI WEBSERVER BERBASIS 
+MINI PC DENGAN RASPBERRY PI 
+
+
+1Erick Fernando, 2Derist Touriono, 3Fachruddin, 4Hetty Rohayani .AH 
+
+Dosen Tetap Teknik informatika, STIKOM Dinamika Bangsa Jambi, Jambi, Indonesia 
+Email : Erick.fernando_88@yahoo.com 
+
+
+Abstract – 
+Development of a website in world of the Internet requires a webserver. The Development Webserver is something which is extremely important in providing services to clients that will access a website. Construction of this webserver using a mini pc technology architecture with Raspberry Pi device. Raspberry Pi is a Mini PC-based open source operating system as an application that uses Xampp webserver. This application is an application that is very powerful and widely used by users. Webserver architecture that uses a mini pc expected one of the alternatives in development webserver. With so can mengeffisienkan and mendinamiskan use hardware devices. 
+
+Keyword : Webserver, Mini Pc, Raspberry Pi 
+
+I. PENDAHULUAN 
+Di awali sebuah perkembangan sebuah teknologi yang begitu pesat dan tinggi ini sehingga menghasil perangkat teknologi yang canggih. Dengan Perkembangan ini juga berdampak ke dalam 
+perkembangan sebuah perangkat Pc. Perangkat Pc yang berkembangan menjadi sebuah perangkat yang lebih simple dan kecil yang sekarang dapat dinamkan sebuah Mini Pc. Perkembangan mini Pc ini sangat pesat sehingga dikembangkan oleh banyak Develop Hardware. Perangkat Mini Pc yang digunakan dalam arsitektur teknologi ini adalah Jenis Raspberry Pi. Raspberry Pi ini akan di implementasikan sebagai sebuah server yang akan 
+memberikan pelayanan terhadap klien yang 
+mengakses website. Pembanguan Webserver 
+merupakan hal yang sangatlah penting dalam 
+memberikan pelayanan kepada klien yang akan 
+mengakses sebuah website. Raspberry Pi ini 
+merupakan sebuah Mini Pc yang berbasiskan sistem 
+operasi open source. yang menggunakan Xampp 
+sebagai aplikasi webserver. Aplikasi ini merupakan 
+aplikasi yang sangat powerfull dan banyak 
+digunakan oleh pengguna. Arsitektur webserver 
+yang menggunakan mini pc diharapkan salah satu 
+alternatif dalam pembangunan webserver. 
+
+II. TINJAUAN PUSTAKA 
+1. Webserver 
+Web server adalah perangkat lunak yang 
+menjadi tulang belakang dari world wide web 
+(www). Web server menunggu permintaan dari 
+client yang menggunakan browser seperti Netscape 
+
+Navigator, Internet Explorer, Modzilla, dan program 
+browser lainnya. Jika ada permintaan dari browser, 
+maka web server akan memproses permintaan itu 
+kemudian memberikan hasil prosesnya berupa data 
+yang diinginkan kembali ke browser. Data ini 
+mempunyai format yang standar, disebut dengan 
+format SGML (standar general markup language). 
+Data yang berupa format ini kemudian akan 
+ditampilkan oleh browser sesuai dengan 
+kemampuan browser tersebut.[1] 
+
+2. Raspberry Pi 
+Perangkat keras server yang digunakan pada 
+perancangan ini menggunakan RaspberryPi. Perangkat ini adalah sebuah personal komputer berukuran kecil (85.60mm x 56mm) berbasis Broadcom BCM2835 [9], dengan prosesor 
+berkecepatan 700MHz. Perangkat ini juga dibekali 
+RAM berukuran 512MB.Dukungan lainnya adalah 
+tersedia nya USB, HDMI, S-VIDEO out. Media 
+penyimpanan RaspberryPi menggunakan SD-Card 
+(Secure Digital Card). Sistem operasi yang 
+digunakan pada perancangan ini adalah Raspbian. 
+Sistem operasi ini adalah sistem operasi Debian 
+yang sudah di optimasi untuk digunakan pada 
+perangkat Raspberry Pi [2]. 
+
+Gambar 1. Blok diagram Raspberry pi 
+
+
+
+AKADEMIKA ISSN : 1907 -3984 
+
+
+
+Gambar 2. bentuk fisik Raspberry pi 
+
+3. ApacheWeb Server 
+Server web adalah sebuah perangkat lunak 
+server yang berfungsi menerima permintaan HTTP 
+atau HTTPS dari klien yang dikenal dengan browser 
+web dan mengirimkan kembali hasilnya dalam 
+bentuk halaman-halaman web yang umumnya 
+berbentuk dokumen HTML. Server web yang 
+terkenal diantaranya adalah Apache dan Microsoft 
+Internet Information Service (IIS). Apache 
+merupakan server web antar -platform, sedangkan 
+IIS hanya dapat beroperasi di sistem operasi 
+Windows. Khusus dalam laporan ini, kami 
+menggunakan Web Server Apache karena dapat 
+digunakan antar platform dan juga bersifat open 
+source. Server HTTP Apache atau Server 
+Web/WWW Apache adalah server web yang dapat 
+dijalankan di banyak sistem operasi (Unix, BSD, 
+Linux, Microsoft Windows dan Novell Netware 
+serta platform lainnya) yang berguna untuk melayani 
+dan memfungsikan situs web. Protokol yang 
+digunakan untuk melayani fasilitas web/www ini 
+menggunakan HTTP. Apache memiliki fitur -fitur 
+canggih seperti pesan kesalahan yang dapat 
+dikonfigur, autentikasi berbasis basis data dan lain-
+lain. Apache juga didukung oleh sejumlah 
+antarmuka pengguna berbasis grafik (GUI) yang 
+memungkinkan penanganan server menjadi mudah . 
+Apache merupakan perangkat lunak sumber terbuka 
+dikembangkan oleh komunitas terbuka yang terdiri 
+dari pengembang -pengembang dibawah naungan 
+Apache Software Foundation[3]. 
+
+III. Model Rancangan Arsitektur 
+Dengan evolusi World Wide Web (WWW), area 
+aplikasi yang meningkat dari hari ke hari. Web akses 
+fungsi dapat tertanam dalam perangkat murah yang 
+dapat diakses secara luas dari tempat-tempat 
+terpencil melalui browser web di desktop. Dengan 
+
+menggunakan prosesor tertanam seperti Advanced 
+RISC Machine (ARM) dan linux sebagai sistem 
+operasi tertanam web server dapat membangun 
+dengan biaya rendah, konsumsi daya yang rendah, 
+kinerja tinggi, kehandalan tinggi dan dukungan dari 
+masyarakat berkembang besar. Makalah ini 
+memperkenalkan solusi bagi pelaksanaan 
+penerbangan murah sistem embedded menggunakan 
+prosesor ARM1176JZF-S dan ARM linux sistem 
+operasi yang dapat diakses dari jarak jauh, dipantau 
+dan dipelihara nyaman. Disini dapat menggambar 
+kan model arsitektur dari webserver yang dibangun. 
+
+
+Gambar 3. Block Rancangan 
+
+
+Gambar 4. Rancangan Arsitektur 
+
+IV. IMPLEMENTASI WEBSERVER 
+Raspberry Pi yang memiliki arsitektur teknologi 
+yang sangat modern yang memiliki daya rendah 
+yang membuatnya menjadi pilihan yang cocok untuk 
+melayani lalu lintas untuk jaringan lokal atau bahkan 
+keluar ke Internet. Dengan sebagian besar web 
+server modern yang menjalankan kombinasi Linux, 
+Apache, MySQL dan PHP sering disebut sebagai 
+LAMP. Pada raspberry Pi juga mengguna kan 
+aplikasi yang sama dengan web server yang 
+berkembang. 
+
+
+AKADEMIKA ISSN : 1907 -3984 
+
+
+
+Untuk pelaksanaan project ini kita perlu 
+menginstal perangkat lunak dan kemudian salin 
+website di raspberry pi. Instal perangkat lunak 
+dengan mengikuti langkah-langkah di bawah ini 
+disebutkan: 
+
+1. 
+Instal sistem operasi raspbian 'Wheezy'. Dengan 
+menggunakan gambar menulis Program menulis 
+gambar sistem operasi di kartu SD dan kemudian 
+mengkonfigurasi sementara boot dengan 
+menggunakan perintah di bawah ini: sudo Raspiconfig 
+dan memungkinkan 'ssh' sehingga kita 
+dapat mengakses raspberry pi jarak jauh. 
+2. 
+Memasang server proftpd FTP dengan 
+menjalankan perintah berikut: apt-get install 
+proftpd Ini akan digunakan untuk mentransfer 
+website di raspberry pi 
+3. 
+Pasang Server Apache2 tapi sebelum itu 
+memperbarui sistem dengan menggunakan 
+perintah di bawah ini: sudo apt-get update 
+sudo apt-get upgrade 
+
+4. 
+Sekarang install apache2 dengan menggunakan 
+perintah di bawah ini: 
+sudo apt-get install apache2 
+Server Apache akan berjalan setelah instalasi. 
+
+5. 
+Kita bisa mulai / stop server dengan menjalankan 
+perintah berikut: 
+service apache2 start 
+service apache2 stop 
+
+6. 
+Sekarang mengkonfigurasi apache2 benar untuk 
+raspberry pi dengan mengedit nama host untuk 
+mengubahnya ke nama yang dipilih untuk server 
+dengan menggunakan linux editor teks 'nano'. 
+Menginstal lingkungan pemrograman PHP5 
+dengan menjalankan perintah berikut: 
+Sudo apt-get install php5 libapache2-mod-php5 
+php5-intl php5-mcrypt php5-ikal php5-sqlite 
+
+7. 
+Pasang sistem manajemen database MySQL 
+dengan menggunakan perintah berikut: 
+Sudo apt-get install mysql-server mysql-client 
+php5-mysql 
+
+8. 
+Pasang paket dukungan APC untuk PHP yang 
+akan meningkatkan kinerja apache2 dan PHP 
+program ' 
+9. 
+Jalankan perintah berikut untuk menginstal 
+sistemdukungan APC: 
+Sudo apt-get install php-pear php5-dev 
+make apache2-prefork-dev build-essential pecl 
+
+menginstal apc 
+
+10. 
+Pasang NMAP utilitas dengan menjalankan 
+perintah berikut: 
+sudo apt-get install nmap 
+sudo apt-get install Zenmap 
+
+11. 
+Pasang phpMyAdmin yang merupakan salah 
+satu alat yang paling berguna untuk bekerja 
+dengan sistem manajemen database MySQL. 
+Gunakan perintah berikut untuk menginstalnya: 
+Sudo apt-get install libapache2-mod-authmysql 
+php5-mysql phpmyadmin 
+12. 
+Pasang alat Webmin Administrasi untuk 
+mengelola semua aspek linux. Menginstal 
+paket webmin dengan perintah berikut: 
+sudo apt-get install webmin 
+
+Setelah menginstal semua perangkat lunak yang 
+kuat, menyalin website di raspberry pi. Sekarang, 
+situs web akan tersedia di jaringan lokal. Untuk 
+membuat website tersedia di luar jaringan lokal juga 
+menggunakan IP WAN, dengan menggunakan yang 
+kita dapat mengakses situs web host dari jaringan 
+lokal. 
+
+Gambar 4. Setup Raspberry pi 
+
+
+Gambar 4. Implementasi Raspberry pi 
+
+
+137 
+
+
+
+AKADEMIKA ISSN : 1907 -3984 
+
+
+
+Gambar 4. Implementasi ke web browser 
+
+III. 
+KESIMPULAN 
+Dalam penelitian ini adalah untuk menerapkan 
+webserver berdasarkan mini pc dengan Raspberrypi 
+dengan system operasi linux dan dengan aplikasi 
+Lampp ini yang dapat diakses oleh klien melalui 
+internet. situs web pada server dapat ditransfer 
+berhasil ketika diminta dari sistem lain yang 
+terhubung ke server. Dengan demikian arsitektur 
+teknologi yang di bangun dengan mengguna mini pc 
+yang menggunakan Raspberrypi ini sangat murah 
+dalam biaya dan memilki ke effisiensi dalam 
+penggunaan perangkat dan menjadi salah satu 
+alternatife dalam pembangunan webserver. 
+
+DAFTAR PUSTAKA 
+
+[1] 
+Desy Lukitasari1 dan Ahmad Fali Oklilas,” 
+Analisis Perbandingan Load Balancing Web 
+Server Tunggal Dengan Web server Cluster 
+
+Menggunakan Linux Virtual Server “ ,Vol.5 
+
+No.2, JURNAL GENERIC, Juli 2010. 
+
+[2] 
+Erick Fernando,”Automatisasi Smart Home 
+Dengan Raspberry Pi Dan Smartphone 
+Android”, Konferensi Nasional Ilmu Komputer 
+(KONIK) 2014, 5 desember 2014, ISSN : 
+2338-2899. 
+[3] 
+I made agus widiana putra, cokorda rai adi 
+paramartha,”perancangan implementasi konsep 
+routing dan virtual private network antara 
+webserver moodle dan webserver drupal” 
+,jurnal elektronik ilmu komputer”,jeliku vol 1 
+no. 2, universitas udayana,nopember 2012 
+
+[4] 
+Nakul Padhye and Preet Jain “Implementation 
+of Arm Embedded Web Server for DAS using 
+Raspberry Pi” International Journal of 
+
+Electrical, Electronics & Communication 
+Engineering, Vol.3 No. 4, April 2013. 
+
+[5] 
+Yakun Liu Xiaodong Cheng “Design and 
+Implementation of Embedded Web Server 
+Based on ARM and Linux” 978-1-4244-765651101, 
+IEEE, 2010. 
+[6] 
+Jiang. J.N, Peng D.G, Zhang.H,”Design and 
+Realization of Embedded Web Server Based on 
+ARM and Linux. Mechatronics, Vol.14, 2008. 
+[7] 
+http://www.raspberrypi.org 
+[8] 
+www.opensource.org 
+View publication stats 
+View publication statsView publication stats 
+
+

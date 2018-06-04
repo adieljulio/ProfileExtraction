@@ -1,0 +1,595 @@
+OPTIMISASI MAXIMUM POWER POINT TRACKER (MPPT) SISTEM 
+PHOTOVOLTAIC (PV) ALGORITMA PADA PENGISIAN BATERAI 
+KENDARAAN LISTRIK BERBASIS FIREFLY ALGORITMA 
+MODIFIKASI 
+
+ 
+
+Dwi Ajiatmo1,2, Imam Robandi1. 
+
+1.Jurusan Teknik Elektro Fakultas Teknologi Industri Institut Teknologi Sepuluh Nopember Surabaya 
+
+2.Jurusan Teknik Elektro Fakultas Teknik Universitas Darul ‘Ulum Jombang 
+
+1.ajiatmo@gmail.com 2.ajiatmo12@mhs.ee.its.ac.id, 1.robandi@ee.its.ac.id 
+
+ 
+
+ 
+
+Abstrak 
+
+This paper presents the electric car today has evolved rapidly in both research table prototype design, aerodynamics, 
+and implementation. One source of energy that is widely used as a source of electrical energy to drive the vehicle 
+was photovoltaic (PV). To obtain maximum performance of PV power required a method of control. PV maximum 
+power is strongly influenced by temperature and solar irradiation value that falls on the surface of the PV. Maximum 
+power point of the PV obtained through adjustment of the duty cycle of the boost converter. Boost converter is used 
+to convert the voltage direct current (DC) low into high DC voltage obtained MPPT. Design Optimization based 
+Firefly modified MPPT able to control the power output of PV systems that are connected to an electric vehicle with 
+a high of efficiency so as to charge the battery optimally. The simulation results in this study showed a high 
+efficiency performance accuracy using the modified algorithm firefly. 
+
+ 
+
+Keyword : Photovoltaic (PV), Maximum Power Pont Tracker (MPPT), Bost Converter, Electric Vehicle, 
+Firefly Algorthm 
+
+1. Pendahuluan 
+
+
+Banyak permasalahan terkait dengan energi 
+yang dihadapi oleh Indonesia, semakin meningkat 
+subsidi energi hingga mencapai Rp 255,6 triliun pada 
+tahun 2011. Ketergantungan terhadap minyak masih 
+dominan mencapai 49,7% sementara pemanfaatan 
+energi baru terbarukan (EBT) masih sekitar 6%. 
+Kajian Energi Outlook, (2012). 
+
+Sistem tenaga fotovoltaik, sebagai energi 
+alternatif, sebagai sumber energi baru terbarukan 
+(EBT), non-polusi, ramah lingkungan, murah ditengah 
+tingginya harga energi fosil dewasa ini. Karakteristik 
+sel surya adalah nonlinier dan sangat dipengaruhi 
+dipengaruhi oleh suhu dan radiasi matahari, kontrol 
+MPPT dalam desain Sistem PV penting untuk 
+mendapatkan daya puncak dari sel surya. karakteristik 
+stabilitas sistem fotovoltaik dipengaruhi oleh kinerja 
+MPPT kontroler. Anil S., et.al (2014) 
+
+Sistem PV konvensional mengalami kesulitan 
+dalam menanggapi variasi perubahan irradiasi yang 
+cepat karena shanding. Yanuar Mahfuds S., et al 
+(2014); Kinattingal, et al (2014). Kelemahan utama 
+dari sistem PV adalah bahwa biaya instalasi awal 
+cukup tinggi dan efisiensi konversi energi (dari 12% 
+menjadi 29%) relatif rendah. Selanjutnya, dalam 
+banyak kasus, sistem PV memerlukan pengkondisan 
+daya (dc-dc atau dc-ac converter) untuk antarmuka 
+beban. Simulasi MPPT telah diteliti selama beberapa 
+tahun terakhir dan diringkas dalam Esram T. & 
+Chapman, P. L. (2010); Bianconi E., et al (2012); 
+Salah C.B. & Ouali, M. (2010); Seno Aji, et al (2013). 
+
+Salah satu metode konvensional telah banyak 
+digunakan untuk MPPT seperti Perturb and Observe 
+(P&O), fractional open-circuit voltage and 
+incremental conductance. Metode konvensional 
+memiliki respon lambat dan tidak memuaskan. Untuk 
+memecahkan masalah perubahan lingkungan yang 
+cepat dan mengatasi non linearitas PV. Masalah 
+perubahan lingkungan yang cepat dan mengatasi non 
+linearitas PV oleh karena itu ditawarkan metode 
+MPPT Firefly termodifikasi akan dibahas dalam 
+makalah ini. 
+
+ 
+
+2. Sistem Photovoltaic 
+2.1 Model Photovoltaic 
+
+
+
+
+Model PV digambarkan sebagai rangkaian 
+sederhana terdiri dari sumber arus yang terhubung 
+secara paralel dengan dioda seperti yang ditunjukkan 
+
+
+pada Gambar 1. Output daya PV tergantung pada 
+iradiasi sinar matahari dan suhu yang diterima oleh 
+PV sel Permukaan. Hong Wang, (2010) 
+
+ 
+RshRsIdIshIoVophI
+
+Gambar 1. Permodelan Photovoltaic 
+
+Dari Model fotovoltaik pada gambar 1, arus keluaran 
+(I0) dapat ditulis sebagai; Ramaprabha, R. & Matur, 
+B.L., (2010) 
+
+ (1) 
+
+Arus Photovoltaic IPh merupakan hubungan pendek 
+arus dipengaruhi oleh matahari insolation dan suhu 
+permukaan. IPh dapat dihitung dengan persamaan 
+berikut: 
+
+ ( ( )) 
+/ (2) 
+
+Dimana S adalah insolation surya di W / m2, 
+dan Sref adalah referensi dari insolation surya. T adalah 
+temperatur survace PV di Kelvin, dan Tref adalah 
+referensi suhu permukaan PV. Isco adalah hubungan 
+pendek arus dalam insolation standart modul PV dan 
+suhu yang ditulis dalam spesifikasi PV. Id adalah arus 
+dioda dapat dinyatakan dengan berikut: 
+
+ t s q (4) 
+
+Dimana adalah faktor idealistis PV, k adalah 
+konstanta Boltzmann (1,380x10-23 J/K) dalam joule 
+per kelvin, Ns adalah jumlah sel seri, dan q (1,602x 
+10-19C) nilai elektronik dalam coulomb. Daya yang 
+dihasilkan oleh fotovoltaik (PPV) dapat dinyatakan 
+dengan persamaan berikut: Yanuar Mahfuds S. (2014) 
+
+ (5) 
+
+ 
+
+2.2 DC-DC Converter Design 
+
+
+
+
+DC- DC converter yang digunakan dalam 
+makalah ini adalah jenis boost converter dengan beban 
+resistif. DC-DC boost konverter memiliki peran 
+penting dalam sistem PV. Kondisi MPP dapat dicapai 
+dengan menggunakan boost konverter sebagai daya 
+kondisioner. Salah C.B. & Ouali M.(2010); Seno Aji, 
+et al (2013). Gambar 2 menunjukan desain DC-DC 
+boost konverter sedangkan parameter yang diperlukan 
+untuk desain boost converter, Esram, T. & Chapman, 
+P. L. (2010), seperti yang terlihat pada Tabel 2. 
+Dimana. Seno Aji, et al (2013) 
+
+ 
+VinLRCMosfet
+
+Gambar 2. DC-DC Boost Konverter 
+
+Menghitung Duty Cycle (D) : 
+
+ ( /) (6) 
+
+Menghitung arus output (Iout) 
+
+
+ / (7) 
+
+Menghitung tahanan (R) 
+
+ / (8) 
+
+Menghitung arus induktor (IL) 
+
+ / (9) 
+
+Menghitung Induktor (L) konventer boost 
+
+ ( ( ))( ( ))/ (10) 
+
+Menghitung Capasitor (C) 
+
+Diasumsi an : . out r 0.1v 
+
+ ( )(( /) )/ (11) 
+
+ 
+
+2.3 Proposed Algoritma 
+
+
+
+
+Firefly algorithm yang diperkenalkan pada 
+tahun 2008 oleh Yang dalam rangka untuk 
+mempercepat tingkat komputasi. Cahaya firefly 
+rendah tertarik terhadap Cahaya firefly tinggi dan ini 
+terus berlanjut sampai semua firefly yang berkumpul 
+di satu titik yang mungkin titik dioptimalkan global. 
+Memperbarui hukum pergerakan cahaya firefly rendah 
+ke arah cahaya firefly tinggi terjadi dengan 
+menggunakan persamaan 11. Yang Xin She (2008); 
+Srivatsava, P. R. (2013) 
+
+ 
+( ) ( 
+) 11 
+
+Dalam persamaan 11, nilai-nilai a, ß0 dan . 
+dianggap konstan. a, ß0 dipilih dari [0, 1] dan . dipilih 
+dari [0, 8). Juga, rij adalah jarak Euclid dari dua 
+kunang-kunang yang diidentifikasi sebagai persamaan 
+12. Srivatsava, P.R. (2013) 
+
+ . . vS( ) 
+12 
+
+Koefisien penyerapan antara dua firefly 
+berlangsung menggunakan persamaan 13. 
+
+ 13 
+
+Dalam persamaan 13, ß0 menunjukkan 
+maksimum penyerapan dan diidentifikasi dalam [0, 1]. 
+
+
+Parameter . adalah koefisien penyerapan dan 
+diidentifikasi dalam [0, 8). Parameter r 
+mengidentifikasi jarak antara firefly dan nilai itu 
+dihitung dengan persamaan 11. Jika ß0 = 0, salah satu 
+firefly mencari ruang masalah tanpa kontribusi dari 
+firefly lain dan pencarian berlangsung secara acak. 
+jika . = 8, ini mengarah ke pencarian acak dalam 
+ruang masalah. 
+
+Pada paper ini dikembangkan firefly 
+algoritma modifikasi untuk MPPT yaitu untuk 
+mendeteksi daya maksimum total, sehingga tidak 
+terjebak dalam daya maksimum lokal. Modifikasi 
+MPPT firefly algoritma dalam paper ini diusulkan 
+dalam dua langkah; Langkah pertama, tidak 
+memperhitungkan parameter yang tidak perlu untuk 
+menyederhanakan algoritma. Langkah Kedua, 
+memperbaiki koefisien ß sebagai langkah iterasi untuk 
+mencapai konvergensi yang lebih cepat dan 
+meningkatkan kecepatan pelacakan. 
+
+Dalam aplikasi MPPT optimisasi dengan 
+firefly, fungsi tujuan adalah output daya fotovoltaik 
+(PV) dan posisi firefly merupakan representasi duty 
+cycle. Kemudian siklus diterapkan di DC-DC boost 
+converter berkisar antara 0 sampai 1. Hal ini berarti 
+memberikan berbagai Posisi kunang sebagai variabel 
+kontrol ruang yang sangat sempit. Oleh karena itu, 
+faktor . dan faktor a tidak dibutuhkan. Oleh karena 
+itu, posisi pertama kunang-kunang bisa di seleksi 
+secara manual mulai dari 0 sampai 1. Hal ini 
+tergantung pada jumlah kunang-kunang. Jadi, itu juga 
+perlu mengacak posisi pertama kunang-kunang. 
+Persamaan kunang-kunang sederhana dapat ditulis 
+sebagai: Jumlah kunang dipilih 6, dan posisi awal 
+secara manual dipilih 0,05, 0,25, 0,5, 0,75, dan 0,95. 
+
+Pada algoritma kunang-kunang dasar, faktor 
+daya tarik yang berkisar dari 0 hingga 1 adalah 
+koefisien ß mewakili kunang-kunang. Cepat dan 
+keakuratan perhitungan dipengaruhi oleh besar 
+koefisien ß. Koefisien ß tinggi akan menjamin cepat 
+perhitungan, tapi kurang akurat. Dan kemudian, 
+koefisien ß rendah akan membuat perhitungan lambat, 
+tetapi lebih akurat. Dalam tulisan ini, koefisien ß akan 
+diperbarui setiap iterasi untuk membuatnya lebih 
+cepat konvergensi, tapi masih akurat. Langkah 
+pertama kita menetapkan koefisien ß 0,4. Ini berarti 
+bahwa kunang-kunang akan bergerak perlahan ke 
+dalam satu terang. Setiap iterasi, ß koefisien akan 
+ditambahkan sebesar 0,25. Ini berarti bahwa setiap 
+iterasi berikutnya kunang-kunang akan bergerak lebih 
+cepat dari iterasi terakhir. Modifikasi firefly ini akan 
+membuat algoritma yang diusulkan lebih cepat dari 
+kunang-kunang standar, tapi masih akurat. 
+
+ 
+
+3. Experimental/Hasil Simulasi dan Diskusi 
+
+
+Pada gambar 4-7 menggambarkan perbedaan 
+effisiensi dari MPPT yang dioptimasi dengan firefly 
+standar dan metode firefly dimodifikasi yang 
+diusulkan. Simulasi dikerjakan dengan menggunakan 
+software PSIM. Untuk firefly standart memakai 
+parameter ß, ., dan a dipilih 0.5, 0.98, dan 0.0012. 
+
+Sebuah array PV digunakan untuk 
+eksperimental dengan data jenis modul BELL 50WP. 
+Modul ini memiliki output daya maksimum 50 W dan 
+20V tegangan rangkaian terbuka pada iradiasi 1000 W 
+/ m2 dan suhu 25 ° C. Spesifikasi modul PV yang 
+disediakan oleh produsen pada Tabel 1. 
+
+ 
+
+Tabel 1. Spesifikasi dari Solar Panel BELL 
+50WP[8] 
+
+ 
+
+Daya maksimum (Pmax) 50W 
+
+Tegangan maksimum (Vmp) 17,35V 
+
+Arus maksimum (Imp) 2,88 A 
+
+Open Circuit Voltage (Voc) 21,88 V 
+
+Short circuit current (Isc) 3. 3,08A 
+
+Temperatur saat bekerja -40oC sampai 85oC 
+
+Jumlah sell 24 cel 
+
+Berat modul 10 Kg 
+
+Dimensi (PanjangxLebarxTinggi) 670x620x35mm 
+
+ 
+
+Sedangkan data eksperimental untuk DC-DC boost 
+konverter adalah 
+
+ 
+
+Tabel 2. Parameter DC-DC Boost Converter 
+
+ 
+
+Kapasitor, C 640 uF 
+
+Inductor, L 5,44 mH 
+
+Tahanan, R 2,5 Ohm 
+
+Switching frequency, f 20kHz 
+
+ 
+
+Hubungan sistem PV array DC-DC boost 
+converter untuk mengisi battery yang bertegangan 24 
+Volt jenis lead acid merek trojan untuk kendaraan 
+listrik motor drive sistem kontrol dan sebagai 
+penggerak jenis motor DC 3,5kW. 
+
+ 
+
+
+ 
+
+Gambar 3. Plant Sistem MPPT dengan Optimasi Firefy Algoritma Modifikasi 
+
+ 
+
+Hasil simulasi pada Gambar 4-7 adalah sistem 
+MPPT yang dioptimasi dengan firefly standart dan 
+firefly dimodifikasi yang akan diaplikasikan di 
+kendaraan listrik tenaga surya, dan hasil simulasi dapat 
+dilihat pada gambar menunjukkan bahwa dengan 
+iradiasi 1000 w/m2 suhu 25oC perubahan daya output 
+PV. 
+
+ 
+
+Gambar 4 Hasil Simulasi dengan Firefly Standar ß 0.3 
+
+ 
+
+Gambar 5 Hasil Simulasi dengan firefly Modifikasi ß 
+0.3 
+
+
+Gambar 6 Hasil Simulasi dengan Firefly Standar ß 0.4 
+
+ 
+
+Gambar 7 Hasil Simulasi dengan firefly Modifikasi ß 
+0.4 
+
+Dari hasil simulasi maka dapat ditulis dalam tabel 3 
+
+Tabel 3. Hasil simulasi daya output dengan irradian 1000w/m2 pada suhu 25oC 
+
+Beta 
+ß 
+
+Metode 
+Pelacakan 
+
+Daya 
+Pelacakan 
+(W) 
+
+Tegangan 
+(V) 
+
+Arus 
+(A) 
+
+Kecepatan 
+Pelacakan (s) 
+
+Daya 
+Maksimum 
+(W) 
+
+Effisiensi 
+Pelacakan 
+(.) 
+
+0.3 
+
+FA Standart 
+
+182.30 
+
+30.25 
+
+6.13 
+
+1.000 
+
+199.99 
+
+91.15835 
+
+FA Modifikasi 
+
+188.07 
+
+30.68 
+
+6.12 
+
+1.028 
+
+199.99 
+
+94.04031 
+
+0.4 
+
+FA Standart 
+
+187.10 
+
+32.19 
+
+6.14 
+
+0.828 
+
+199.99 
+
+93.55522 
+
+FA Modifikasi 
+
+187.60 
+
+32.19 
+
+6.13 
+
+0.832 
+
+199.99 
+
+93.80644 
+
+
+
+ 
+
+
+Dari tabel 3 jelas terlihat bahwa efisiensi MPPT 
+menggunakan optimasi algoritma firefly modifikasi 
+lebih baik dari pada menggunakan optimasi firefly 
+standart, Hal ini menunjukkan bahwa output daya PV 
+mencapai daya maksimum (Pmax). Dari hasil pada 
+Tabel 3, dijelaskan bahwa sistem dengan optimasi 
+MPPT firefly dimodifikasi memberikan efisiensi yang 
+lebih tinggi dari pada MPPT firefly standart. 
+Optimasi MPPT firefly dimodifikasi ripple yang 
+dihasilkan lebih sedikit, dan akurasinya lebih baik. 
+
+ 
+
+4. Kesimpulan dan Saran 
+
+
+Dalam makalah ini kami telah menyajikan 
+desain dan simulasi Maximum Power Point Tracking 
+(MPPT) untuk sistem fotovoltaik di kendaraan listrik 
+menggunakan Firefly algoritma termodifikasi. 
+Berdasarkan hasil simulasi dapat disimpulkan bahwa: 
+Pengaruh dari penggunakan firefly modifikasi pada 
+perubahan pencapaian konvergensi lebih baik. 
+Menghasilkan sistem nilai efisiensi dengan MPPT 
+Firfly Modifikasi adalah 93% dan 94% sedangkan 
+efisiensi yang dihasilkan MPPT Firefly standart 
+adalah 91% dan 93%. Untuk lanjutan penelitian perlu 
+aplikasi pada kendaraan skala besar. 
+
+Daftar Pustaka 
+
+Anil S. Hiwale, Muhdha V. Patil, Hemangi 
+Vinchurkar, An efficient MPPT Solar Charge 
+Control, International Journal of advance 
+research in electrical electronics and 
+intrumentation engineering, Ijareeie, Vole. 3, 
+Issue 7, July 2014. 
+
+Bianconi E., et al., Perturb And Observation MPPT 
+Algorithm With A Current Controller, Based 
+On The Sliding Mode, Science Direct: 
+Electrical Power and Energy Systems vol.44, pp. 
+346-356, July 2012. 
+
+Esram T. and Chapman P. L., T-S Fuzzy Maximum 
+Power Point Tracking Control Of Solar Power 
+Generation Systems, IEEE Transactions on 
+Energy Conversion vol. 25, no. 4, December 
+2010. 
+
+Hong Wang, The Stand-Alone PV Generation 
+System With Parallel Battery Charger, 
+International Conference on Electrical and 
+Control Engineering (ICECE), pp. 4450-4453, 
+June. 2010. 
+
+Ishaque K., Z. Salam, A Deterministic Particle 
+Swarm Optimization Maximum Power Point 
+Tracker for Photovoltaic System Under Partial. 
+2010. 
+
+Kajian Energi outlook, Pusat Data dan Informasi 
+energi dan sumber daya mineral, Kementrian 
+energi dan sumber daya mineral, 2012. 
+
+Kinattingal sundareswaran, sankar peddapati, and 
+sankaran palani, MPPT Of Pv System Under 
+Partial Shaded Conditions Through A Colony 
+Of Flashing Firefly, IEEE transactions on 
+energy conversion, vol. 29, June 2014. 
+
+Ramaprabha R.,& Matur B.L., Development of an 
+Improved Model SPV Cell For Partially shaded 
+Solar Photovoltaic Array, European Journal of 
+Scientific Research, Vol. 47, No. 1, pp. 122-134, 
+2010. 
+
+Srivatsava P.R., Mallikarjun B., X.S. Yang, Optimal 
+Test Sequence Generation using Firefly 
+Algorithm, Swarm and Evolutionary 
+Computation, Vol. 8, pp. 44-53, Elsevier B.V, 
+2013. 
+
+Salah C. B. and Ouali M., Comparison Of Fuzzy 
+Logic And Neural Network In Maximum 
+Power Point Tracker For PV Systems, Science 
+Direct: Electric Power Systems Research vol. 
+81, pp. 43–50, July 2010.]. 
+
+Seno aji, dwi ajiatmo, Imam robandi, heri 
+suryoatmojo, MPPT Based On Fuzzy Logic 
+Controller (FLC) For Photovoltaic (PV) 
+System Soar Car, mechatronics, electrical 
+power, and vehicular technology (MEV), pp 
+127-134, LIPI Bandung, 24 December 2013. 
+
+Yang Xin She., Nature-Inspired Meta-heuristic 
+Algorithms, Luniver Press, 2008. 
+
+Yanuar Mahfudz Safarudin, Ardyono Priyadi, 
+Mauridhi Hery Purnomo, Margo Pujiantara, 
+Maximum Power Point Tracking Algorithm 
+For Photovoltaic System Under Partial Shaded 
+Condition By Means Updating . Firefly 
+Technique, proceeding, IEEE, Yogyakarta, 7-8 
+october 2014. 
+
+

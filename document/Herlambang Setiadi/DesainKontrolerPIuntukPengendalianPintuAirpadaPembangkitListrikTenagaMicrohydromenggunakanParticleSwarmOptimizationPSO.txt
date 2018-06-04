@@ -1,0 +1,105 @@
+ 
+
+Abstract—Microhydro adalah pembangkit yang diminati karena tidak memerlukan instalasi penyimpanan air yang luas dan ramah lingkungan. Permasalahan yang sering terjadi pada pembangkit ini adalah putaran turbin yang tidak konstan akibat perubahan debit air dan perubahan beban. Paper ini menjelaskan tentang desain kontroler PI untuk pengendalian pintu air pada pembangkit listrik tenaga microhydro. Untuk mendapatkan hasil kontroler PI yang maksimal, parameter pada kontroler PI ditala menggunakan Particle Swarm Optimzation (PSO). Simulasi menunjukkan bahwa parameter kontroler PI yang ditala menggunakan PSO dapat mempercepat settling time dan mengembalikan nilai amplitudo frekuensi sesuai dengan referensi. 
+
+
+ 
+
+ 
+
+I. PENDAHULUAN 
+Perkembangan teknologi pengendali pada pembangkit listrik tenaga microhydro pada saat ini semakin meningkat. Pembangkit microhydro sangat diminati karena memiliki kelebihan secara teknis dan ekonomis. Hal tersebut disebabkan microhydro adalah pembangkit listrik tenaga air skala kecil yang tidak memerlukan instalasi penyimpanan air yang luas dan ramah lingkungan. 
+
+Pada microhydro konvensional, output dari generator diatur oleh pintu air yang bertugas mengatur jumlah air yang mengalir ke turbin. Proses pengaturan pintu air ini telah banyak dikembangkan dengan menggunakan debit air atau tegangan sebagai input. Sudut pembukaan katup digunakan sebagai aksi kontrol untuk mendapatkan output generator yang diinginkan [1,2]. 
+
+Paper ini menjelaskan tentang aplikasi kontroler PI yang ditala menggunakan Particle Swarm Optimization untuk mendapatkan parameter yang optimal, sehingga dapat meredam osilasi frekuensi yang terjadi pada sistem. Parameter PI yang ditala dengan PSO adalah Kp dan Ki,. Hasil simulasi 
+menunjukkan bahwa dengan menala parameter PI menggunakan PSO dapat meningkatkan performansi respon frekuensi sistem. Respon frekuensi memiliki settling time sebesar 26.65 detik, dan amplitudo sebesar 0.333 pu. 
+
+II. FUNDAMENTAL THEORY 
+
+Pada bagian ini akan dijelaskan tentang dasar teori dari kontroler PI, microhydro, dan Particle Swarm Optimization. 
+
+A. Kontroler PI 
+
+Suatu sistem dapat mengalami error yang disebabkan oleh gangguan. Error ini dapat menyebabkan perilaku sistem berubah. Perubahan perilaku sistem dapat menyebabkan sistem menjadi tidak stabil. Untuk membuat sistem menjadi stabil dapat dilakukan melalui penambahan suatu sub sistem, yaitu kontroler. Fungsi kontroler adalah mereduksi sinyal error. Sinyal error adalah perbedaan antara sinyal setting dan sinyal aktual. Semakin cepat reaksi sistem mengikuti sinyal aktual dan semakin kecil kesalahan yang terjadi, maka semakin baik kinerja sistem kontrol yang diterapkan. Kontroler proporsional integral (PI) sampai saat ini banyak digemari oleh kalangan praktisi industri. Hal ini dikarenakan penggunaan kontroler PI yang mudah dan dapat meningkatkan performansi dari sistem secara cepat [4]. 
+
+Keluaran kontrol proporsional sebanding atau proporsional dengan besarnya sinyal error (selisih antara besaran referensi dengan harga aktualnya). Keluaran kontroler proporsional merupakan hasil kali antara gain proporsional dengan sinyal input. Perubahan pada sinyal input menyebabkan sistem secara langsung mengubah keluaran sebesar konstanta pengali. 
+
+Gambar 1 menunjukkan diagram blok hubungan antara besaran setting, besaran aktual dengan besaran keluaran kontroler proporsional. Sinyal kesalahan merupakan selisih antara besaran setting dengan besaran aktual. Selisih ini akan mempengaruhi kontroler untuk mengeluarkan sinyal positif (mempercepat pencapaian harga setting) atau negatif (memperlambat tercapai harga yang diinginkan). 
+
+ 
+
+
+Gambar 1 Diagram blok kontroler proporsional 
+
+Fungsi kontroler integral adalah menghasilkan respon sistem yang memiliki kesalahan keadaan mantap nol. Kalau sebuah plant tidak memiliki unsur integrator (1/s), kontroler proporsional tidak akan mampu menjamin keluaran sistem dengan kesalahan keadaan mantap nol. Dengan kontroler integral, respon sistem dapat diperbaiki, yaitu mempunyai kesalahan keadaan mantap nol. 
+
+Kontroler integral memiliki karakteristik seperti sebuah integral. Keluaran kontroler dipengaruhi oleh perubahan yang sebanding dengan nilai sinyal kesalahan. Keluaran kontroler ini merupakan jumlah yang terus menerus dari perubahan masukan. Kalau sinyal kesalahan tidak mengalami perubahan, keluaran akan menjaga keadaan seperti sebelum terjadi perubahan masukan. Gambar 2 menunjukan diagram blok dari kontroler integral[4]. 
+
+Gambar 2 Diagram blok kontroler proporsional 
+B. Microhydro Power Plant 
+
+Sistem hidrolik dari pembangkit microhydro dapat dilihat pada Gambar 3. Sistem hidrolik terdiri dari head pond, head race conduit, surge tank, penstock, dan turbin. Air dari sungai akan ditampung di head pond kemudian dialirkan ke surge tank melalui head race conduit. Kemudian dari surge tank air akin dilarkan ke turbin penggerak, sehingga saat turbin berputar maka shaft generator yang menjadi satu dengan turbin. Turbin tersebut menggerakkan generator sehingga terbangkit energi listrik yang akan dialirkan ke beban. 
+
+
+Gambar 3 Skema Pembangkit Microhydro[3] 
+
+ 
+
+Paper ini dikerjakan untuk mempermudah proses analis. Pembangkit listrik tenaga microhydro dimodelkan dalam bentuk pemodelan linier. Pemodelan linier pada pembangkit microhydro dapat dilihat pada gambar 4. 
+
+ 
+
+Gambar 4 Skema Pembangkit Microhydro[3] 
+
+C. Particle Swarm Optimzation (PSO) 
+
+Particle Swarm Optimization (PSO) diperkenalkan oleh Kennedy dan Eberhard pada tahun 1995. Algoritma ini terinspirasi dari kebiasaan sebuah populasi burung maupun ikan dalam mencari makanan terbaik. Pada algoritma PSO, populasi burung maupun ikan disebut swarm. Sedangkan tiap individu burung maupun ikan disebut particle. Posisi makanan terbaik yang dicapai populasi tersebut merepresentasikan nilai optimal yang dicari pada algoritma PSO[5]. 
+
+Ketika suatu particle menemukan posisi terbaik, maka particle lainnya akan bergerak menuju pada particle tersebut. Namun ketika terdapat particle lain yang menemukan posisi yang lebih baik dari particle terbaik pertama, maka semua particle akan berubah haluan menuju particle yang lebih baik tersebut. Proses tersebut akan terus berlangsung hingga mendapatkan posisi particle terbaik. Kecepatan pergerakan tiap particle dirumuskan dengan persamaan (1.1). Jarak perpindahan particle dari posisi awal menuju particle terbaik didefinisikan dengan persamaan (1.2). [5] 
+
+Gambar 5 flowchart PSO untuk optimisasi parameter PI [5] StartInisiasi posisi Particle (Kp,, Ki) dan kecepatan particle 
+
+
+III. DESAIN KONTROLER PI PADA MICROHYDRO MENGGUNAKAN PSO 
+
+Percobaan pada paper ini dilakukan dengan memasang kontroler PI pada pembangkit Microhydro. Dalam simulasi dapat diamati bahwa respon perubahan frekuensi pada pembangkit microhydro saat terjadi gangguan perubahan beban sebesar 0.05 pu dan referensi amplitudo sebesar 0.333 pu. Gambar 6 menunjukkan koordinasi kontroler PI pada pembangkit microhydro. 
+
+Untuk mendapatkan parameter PI yang optimal, maka digunakan Particle Swarm Optimization untuk menala parameter PI. Parameter PI yang ditala adalah Kp, Ki . Fungsi objektif yang dipakai adalah Integral Time Absolut Error (ITAE). 
+
+
+Gambar 5 menunjukkan flowchart penalaan parameter PI dengan menggunakan PSO. 
+
+ 
+
+ 
+
+Gambar 6 Koordinasi Kontroler PI dengan Microhydro Power System
+
+IV. HASIL DAN ANALISA 
+
+Pengujian dilakukan dengan menggunakan softwere Matlab. Pada simulasi menggunakan software Matlab, Microhydro Power System dan Kontroler PI dimodelkan dalam bentuk diagram blok dan dikerjakan pada simulink. Sedangkan Particle Swarm Optimization dikerjakan pada M-file. 
+
+Hasil penalaan parameter PI yang terbaik ditunjukkan pada tabel 1 dan gambar 7 yang menunjukkan grafik konvergensi dari Particle Swarm Optimization. 
+
+ 
+ 
+
+Gambar. 7 Grafik Konvergensi Particle Swarm Optimization 
+
+ 
+Hasil respon frekuensi dapat dilihat pada gambar 8. Sistem yang telah dipasang kontroler PI mempunyai amplitudo sebesar 0.333 pu dan settling time pada 40 detik. Sedangkan pada sistem tanpa kontroler memiliki amplitudo sebesar 0.03116. Hasil optimisasi menggunakan PSO mempunyai hasil respon yang lebih baik dari pada yang hanya dikontrol menggunakan kontroler PI. Hasil respon kontroler PI yang ditala menggunakan PSO memiliki amplitudo sebesar 0.333 pu dan time settling pada 26.65 detik. Walaupun sistem tanpa kontroler memiliki time settling paling cepat tetapi amplitudo frekuensi turun dibawah nilai referensi, sehingga sistem dengan pemasangan kontroler PI yang ditala dengan PSO meiliki respon yang paling baik. Perbandingan hasil respon tertera pada tabel 2 dan gambar 8. 
+ 
+
+Gambar 8 respon frekuensi Microhydro. 
+
+ 
+
+Tabel. 2. Perbandingan nilai 
+ 
+
+V. KESIMPULAN 
+
+Kesimpulan dari hasil simulasi pada paper ini adalah pada hasil penalaan kontroler PI dengan PSO memiliki settling time yang lebih lama dibandingkan dengan pembangkit microhydro tanpa kontroler. Meskipun settling time pembangkit microhydro yang dikontrol menggunakan kontroler PI dan ditala dengan PSO masih memiliki respon frekuensi terbaik karena nilai amplitudo frekuensi sama dengan nilai amplitudo yang diberikan oleh referensi, yaitu sebesar 0.333 pu. 
+
+

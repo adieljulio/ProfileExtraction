@@ -1,0 +1,166 @@
+Abstrak— Energi listrik yang disuplai ke konsumen harus mempunyai stabilitas dan keandalan yang tinggi. Jika terjadi sebuah gangguan pada sistem tenaga listrik dapat mengakibatkan ketidakstabilan. Gangguan tersebut dapat berupa putus jaringan (transien) maupun perubahan beban (dinamik). Perubahan beban yang terjadi secara tiba-tiba dan periodik tidak dapat direspon dengan baik oleh generator sehingga dapat mempengaruhi kestabilan dinamik sistem. Hal ini menyebabkan timbul osilasi frekuensi pada generator. Respon yang kurang baik dapat menimbulkan osilasi frekuensi dalam periode yang lama. Hal itu akan mengakibatkan pengurangan kekuatan transfer daya yang ada. Pada sistem tenaga listrik multimachine, semua mesin bekerja secara sinkron sehingga generator harus beroperasi pada frekuensi yang sama. Untuk meredam osilasi frekuensi yang terjadi dibutuhkan kontroler tambahan yaitu Superconducting Magnetic Energy Storage (SMES). Agar mendapatkan koordinasi controler yang baik maka parameter pada SMES dioptimisasi dengan Firefly Algorithm (FA). Tugas Akhir ini mengajukan konsep penalaan parameter SMES menggunakan FA pada sistem tenaga listrik multimesin. Dengan diajukan metode diatas diharapkan permasalahan osilasi frekuensi akibat terdapat perubahan beban dapat diredam. 
+
+I. PENDAHULUAN 
+
+enggunaan peralatan tambahan pada sistem tenaga listrik yang tidak tepat dalam menstabilkan sistem dapat menimbulkan banyak masalah. Masalah tersebut sering timbul karena kesalahan peralatan dalam mengambil sinyal refrensi atau nilai parameter peralatan tersebut yang kurang optimal. Perbaikan yang memperbaiki performa malah menimbulkan osilasi. Hal ini lebih rumit jika sistem merupakan sistem multimesin. 
+
+Sistem multimesin adalah gabungan dari beberapa pembangkit yang tersambung secara interkoneksi [1]. Kestabilan pada sistem tenaga listrik interkoneksi tidak mudah dicapai. Jika terdapat gangguan pada sistem makan sistem akan mengalami osilasi, apabila terjadi terus menerus akan mengakibatkan generator lepas sinkron bahkan dapat merusak generator tersebut. Sehingga diperlukan peralatan yang dapat meredam osilasi yang terjadi. Superconducting Magnetic Energy Storage (SMES) merupakan salah satu peralatan kontroler tambahan yang berfungsi untuk meredam osilasi daya pada sistem tenaga listrik. Untuk memperoleh hasil yang maksimal penalaan parmeter yang tepat dan optimal pada SMES sangat diperlukan untuk meredam osilasi dan menstabilkan sistem. Penalaan parameter ini dapat menggunakan kecerdasan buatan. 
+
+Beberapa metode penalaan telah diusulkan untuk menentukan parameter yang optimal, adalah Firefly Algorithm (FA). FA merupakan algoritma yang terinspirasi dari perilaku kunang-kunang (Firefly Behaviour). Algoritma ini diperkenalkan oleh Xin-She Yang pada tahun 2007. 
+
+Pada Tugas Akhir ini FA digunakan untuk menala parameter SMES yang otimal dengan meminimalkan nilai Integral Time Absolute Error (ITAE). Kemudian dianalisa pengaruh penalaan SMES dengan FA terhadap kestabilan pada sistem tenaga listrik multimesin. Hasil simulasi digunakan untuk perbandingan terhadap sistem tanpa SMES, menggunakan SMES dan menggunakan SMES yang ditala dengan FA. 
+
+II. PEMODELAN SISTEM DAN ALGORITMA 
+
+A. Dinamika dan Kestabilan Sistem Tenaga Listrik 
+
+Dinamika sistem tenaga menjadi faktor penting dalam pengoperasian sistem tenaga listrik. Hal ini dipengaruhi oleh komponen dinamika sistem tenaga listrik seperti generator, jaringan transmisi, beban dan peralatan kontrol. Sifat-sifat dinamik dari sistem tenaga adalah sangat kompleks dan harus dipahami untuk perencanaan sistem operasi yang baik [1]. 
+
+Penyebab utama terjadi dinamika sistem tenaga adalah perubahan beban saat sistem interkoneksi mengalami beban puncak. Hal ini dapat menyebabkan osilasi pada tiap-tiap mesin yang terhubung pada sistem. Osilasi dari masing-masing mesin dapat saling mempengaruhi satu sama lain, sehingga mesin-mesin dalam satu unit pembangkit beraksi bersama-sama secara serempak untuk menanggulangi pengaruh osilasi dari unit pembangkit yang lain sehingga sistem selalu dalam keadaan stabil 
+
+Stabilitas sistem tenaga lisrik telah menjadi perhatian utama Penalaan Parameter Superconducting Magnetic Energy Storage (SMES) menggunakan Firefly Algorithm (FA) pada Sistem Tenaga Listrik Multimesin dalam sebuah sistem operasi. Perhatian ini muncul dari fakta-fakta bahwa pada kondisi mantap (steady-state), kecepatan rata-rata untuk semua generator harus sama. Kondisi tersebut dinamakan pada operasi sinkron dari sebuah sisten yang terinterkoneksi [2]. 
+Kestabilan sistem tenaga listrik diartikan sebagai kemampuan suatu sistem tenaga listrik atau bagian komponen untuk mempertahankan sinkronisasi dan keseimbangan dalam sistem. Berdasarkan sifat dan besar gangguan, kestabilan dalam sistem tenaga listrik dibedakan menjadi [3]: .1) Kestabilan mantap (steady-state) .2) Kestabilan transien .3) Kestabilan dinamik. 
+
+
+Pada tugas akhir ini pemodelan multimesin dan SMES dimodelkan dalam bentuk linier. Pemodelan linier multimesin dan SMES serta Firefly Algorithm (FA) pada tugas akhir ini akan dibahas pada sub bab berikut. 
+
+B. Pemodelan Sebuah Mesin Sikron 
+Secara umum sistem pembangkit dapat digambarkan sperti pada gambar 1. 
+
+Governor merupakan alat pengatur frekuensi. Jika terjadi perubahan frekuensi akibat perubahan beban, governor akan berupaya menstabilkan frekuensi ke nilai tertentu sambil menunggu penyesuaian daya turbin untuk kembali ke frekuensi nominal [3]. Bila ada perubahan pada terminal keluaran generator akibat perubahan beban, maka akan terjadi fungsi feedback yang diatur oleh governor untuk menyesuaikan kembali putaran rotor. 
+
+Sistem eksitasi terdiri dari rangkaian medan dan alat pengatur tegangan yang dinamakan Automatic Voltage Regulator (AVR). Sistem eksitasi berfungsi sebagai pengendali keluaran generator, seperti tegangan, arus dan faktor daya. Bila ada perubahan pada keluaran generator tersebut, maka sistem eksitasilah yang berfungsi untuk mengendalikan generator agar menyesuaikan dan mencari titik keseimbangan baru. 
+
+Kedua peralatan sistem kontrol (governor dan sistem eksitasi) mempunyai perbedaan waktu respon. Governor mempunyai respon yang lambat terhadap perubahan beban, sedangkan sistem eksitasi respon yang lebih cepat. Namun, karena waktu respon yang lebih lambat, maka dalam studi kestabilan dinamik, yang diperhatikan adalah sistem eksitasi. 
+
+Seperti telah dijelaskan, bahwa dengan perubahan beban atau gangguan kecil, akan berimbas terhadap perubahan kecepatan rotor. Perubahan kecepatan rotor ini secara langsung akan berakibat terhadap perubahan kecepatan sudut rotor sehingga berimbas pada keluaran generator. Jika kecepatan sudut rotor akan berosilasi di sekitar nilai sinkron, maka tegangan keluaran akan berosilasi di sekitar harga nominal. 
+
+C. Pemodelan Linier Multimesin 
+
+Pada tugas akhir semua pemodelan dari multimesin, mulai dari turbin, governor, sistem eksitasi, persamaan medan, persamaan torsi dimodelkan secara linier. Pemodelan linier multimesin yang ditinjau dari salah satu mesin dapat dilihat pada gambar 2. 
+
+
+Gambar 1. Sistem pembangkit listrik secara umum 
+
+ 
+
+
+
+Gambar 2. Sistem multimesin ditinjau dari salah satu mesin [1] 
+
+ 
+
+
+D. Superconducting Magnetic Energy Storage (SMES) 
+
+SMES merupakan sebuah peralatan untuk menyimpan dan melepaskan daya dalam jumlah yang besar secara simultan. SMES menyimpan energi dalam medan magnet yang dibuat oleh arus DC pada kumparan superkonduktor yang didinginkan dengan cara cryogenic. Sistem SMES telah digunakan beberapa tahun untuk memperbaiki power quality industri dan untuk menyediakan pelayanan yang baik untuk pelanggan yang mengalami fluktuasi tegangan. Pengisian ulang SMES dapat dilakukan hanya dalam hitungan menit dan dapat mengulangi proses charge dan discharge ribuan kali tanpa mengurangi magnet. Waktu pengisian ulang dapat dipercepat untuk memenuhi kebutuhan khusus, tergantung pada kapasitas sistem. 
+
+SMES pertama kali ditemukan oleh Ferier pada tahun 1969, orang yang pertama kali mengusulkan konstruksi kumparan toroida yang mampu menyuplai penyimpan harian dari energi listrik di seluruh Perancis. Namun biaya pembuatan terlalu mahal sehingga ide tersebut tidak dipenuhi. Pada tahun 1971 peneliti di Universitas Wisconsin US memulai untuk mendalami hubungan dasar antara unit penyimpan energi dengan sistem kelistrikan yang melewati jembatan multifasa. Hal inilah yang memelopori pertama kali konstruksi dari peralatan SMES [4]. 
+
+SMES pada sistem tenaga listrik digunakan untuk mengontrol secara efektif keseimbangan daya pada generator sinkron selama periode dinamis, SMES dipasang pada bus terminal generator pada model sistem tenaga listrik. 
+
+Untuk mengontrol secara efektif keseimbangan daya pada generator, SMES ditempatkan pada terminal bus generator. Hubungan antara arus dan tegangan pada SMES adalah 
+
+Gambar 3 Block diagram SMES [5,6] 
+
+ 
+
+
+E. Firefly Algorithm (FA) 
+
+Sinaran cahaya kunang-kunang sangat indah di langit pada saat musim panas di daerah yang beriklim tropis. Terdapat sekitar 2000 spesies kunang-kunang dan sebagian besar kunang-kunang memproduksi cahaya yang berirama dan pendek. Pola dari kilatan cahaya cukup unik untuk beberapa spesies. Kilatan cahaya diproduksi oleh proses bioluminescene. Fungsi dari kilatan tadi adalah untuk menarik perhatian kunang-kunang lain, kilatan cahaya juga digunakan untuk mekanisme peringatan perlindungan [7]. 
+
+Kunang-kunang betina merespon pola kilatan yang unik dari kunang-kunang jantan yang sejenis, sementara spesies lain seperti Photuris. Kunang-kunang betina jenis Photuris dapat mendengar sinyal bioluminescene dan bahkan meniru pola perkawinan dari spesies lain sehingga dapat memancing dan memakan kunang-kunang jantan yang mungkin melakukan kesalahan dalam memberi sinyal. Beberapa kunang-kunang tropis bahkan dapat mensinkronkan cahaya mereka, sehingga membentuk perilaku biological selft-organized [12]. 
+
+Intensitas cahaya disini mewakili jarak r dari sumber cahaya berdasarkan hukum kuadrat terbaik, sehingga intensitas cahaya I. Semakin berkurang apabila semakin jauh jarak, sehingga dapat ditulis I. Udara menyerap cahaya dan cahaya itu semakin lemah apabila jarak semakin jauh jarak. Faktor-faktor tersebut membuat kunang-kunang dapat dilihat dengan jarak tertentu, beberapa ratus meter pada saat malam hari, ini cukup baik bagi kunang-kunang untuk berkomunikasi [12]. 
+
+Kilatan cahaya dapat dirumuskan sedemikian rupa untuk tujuan optimisasi yang memungkinkan untuk merumuskan algoritma optimisasi baru. Algoritma ini Firefly Algorithm. 
+
+Firefly algoritma adalah algoritma metaheuristik yang terinspirasi karakteristik kunang-kunang. Algoritma ini pertama ditemukan oleh Dr Xin-She Yang di Universitas Cambridge pada tahun 2007. Pada algoritma ini terdapat 3 acuan dasar. 
+
+1. Semua kunang-kunang adalah unisex jadi satu kunang-kunang tertarik dengan kunang-kunang lain terlepas dari jenis kelamin mereka. 2. Daya tarik sebanding dengan kecerahan, maka kunang-kunang dengan kecerahan lebih redup akan bergerak ke arah kunang-kunang dengan kecerahan lebih terang dan kecerahan berkurang seiring dengan bertambah jarak. Apabila tidak ada kunang-kunang yang memiliki kecerahan paling cerah maka kunang-kunang akan bergerak random. 3. Kecerahan kunang-kunang dideterminasikan oleh tempat dari fungsi objektif kunang-kunang. 
+
+
+ 
+
+III. KOORDINASI SMES PADA MULTIMESIN 
+MENGGUNAKAN FA 
+
+A. Sistem Jawa Bali 500 kV 
+
+Data sistem multimesin Jawa Bali 500 kV yang digunakan terdiri dari 25 bus, 30 saluran, 8 buah generator [8]. Gambar 3.1 menunjukkan single line diagram sistem Jawa Bali 500 kV. 
+
+B. Penerapan SMES pada Multimesin 
+
+SMES pada tugas akhir ini dipasang pada pembankit Suralaya. Gambar 4 menunjukkan koordinasi SMES pada sistem multimesin. 
+
+ 
+Gambar5. Test sistem pembangkit Suralaya yang dikoordinasikan dengan SMES
+
+Gambar6. Grafik konvergensi FA
+
+Tabel 1 Hasil penalaan SMES menggunakan FA
+
+
+
+C.Penalaan Parameter SMES menggunakan FA
+Penerapan FA digunakan untuk menala Ksmes, tw,Tdc, Kp, Ki. OptimisasiparameterSMES menggunakan FAdilakukansebanyak 50 iterasi. Nilai minimum fungsi performansi sistem pada setiap iterasi di-plotpada grafik konvergensiyangditunjukkanpada Gambar6. Pada Gambar6dapat dilihatalgoritma FA konvergen pada iterasi ke 47 atau menemukannilai paling optimal adalah pada iterasi ke 47.Tabel 1menunjukkan nilai parameter SMES setelah ditala oleh FA. Untuk nilai Ksmes didapat nilai sebesar 90, nilai sebesartdc0,0147, nilai sebesartw8,0245 dan nilaiKpserta Kisebesar 8dan 6,7313.
+
+IV.HASILDANANALISA
+A.Respon Frekuensi Akibat0,05 pu.
+Untuk melihatrespon frekuensi akibat perubahan beban,simulasi dilakukan dengan memberikan perubahan bebansebesar0,05 pu pada pembangkit Suralaya dan dilakukanselama 20 detik. Dalam Tugas Akhir ini dilakukan analisaperubahanfrekuensipada semua pembangkit di sistem Jawa Bali 500 kV. Gambar 4.1 menunjukkanresponperubahanfrekuensi pada pembangkit Suralaya.
+
+Pada gambar7 dapat dilihat ada perbaikan perubahan frekuensi setelah pembangkit Suralaya dikoordinasikan dengan SMES yang ditala dengan FA. Data settling timedan overshootpada pembangkit-pembangkit pada sistem multi mesin Jawa Bali 500 kV ditunjukkan pada tabel 2.
+
+
+
+
+Gambar 7 Respon frekuensi PLTU Suralaya 
+
+ 
+
+Tabel 2 Data overshoot frekuensi akibat perubahan beban 0,05 pu 
+
+ 
+
+
+ 
+
+Tabel 3 Data settling time akibat perubahan beban 0,05 pu 
+
+ 
+
+
+
+
+
+B. Respon Frekuensi Akibat Perubahan Beban 0,01 pu 
+
+Untuk melihat respon frekuensi akibat perubahan beban, simulasi dilakukan dengan memberikan perubahan beban sebesar 0,01 pu pada pembangkit Suralaya dan dilakukan selama 20 detik. Dalam Tugas Akhir ini dilakukan analisa perubahan frekuensi pada semua pembangkit di sistem Jawa Bali 500 kV. Gambar 8 menunjukkan respon perubahan frekuensi pada pembangkit Suralaya. 
+
+ 
+
+Gambar 4.2 Respon frekuensi PLTU Suralaya 
+
+ 
+
+
+ 
+
+Tabel 4 Data overshoot frekuensi akibat perubahan beban 0,01 pu 
+
+
+ 
+
+Tabel 5 Data settling time akibat perubahan beban 0,01 pu 
+
+ 
+
+
+ 
+
+Pada gambar 8 dapat dilihat ada perbaikan perubahan frekuensi setelah pembangkit Suralaya dikoordinasikan dengan SMES yang ditala dengan FA. Data settling time dan overshoot pada pembangkit-pembangkit pada sistem multimesin Jawa Bali 500 kV ditunjukkan pada tabel 4. 
+
+V. KESIMPULAN 
+
+SMES yang optimal dapat diterapkan pada sistem tenaga listrik multimesin Jawa Bali 500 kV untuk meredam overshoot frekuensi dan mempercepat settling time. Hal ini dapat dilihat pada pembangkit Suralaya. Pada saat tanpa kontroler overshoot dan settling time sebesar 0,000429 pu dan 20 detik. Dengan pemasangan SMES yang dilata FA dapat meredam overshoot pada pembangkit Suralaya menjadi 0,0002513 pu dan mempercepat settling time menjadi 6,996 detik. 

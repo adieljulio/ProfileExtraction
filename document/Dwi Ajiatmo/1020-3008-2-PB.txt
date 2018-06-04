@@ -1,0 +1,117 @@
+Aplikasi Modified-Imperialist-Competitive-Algorithm (MICA) Untuk Merekonfigurasi Jaringan Radial Tenaga Listrik Pada Penyulang Mojoagung 
+
+ 
+
+Machrus Ali Teknik Elektro Universitas Darul „Ulum Jombang machrus@ft-undar.ac.id 
+
+Dwi Ajiatmo Teknik Elektro Universitas Darul „Ulum Jombang ajiatmo@ft-undar.ac.id 
+
+Muhammad Ruswandi Djalal Teknik Mesin Politeknik Negeri Ujung Pandang Ujung Pandang wandi@poliupg.ac.id 
+
+ 
+
+ 
+
+Abstract—— Rekonfigurasi jaringan distribusi digunakan untuk mengatur ulang bentuk konfigurasi jaringan dengan jalan membuka dan menutup switch pada jaringan distribusi. Rekonfigurasi diharapkan dapat mengurangi rugi-rugi daya dan meningkatkan keandalan sistem distribusi. Banyak feeder dan bus pada jaringan jika dihitung secara manual akan sulit dan memerlukan waktu yang sangat lama. Sehingga penyelesaian permasalahan harus menggunakan kecerdasan buatan atau Artificial Intelegent (AI). Imperialist Competitive Algorithm (ICA) banyak dipakai penelitian dalam menyelesaikan permasalahan optimasi. Beberapa penelitian membandingkan ICA dengan kecerdasan buatan lainnya dan ICA menghasilkan hasil yang lebih baik dari kecerdasan buatan lainnya. MICA adalah modifikasi ICA yang didisain untuk menyelesaikan masalah optimisasi secara kombinasi yang diskrit. MICA dapat mencari rekonfigurasi jaringan yang terbaik sehingga dapat mereduksi kerugian daya sebesar 35,7928% dan memperbaiki tegangan 0,0185 pu. Metode ini nanti bisa menggunakan kecerdasan buatan lainnya atau bisa diterapkan pada penyulang lainnya. Sehingga bisa dipergunakan untuk rekomendasi kepada PT. PLN (Persero) 
+
+
+1. PENDAHULUAN 
+
+
+Sebuah kecerdasan buatan (Artificial Intelligence) Imperialist Competitive Algorithm (ICA) banyak dipakai penelitian dalam menyelesaikan permasalahan optimasi.[1,2]. Beberapa penelitian membandingkan ICA dengan kecerdasan buatan lainnya dan ICA menghasilkan hasil yang lebih baik dari kecerdasan buatan lainnya.[3]. Diantaranya dimodifikasi atau improfisasi program untuk masalah rekonfigurasi jaringan.[4] 
+
+Konfigurasi jaringan distribusi radial bentuknya sangat beragam dan sulit untuk disederhanakan. Rekonfigurasi jaringan distribusi digunakan untuk mengatur ulang bentuk konfigurasi jaringan dengan jalan membuka dan menutup switch yang terdapat pada jaringan distribusi. Penelitian ini digunakan untuk mengurangi rugi-rugi daya pada jaringan distribusi dan meningkatkan keandalan sistem distribusi. Efisiensi daya listrik yang disalurkan akan meningkat dan konsumen dapat dilayani dengan baik. Karena banyaknya feeder dan bus pada jaringan, jika dihitung secara manual akan sulit dan memerlukan waktu yang sangat lama, sehingga penyelesaian permasalahan harus menggunakan kecerdasan buatan atau Artificial Intelegent (AI) seperti pada penelitian sebelumnya[4,5,6]. Pada Jaringan Tegangan menengah Penyulang Mojoagung Rayon Mojoagung terdiri dari 26 bus (GTT) dan 31 saluran. Single line penyulang Mojoagung dapat dilihat pada gambar.1. 
+ 
+
+Gambar 1. Single line penyulang Mojoagung 
+
+ 
+
+2. KAJIAN PUSTAKA 
+A. Kerugian Daya 
+Perhitungan yang berlaku pada sistem distribusi arus bolak-balik adalah mirip dengan perhitungan yang berlaku pada sistem distribusi arus searah. Tetapi, ada beberapa perbedaan prinsip yang harus diperhatikan dan dipahami pada sistem arus bolak-balik antara lain: Perhitungan arus pada tiap seksi saluran AC merupakan jumlah vektor dari arus-arus beban yang penjumlahan hitungan aljabar biasanya seperti pada sistem arus searah. Jumlah arus dapat dinyatakan dalam bentuk persamaan aljabar biasa, bila dinyatakan dalam notasi bilangan komplek.Tiap beban bisa saja memiliki besar power factor yang berbeda dengan beban lain. Masing-masing besar power factor berkaitan dengan besar tegangan catu dayanya berdasarkan besaran vector. Pada sistem arus searah, sifat beban dikenal memiliki karakteristik resistif murni, dengan “Unity Power Factor” (Cos Q=1). Pada rangkaian arus bolak-balik, besarnya rugi tegangan tidak hanya bergantung pada besar resistensi murni R dari bebannya, tetapi juga bergantung pada besarnya reaktansi induktif dan reaktansi kapasitif, yang sering diabaikan[5,6,7]. 
+
+ 
+
+B. Rekonfigurasi jaringan 
+
+
+Rekonfigurasi jaringan (Network Reconfiguration) merupakan suatu usaha merubah bentuk konfigurasi jaringan distribusi dengan mengoperasikan pensakelaran terkontrol jarak jauh (switching remotely controlled) pada jaringan distribusi tanpa menimbulkan akibat yang beresiko pada operasi dan bentuk sistem jaringan distribusi secara keseluruhan. Dalam kondisi operasi normal, rekonfigurasi jaringan dilakukan karena dua alasan: mengurangi rugi-rugi daya pada sistem (loss reduction), mendapatkan pembebanan yang seimbang untuk mencegah pembebanan yang berlebih pada jaringan (load balancing). Rekonfigurasi jaringan dilakukan untuk mengurangi rugi-rugi daya pada jaringan distribusi daya listrik tipe radial[9,10]. 
+
+ 
+
+C. Aliran Daya. 
+
+
+Studi aliran daya adalah penentuan atau perhitungan tegangan, arus dan daya yang terdapat pada berbagai titik suatu jaringan pada keadaan pengoperasian normal, baik yang sedang berjalan maupun yang akan datang. Aliran daya pada penelitian ini tidak dibahas secara khusus dan mendetail, karena hanya digunakan sebagai studi untuk menentukan tegangan dan daya yang dijadikan sebagai dasar untuk melakukan rekonfigurasi jaringan pada jaringan distribusi daya listrik tipe radial[10]. 
+
+ 
+
+D. Formulasi Rekonfigurasi Jaringan 
+
+
+Pada bagian ini permasalahan rekonfigurasi jaringan disusun sebagai permasalahan multiobjektif. Di mana fungsi tersebut terdiri dari lima fungsi objektif, dan memiliki faktor beban yang berfungsi untuk menyatakan besarnya hubungan antara masing-masing fungsi objektif tersebut. Fungsi-fungsi objektif tersebut 
+adalah:. Minimalisasi daya complex tak seimbang 
+ 
+
+3. METODE PENELITIAN 
+
+
+Rekonfigurasi Jaringan Metodel MICA 
+MICA adalah modifikasi ICA yang didisain untuk menyelesaikan masalah optimisasi secara kombinasi yang diskrit, dimana partikel mengambil nilai vektor biner dengan panjang n dan kecepatan yang didefinisikan sebagai probabilitas dari bit x n untuk mencapai nilai 1. MICA membalikkan rumus untuk kecepatan bila kecepatan dibatasi pada interval [0,1] dengan membatasi fungsi transformasi dan dengan menggunakan fungsi sigmoid 
+
+Metode Imperialist competitive Algorithm digunakan untuk merekonfigurasi jaringan dengan membuka/menutup beberapa jalur/line pada jaringan distribusi dengan cara trial and error. Sampai iterasi berakhir atau diperoleh hasil konfigurasi yang paling baik dengan rugi daya Yang paling kecil. ICA merupakan algoritma evolusioner yang terinspirasi dengan kompetisi kekuasaan (imperialist competitive). Algoritma optimasi ICA dikenalkan oleh Esmaeil Atashpaz dan pada tahun 2007. ICA mensimulasikan proses sosial politik dari imperialisme dan kompetisi kekuasaan. 
+
+ Langkah-langkah utama pada ICA dapat dirangkum dalam pseudo-code berikut; Pilih titik random pada fungsi dan inisialisasiempire. Gerakkan koloni menuju imperialis yang relevan. Jika ada sebuah koloni yang memiliki cost lebih baik dari pada imperialis, ubahlah posisi dari koloni tersebut dengan imperialis. Gabungkan empire yang sama. Hitung total cost dari semua empire. Ambil koloni terlemah dari empire terlemah dan berikan kepada salah satu empire. Hilangkan empire yang paling lemah. Jika kondisi berhenti dipenuhi, berhenti, jika tidak, ke langkah 2. Dan juga bisa dengan cara yang lain, yaitu ketika hanya satu empire yang tersisa maka ICA akan berhenti[1,2,10]. Seperti pada flowchart 
+
+ Gambar 2. Flowchart Algoritma ICA 
+
+ 
+
+4. ANALISA DAN PEMBAHASAN 
+
+
+Data saluran dan impedansi saluran Beban pada JTM 20 kV Penyulang Mojoagung dapat dilihat pada Tabel 1. 
+
+Data beban dan inpedansi beban diolah menggunakan program matlab 2013a. Desain rekonfigurasi dapat dilihat pada gambar 3. 
+
+Gambar 3. Desain Rekonfigurasi 
+
+ 
+
+Dalam penelitian ini terdapat 5 looping dalam dalam simulasi. 
+ 
+
+Hasil rekonfigurasi jaringan Mojoagung dapat dilihat pada tabel 2. 
+Tabel 2. Hasil simulasi rekonfigurasi jaringan 
+
+ 
+
+Jumlah bus ada 26, dengan 25 bus beban dan 31 saluran. Losses terbesar pada bus 26 seperti terlihat pada pada tabel 3. 
+
+Gambar profile tegangan sebelum dan sesudah rekonfigurasi tiap bus dapat dilihat pada gambar 3. 
+
+ 
+
+Gambar 3. Profile tegangan sebelum dan sesudah rekonfigurasi 
+
+ 
+
+Hasil switch line sebelum dan sesudah rekonfigurasi dapat dilihat pada tabel 3. 
+ 
+
+Tabel 3. Hasil simulasi bus distribusi 
+
+
+Dari hasil running menunjukkan bahwa sebelum rekonfigurasi memutus switch line 27,28,29,30,31 setelah rekonfigurasi 10,16,16,24,25. Losses sebelum rekonfigurasi sebesar 89,724 kW dan setelah konfigurasi sebesar 57,6093 kW. Maka rekonfigurasi dapat mereduksi kerugian daya sebesar 35,7928%. Dan memperbaiki tegangan dari 0,93557 pu menjadi 0,95407 pu. 
+
+ 
+
+ 
+
+5. KESIMPULAN 
+
+
+Dengan merekonfigurasi jaringan, yaitu dengan merubah switch line 27,28,29,30,31 menjadi 10,16,16,24,25 dapat mereduksi kerugian daya sebesar 35,7928% dan memperbaiki tegangan 0,0185 pu. 
+
+ 

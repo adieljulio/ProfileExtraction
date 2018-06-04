@@ -1,0 +1,89 @@
+
+Penggunaan Metode Imperialist Competitive Algorithm (ICA) untuk kontrol Frekuensi pada Wind-Turbine dan Hybrid Wind-Diesel 
+
+Muhammad Fatkhur Rochman, Sabbilul Muttaqin, Machrus Ali, Hidayatul Nurohmah4
+
+Teknik Elektro, Universitas Darul ’Ulum, Jombang 
+atkhur0707@gmail.com, sabbilul@gmail.com, machrus@ft-undar.ac.id, nurhmah@ft-undar.ac.id 
+
+
+1. PENDAHULUAN 
+Pada penelitian sebelumnya studi kestabilan sistem hibrid membahas teknik pengaturan frekwensi dan mendiskusikan teknik gabungan sistem fuel cell dan elektrolisa hibrid untuk meningkatkan kemampuan mikrogrid dalam kualitas daya dari permasalahan fluktuasi frekwensi. Pengaturan yang diajukan dan sistem pemantauan (monitoring) yang dilakkan adalah untuk menjaga kualitas daya, juga untuk diteruskan memutar rotor pada generator, sehingga akan menghasilkan energy listrik. Energi listrik ini akan disimpan kedalam baterai sebelum dapat dimanfaatkan sebagai Pembangkit Listrik Tenaga Angin (Wind-Turbine). Secara teknis, Wind Turbine memiliki tiga komponen utama yaitu angin, turbin dan generator[1]. Pengaturan torsi dan putaran wind turbine dapat dimodelkan seperti pada gambar 1. berikut ini: menjaga kestabilan fluktuasi frekwensi yang disebabkan adanya daya random pada pembangkitan serta pada sisi beban juga untuk menjaga kestabilan fluktuasi aliran daya pada tieline aliran daya yang diakibatkan fluktuasi frekwensi dari sistem hibrid[1,2]. Beberapa penelitian sebelumnya telah membahas pengaturan frekuensi pada Wind Turbine, Wind-Diesel[3,4] Dari beberapa permasalahan pengaturan frekwensi yang menyebabkan fluktuasi aliran daya pada berbagai jenis pembangkitan sistem hibrid yang terkoneksi. 
+
+
+Gambar 1. Pemodelan pada Wind Turbine 
+
+2. TINJAUAN PUSTAKA 
+2.1. Wind Turbine 
+Pembangkit Listrik Tenaga Angin mengkonversikan energi angin menjadi energi listrik dengan menggunakan turbin angin. Energi angin yang memutar turbin angin, 
+
+2.2. Wind -Deisel 
+Sistem daya hibrid turbin angin – diesel dapat diterapkan pada daerah terpencil yang tingkat kecepatan angin cukup signifikan dalam memproduksi listrik. Hasil energi listrik dari sistem hibrid Wind-Diesel dapat menyediakan pelayanan yang baik bagi pelayanan ke konsumen, namun semua itu tergantung pada tipe dan karakteristik kontrol pembangkitan. Variasi sistem frekuensi harus dapat dijaga kestabilannya agar peralatan dapat beroperasi dengan baik dan efisien. Strategi-strategi yang dapat dilakukan dengan cara pengaturan kontrol beban tiruan, prioritas switching kontrol beban, penggunaan flywheel, superkonduktor magnetik dan baterai. Model dalam studi kasus ini terdiri dari sub sistem: model dinamik turbin angin, model dinamik diesel, kontrol kecepatan sudu turbin angin dan model dinamik generator[3,4]. Blok diagram fungsi transfer Wind-Diesel pada gambar 2. 
+
+
+Gambar 2. Pemodelan Wind-Diesel 
+
+Parameter pembangkit listrik hybrid wind diesel dapat dilihat pada Tabel 1[4]. 
+
+Tabel 1. Parameter Wind-Diesel 
+
+3. 
+METODE PENELITIAN 
+A. PID Controller 
+Kontrol PID adalah sistem kontrol gabungan antara kontrol proporsional, integral, dan turunan (derivative). Pada metode ini, penalaan dilakukan dalam kalang tertutup dimana masukan referensi yang digunakan adalah fungsi tangga (step). Pengendali pada metode ini hanya pengendali proporsional. Kp, dinaikkan dari 0 hingga nilai kritis Kp, sehingga diperoleh keluaran yang terus-menerus berosilasi dengan amplitudo yang sama. Nilai kritis Kp ini disebut sebagai ultimated gain. Nilai ultimated period, Tu, diperoleh setelah keluaran sistem mencapai kondisi yang terus menerus berosilasi[5,6]. 
+
+B. Metode Imperalist Competitive 
+Algorithm (ICA) Imperialist Competitive Algorithm (ICA) merupakan metode yang diilhami dari proses alamiah yang terjadi di alam dan proseh kehidupan populaasi hewan di hutan karna metode ini diumpamakan dengan kondisi sosial politik yang biasa dilakukan disebuah negara dan tidak mempertimbangkan konsep kebudayaan. ICA merupakan metode model matimatis yang ditemukan oleh Esmaeil Atashpaz Gargari pada tahun 2007 yang memamfaatkan sejarah kejadian alam dan merupakan metode yang sangat bagus untuk menyelesaikan masalah dalam optimasi[3,8,9]. Parameter ICA bias dilihat pada table 2. 
+
+Tabel 2. Parameter ICA 
+
+
+Fungsi objektif yang digunakan adalah dengan Integral Time Absolut Error (ITAE). Parameter PID yang ditala oleh ICA adalah Kp, Ki dan Kd. 
+
+4. 
+HASIL SIMULASI DAN ANALISIS 
+4.1 Konstanta PID pada Wind Turbine dan Wind-Diesel 
+Dengan memasukkan parameter-parameter dan running program pada plant pembangkit hibrid wind-diesel didapatkan nilai konstanta PID pada masing-masing model. Konstanta Kp, Ki dan Kd pada PID dapat dilihat pada table 3 dan 4.: 
+
+Tabel 3. Konstanta PID Wind Turbine 
+
+Tabel 4. Konstanta PID Wind Diesel 
+
+4.2 Hasil Respon pada Wind Turbine dan Wind-Diesel 
+4.2.1. Respon Wind Turbine 
+Hasil output Daya Aktif (P) dalam satuan Watt dapat dilihat pada gambar 3. berikut ini: 
+
+
+Gambar 3. Daya Aktif (Watt) 
+
+Dari gambar diatas menunjukkan bahwa rata-rata daya aktif yang bisa dibangkitkan pada PID-ICA adalah yang terbaik yaitu 2,451 Watt dengan frekuensi 180/ms. 
+Hasil output Daya Reaktif (Q) dalam satuan Var dapat dilihat pada gambar 4. berikut ini: 
+
+Gambar 4. Daya Reaktif (Var) 
+
+Dari gambar diatas menunjukkan bahwa rata-rata daya reaktif yang bisa dibangkitkan pada model PID-ICA adalah yang terbaik yaitu 0,12323 Var dengan frekuensi 180/ms. 
+
+Hasil output arus dalam satuan ampere dapat dilihat pada gambar 5. berikut ini: 
+
+
+Gambar 5. Arus (Ampere) 
+
+Dari gambar diatas menunjukkan bahwa arus maksimal dapat dibangkitkan pada model PIDICA adalah yang terbaik yaitu 3.425 ampere dengan frekuensi 180/ms. 
+
+Hasil output Generator pada model PID-ICA dapat dilihat pada gambar 6. berikut ini: 
+
+
+Gambar 6. Hasil Output Generatos 
+
+Dari gambar output generator menunjukkan bahwa daya yang bisa dibangkitkan pada model PID-ICA adalah yang terbaik. 
+
+4.2.1. Respon Wind Diesel 
+Hasil respon wind-diesel dapat dilihat pada gambar 7. 
+
+
+Gambar 7. Hasil Respon Wind Diesel 
+
+Dari hasil running program tanpa kontroler didapatkan nilai undershoot pada t = 1,6 sebesar -2,238.10-4 dan overshoot pada t = 6,14 sebedar 3,092.10-5 dengan settling time 23,4 detik. Dari hasil running program PID Kontroller didapatkan nilai undershoot pada t = 1,6 sebesar -2,238.10-4 dan overshoot pada t = 6,14 sebedar 3,092.10-5 dengan settling time 23,4 detik. Dari hasil running program PID-ICA kontroler didapatkan nilai undershoot pada t = 1,6 sebesar -1,379.10-4 tanpa overshoot dengan settling time 16,7 detik 
+
+5. KESIMPULAN 
+Dari hasil uji coba wind turbine dapat disimpulkanbahwa pada sistem wind turbine dengan tuning PID-ICA didapatkan system yang terbaik yaitu 2,451 Watt dengan frekuensi 180/ms. Sedang pada uji coba Wind Diesel tanpa overshoot, undershoots terkecil (1,379x10-5) dan settling time tercepat (16,7 detik) pada pada PID-ICA. Hal ini menunjukkan bahwa dengan model control PID-ICA sistem akan lebih cepat merespon dan memperbaiki frekuensi agar tetap konstan. 

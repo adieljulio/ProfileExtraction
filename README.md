@@ -12,6 +12,33 @@ https://www.researchgate.net/profile/Herlambang_Setiadi
 https://www.researchgate.net/profile/Imam_Robandi
 https://www.researchgate.net/profile/Setiawan_Assegaff
 
+Struktur dokumen yang digunakan adalah sebagai berikut.
+
+document
+	-Derist Touriano
+		-doc1.txt
+		-doc2.txt
+		-doc3.txt
+	-Dwi Ajiatmo
+		-doc1.txt
+		-doc2.txt
+		-doc3.txt
+	-Herlambang Setiadi
+		-doc1.txt
+		-doc2.txt
+		-doc3.txt
+	-Imam Robandi
+		-doc1.txt
+		-doc2.txt
+		-doc3.txt
+	-Machrus Ali
+		-doc1.txt
+		-doc2.txt
+		-doc3.txt
+
+Yang di browse adalah folder document pilih folder document 
+./document
+untuk browse(hanya folder) silahkan pilih folder document (bukan folder author atau root folder)
 
 Definisi:
 Most Frequent Word *kata: *jumlah kata tersebut
@@ -31,3 +58,4 @@ Oleh :
 Adiel Julio 71150017
 Rexy Dwy Brundy 71150004
 Aloysius Adhyatma Herfangsyah 71150012
+

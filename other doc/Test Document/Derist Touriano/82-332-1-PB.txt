@@ -1,0 +1,279 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/304261751 
+EXPERIMENTAL MODEL NAS DAN CLOUD DRIVE BERBASISKAN RASPBERRYPI 
+Article · April 2016 
+CITATIONS 
+0 
+READS 
+991 
+2 authors: 
+Some of the authors of this publication are also working on these related projects: 
+Building framework e-health wirh knowledge Management and IS succes Model View project 
+Automation of Corporate CSR disclosure View project 
+Erick Fernando 
+24 PUBLICATIONS 7 CITATIONS 
+SEE PROFILE 
+Derist Touriano 
+STIKOM Dinamika Bangsa 
+10 PUBLICATIONS 1 CITATION 
+SEE PROFILE 
+All content following this page was uploaded by Erick Fernando on 23 June 2016. 
+The user has requested enhancement of the downloaded file.
+
+EXPERIMENTAL MODEL NAS DAN CLOUD DRIVE 
+BERBASISKAN RASPBERRY-PI 
+
+
+Erick Fernando1, Derist Touriono 2 
+
+1Program Studi Teknik Informatika, STIKOM Dinamika Bangsa, Jambi 
+2Program Studi Sistem Komputer, STIKOM Dinamika Bangsa, Jambi 
+Jl. Jendral Sudirman Thehok -Jambi 
+1Erick.fernando_88@yahoo.com, 2ratz3x@yahoo.co.uk 
+
+ABSTRAK 
+
+Network Attached Storage (NAS) adalah tingkat penyimpanan data pada komputer yang terhubung ke 
+jaringan komputer yang menyediakan akses data ke klien yang berbeda. Penelitian ini menghasilkan NAS 
+yang dibangun dengan perangkat mini pc berbasis raspberry pi yang berfungsi sebagai server 
+penyimpanan data terpusat (file server) yang akan diberikan kepada komputer klien pada lingkungan 
+data yang memiliki kapasitas dalam jumlah besar. Sehingga dengan menggunakan NAS dapat 
+memanajemen penyimpanan dan meningkatkan keandalan, kinerja dan efisiensi jaringan, serta 
+meningkatkan produktivitas secara keseluruhan organisasi dalam kebutuhan data. 
+
+Kata Kunci : Network Attached Storage, Cloud drive , Raspberry Pi 
+
+ABSTRACT 
+
+Network Attached Storage (NAS) is the level of data storage on a computer that is connected to a 
+computer network providing data access to different clients. This research resulted in NAS devices built 
+with raspberry pi-based mini PC that serves as a centralized data storage server (file server) that will be 
+provided to the client computers in data environments that have the capacity in large quantities. 
+Therefore, by using NAS storage can manage and improve the reliability, performance and network 
+efficiency, and improve the overall productivity of the organization's data needs. 
+
+Keywords: Network Attached Storage, Cloud drive , Raspberry Pi 
+
+1. PENDAHULUAN 
+Sebuah unit Network Attached Storage (NAS) adalah sebuah komputer yang terhubung ke 
+jaringan yang hanya menyediakan layanan penyimpanan data berbasis file ke perangkat lain pada jaringan. 
+NAS yang merupakan salah satu metode pendekatan yang populer dalam memanfaatkan jaringan 
+komputer untuk penyimpanan data. NAS memungkinkan pengguna dikalangan rumah dan bisnis untuk 
+menyimpan dan mengambil sejumlah besar data lebih terjangkau dari sebelumnya dengan mengunakan 
+jaringan komputer. NAS memiliki tingkat penyimpanan data komputer yang terhubung ke jaringan 
+komputer yang menyediakan akses data ke klien yang berbeda. 
+NAS dibangun dengan menggunakan perangkat mini pc berupa Raspberry Pi sebagai perangkat server 
+yang digunakan untuk memberikan layanan jaringan kepada pengguna–pengguna. Network Attached 
+Storage server bersifat mandiri, perangkat cerdas yang menempel langsung ke LAN yang ada. 
+Kecerdasan ini pada perangkat NAS memungkinkan berbagi data yang benar di antara klien jaringan 
+yang berbeda. 
+
+Penelitian ini menghasilkan NAS yang dibangun dengan perangkat mini pc raspberry pi untuk 
+memisahkan sumber daya penyimpanan dari jaringan dan aplikasi server untuk menyederhanakan 
+manajemen penyimpanan dan meningkatkan keandalan, kinerja dan efisiensi jaringan, sehingga 
+meningkatkan produktivitas secara keseluruhan organisasi dalam kebutuhan data. Dengan Demikian lebih 
+berguna dari penyimpanan terpusat hanya umum diberikan kepada komputer klien dalam lingkungan 
+dengan data dalam jumlah besar. 
+
+
+2. KAJIAN LITERATUR 
+2.1 Network Attached Storage 
+Network Attached Storage, atau NAS, adalah mekanisme penyimpanan data yang menggunakan 
+perangkat khusus yang terhubung langsung ke media jaringan. Perangkat ini diberi alamat IP dan 
+kemudian dapat diakses oleh klien melalui server di bertindak sebagai gateway untuk data atau dalam 
+beberapa kasus memungkinkan perangkat untuk diakses langsung oleh klien tanpa perantara.[1] 
+
+NAS adalah sistem penyimpanan khusus yang terhubung dalam jaringan penyimpanan .NAS 
+bekerja dengan alamat IP sehingga dapat dengan mudah berbagi dengan server beberapa di awan. NAS 
+dapat digunakan sebagai penyimpanan utama dalam komputasi awan dan juga dapat digunakan untuk 
+membuat redundansi data. NAS menyediakan sistem file seperti NFS, CIFS yang dapat dengan mudah 
+dibagi di seluruh jaringan. Sekarang misalkan kita memiliki beberapa storage NAS di awan dan kelipatan 
+server kami berada di sana. Sekarang tanggung jawab server hanya untuk melayani permintaan dari 
+pengguna akhir mereka tidak mengambil pusing penyimpanan data karena semua data disimpan dan 
+dikelola oleh sistem NAS. Server hanya akan mengambil data dari pengguna dan menyebarkannya ke 
+sistem NAS dan server setiap kali data yang diperlukan akan mengirim permintaan ke sistem NAS dan 
+akan kembali data. NAS bekerja pada jaringan sebagai mesin yang terpisah itu mampu memberikan FTP, 
+HTTP layanan jadi kita jangan perlu membangun server FTP terpisah seperti biasanya Penyedia layanan 
+lakukan [2]. 
+
+
+Gambar 1. Network attached storage in LAN 
+
+2.2 Sistem Penyimpanan Di Cloud 
+Sistem penyimpanan CLOUD yang terdiri dari beberapa perangkat penyimpanan yang tersedia 
+sepanjang waktu .Setelah pengguna menyimpan data mereka di cloud itu membuat beberapa salinan data 
+pada beberapa perangkat penyimpanan yang dapat terletak di wilayah geografis yang berbeda-berbeda ini 
+disebut "Data redundansi "itu adalah motif utama dari Cloud computing. Cloud computing memastikan 
+bahwa setelah data disimpan dalam awan itu harus tersedia untuk pengguna akhir kapan saja dan dari 
+mana saja apakah ada kegagalan Server itu tetap harus dilayani oleh server lain. [3] 
+
+2.3 Raspberry Pi 
+Raspberry Pi adalah suatu perangkat mini computer berukuran sebesar kartu kredit. Raspberry 
+Pi memiliki system Broadcom BCM2835 chip(SoC), yang mencakup ARM1176JZF-S 700 MHz 
+processor (firmware termasuk sejumlah mode "Turbo" sehingga pengguna dapat mencoba overclocking, 
+hingga 1 GHz, tanpa mempengaruhi garansi), VideoCore IV GPU, dan awalnya dikirim dengan 256 
+megabyte RAM, kemudian upgrade ke 512MB. Termasuk built-in hard disk atau solid-state drive, 
+tetapi menggunakan kartu SD untuk booting dan penyimpanan jangka panjang [4]. Sistem operasinya 
+ditanam pada sebuah SD Flash Card, yang menjadikannya sangat mudah untuk diganti dan ditukar. 
+Potensinya luar biasa, dari yang sudah maupun belum pernah dieksplorasi, tetapi telah diuji sebagai 
+multimedia player dengan kemampuan streaming, sebagai perangkat game machine, internet browsing 
+dan sebagai mainboard pengembangan hardware. Hal tersebut memungkinkan perangkat ini digunakan 
+sebagai perangkat pendidikan bagi orang-orang dari segala usia dan tingkat keterampilan. Minat pada 
+perangkat Raspberry Pi sangat luar biasa dan telah jauh melebihi harapan. Profesional IT, ahli 
+elektronik dan pendatang baru semua bersemangat untuk „meletakkan. tangan mereka pada perangkat 
+kecil ini dan semua orang setuju, perangkat ini akan menjadi besar dan semakin berkembang [5]. 
+
+
+Gambar 2. Blok diagram Raspberry pi 
+
+
+Gambar 3. Bentuk fisik raspberry pi 
+
+3. MODEL NETWORK ATTACHED STORAGE 
+Model yang digunakan di dalam membangun nas disini dengan menggunakan raspberry pi dan 
+external hardisk yang terpasang yang sehingga dapat terhubung dengan computer klien dalam mengakses 
+data yang ada. model NAS dapat dilihat pada gambar dibawah berikut ini 
+
+
+Gambar 4. Model NAS 
+
+4. HASIL DAN PEMBAHASAN 
+4.1 Topologi Jaringan 
+Dalam perancangan NAS, bentuk topologi yang digunakan adalah topologi star. Pada topologi ini 
+komputer bisa terhubung dengan rasberry pi melalui kabel dan nirkabel. Perancangan IP Address yang 
+ditentukan dengan DHCP server. Berikut ini setting IP Address untuk masing-masing device : 
+
+1. Rasberry Pi : 192.168.10.1 /24 (Local) 
+2. Komputer Client (Switch : 192.168.10.10 – 
+192.168.10.49 / 24) 
+3. Komputer Client (Access Point : 192.168.10.50 – 
+192.168.10.100 / 24) 
+
+Gambar 5. Topology Jaringan 
+
+4.2 Konfigurasi Rasberry Pi 
+Dalam melakukan perancangan NAS untuk menyimpan dan berbagi informasi dengan komputer 
+lain di jaringan lokal, dan informasi yang dapat disimpan. File yang akan disimpan di NAS, dapat dengan 
+mudah diakses oleh jaringan lokal. Perangkat yang dapat bekerja dengan mereka tidak ada pembatasan 
+pada sistem operasi -Windows, Mac Os, Linux dan ponsel pintar dan tablet. Untuk melaksanakan proyek 
+diperlukan tahap –tahap yang akan dilakukan diantaranya : 
+
+1. 
+Pertama, kita menggunakan hard disk diformat NTFS. Format ini dilakukan untuk beberapa alasan 
+atau kita ingin cepat menyalin informasi melalui koneksi USB 3.0 bukan melalui jaringan, agar dapat 
+di mounting atau dibaca oleh raspberry Pi. Untuk melakukan itu kita harus menginstall aplikasi untuk 
+format partisi hardisknya masukkan perintah berikut: 
+sudo apt-get install 
+
+Dan berikutnya untuk mencari hard drive eksternal ini masukkan perintah berikut. 
+
+sudo fdisk -l 
+
+Dengan ini akan memunculkan dua drive yang muncul. Yang pertama akan menjadi kartu SD yang 
+Rasbpain saat ini berjalan yang lain terlihat mirip dengan / dev / sda1 ini adalah drive yang akan kita 
+gunakan. 
+
+
+Gambar 6. List drive 
+Sebelum kita dapat me-mount drive, kita perlu membuat direktori untuk me-mount drive. Demi 
+mempermudah kita akan hanya membuat direktori bernama USBHDD1 dan USBHDD2 untuk setiap 
+drive. Pertama kita harus membuat drive. Pada baris perintah masukkan perintah berikut: 
+
+sudo mkdir 
+/media/USBHDD1 
+
+2. 
+Pada titik ini kita memiliki dua hard drive eksternal dipasang ke masing-masing direktori USBHDD1 
+dan USBHDD2,. Sekarang saatnya untuk menambahkan dalam sebuah direktori khusus untuk kedua 
+drive untuk memegang folder kita bersama (demi menjaga hal-hal rapi dan penggolongan pekerjaan 
+kami pada drive). Masukkan perintah berikut: 
+sudo mkdir 
+/media/USBHDD1/shares 
+
+
+
+3. Sekarang saatnya untuk menginstal Samba sehingga kita dapat mengakses penyimpanan dari tempat 
+lain pada jaringan. Pada baris perintah masukkan: 
+sudo apt-get install samba samba-
+bin 
+
+Ketika diminta untuk melanjutkan jenis Y dan enter. 
+
+4. 
+Setelah paket Samba selesai menginstal, saatnya untuk melakukan sedikit konfigurasi. Pada baris 
+perintah, ketik baris perintah berikut: 
+sudo nano 
+
+Perintah tersebut akan membuka editor teks nano dan memungkinkan kita untuk membuat beberapa 
+perubahan sederhana. Anda akan melihat sesuatu seperti berikut di jendela terminal Anda: 
+
+
+Gambar 7. Editor nano 
+
+5. 
+Selanjutnya kita akan menambahkan bagian yang sama sekali baru untuk file konfigurasi. Gulir semua 
+jalan ke bagian paling bawah file dan masukkan teks berikut: 
+[Backup] 
+comment = Backup Folder 
+path = /media/USBHDD1/shares 
+valid users = @users 
+force group = users 
+create mask = 0660 
+directory mask = 0771 
+read only = no 
+
+Tekan CTRL + X untuk keluar, tekan Y ketika ditanya apakah Anda ingin menyimpan perubahan dan 
+menimpa file konfigurasi yang ada. Ketika kembali pada command prompt masukkan perintah berikut 
+untuk me-restart Samba: 
+
+6. 
+Pada titik ini kita perlu menambahkan pengguna yang dapat mengakses saham samba. Anda dapat 
+membuat username dan password apa pun yang Anda inginkan. Untuk melakukannya ketik perintah 
+berikut: 
+sudo /etc/init.d/samba 
+
+sudo useradd backups -m 
+-G users 
+
+Anda akan diminta untuk mengetikkan password dua kali untuk konfirmasi. Setelah mengkonfirmasi 
+password, saatnya untuk menambahkan "backup" sebagai pengguna Samba yang sah. Masukkan perintah 
+berikut: 
+
+sudo smbpasswd -a backups 
+
+Dengan Demikian NAS dengan raspberry Pi dapat diakses oleh berbagai user dengan Jaringan Local Area 
+dengan berbagai jenis macam klien dengan berbagai Sistem operasi. Berikut hasil yang dapat di paparkan 
+pada gambar 7 hasil dari implementasi NAS pada raspberry pi: 
+
+
+Gambar 8. Hasil implementasi NAS 
+
+5. PENUTUP 
+NAS yang dibangun dengan perangkat mini pc raspberry pi untuk lebih berguna dari penyimpanan 
+terpusat yang hanya diberikan kepada komputer klien dalam lingkungan dengan data dalam jumlah besar 
+server. Sehingga dengan menggunakan NAS dapat memanajemen penyimpanan dan meningkatkan 
+keandalan, kinerja dan efisiensi jaringan, sehingga meningkatkan produktivitas secara keseluruhan 
+organisasi dalam kebutuhan data. 
+
+DAFTAR PUSTAKA 
+
+[1] 
+International Journal of Computer Engineering and Technology (IJCET), ISSN 0976-6367(Print), 
+ISSN 0976 – 6375(Online) Volume 4, Issue 3, May – June (2013). 
+[2] 
+Hsu Wen-Feng, Luo Guo-Heng, Yuan Shyan-Ming, Tsai Ching-Tsorng , “Constructing Private 
+Cloud Storage Using Network Attached Storage” 9th International Conference on Ubiquitous 
+Intelligence and Computing and 9th International Conference on Autonomic and Trusted 
+Computing, 2012. 
+[3] 
+Gurudatt Kulkarni and RaniWaghmare “Cloud Storage Architecture”, 7th International Conference 
+on Telecommunication Systems, Services, and Applications (TSSA), 2012. 
+[4] 
+Malik Abdillah Ibnul Hakim, Yeffry Handoko Putra, “pemanfaatan mini pc raspberry pi sebagai 
+pengontrol jarak jauh berbasis web pada rumah”,2014. 
+[5] 
+Erick Fernando,”Automatisasi Smart Home Dengan Raspberry Pi Dan Smartphone Android”, 
+Konferensi Nasional Ilmu Komputer (KONIK) 2014, 5 desember 2014, ISSN : 2338-2899. 
+View publication stats 
+View publication statsView publication stats 
+
+
