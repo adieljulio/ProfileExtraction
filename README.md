@@ -27,3 +27,7 @@ Maximum Count of All Corpus
 
 
 
+Oleh :
+Adiel Julio 71150017
+Rexy Dwy Brundy 71150004
+Aloysius Adhyatma Herfangsyah 71150012
