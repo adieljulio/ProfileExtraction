@@ -169,6 +169,8 @@ public class Author {
         HashMap<String,Integer> newmap = new LinkedHashMap();
         int temp=0;
         String temps="";
+        
+        //for di bawah ini digunakan untuk menggabungkan kata dengan jumlah yang sama akan di jadikan satu class.
         for (Map.Entry<String, Integer> entry : getMapOfWord().entrySet()) {
             if(temp==0){
                 temp=entry.getValue();
@@ -189,6 +191,15 @@ public class Author {
             //System.out.println(max*1.00/temp*1.00);
             //System.out.println(Math.log10((double)max*1.00/temp*1.00) / Math.log10(2.)+"\n");
         }
+        
+        //selesai penggabungan
+        
+        System.out.println(this.name);
+        for (Map.Entry<String, Integer> entry : newmap.entrySet()) {
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            System.out.println(key+':'+value);
+        }
         Integer maxThisAuthor=0;
         for (Map.Entry<String, Integer> entry : newmap.entrySet()) {
             Integer value = entry.getValue();
@@ -198,7 +209,7 @@ public class Author {
             break;
         }
         String output="";
-        output+="Maximum Count Corpus this author : "+maxThisAuthor+"\n";
+        output+="\nMaximum Count Corpus this author : "+maxThisAuthor+"\n";
         int counter = 0;
         double sum = 0;
         for (Map.Entry<String, Integer> entry : newmap.entrySet()) {
@@ -210,7 +221,7 @@ public class Author {
         output+= "Average Word Frequency Class(use only this Author corpus) : "+sum/counter*1.00+"\n";
         
         
-        output+="Maximum Count of Maximum Count Corpus each author : "+max+"\n";
+        output+="\nMaximum Count of Maximum Count Corpus each author : "+max+"\n";
         counter=0;
         sum=0;
         for (Map.Entry<String, Integer> entry : newmap.entrySet()) {
@@ -220,7 +231,7 @@ public class Author {
             counter++;
         }
         output+= "Average Word Frequency Class(use Maximum of Maximum each author) : "+sum/counter*1.00+"\n";
-        output+="Maximum Count of All Corpus : "+maxAllCorpus+"\n";
+        output+="\nMaximum Count of All Corpus : "+maxAllCorpus+"\n";
         counter=0;
         sum=0;
         for (Map.Entry<String, Integer> entry : newmap.entrySet()) {

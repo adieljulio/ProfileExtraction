@@ -1,33 +1,3 @@
-See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/305994302 
-ARSITEKTUR TEKNOLOGI WEBSERVER BERBASIS MINI PC DENGAN 
-RASPBERRY PI 
-Article · April 2016 
-CITATIONS 
-0 
-READS 
-1,086 
-4 authors, including: 
-Some of the authors of this publication are also working on these related projects: 
-Building framework e-health wirh knowledge Management and IS succes Model View project 
-Automation of Corporate CSR disclosure View project 
-Erick Fernando 
-24 PUBLICATIONS 7 CITATIONS 
-SEE PROFILE 
-Derist Touriano 
-STIKOM Dinamika Bangsa 
-10 PUBLICATIONS 1 CITATION 
-SEE PROFILE 
-Hetty Rohayani Ah 
-Universitas Adiwangsa Jambi, Indonesia 
-21 PUBLICATIONS 12 CITATIONS 
-SEE PROFILE 
-All content following this page was uploaded by Erick Fernando on 09 August 2016. 
-The user has requested enhancement of the downloaded file.
-
-AKADEMIKA ISSN : 1907 - 3984 
-
-
-
 ARSITEKTUR TEKNOLOGI WEBSERVER BERBASIS 
 MINI PC DENGAN RASPBERRY PI 
 
@@ -39,30 +9,13 @@ Email : Erick.fernando_88@yahoo.com
 
 
 Abstract – 
-Development of a website in world of the Internet requires a webserver. The Development Webserver 
-is something which is extremely important in providing services to clients that will access a website. 
-Construction of this webserver using a mini pc technology architecture with Raspberry Pi device. Raspberry Pi 
-is a Mini PC-based open source operating system as an application that uses Xampp webserver. This application 
-is an application that is very powerful and widely used by users. Webserver architecture that uses a mini pc 
-expected one of the alternatives in development webserver. With so can mengeffisienkan and mendinamiskan use 
-hardware devices. 
+Development of a website in world of the Internet requires a webserver. The Development Webserver is something which is extremely important in providing services to clients that will access a website. Construction of this webserver using a mini pc technology architecture with Raspberry Pi device. Raspberry Pi is a Mini PC-based open source operating system as an application that uses Xampp webserver. This application is an application that is very powerful and widely used by users. Webserver architecture that uses a mini pc expected one of the alternatives in development webserver. With so can mengeffisienkan and mendinamiskan use hardware devices. 
 
 Keyword : Webserver, Mini Pc, Raspberry Pi 
 
 I. PENDAHULUAN 
-Di awali sebuah perkembangan sebuah 
-teknologi yang begitu pesat dan tinggi ini sehingga 
-menghasil perangkat teknologi yang canggih. 
-Dengan Perkembangan ini juga berdampak ke dalam 
-perkembangan sebuah perangkat Pc. Perangkat Pc 
-yang berkembangan menjadi sebuah perangkat yang 
-lebih simple dan kecil yang sekarang dapat 
-dinamkan sebuah Mini Pc. Perkembangan mini Pc 
-ini sangat pesat sehingga dikembangkan oleh banyak 
-Develop Hardware. Perangkat Mini Pc yang 
-digunakan dalam arsitektur teknologi ini adalah 
-Jenis Raspberry Pi. Raspberry Pi ini akan di 
-implementasikan sebagai sebuah server yang akan 
+Di awali sebuah perkembangan sebuah teknologi yang begitu pesat dan tinggi ini sehingga menghasil perangkat teknologi yang canggih. Dengan Perkembangan ini juga berdampak ke dalam 
+perkembangan sebuah perangkat Pc. Perangkat Pc yang berkembangan menjadi sebuah perangkat yang lebih simple dan kecil yang sekarang dapat dinamkan sebuah Mini Pc. Perkembangan mini Pc ini sangat pesat sehingga dikembangkan oleh banyak Develop Hardware. Perangkat Mini Pc yang digunakan dalam arsitektur teknologi ini adalah Jenis Raspberry Pi. Raspberry Pi ini akan di implementasikan sebagai sebuah server yang akan 
 memberikan pelayanan terhadap klien yang 
 mengakses website. Pembanguan Webserver 
 merupakan hal yang sangatlah penting dalam 
@@ -96,10 +49,7 @@ kemampuan browser tersebut.[1]
 
 2. Raspberry Pi 
 Perangkat keras server yang digunakan pada 
-perancangan ini menggunakan RaspberryPi. 
-Perangkat ini adalah sebuah personal komputer 
-berukuran kecil (85.60mm x 56mm) berbasis 
-Broadcom BCM2835 [9], dengan prosesor 
+perancangan ini menggunakan RaspberryPi. Perangkat ini adalah sebuah personal komputer berukuran kecil (85.60mm x 56mm) berbasis Broadcom BCM2835 [9], dengan prosesor 
 berkecepatan 700MHz. Perangkat ini juga dibekali 
 RAM berukuran 512MB.Dukungan lainnya adalah 
 tersedia nya USB, HDMI, S-VIDEO out. Media 

@@ -68,6 +68,7 @@ public class View extends javax.swing.JFrame {
 
         txvResult.setEditable(false);
         txvResult.setColumns(20);
+        txvResult.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         txvResult.setRows(5);
         jScrollPane1.setViewportView(txvResult);
 
@@ -133,6 +134,7 @@ public class View extends javax.swing.JFrame {
         String feature = "";
         String path = txtPath.getText().toString();
         File rootdirectory = new File(path);
+        int pMinChar = 60;
 
         File[] fList = rootdirectory.listFiles();
         for (File file : fList) {
@@ -151,7 +153,7 @@ public class View extends javax.swing.JFrame {
                             Scanner input = new Scanner(reader);
                             while (input.hasNext()){
                                 String num = input.nextLine();
-                                while(num.length()<35){
+                                while(num.length()<pMinChar){
                                     if(input.hasNext()){
                                         num+=" "+input.nextLine();
                                     }else{
@@ -233,7 +235,7 @@ public class View extends javax.swing.JFrame {
         
         System.out.println(max);
         for (Author author : authorList) {
-            feature+=author.generateFeature(max,maxAllCorpus)+"\n\n";
+            feature+=author.generateFeature(max,maxAllCorpus)+"\n\n======================================\n";
         }
         txvResult.setText(feature);
     }//GEN-LAST:event_btnRunActionPerformed

@@ -39,17 +39,14 @@ public class Paragraf {
         String pattern = "[^\\w\\s]";
         String newString = lower.replaceAll(pattern, "");*/
         String kalimat2[] = getIsiParagraf().split("\\.|\\?|\\!");
-        for (int i = 0; i < kalimat2.length; i++) {
-            if(kalimat2[i].length()<10){
-            }
-        }
+        int kMinChar = 30;
         for(int i = 0; i < kalimat2.length ; i++){
             //String temp = kalimat2[i].replaceAll("\\.", "");
-            if(kalimat2[i].length()<20){
+            if(kalimat2[i].length()<kMinChar){
                 int c=1;
                 String s = kalimat2[i];
                 
-                while (s.length()<20) {     
+                while (s.length()<kMinChar) {     
                     if(kalimat2.length<i+c){
                         s+=" "+kalimat2[i+c];
                         c++;
