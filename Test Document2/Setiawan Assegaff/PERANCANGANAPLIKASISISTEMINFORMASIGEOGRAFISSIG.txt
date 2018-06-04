@@ -1,0 +1,135 @@
+1. PENDAHULUAN 
+Perangkat internet dan mobile dalam beberapa tahun belakangan ini mengalami perkembangan yang sangat pesat. Hal ini disebabkan karena kebutuhan manusia terhadap informasi yang meningkat. Untuk mengatasi hal tersebut, para pengembang perangkat mobile dan internet pun semakin gencar dalam menghasilkan produk yang dapat menghasilkan informasi sesuai dengan kebutuhan user. Produk yang diciptakan tersebut berupa hardware yang dapat berupa Handphone, Smartphone, GPS dan sebagainya. 
+
+Saat ini banyak aplikasi Sistem Informasi Geografis (SIG) yang dapat dikombinasikan dengan smartphone karena pada umumnya perangkat smartphone keluaran baru sudah memiliki fitur GPS sehingga informasi bisa didapat dimana saja dan kapan saja. perangkat smartphone yang digunakan yaitu perangkat Android. Alasannya adalah sistem operasi mobile ini bersifat Open Source sehingga memudahkan dalam pengembangan aplikasi. 
+
+Perkembangan teknologi sangatlah mempengaruhi kesegala aspek, salah satunya di bidang pembangunan. disetiap kota-kota besar dapat dikatakan menjadi sasaran untuk pengembangan pembangunan tempat usaha seperti Mall, Supermarket, dan Minimarket. 
+
+Dalam ikut sertanya, Perusahaan yang bergerak di bidang pemasaran mulai memanfaatkan daerahdaerah untuk mengembangkan ruang lingkup maupun penanaman modal dengan cara menambah beberapa anak cabang di berbagai wilayah, Kota Jambi yang merupakan salah satu kota yang memiliki 
+potensi menjadi sasaran empuk dari perusahaan-perusahaan asing untuk mengembangkan perusahaan tersebut. 
+Dalam melakukan observasi hampir diseluruh 8 kecamatan yang berada di kota jambi terdapat anak cabang dari berbagai minimarket, namun hanya terpusat dibeberapa wilayah tertentu sehingga mengakibatkan penumpukan. sulitnya mendapatkan suatu informasi menyebebkan mekanisme pencarian 
+lokasi butuh waktu yang lama. suatu hal yang tidak seimbang hanya untuk mendapatkan lokasi namun menghabiskan waktu berkeliling di lahan seluas ± 205.38 km2. ada baiknya bila menjadikan informasi yang menyajikan sejumlah informasi terkait pencarian lokasi, menentukan letak, dan dapat membandingkan beberapa minimarket yang berada di lokasi yang sama. diharapkan dapat membantu investor dalam pencarian lokasi maupun pemerintah kota jambi dalam hal penataan ruang lingkup. 
+
+2. LANDASAN TEORI 
+Perancangan merupakan tahap persiapan untuk rancang bangun implementasi suatu sistem yang menggambarkan bagaimana suatu sistem dibentuk yang dapat berupa penggambaran, perencanaan dan pembuatan sketsa atau pengaturan dari beberapa elemen terpisah ke dalam satu kesatuan yang utuh. 
+
+Definisi perancangan menurut Jack Febrian (2004 : 142) mendefinisikan : 
+
+“Rancangan adalah merupakan tahap penerjemahan dan keperluan atau data yang telah dianalisis kedalam bentuk yang mudah dimengerti oleh pemakai (user) , ada tiga atribut yang penting dalam proses perancangan yaitu struktur data, arsitektur perangkat lunak dan prosedur rinci”. 
+Menurut Soetam Rizky (2011 : 140) mendefinisikan : 
+
+“Perancangan adalah sebuah proses untuk mendefinisikan sesuatu yang akan dikerjakan dengan menggunakan teknik yang bervariasi serta didalamnya melibatkan deskripsi mengenai arsitektur serta 
+detail komponen dan juga keterbatasan yang akan dialami dalam proses pengerjaannya”. Menurut Bambang Hariyanto (2004 : 405) mendefinisikan: “Perancangan merupakan penghubung antara kebutuhan dan implementasinya”. 
+
+Jadi perancangan dapat diartikan perencanaan dari pembuatan suatu sistem yang menyangkut berbagai komponen sehingga akan menghasilkan sistem yang sesuai dengan hasil dari tahap analisa sistem. 
+
+3. METODE PENELITIAN 
+3.1. Kerangka Kerja Penelitian 
+Untuk membantu dalam penyusunan penelitian ini, maka perlu adanya susunan kerangka kerja yang jelas tahapan-tahapannya. Kerangka kerja ini merupakan langkah-langkah yang dilakukan dalam 
+penyelesaian masalah yang akan dibahas. Adapun kerangka kerja dari penelitian ini terdiri dari proses- proses seperti yang terlihat pada gambar 1 dibawah ini : 
+Identifikasi 
+Pengumpulan 
+Pengembangan 
+Implementasi 
+Penyusunan 
+Studi Pustaka 
+Berdasarkan kerangka kerja penelitian yang telah digambarkan di atas, maka dapat diuraikan pembahasan masing-masing tahap dalam penelitian adalah sebagai berikut : 
+1.Identifikasi Masalah 
+Identifikasi Masalah tahap awal dari penyusunan penelitian ini masalah yang di identifikasi adalah lokasi pemetaan minimarket. 
+2. Studi Pustaka 
+Studi Pustaka dilakukan untuk melengkapi pengetahuan dasar yang dimiliki, sehingga hasil penelitian sesuai dengan luaran yang diharapkan. 
+3. Pengumpulan Data 
+Pada tahap ini dilakukan pengumpulan data dan informasi yang berkaitan dengan aplikasi pencarian lokasi Minimarket Kota Jambi. 
+4.Pengembangan Sistem 
+Pada tahap ini ini dilakukan pengembangan sistem dengan menggunakan model air terjun (waterfall) Data-data dan informasi mengenai pencarian lokasi Minimarket pada sistem yang akan dibangun, 
+dimasukan kedalam form aplikasi smartphone berbasis android. 
+5. Implementasi dan testing 
+Pada tahap ini program aplikasi yang telah dirancang akan diimplementasikan dan dilakukan testing untuk menguji apakah program aplikasi yang telah dirancang dapat berjalan dengan baik. 
+6. Penyusunan Laporan 
+Pada tahap ini dilakukan penyusunan laporan dari semua tahapan kerja penelitian untuk dapat digunakan pada waktu yang akan datang dan untuk tahapan pengembangan aplikasi selanjutnya. 
+
+2.2 Metode Pengembangan Sistem 
+Metode yang digunakan dalam pengembangan sistem ini adalah model Waterfall. Metode Waterfall adalah metode yang menyarankan sebuah pendekatan yang sistematis dan sekuensial melalui tahapan-tahapan yang ada pada SDLC untuk membangun sebuah perangkat lunak. 
+
+Penulis menggunakan model Waterfall, dikarenakan metode ini menekankan pada sebuah keterurutan dalam proses pengembangan perangkat lunak. Metode Waterfall adalah sebuah metode yang tepat untuk membangun sebuah perangkat lunak yang tidak terlalu besar dan sumber daya manusia yang terlibat dalam jumlah yang terbatas. Secara umum tahapan pada model waterfall dapat dilihat pada gambar berikut
+
+1. Analisis Kebutuhan 
+Analisa kebutuhan dilakukan dengan tujuan mengelompokkan data-data yang telah dikumpulkan, sehingga memudahkan penulis untuk melakukan analisa berikutnya. Sesuai dengan judul penelitian ini 
+yang merancang aplikasi website sistem pendukung keputusan di toko Digital untuk mempermudah pembeli dalam memilih kamera, maka perlu dilakukan analisa terhadap data-data yang diperlukan, 
+sehingga diperoleh kesimpulan yang valid dan relevan. 
+
+2. Desain Sistem 
+Adapun aktivitas-aktivitas penulis yang melingkupi model Waterfall adalah sebagai berikut : 
+1. Analisis Kebutuhan 
+Langkah ini merupakan tahapan dimana penulis menganalisa kebutuhan sistem. Pada tahap ini juga penulis mengumpulkan data yang diperlukan dalam membangun sistem berupa penelitian 
+dan study literature sehingga pada tahapan ini penulis dapat menghasilkan dokumen kebutuhan user (user requirement), dengan kata lain data yang dikumpulkan adalah data yang berhubungan 
+dengan keinginan user dalam pembuatan sistem.dan kemudian dokumen ini akan menjadi acuan sistem analis untuk menterjemahkan kedalam bahasa pemrograman. 
+2. Desain Sistem 
+Pada proses design penulis akan menterjemahkan syarat kebutuhan ke sebuah perancangan perangkat lunak yang dapat diperkirakan sebelum dibuat coding. Proses ini berfokus pada : 
+struktur data, arsitektur perangkat lunak, representasi interface, dan detail (algoritma) prosedural. Tahapan ini akan menghasilkan dokumen yang disebut software requirment. 
+Dokumen inilah yang akan digunakan programmer untuk melakukan aktivitas pembuatan sistemnya. 
+3. Implementasi Sistem 
+Implementasi, merupakan penerjemahan design dalam bahasa yang bisa dikenali oleh komputer atau kode-kode dengan menggunakan action script 2.0. Dengan kata lain, pada tahap ini 
+dilakukan implementasi hasil rancangan ke dalam baris-baris kode program yang dimengerti oleh mesin (komputer). Kemudian dilakukan pengujian terhadap unit-unit yang dihasilkan. 
+Tahapan selanjutnya yang dilakukan penulis setelah melakukan perancangan sistem adalah melakukan implementasi dari sistem yang telah dirancang. 
+Pada implementasi sistem ini penulis akan menggunakan spesifiksi yang ada dalam pembuatan aplikasi pencarian lokasi minimarket ini dengan menggunakan komputer pribadi yang sudah 
+dirancang dengan menggunakan program bantu yaitu eclipse dan spesifikasi pendukung lainnya. 
+4. Pengujian Sistem 
+Setelah pengkodean selesai maka penulis akan melakukan pengujian (testing) terhadap sistem yang telah dibangun, dengan tujuan menemukan kesalahan dalam pembuatan sistem dan 
+selanjutnya akan diperbaiki sampai sistem tidak terjadi kesalahan. 
+4. HASIL DAN PEMBAHASAN 
+4.1. 
+Analisis Sistem Yang Berjalan 
+Pada saat ini kebutuhan user terhadap informasi sangat beragam, tergantung pada tujuan informasi itu digunakan. kota jambi semakin dipadati pembangunan perumahan maupun pembangunan pusat 
+perbelanjaan seperti minimarket (Indomaret dan Alfamart) yang saat telah beroperasi kurang lebih 119 gerai di berbagai wilayah (menurut pendataan BPMPPT Kota Jambi terdapat 50 gerai Indomaret dan 69 gerai Alfamart) ditambah minimarket lokal yaitu sekitar 9 gerai (dalam pendataan tahun 2013/2014 oleh BPMPPT Kota Jambi) kecil kemungkinan untuk mendapatkan lokasi yang mempunyai potensi dalam tingkat penjualan yang tinggi. 
+
+Kurangnya informasi menjadikan mekanisme pencarian lahan selama ini membutuhkan waktu yang lama karena dilakukan secara manual, dibutuhkan tingkat ketelitian dalam hal memilih maupun 
+menentukan. sebagai contoh user ingin mencari lokasi yang cocok untuk pembangunan minimarket dan membandingkan beberapa minimarket yang berada di lokasi yang sama dengan meninjau kepadatan 
+penduduk di lokasi tersebut. Berdasarkan pemikiran ini maka penulis membuat aplikasi yang dapat menyediakan pencarian lokasi Minimarket tersebut. 
+Perkembangan teknologi dalam bidang telekomunikasi membuat informasi seperti itu dengan mudah bisa didapatkan. Apalagi hal ini didukung dengan lahirnya perangkat pintar Smartphone sebagai 
+alat komunikasi yang dapat digunakan kapan saja dan dimana saja. Penulis memilih sistem operasi Android sebagai tempat dimana aplikasi ini dikembangkan. Alasan pemilihan Android adalah karena 
+sistem operasi ini sedang popular dan juga sistem operasi ini besifat Open Source yang memudahkan pengembangan aplikasi ini. 
+
+4.2. Analisisa Kebutuhan Sistem 
+Berdasarkan beberapa permasalahan yang ada, penulis merekomendasikan suatu aplikasi SIG Lokasi Minimarket di Kota Jambi yang berjalan di sistem operasi android. 
+Dalam membangun aplikasi SIG Lokasi Minimarket di Kota Jambi, kebutuhan dalam perancangannya ialah sebagai berikut: 
+1. Use Case Diagram 
+Perancangan 
+
+2. Activity Diagram 
+Activity diagram adalah teknik untuk mendiskripsikan logika procedural dan aliran kerja aplikasi yang akan dirancang. Pada gambar 5 merupakan diagram prosuder tentang pengguna yang bisa memilih lokasi minimarket berdasarkan pilihan pengguna. 
+
+3. Flowchart 
+Fungsi flowchart yaitu menunjukkan alur logika suatu program (Budi Sutedjo, 2004), maka pada rancangan flowchartdi gambar 6 memperlihatkan arus logika tentang menu utama didalam aplikasi GIS 
+minimarket ini. 
+
+4.4. Implementasi Program dan Pengujian Sistem 
+Berikut merupakan implementasi program untuk perbandingan pengguna dan hasil output perbandingan 
+1. Halaman Utama 
+Pada gambar 7, merupakan implementasi program halaman utama aplikasi GIS lokasi minimarket. Pada halaman utama ini terdapat 6 tombol yang bisa dipilih pengguna untuk menuju masing-masing 
+menu. 
+
+2. Halaman Menu Lokasi Minimarket 
+Pada gambar 8 merupakan halaman lokasi minimarket. Disini terdapat daftar kecamatan yang ada di kota Jambi. Pengguna bisa menampilkan daftar minimarket berdasarkan hasil pilihan kecamatan di 
+menu ini. 
+
+3. Tampilan Halaman Daftar Minimarket Berdasarkan Kecamatan Pada gambar 9 merupakan halaman daftar kecamatan berdasarkan kecamatan yang terpilih oleh pengguna. Disini terdapat daftar nama minimarket beserta nama alamatnya 
+
+4. Halaman Lokasi Minimarket di Google Map Pada gambar 10 merupakan halaman lokasi minimarket di google map. Disini pengguna bisa mengetahui lokasi minimarket berdasarkan hasil pilihan minimarket oleh pengguna di halaman daftar minimarket. Pada halaman ini terdapat pinpoint beserta info nama minimarket dan alamatnya 
+Untuk pengujian sistem, terutama pengujian pada aplikasi GIS lokasi minimarket yang dilakukan oleh pengguna, bisa dilihat pada tabel 1. 
+
+5. PENUTUP 
+5.1. Kesimpulan 
+Kesimpulan yang dapat diambil dari hasil analisa dan perancangan yang telah dibahas pada bab-bab sebelumnya adalah sebagai berikut: 
+
+1. Aplikasi ini adalah aplikasi Mobile GIS untuk pencarian lokasi Minimarket di Kota Jambi yang bersifat interaktif, dapat memudahkan dalam mencari informasi tentang pemetaan lokasi dari 
+Minimarket di Kota Jambi dengan tampilan yang menarik dan mudah digunakan. 
+2. Dengan adanya aplikasi ini dapat mempermudah user (pengguna) dalam melakukan pencarian dalam pemetaan lokasi dari Minimarket yang ada di Kota Jambi dengan cepat dan tepat serta 
+dapat diakses oleh siapa saja, kapan saja, dan dimana saja. 
+3. Interface atau tampilan aplikasi user friendly (bersahabat dengan pengguna) akan sangat membantu penggunaan untuk melakukan navigasi di dalam smartphone yang bersistem operasi 
+android. 
+5.2. Saran 
+Penulis menyadari terhadap kekurangan dalam aplikasi yang telah penulis rancang ini. Untuk itu dalam kesempatan ini dapat dijabarkan beberapa saran untuk perbaikan aplikasi dimasa mendatang agar aplikasi ini tetap terus dapat digunakan. 
+1. Untuk pengembangan tahap berikutnya aplikasi ini bukan hanya mencangkup untuk pemetaan Minimarket, tetapi juga menentukan jarak antar Minimarket. 
+2. Diharapkan pengembangan aplikasi ini meliputi seluruh kabupaten di provinsi Jambi sehingga dapat berfungsi sebagai aplikasi informasi geografis berskala besar untuk Provinsi Jambi. 
+3. Kepada para pembaca dan para mahasiswa yang berhubungan dengan program studi ini agar dapat mengembangkan aplikasi ini kearah yang lebih baik. 

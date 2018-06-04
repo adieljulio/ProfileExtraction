@@ -1,0 +1,120 @@
+
+Sistem Pakar Mendiagnosis Penyakit Jantung dengan Metode Fuzzy Set 
+
+
+Derist Touriano1 
+Teknik Informatika, STIKOM Dinamika Bangsa 
+Jambi, Indonesia 
+Amuntai9@ovi.com 
+
+
+Erick Fernando2 
+Sistem Komputer, STIKOM Dinamika Bangsa 
+Jambi, Indonesia 
+Erick.fernando_88@yahoo.com 
+
+
+Abstract–Penyakit jantung merupakan penyakit yang menyebabkan tingkat kematian yang sangat tinggi. Ini yang disebabkan kurangnya pengetahuan masyarakat dan seorang pakar atau dokter ahli yang memiliki kelemahan dalam pelayanan seperti jam kerja terbatas dan menunggu antrian dalam melakukan pelayanan. Dengan demikian dibutuhkan untuk membuat komputer yang dapat bekerja seperti pakar atau dokter yang di sebut sebuah Sistem pakar (expert system) yang dibangun dalam bentuk website dengan menggunakan metode logika fuzzy.Logika Fuzzy merupakan peningkatan terhadap logika Boolean yang telah mengenalkan konsep kebenaran sebagian.logika fuzzy dapat menggantikan kebenaran boolean dengan tingkat kebenaran yang lebih baik.Dengan Sistem pakar dibangun pada sebuah website yang dapat diakses oleh publik dimana saja dan kapanpun juga sehingga dapat membantu memberikan informasi yang sangat dibutuhkan secara cepat, akurat dan jelas yang layaknya berkonsultasi kepada seorang pakar atau pun seorang dokter ahlinya sehingga dapat mengurangi tingkat kematian yang terjadi. 
+
+Keywords–Sistem pakar, Fuzzy logic , penyakit jantung 
+
+I. PENDAHULUAN 
+Penyakit jantung merupakan penyakit yang menyebabkan tingkat kematian yang sangat tinggi.Ini yang disebabkan kurangnya pengetahuan masyarakat tentang penyakit ini.Dengan demikian masyarakat lebih mempercayakannya kepada seorang pakar atau dokter ahlitetapi walaupun adanya pakar atau dokter ahli, terkadang memiliki kelemahan seperti jam kerja terbatas dan menunggu antrian dalam melakukan pelayanan.Dengan demikian dibutuhkan untuk membuat komputer yang dapat bekerja seperti pakar atau dokter yang di sebut sebuah Sistem pakar (expert system).Penggunaan sistem pakar dapat membantu manusia untuk mencari jawaban dan solusi.Sistem pakar merupakan sebuah kecerdasan buatan yang terdapat dalam sebuah perangkat lunak yang dibangun dengan kemampuan mendekati seorang pakar (manusia) yang memiliki pengetahuan tinggi dalam sebuah bidang tertentu yang diharapkan dapat membantu memecahkan sebuah masalah.Sistem pakar memiliki banyak metode yang dapat digunakan salah satu ada logika fuzzy.Logika Fuzzy adalah peningkatan dari logika Boolean yang mengenalkan konsep kebenaran sebagian. Di mana logika klasik menyatakan bahwa segala hal dapat diekpresikan dalam istilah biner yaitu 0 atau 1, logika fuzzy menggantikan kebenaran boolean dengan tingkat kebenaran.Sistem pakar ini dibangun pada sebuah website yang dapat diakses oleh publik secara realtime, dimana saja dan kapanpun juga sehingga dapat membantu memberikan informasi yang sangat dibutuhkan secara cepat, akurat dan jelas yang layaknya berkonsultasi kepada seorang pakar atau pun seorang dokter ahlinya. 
+
+II. LANDASAN TEORI 
+A. Sistem Pakar 
+Sistem pakar melakukan penggabungan dari pengetahuan yang ada dan penelusuran data untuk memecahkan masalah yang secara normal memerlukan keahlian dari seorang manusia. Tanpa adanya keahlian manusia sistem pakar tidak dapat berjalan karena ia memberikan keputusan seperti manusia. Dari hal ini penulis memberikan beberapa definisi dari sistem pakar berikut.sistem pakar (Expert System) adalah sistem yang berusaha mengadopsi pengetahuan manusia ke komputer, agar komputerdapat menyelesaikan masalah seperti yang biasa dilakukan para ahli. Sistem pakar merupakan sebuah sistem yang mengadopsi pengetahuan yang dimiliki oleh pakar (manusia) ke dalam komputer, agar komputer dapat menyelesaikan sebuah masalah layaknya seorang ahli menyelesaikan masalah.[1] 
+
+B. 
+Logika Fuzzy 
+Logika Fuzzy adalah sebuah logika yang merupakan peningkatan dari logika Boolean yang mengenalkan konsep kebenaran sebagian. Di mana logika klasik menyatakan bahwa segala hal dapat diekpresikan dalam istilah biner yaitu 0 atau 1, logika fuzzy menggantikan kebenaran boolean dengan tingkat kebenaran. Sebagaimana yang dikemukakan Lotfi A.Zadeh : “Logika fuzzy merupakan generalisasi dari logika klasik yang hanya memiliki dua nilai keanggotaan antara 0 dan 1.”[9] Logika fuzzy memiliki nilai kemungkinan sama dengan logika probabilitas akan tetapi dalam konsep berbeda karena logika fuzzy sesuai dengan derajat kebenaran sedangkan logika probabilitas sesuai dengan nilai kemungkinan. Seperti yang dikemukakan Sri Kusuma Dewi :”karena ketidaksamaan pada interpretasi-interpretasi teori probabilitas. Logika fuzzysesuai dengan derajat kebenaran, sementara logika probabilistik sesuai dengan kemungkinan.” Alasan mengapa menggunakan logika fuzzy antara lain: a. Konsep logika fuzzy mudah dimengerti. b. Logika fuzzy sangat fleksibel c. Logika fuzzy memiliki toleransi terhadap data-data yang tidak tepat. d. Logika fuzzy mampu memodelkan fungsi-fungsi non linear yang sangat kompleks. e. Logika fuzzy dapat membangun dan mengaplikasikan pengalaman-penagalaman para pakar secara langsung tanpa harus melalui proses pelatihan. f. Logika fuzzy dapat bekerja sama dengan teknikteknik kendali secara konvensional. g. Logika fuzzy didasarkan pada bahasa alami.[3] 
+C. Fuzzy Set 
+Logika fuzzy merupakan generalisasi dari logika klasik yang hanya memiliki dua nilai keanggotaan, yaitu 0 dan 1.Dalam logika fuzzy nilai kebenaran suatu penyataan berkisar dari sepenuhnya benar sampai sepenuhnya salah. Dengan teori fuzzy set, suatu objek dapat menjadi anggota dari banyak himpunan dengan derajat keanggotaan yang berbeda dalam masing-masing himpunan. Konsep ini berbeda dengan teori himpunan klasik (crisp). Teori himpunan klasik tergantung pada logika dua-nilai (two-valued logic) untuk menentukan apakah sebuah objek merupakan suatu anggota himpunan atau bukan [2] .Knowledge-based fuzzy set adalah merupakan suatu logika fuzzyyang digunakan untuk menyatakan suatu ketidakpastian dalam menentukan keanggotaan dari suatu elemen terhadap suatu set dengan memberikan derajat keanggotaan (membership degree) antara 0 sampai dengan 1 yang diberikan kepada beberapa orang (knowledge). Definisi knowledge-based fuzzy set adalah sebagai berikut: Misal U = {u1, ..., un} sebagai set of element dan K = {k1, ..., kn} sebagai set of knowledge, kemudian suatu fuzzy set A, k1(A) didefinisikan sebagai sebuah fuzzy set berdasarkan knowledge k1 terhadap universal set U dengan suatu mapping dari U ke dalam interval yang tertutup [0,1].[2] µki(A) : U . [0,1] 
+III. ANALISA DAN PERANCANGAN SISTEM 
+A. Analisa Kebutuhan variable 
+Variabel kebutuhan yang digunakan pada sistem pakar ini yaitu data penyakit jantung dan data gejala penyakit jantung.Akan dijabarkan pada tabel 3.1 dan 3.2 
+Tabel 3.1 Kode Variabel Gejala Penyakit Jantung 
+
+B. Perancangan Mesin Inferensi 
+Pada perancangan sistem pakar untuk mendiagnosis suatu penyakit dilakukan dengan menggunakan mesin inferensi. Mesin inferensi forward chaining digunakan dalam sistem ini untuk mendiagnosis suatu penyakit setelah menerima gejalagejala yang diinput oleh user. Setiap jawaban yang akan diberikan oleh seorang user akan dicari nilai kesesuaian/kesamaanya dengan nilai gejala suatu penyakit tertentu yang ada di dalam knowledge-based tersebut, sehingga diperoleh nilai kesesuaian berdasarkan frekuensi dan intensitas untuk masing-masing data gejala yang telah diinput pada penyakit tertentu. Setelah mendapatkan nilai kesesuaiannya, kemudian dilakukan pengelompokan nilai kesesuaian untuk setiap penyakit lalu menjumlahkannya. Setelah mendapatkan jumlah nilai kesesuaian untuk setiap penyakit, selanjutnya mencari nilai probability untuk setiap penyakit dengan cara membandingkan jumlah nilai kesesuaian setiap penyakit dengan banyaknya gejala yang dimiliki oleh penyakit tersebut di knowledge-based. Setelah mendapatkan nilai probability untuk setiap penyakit, kemudian dilakukan pengurutan secara menurun (descending) untuk kemungkinan penyakit yang diderita oleh user. Sehingga secara keseluruhan proses dari forward chaining mencakup proses input gejala user, perhitungan nilai kesesuaian sampai perhitungan nilai probability untuk setiap penyakit. Untuk lebih jelasnya dapat dilihat pada flowchart pada Gambar 3.1. 
+
+Gambar 3.1 Flowchart Mesin Inferensi 
+
+C. Proses Perhitungan Nilai Fuzzy 
+Setelah proses inferensi forward chaining dilakukan oleh user maka perlu dilakukan perhitungan nilai fuzzy untuk memperoleh kemungkinan penyakit yang diderita oleh user. Pada perhitungan nilai fuzzy terdiri atas dua bagian yaitu, pertama perhitungan nilai kesesuaian tiap-tiap gejala untuk suatu penyakit dan yang kedua adalah perhitungan nilai fuzzy conditional probability suatu penyakit berdasarkan hasil inputan gejala dari user. 
+D. Perhitungan Nilai Kesesuaian 
+Misalnya jika U adalah suatu knowledge-based gejala suatu set dari penyakit yang dinyatakan sebagai sebuahfuzzy set terhadap gejala A dan B adalah gejala yang diinputkan oleh user yang dinyatakan sebagai suatu fuzzy set terhadap A, dimana A={a1,a2,a3,...,an} sedangkan U={µuj(a1)/(a1), µuj(a2)/(a2), µuj(a3)/(a3), µuj(a4)/(a4)} dan B={ µB(a1)/(a1), µB(a2)/(a2), µB(a3)/(a3), µB(a4)/(a4)}. Untuk mencari nilai kesesuaian antara fuzzy set U dengan B maka dicari seberapa besar selisih antara µuj(a1) yang merupakan nilai fuzzy set gejala a1 menurut knowledge-based dengan µB(a1) yang merupakan nilai fuzzy set gejala a1 yang diinputkan oleh user dibagi dengan nilai µuj(a1). Jadi rumus untuk mencari nilai 
+kesesuaian fuzzy set adalah sebagai berikut: Dari perhitungan di atas dapat dilihat nilai kesesuaian yang dihasilkan tiap gejala yang diinput user terhadap gejala yang ada pada knowledge-based untuk setiap penyakit yang memiliki gejala tersebut.Untuk pengembangan aplikasi sistem pakar ini, perhitungan dibagi menjadi dua bagian, yaitu perhitungan nilai kesesuaian untuk frekuensi gejala dan perhitungan nilai kesesuaian untuk intensitas gejala. Sehingga rumus 4.1 dikembangkan lagi menjadi sebagai berikut : 
+E. Perhitungan Nilai Fuzzy Conditional Probability 
+Setelah perhitungan nilai kesesuaian gejala antara gejala yang berasal dari user dengan gejala yang ada pada knowledge-based, maka selanjutnya adalah penjumlahan nilai kesesuaian untuk setiap penyakit, selanjutnya mencari nilai fuzzy conditional probability untuk setiap penyakit dengan cara membandingkan jumlah nilai kesesuaian setiap penyakit dengan banyaknya gejala yang dimiliki oleh penyakit tersebut di knowledge-based. Jadi rumus untuk mencari nilai fuzzy conditional probability adalah sebagai berikut: 
+
+
+Misalnya dihitung nilai fuzzy conditional probability pada contoh di subbab 4.3.3.1.1: 
+P(B,U1) = 1/2 = 0,5 
+P(B,U2) = (1+1)/2 = 1 
+P(B,U3) = 0,7/2 = 0,35 
+Dari hasil perhitungan di atas maka dapat disimpulkan bahwa peluang terkena penyakit U1 adalah 0,5 , peluang user terkena penyakit U2 adalah 1, dan peluang user terkena penyakit U3 0,35. Pada penggunaan rumus 4.5 diatas dapat digunakan untuk menghitung satu parameter saja.Dalam aplikasi sistem pakar ini terdapat dua parameter yang digunakan dalam menghitung nilai fuzzy conditional probability suatu penyakit, yaitu parameter frekuensi dan intensitas. Sehingga pada rumus berikut digunakan dua parameter: 
+
+P(B,Un) = C1 *Rfreq(B(ai),Uj)+C2 *Rint(B(ai),Uj) 
+|Un|a 
+dengan syarat |Un| a 0....................(4.6) 
+
+
+Setelah diperoleh hasil perhitungan fuzzy conditional probability masing-masing penyakit, selanjutnya perlu dibuat laporan kemungkinan penyakit yang diderita oleh user dengan menggunakan bahasa yang sering digunakan oleh manusia (variable linguistic). Variable linguistic tersebut antara lain: kecil sekali, kecil, ragu, agak besar, besar, dan hampir pasti. Rentang nilai fuzzy untuk masing-masing variable linguistic tersebut adalah sebagai berikut: 
+-Jika nilai_diagnosa >=0.5 dan nilai_diagnosa <=0.599, maka variable linguisticnya "Ragu". 
+-Jika nilai_diagnosa >=0.6 dan nilai_diagnosa <=0.799, maka variable linguisticnya "Agak besar". 
+-Jika nilai_diagnosa >=0.8 dan nilai_diagnosa <=0.899, maka variable linguisticnya "Besar". 
+-Jika nilai_diagnosa >=0.90, maka variable linguisticnya "Hampir pasti". 
+
+IV. PERANCANGAN SISTEM 
+Perancangan DFD dalam aplikasi sistem pakar ini, penulisakan menjelaskan informasi aliran dan transformasi data baik berupa pemasukan data oleh knowledge engineer maupun keluaran data yang dapat dilihat oleh user. Perancangan sistem ini dimulai dari diagram konteks, dilanjutkan pada DFD level0, hingga DFD level 1. 
+
+A. Diagram konteks 
+Gambar 4.1 Diagram Konteks 
+
+B. Diagram level 0 
+Gambar 4.2 Diagram level 0 
+
+
+C. Diagram level 1 TABLE VI. TABEL KONSULTASI PASIEN 
+Gambar 4.3 Diagram level 1 
+
+D. Perancangan Basis Data 
+Beberapa tabel data yang akan diusulkan daam perancangan sistem pakar ini adalah sebagai berikut: 
+
+TABLE I. TABEL ARTIKEL JANTUNG 
+
+TABLE II. TABEL PENYAKIT 
+
+TABLE III. TABEL GEJALA 
+
+TABLE IV. TABEL GEJALA FUZZY 
+TABLE V. TABEL HASIL DIAGNOSA 
+
+TABLE VII. TABEL 4.17 TABEL DATA PASIEN 
+
+TABLE VIII. TABEL PERTANYAAN KONSULTASI 
+
+
+TABLE IX. TABEL PERHITUNGAN 
+
+
+TABLE X. TABEL DATA USER 
+
+
+E. Perancangan Antarmuka 
+Pada perancangan antarmuka ini penulis menjabarkan dalam desain perancangan output dan input. 
+
+
+Gambar 4.4 Rancangan Input Pemilihan Gejala-gejala penyakit 
+
+
+Gambar 4.4 Rancangan Input nilaiFrekuensi dan Intensitas Gejala
+
+
+Gambar 4.8 Rancangan Output Hasil Diagnosa Penyakit Pasien 
+
+
+V. KESIMPULAN 
+Dari analisa dan pembahasan yang telah dilakukan bahwa dengan adanya sistem ini user dapat dengan mudah mengetahui penyakit jantung yang diderita penderita dan dengan mudah mendapatkan penjelasan tentang penyakit apa yang dideritanya. Sehingga penggunaan parameter frekuensi dan intensitas gejala sangat bermanfaat untuk proses diagnosa penyakit yang lebih spesifik. Dengan penggunaan metode fuzzy set dalam sistem pakar berbasis web ini sangat menentukan hasil akhir diagnosa penyakit jantung yang memiliki tingkat keakuratan yang baik .Sehingga sistem pakar ini diharapkan mengurangi angka kematian. 
+
